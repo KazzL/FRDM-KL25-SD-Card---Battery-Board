@@ -1380,6 +1380,8 @@ design rules under a new name.</description>
 <wire x1="9.5752" y1="37.6268" x2="7.4502" y2="38.2518" width="0" layer="19" extent="1-1"/>
 <wire x1="10.0036" y1="33.85355" x2="9.5752" y2="36.1268" width="0" layer="19" extent="1-1"/>
 <wire x1="6.3252" y1="35.6268" x2="7.4502" y2="38.2518" width="0" layer="19" extent="1-1"/>
+<wire x1="35.0353" y1="54.2798" x2="35.2044" y2="61.453" width="0" layer="19" extent="1-1"/>
+<wire x1="35.6014" y1="47.8062" x2="35.0353" y2="54.2798" width="0" layer="19" extent="1-1"/>
 <wire x1="16.55055" y1="40.35615" x2="9.5752" y2="37.6268" width="0" layer="19" extent="1-1"/>
 <wire x1="21.63055" y1="40.35615" x2="17.82055" y2="40.35615" width="0" layer="19" extent="1-1"/>
 <wire x1="18.019" y1="35.3568" x2="17.82055" y2="40.35615" width="0" layer="19" extent="1-1"/>
@@ -1405,9 +1407,7 @@ design rules under a new name.</description>
 <wire x1="6.743" y1="15.1638" x2="3.7091" y2="14.3002" width="0" layer="19" extent="1-16"/>
 <wire x1="4.3284" y1="20.6248" x2="6.743" y2="15.1638" width="0" layer="19" extent="1-16"/>
 <wire x1="5.334" y1="3.0478" x2="5.334" y2="9.2456" width="0" layer="19" extent="1-1"/>
-<wire x1="38.7246" y1="44.0589" x2="29.5656" y2="34.7114" width="0" layer="19" extent="1-1"/>
-<wire x1="35.0353" y1="54.2798" x2="38.7246" y2="44.0589" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="37.607" x2="35.0353" y2="54.2798" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="37.607" x2="38.7246" y2="44.0589" width="0" layer="19" extent="1-1"/>
 <wire x1="50.9778" y1="39.9824" x2="49.53" y2="37.607" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.9164" y1="-6.7564" x2="5.334" y2="3.0478" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2093,7 +2093,7 @@ design rules under a new name.</description>
 <wire x1="50.9778" y1="33.9824" x2="49.53" y2="36.307" width="0" layer="19" extent="1-1"/>
 <wire x1="32.9184" y1="50.8929" x2="49.53" y2="36.307" width="0" layer="19" extent="1-1"/>
 <wire x1="30.8015" y1="51.7398" x2="32.9184" y2="50.8929" width="0" layer="19" extent="1-1"/>
-<wire x1="33.2486" y1="9.271" x2="30.8015" y2="51.7398" width="0" layer="19" extent="1-1"/>
+<wire x1="33.2486" y1="9.271" x2="50.9778" y2="33.9824" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="S1" pad="2"/>

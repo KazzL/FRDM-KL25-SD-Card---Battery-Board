@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="13" fill="2" visible="yes" active="yes"/>
@@ -2605,15 +2605,15 @@ design rules under a new name.</description>
 <wire x1="9.144" y1="67.942040625" x2="9.166159375" y2="67.8626" width="0.1524" layer="1"/>
 <contactref element="U$11" pad="P$9"/>
 <via x="26.6954" y="40.9702" extent="1-16" drill="0.4064"/>
-<via x="13.1572" y="51.5366" extent="1-16" drill="0.4064"/>
+<via x="14.4272" y="50.3174" extent="1-16" drill="0.4064"/>
 <wire x1="12.12653125" y1="57.44406875" x2="12.10113125" y2="52.61806875" width="0.1524" layer="1"/>
 <wire x1="30.3276" y1="37.338" x2="30.3276" y2="32.3596" width="0.1524" layer="1"/>
 <wire x1="30.3276" y1="32.3596" x2="29.6511625" y2="31.6831625" width="0.1524" layer="1"/>
 <wire x1="29.6511625" y1="31.6831625" x2="29.638409375" y2="31.6831625" width="0.1524" layer="1"/>
 <wire x1="30.3276" y1="37.338" x2="26.6954" y2="40.9702" width="0.1524" layer="1"/>
-<wire x1="16.129" y1="51.5366" x2="13.1572" y2="51.5366" width="0.1524" layer="16"/>
-<wire x1="16.129" y1="51.5366" x2="26.6954" y2="40.9702" width="0.1524" layer="16"/>
-<wire x1="12.10113125" y1="52.61806875" x2="13.1572" y2="51.5366" width="0.1524" layer="1"/>
+<wire x1="17.399" y1="50.3174" x2="14.4272" y2="50.3174" width="0.1524" layer="16"/>
+<wire x1="17.399" y1="50.3174" x2="26.6954" y2="40.9702" width="0.1524" layer="16"/>
+<wire x1="12.10113125" y1="52.61806875" x2="14.4272" y2="50.3174" width="0.1524" layer="1"/>
 <wire x1="12.12653125" y1="57.44406875" x2="12.12653125" y2="58.30766875" width="0.1524" layer="1"/>
 <wire x1="12.12653125" y1="58.30766875" x2="10.0584" y2="60.3758" width="0.1524" layer="1"/>
 <via x="10.0584" y="60.3758" extent="1-16" drill="0.4064"/>

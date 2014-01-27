@@ -138,6 +138,8 @@ Footprint</text>
 <text x="45.6184" y="47.7266" size="1.778" layer="2">H3LIS331DLTR 
 should be used 
 instead of teh ADXL78</text>
+<text x="13.4366" y="42.1386" size="1.778" layer="2">Change for 
+16:1 Mux</text>
 </plain>
 <libraries>
 <library name="Kas-Sensors">

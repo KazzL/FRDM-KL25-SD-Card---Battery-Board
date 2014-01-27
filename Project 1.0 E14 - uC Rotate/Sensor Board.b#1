@@ -135,6 +135,9 @@
 Footprint</text>
 <text x="7.4676" y="15.1892" size="2.54" layer="15" font="vector" align="center">FIX
 Footprint</text>
+<text x="45.6184" y="47.7266" size="1.778" layer="2">H3LIS331DLTR 
+should be used 
+instead of teh ADXL78</text>
 </plain>
 <libraries>
 <library name="Kas-Sensors">
