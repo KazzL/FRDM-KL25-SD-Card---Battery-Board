@@ -131,9 +131,9 @@
 <text x="28.7528" y="52.832" size="0.8128" layer="20">ADXL78 Location</text>
 <dimension x1="38" y1="52.2478" x2="40.005" y2="52.2478" x3="39.0025" y3="51.816" textsize="0.8128" layer="20"/>
 <wire x1="20.36055" y1="40.35615" x2="20.3454" y2="40.3713" width="0" layer="19"/>
-<text x="35.0012" y="14.6812" size="2.54" layer="15" font="vector" align="center">Correct 
+<text x="35.0012" y="14.6812" size="2.54" layer="15" font="vector" align="center">FIX
 Footprint</text>
-<text x="7.62" y="16.9164" size="2.54" layer="15" font="vector" align="center">Correct 
+<text x="7.4676" y="15.1892" size="2.54" layer="15" font="vector" align="center">FIX
 Footprint</text>
 </plain>
 <libraries>
