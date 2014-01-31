@@ -4687,30 +4687,30 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="LSM9D-INT1-XM" class="0">
 <segment>
-<label x="-53.34" y="2.54" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE2"/>
-<wire x1="-33.02" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<label x="-53.34" y="-12.7" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PC7"/>
+<wire x1="-53.34" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LSM9D-INT-G" class="0">
+<segment>
+<label x="-53.34" y="-2.54" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE0"/>
+<wire x1="-33.02" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="INT1-MAG3110" class="0">
 <segment>
 <label x="-53.34" y="5.08" size="1.778" layer="95"/>
 <pinref part="U$11" gate="G$1" pin="PE3"/>
 <wire x1="-33.02" y1="5.08" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INT1-MAG3110" class="0">
-<segment>
-<label x="-53.34" y="7.62" size="1.778" layer="95"/>
-<wire x1="-33.02" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="PF4"/>
-</segment>
-</net>
 <net name="INT1-LSM303" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="PC7"/>
-<wire x1="-53.34" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-53.34" y="-12.7" size="1.778" layer="95"/>
+<label x="-53.34" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PF4"/>
+<wire x1="-33.02" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1-LIS3DH" class="0">
@@ -4729,9 +4729,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="INT1-FXAS" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="PE0"/>
-<wire x1="-33.02" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-53.34" y="-2.54" size="1.778" layer="95"/>
+<label x="-53.34" y="2.54" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE2"/>
+<wire x1="-33.02" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1-ADXL362" class="0">
@@ -6097,14 +6097,14 @@ RESISTOR</text>
 <segment>
 <label x="20.32" y="45.72" size="1.778" layer="95"/>
 <pinref part="U$15" gate="G$1" pin="Y0"/>
-<wire x1="17.78" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM303" class="0">
 <segment>
-<label x="20.32" y="38.1" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="Y3"/>
-<wire x1="35.56" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<label x="20.32" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="Y6"/>
+<wire x1="35.56" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LIS3DH" class="0">
@@ -6137,9 +6137,9 @@ RESISTOR</text>
 </net>
 <net name="CS-ADXL362" class="0">
 <segment>
-<label x="-25.4" y="33.02" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="Y7"/>
-<wire x1="-25.4" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="20.32" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="Y5"/>
+<wire x1="35.56" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -6174,9 +6174,9 @@ RESISTOR</text>
 </net>
 <net name="CS-FXAS" class="0">
 <segment>
-<label x="20.32" y="35.56" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="Y4"/>
-<wire x1="35.56" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
+<label x="-25.4" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="Y7"/>
+<wire x1="-25.4" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD-SCLK" class="0">
@@ -6265,9 +6265,9 @@ RESISTOR</text>
 </net>
 <net name="CS-LSM9D30-G" class="0">
 <segment>
-<label x="20.32" y="33.02" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="Y5"/>
-<wire x1="38.1" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="20.32" y="38.1" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="Y3"/>
+<wire x1="35.56" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD-CARD-INSERT" class="0">
@@ -6279,9 +6279,9 @@ RESISTOR</text>
 </net>
 <net name="CS-LSM9DS0-XM" class="0">
 <segment>
-<label x="20.32" y="30.48" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="Y6"/>
-<wire x1="38.1" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<label x="20.32" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="Y4"/>
+<wire x1="35.56" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

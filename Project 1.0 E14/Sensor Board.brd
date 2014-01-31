@@ -1150,7 +1150,7 @@ design rules under a new name.</description>
 <element name="U$14" library="Kas-Buffers &amp; Level Shifters" package="TSSOP-(PW)-20" value="TXB0108" x="16.00835" y="54.43855"/>
 <element name="R6" library="SparkFun-Passives" package="0603-RES" value="0" x="28.448" y="41.4528" rot="R90"/>
 <element name="U$15" library="Kas-Buffers &amp; Level Shifters" package="SOIC-16" value="CD74HC138" x="36.14775" y="38.03405" rot="R270"/>
-<element name="U$16" library="Kas-Sensors" package="LCC-8(5X5)_HS" value="ADXL78" x="51.816" y="9.3472" rot="R90"/>
+<element name="U$16" library="Kas-Sensors" package="LCC-8(5X5)_HS" value="ADXL78" x="41.2496" y="14.6304" rot="R90"/>
 <element name="R1" library="SparkFun-Passives" package="0603-RES" value="10k" x="6.5024" y="65.6336" rot="R180"/>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="10k" x="3.048" y="65.6336"/>
 <element name="TP5" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="5.0912" y="91.3104" rot="R270"/>
@@ -1171,8 +1171,8 @@ design rules under a new name.</description>
 <element name="C49" library="SparkFun-Passives" package="0603-CAP" value="0.22uF" x="39.4208" y="106.8832" rot="R270"/>
 <element name="C50" library="Kas-Passives" package="4.3X7.3SMD" value="10uF" x="30.6832" y="103.2256" rot="R90"/>
 <element name="C51" library="SparkFun-Passives" package="0603-CAP" value="100nF" x="34.1376" y="103.4288" rot="R90"/>
-<element name="C52" library="SparkFun-Passives" package="0603-CAP" value="0.1uF" x="56.4896" y="9.3472" rot="MR270"/>
-<element name="C53" library="Kas-Passives" package="4.3X7.3SMD" value="4.7uF" x="59.3344" y="8.7376" rot="MR270"/>
+<element name="C52" library="SparkFun-Passives" package="0603-CAP" value="0.1uF" x="41.2496" y="20.32" rot="MR180"/>
+<element name="C53" library="Kas-Passives" package="4.3X7.3SMD" value="4.7uF" x="41.8592" y="23.1648" rot="MR180"/>
 <element name="R7" library="SparkFun-Passives" package="0603-RES" value="10k" x="1.7526" y="13.9446" rot="R270"/>
 <element name="U$18" library="Kas-Connectors" package="SD-105027-101" value="SD-105027-101" x="15.8496" y="35.56" rot="MR270"/>
 <element name="TP1" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="26.6192" y="101.8032"/>
@@ -1575,9 +1575,9 @@ design rules under a new name.</description>
 <wire x1="20.0285" y1="103.0304" x2="20.6535" y2="105.1554" width="0" layer="19" extent="1-1"/>
 <wire x1="22.6535" y1="101.9054" x2="20.0285" y2="103.0304" width="0" layer="19" extent="1-1"/>
 <wire x1="6.9824" y1="74.2372" x2="14.5288" y2="68.53555" width="0" layer="19" extent="1-16"/>
-<wire x1="53.086" y1="7.2303" x2="39.0144" y2="7.9502" width="0" layer="19" extent="1-1"/>
-<wire x1="56.4896" y1="8.4972" x2="53.086" y2="7.2303" width="0" layer="19" extent="1-16"/>
-<wire x1="59.3344" y1="5.7376" x2="56.4896" y2="8.4972" width="0" layer="19" extent="16-16"/>
+<wire x1="42.5196" y1="12.5135" x2="39.0144" y2="7.9502" width="0" layer="19" extent="1-1"/>
+<wire x1="42.0996" y1="20.32" x2="42.5196" y2="12.5135" width="0" layer="19" extent="1-16"/>
+<wire x1="44.8592" y1="23.1648" x2="42.0996" y2="20.32" width="0" layer="19" extent="16-16"/>
 <wire x1="12.5476" y1="-16.4592" x2="15.09395" y2="0.94615" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
@@ -2261,10 +2261,10 @@ design rules under a new name.</description>
 <contactref element="U$16" pad="P$8"/>
 <contactref element="C52" pad="1"/>
 <contactref element="C53" pad="P$1"/>
-<wire x1="56.4896" y1="10.1972" x2="59.3344" y2="11.7376" width="0" layer="19" extent="16-16"/>
-<wire x1="50.546" y1="11.4641" x2="56.4896" y2="10.1972" width="0" layer="19" extent="1-16"/>
-<wire x1="49.6991" y1="9.3472" x2="50.546" y2="11.4641" width="0" layer="19" extent="1-1"/>
-<wire x1="9.1186" y1="7.9502" x2="49.6991" y2="9.3472" width="0" layer="19" extent="1-1"/>
+<wire x1="40.3996" y1="20.32" x2="38.8592" y2="23.1648" width="0" layer="19" extent="16-16"/>
+<wire x1="39.9796" y1="16.7473" x2="40.3996" y2="20.32" width="0" layer="19" extent="1-16"/>
+<wire x1="39.1327" y1="14.6304" x2="39.9796" y2="16.7473" width="0" layer="19" extent="1-1"/>
+<wire x1="9.1186" y1="7.9502" x2="39.1327" y2="14.6304" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="BAT1" pad="1"/>
@@ -2531,7 +2531,7 @@ design rules under a new name.</description>
 <contactref element="U$16" pad="P$6"/>
 <contactref element="U$11" pad="P$6"/>
 <wire x1="29.0008" y1="35.0774" x2="28.9922" y2="35.086" width="0.1524" layer="1"/>
-<wire x1="29.0008" y1="35.0774" x2="51.816" y2="11.4641" width="0" layer="19" extent="1-1"/>
+<wire x1="29.0008" y1="35.0774" x2="41.2496" y2="16.7473" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADXL78-ST">
 <contactref element="U$16" pad="P$4"/>

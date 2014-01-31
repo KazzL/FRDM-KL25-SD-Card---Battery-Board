@@ -104,12 +104,12 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="651 377 1250 776"
+Loc="345 149 944 548"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1200"
+Screen="3520 1200"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
