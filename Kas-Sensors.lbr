@@ -1455,7 +1455,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX21000" uservalue="yes">
+<deviceset name="MAX21000">
 <description>MAX21000 in a 3x3 LGA-16 package</description>
 <gates>
 <gate name="G$1" symbol="MAX21000" x="0" y="0"/>

@@ -1509,7 +1509,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="H3LIS331DLTR" uservalue="yes">
+<deviceset name="H3LIS331DLTR">
 <description>H3LIS331DLTR in a 3x3 LGA-16 package</description>
 <gates>
 <gate name="G$1" symbol="H3LIS331DLTR" x="-2.54" y="-5.08"/>

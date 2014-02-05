@@ -1386,6 +1386,7 @@
 </devices>
 </deviceset>
 <deviceset name="LSM9DS0">
+<description>LSM9DS0 in a 4x4 LGA-24 package</description>
 <gates>
 <gate name="G$1" symbol="LSM9DS0" x="0" y="0"/>
 </gates>
