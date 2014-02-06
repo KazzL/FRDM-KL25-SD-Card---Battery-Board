@@ -4286,7 +4286,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
 <wire x1="10.16" y1="-111.76" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
-<label x="15.24" y="-106.68" size="1.778" layer="95"/>
+<label x="12.7" y="-106.68" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-106.68" x2="25.4" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="@P$1"/>

@@ -3452,7 +3452,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="C13" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="100nF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP_POL" device="6032" value="1uF"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC3" library="linear-technology" deviceset="LT1963EST" device="" technology="-1.5"/>
 <part name="IC4" library="linear-technology" deviceset="LT1963EST" device="" technology="-1.5"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$14" library="Kas-Buffers &amp; Level Shifters" deviceset="TXB0108" device=""/>
@@ -5469,7 +5468,6 @@ RESISTOR</text>
 <instance part="IC1" gate="G$1" x="-5.08" y="22.86" rot="MR0"/>
 <instance part="IC2" gate="G$1" x="-5.08" y="45.72" rot="R180"/>
 <instance part="GND35" gate="1" x="50.8" y="33.02"/>
-<instance part="IC3" gate="G$1" x="-5.08" y="12.7" rot="R180"/>
 <instance part="IC4" gate="G$1" x="-5.08" y="58.42" rot="MR0"/>
 <instance part="GND36" gate="1" x="-10.16" y="-15.24"/>
 <instance part="TP13" gate="G$1" x="45.72" y="53.34"/>
@@ -5490,9 +5488,7 @@ RESISTOR</text>
 <wire x1="-5.08" y1="50.8" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="53.34" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<junction x="-5.08" y="17.78"/>
 <pinref part="IC4" gate="G$1" pin="GND"/>
 <junction x="-5.08" y="53.34"/>
 <pinref part="TP13" gate="G$1" pin="P$1"/>
@@ -5539,25 +5535,15 @@ RESISTOR</text>
 <net name="N$23" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="IN"/>
-<pinref part="IC3" gate="G$1" pin="IN"/>
 <wire x1="5.08" y1="43.18" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="33.02" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
-<junction x="5.08" y="25.4"/>
 <pinref part="IC4" gate="G$1" pin="IN"/>
 <wire x1="5.08" y1="60.96" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
 <junction x="5.08" y="43.18"/>
 <pinref part="S1" gate="1" pin="O"/>
 <wire x1="17.78" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <junction x="5.08" y="33.02"/>
-</segment>
-</net>
-<net name="5.0V" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
-<wire x1="-15.24" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
-<label x="-33.02" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
