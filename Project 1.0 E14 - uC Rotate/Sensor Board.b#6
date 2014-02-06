@@ -125,7 +125,7 @@
 <wire x1="0" y1="75" x2="40" y2="75" width="0" layer="20"/>
 <wire x1="40" y1="75" x2="40" y2="-0.0254" width="0" layer="20"/>
 <wire x1="20.36055" y1="40.35615" x2="20.3454" y2="40.3713" width="0" layer="19"/>
-<text x="13.4366" y="42.1386" size="1.778" layer="2">Change for 
+<text x="13.6652" y="42.4434" size="1.778" layer="48">Change for 
 16:1 Mux</text>
 </plain>
 <libraries>
@@ -1023,7 +1023,7 @@ design rules under a new name.</description>
 <attribute name="SPICETYPE" value="diode" x="-51.6509" y="105.7402" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="D" x="-51.6509" y="105.7402" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="Power" x="-5.0546" y="12.3444" rot="MR0"/>
+<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="Power" x="13.9954" y="10.8966" rot="MR0"/>
 <element name="IC1" library="linear-technology" package="SOT223" value="LT1963EST-1.5" x="5.334" y="5.08" rot="R180">
 <attribute name="OC_NEWARK" value="57M7534" x="-41.656" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LT1963EST-1.5" x="-41.656" y="53.34" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1056,8 +1056,8 @@ design rules under a new name.</description>
 <element name="R2" library="Kas-Passives" package="0402-RES" value="10k" x="30.4292" y="46.6852" rot="R180"/>
 <element name="TP5" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="27.2146" y="59.281" rot="R270"/>
 <element name="TP6" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="30.2768" y="59.2328" rot="R270"/>
-<element name="TP7" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="23.6456" y="13.1572" rot="MR270"/>
-<element name="TP8" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="20.5214" y="13.1572" rot="MR270"/>
+<element name="TP7" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="23.6456" y="14.478" rot="MR270"/>
+<element name="TP8" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="20.5214" y="14.478" rot="MR270"/>
 <element name="TP13" library="Kas-Passives" package="TESTPAD(ROUND)" value="TESTPAD(ROUND)" x="20.4978" y="2.54"/>
 <element name="U$17" library="Kas-Sensors" package="LGA-24(4X4)_HS" value="LSM9DS0_HS" x="9.916159375" y="65.8876" rot="R180"/>
 <element name="C25" library="Kas-Passives" package="4.3X7.3SMD" value="10uF" x="4.572" y="66.167" rot="MR90"/>
@@ -1078,7 +1078,7 @@ design rules under a new name.</description>
 <element name="C11" library="Kas-Passives" package="0402-CAP" value="CAPACITOR" x="25.6286" y="59.8678" rot="R180"/>
 <element name="C54" library="Kas-Passives" package="4.3X7.3SMD" value="" x="25.4762" y="58.6232" rot="R180"/>
 <element name="U$2" library="Kas-Sensors" package="LGA-16(3X3)_HS" value="H3LIS331DLTR_HS" x="35.4838" y="54.61" rot="R270"/>
-<element name="U$16" library="Kas-Connectors" package="5023520200" value="5023520200" x="8.7122" y="22.4028" rot="MR180"/>
+<element name="U$16" library="Kas-Connectors" package="5023520200" value="5023520200" x="6.35" y="19.6596" rot="MR180"/>
 <element name="U$20" library="Kas-Connectors" package="5023520410" value="5023520410" x="30.6832" y="6.9088" rot="MR0"/>
 </elements>
 <signals>
@@ -1340,15 +1340,15 @@ design rules under a new name.</description>
 <wire x1="20.4978" y1="2.54" x2="25.9588" y2="1.981" width="0" layer="19" extent="1-1"/>
 <wire x1="15.1384" y1="1.981" x2="20.4978" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="15.1384" y1="8.1788" x2="15.1384" y2="1.981" width="0" layer="19" extent="1-1"/>
+<wire x1="5.35" y1="11.5296" x2="15.1384" y2="8.1788" width="0" layer="19" extent="1-16"/>
+<wire x1="5.334" y1="8.1788" x2="5.35" y2="11.5296" width="0" layer="19" extent="1-16"/>
+<wire x1="5.334" y1="1.981" x2="5.334" y2="8.1788" width="0" layer="19" extent="1-1"/>
+<wire x1="3.7091" y1="14.3002" x2="5.334" y2="8.1788" width="0" layer="19" extent="1-1"/>
+<wire x1="4.3284" y1="20.6248" x2="3.7091" y2="14.3002" width="0" layer="19" extent="1-1"/>
 <wire x1="31.759728125" y1="29.561840625" x2="29.284853125" y2="22.87968125" width="0" layer="19" extent="1-1"/>
 <wire x1="28.577746875" y1="32.743821875" x2="31.759728125" y2="29.561840625" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="8.1788" x2="25.9588" y2="8.1788" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="1.981" x2="35.56" y2="8.1788" width="0" layer="19" extent="1-1"/>
-<wire x1="7.7122" y1="14.2728" x2="15.1384" y2="8.1788" width="0" layer="19" extent="1-16"/>
-<wire x1="3.7091" y1="14.3002" x2="7.7122" y2="14.2728" width="0" layer="19" extent="1-16"/>
-<wire x1="5.334" y1="8.1788" x2="3.7091" y2="14.3002" width="0" layer="19" extent="1-1"/>
-<wire x1="5.334" y1="1.981" x2="5.334" y2="8.1788" width="0" layer="19" extent="1-1"/>
-<wire x1="4.3284" y1="20.6248" x2="3.7091" y2="14.3002" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="1"/>
@@ -2017,9 +2017,9 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="1"/>
 <contactref element="S1" pad="1"/>
 <wire x1="28.2702" y1="8.1788" x2="37.8714" y2="8.1788" width="0" layer="19" extent="1-1"/>
-<wire x1="17.4498" y1="8.1788" x2="28.2702" y2="8.1788" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2454" y1="9.1466" x2="28.2702" y2="8.1788" width="0" layer="19" extent="1-16"/>
+<wire x1="17.4498" y1="8.1788" x2="16.2454" y2="9.1466" width="0" layer="19" extent="1-16"/>
 <wire x1="7.6454" y1="8.1788" x2="17.4498" y2="8.1788" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.8046" y1="10.5944" x2="7.6454" y2="8.1788" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5.0V">
 <contactref element="IC3" pad="3"/>
@@ -2027,7 +2027,7 @@ design rules under a new name.</description>
 <signal name="N$19">
 <contactref element="S1" pad="2"/>
 <contactref element="U$16" pad="P$2"/>
-<wire x1="-4.3046" y1="10.5944" x2="9.7122" y2="14.2728" width="0" layer="19" extent="16-16"/>
+<wire x1="7.35" y1="11.5296" x2="14.7454" y2="9.1466" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$25">
 <contactref element="U$5" pad="P$1"/>
@@ -2103,13 +2103,13 @@ design rules under a new name.</description>
 <signal name="U1RX">
 <contactref element="U$11" pad="P$45"/>
 <contactref element="TP8" pad="P$1"/>
-<wire x1="20.5214" y1="13.1572" x2="20.4724" y2="13.1046" width="0.1524" layer="16"/>
+<wire x1="20.5214" y1="14.478" x2="20.4724" y2="13.1046" width="0.1524" layer="16"/>
 <via x="22.1742" y="17.7546" extent="1-16" drill="0.4064"/>
 <wire x1="23.309803125" y1="21.819021875" x2="22.7838" y2="21.29301875" width="0.1524" layer="1"/>
 <wire x1="22.7838" y1="21.29301875" x2="22.7838" y2="20.447" width="0.1524" layer="1"/>
 <wire x1="22.7838" y1="20.447" x2="22.1742" y2="19.8374" width="0.1524" layer="1"/>
 <wire x1="22.1742" y1="19.8374" x2="22.1742" y2="17.7546" width="0.1524" layer="1"/>
-<wire x1="20.5214" y1="13.1572" x2="20.5214" y2="16.1018" width="0.1524" layer="16"/>
+<wire x1="20.5214" y1="14.478" x2="20.5214" y2="16.1018" width="0.1524" layer="16"/>
 <wire x1="20.5214" y1="16.1018" x2="22.1742" y2="17.7546" width="0.1524" layer="16"/>
 </signal>
 <signal name="U1TX">
@@ -2118,7 +2118,7 @@ design rules under a new name.</description>
 <via x="23.1648" y="18.7706" extent="1-16" drill="0.4064"/>
 <wire x1="23.1648" y1="20.9669125" x2="23.66335625" y2="21.46546875" width="0.1524" layer="1"/>
 <wire x1="23.1648" y1="20.9669125" x2="23.1648" y2="18.7706" width="0.1524" layer="1"/>
-<wire x1="23.6456" y1="13.1572" x2="23.6456" y2="18.239" width="0.1524" layer="16"/>
+<wire x1="23.6456" y1="14.478" x2="23.6456" y2="18.239" width="0.1524" layer="16"/>
 <wire x1="23.6456" y1="18.239" x2="23.1648" y2="18.7706" width="0.1524" layer="16"/>
 </signal>
 <signal name="SCL-0">

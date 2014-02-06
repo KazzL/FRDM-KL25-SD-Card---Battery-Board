@@ -3487,8 +3487,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="R4" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R6" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="U$19" library="Kas-Sensors" deviceset="MAX21000" device="_HS"/>
-<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="" value="NO VALUE"/>
-<part name="C54" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="NO VALUE"/>
+<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1uF"/>
+<part name="C54" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$2" library="Kas-Sensors" deviceset="H3LIS331DLTR" device="_HS"/>
@@ -3497,6 +3497,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="U$16" library="Kas-Connectors" deviceset="5023520200" device=""/>
 <part name="U$20" library="Kas-Connectors" deviceset="5023520410" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C6" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C7" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
+<part name="C8" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4086,6 +4089,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="GND8" gate="1" x="45.72" y="-132.08"/>
 <instance part="GND9" gate="1" x="-30.48" y="-144.78"/>
 <instance part="GND10" gate="1" x="-10.16" y="-104.14"/>
+<instance part="C7" gate="G$1" x="25.4" y="-106.68" rot="R270"/>
+<instance part="C8" gate="G$1" x="35.56" y="-111.76"/>
 </instances>
 <busses>
 </busses>
@@ -4177,9 +4182,17 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="45.72" y1="-127" x2="45.72" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND#2"/>
-<wire x1="25.4" y1="-121.92" x2="45.72" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-121.92" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-121.92" x2="45.72" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-121.92" x2="45.72" y2="-127" width="0.1524" layer="91"/>
 <junction x="45.72" y="-127"/>
+<pinref part="C7" gate="G$1" pin="@P$2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-114.3" x2="30.48" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-114.3" x2="35.56" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-114.3" x2="30.48" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="30.48" y="-114.3"/>
+<junction x="30.48" y="-121.92"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND#0"/>
@@ -4272,8 +4285,13 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
-<wire x1="10.16" y1="-111.76" x2="10.16" y2="-101.6" width="0.1524" layer="91"/>
-<label x="10.16" y="-106.68" size="1.778" layer="95" rot="R90"/>
+<wire x1="10.16" y1="-111.76" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
+<label x="15.24" y="-106.68" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-106.68" x2="25.4" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="@P$1"/>
+<junction x="25.4" y="-106.68"/>
+<wire x1="25.4" y1="-106.68" x2="10.16" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK-B" class="0">
@@ -5583,6 +5601,7 @@ RESISTOR</text>
 <instance part="C54" gate="G$1" x="40.64" y="38.1" rot="R270"/>
 <instance part="GND47" gate="1" x="30.48" y="22.86"/>
 <instance part="GND48" gate="1" x="-27.94" y="-15.24"/>
+<instance part="C6" gate="G$1" x="30.48" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -5597,12 +5616,15 @@ RESISTOR</text>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <junction x="5.08" y="38.1"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <junction x="20.32" y="38.1"/>
 <pinref part="C54" gate="G$1" pin="@P$1"/>
+<wire x1="30.48" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="38.1"/>
 <label x="0" y="38.1" size="1.778" layer="95"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<junction x="30.48" y="38.1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5614,6 +5636,7 @@ RESISTOR</text>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 <junction x="30.48" y="30.48"/>
 <pinref part="GND47" gate="1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$19" gate="G$1" pin="GND"/>
