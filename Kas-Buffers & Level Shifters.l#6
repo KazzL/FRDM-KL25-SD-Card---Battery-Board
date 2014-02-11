@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -69,11 +69,11 @@
 <smd name="P$10" x="2.925" y="-2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
 <smd name="P$11" x="2.925" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
 <smd name="P$12" x="2.275" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
-<smd name="P$13" x="0.975" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
-<smd name="P$14" x="1.625" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
-<smd name="P$15" x="-0.975" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
-<smd name="P$16" x="0.325" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
-<smd name="P$17" x="-0.325" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
+<smd name="P$14" x="0.975" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
+<smd name="P$13" x="1.625" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
+<smd name="P$17" x="-0.975" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
+<smd name="P$15" x="0.325" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
+<smd name="P$16" x="-0.325" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
 <smd name="P$18" x="-1.625" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
 <smd name="P$19" x="-2.275" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
 <smd name="P$20" x="-2.925" y="2.925" dx="0.4" dy="0.85" layer="1" rot="R180"/>
@@ -214,18 +214,48 @@
 <connect gate="G$1" pin="A6" pad="P$7"/>
 <connect gate="G$1" pin="A7" pad="P$8"/>
 <connect gate="G$1" pin="A8" pad="P$9"/>
-<connect gate="G$1" pin="B1" pad="P$11"/>
-<connect gate="G$1" pin="B2" pad="P$13"/>
-<connect gate="G$1" pin="B3" pad="P$14"/>
+<connect gate="G$1" pin="B1" pad="P$20"/>
+<connect gate="G$1" pin="B2" pad="P$18"/>
+<connect gate="G$1" pin="B3" pad="P$16"/>
 <connect gate="G$1" pin="B4" pad="P$15"/>
-<connect gate="G$1" pin="B5" pad="P$16"/>
-<connect gate="G$1" pin="B6" pad="P$17"/>
-<connect gate="G$1" pin="B7" pad="P$18"/>
-<connect gate="G$1" pin="B8" pad="P$19"/>
-<connect gate="G$1" pin="GND" pad="P$20"/>
+<connect gate="G$1" pin="B5" pad="P$17"/>
+<connect gate="G$1" pin="B6" pad="P$13"/>
+<connect gate="G$1" pin="B7" pad="P$14"/>
+<connect gate="G$1" pin="B8" pad="P$12"/>
+<connect gate="G$1" pin="GND" pad="P$11"/>
 <connect gate="G$1" pin="OE" pad="P$10"/>
 <connect gate="G$1" pin="VCCA" pad="P$2"/>
-<connect gate="G$1" pin="VCCB" pad="P$12"/>
+<connect gate="G$1" pin="VCCB" pad="P$19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CD74HC138">
+<gates>
+<gate name="G$1" symbol="SN74HC138" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16">
+<connects>
+<connect gate="G$1" pin="!E1" pad="P$4"/>
+<connect gate="G$1" pin="!E2" pad="P$5"/>
+<connect gate="G$1" pin="A0" pad="P$1"/>
+<connect gate="G$1" pin="A1" pad="P$2"/>
+<connect gate="G$1" pin="A2" pad="P$3"/>
+<connect gate="G$1" pin="E3" pad="P$6"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="VCC" pad="P$16"/>
+<connect gate="G$1" pin="Y0" pad="P$15"/>
+<connect gate="G$1" pin="Y1" pad="P$14"/>
+<connect gate="G$1" pin="Y2" pad="P$13"/>
+<connect gate="G$1" pin="Y3" pad="P$12"/>
+<connect gate="G$1" pin="Y4" pad="P$11"/>
+<connect gate="G$1" pin="Y5" pad="P$10"/>
+<connect gate="G$1" pin="Y6" pad="P$9"/>
+<connect gate="G$1" pin="Y7" pad="P$7"/>
 </connects>
 <technologies>
 <technology name=""/>
