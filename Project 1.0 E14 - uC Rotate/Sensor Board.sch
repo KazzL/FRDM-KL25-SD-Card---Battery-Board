@@ -3460,9 +3460,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="C49" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.22uF"/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C50" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="U$18" library="Kas-Connectors" deviceset="SD-105027-101" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4067,9 +4064,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="C49" gate="G$1" x="-5.08" y="-40.64" rot="R270"/>
 <instance part="GND43" gate="1" x="-17.78" y="-35.56"/>
 <instance part="GND44" gate="1" x="50.8" y="-17.78"/>
-<instance part="C50" gate="G$1" x="48.26" y="5.08" rot="R90"/>
-<instance part="C51" gate="G$1" x="38.1" y="10.16" rot="R180"/>
-<instance part="GND45" gate="1" x="43.18" y="20.32" rot="R180"/>
 <instance part="U$2" gate="G$1" x="5.08" y="-132.08"/>
 <instance part="GND8" gate="1" x="45.72" y="-132.08"/>
 <instance part="GND9" gate="1" x="-30.48" y="-144.78"/>
@@ -4151,15 +4145,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <wire x1="50.8" y1="-10.16" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="-10.16"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C50" gate="G$1" pin="@P$2"/>
-<pinref part="C51" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="12.7" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<junction x="43.18" y="12.7"/>
-<pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND#1"/>
@@ -4370,13 +4355,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="3.0V" class="0">
 <segment>
-<pinref part="C50" gate="G$1" pin="@P$1"/>
-<wire x1="48.26" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
-<junction x="48.26" y="5.08"/>
-<pinref part="C51" gate="G$1" pin="1"/>
-<junction x="38.1" y="5.08"/>
 <pinref part="U$17" gate="G$1" pin="VDD_IO"/>
-<wire x1="20.32" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
 <label x="25.4" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -5354,30 +5334,30 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="CS-LSM303" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 <label x="15.24" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-MAX21000" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <label x="15.24" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM9DS0-XM" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <label x="15.24" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM9D30-G" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <label x="15.24" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LIS3DH" class="0">
