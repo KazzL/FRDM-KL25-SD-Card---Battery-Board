@@ -2317,7 +2317,7 @@ chip</description>
 <wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="0" x2="4.318" y2="0" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="TESTPAD(ROUND)">
+<symbol name="TESTPAD(ROUND)@1">
 <pin name="P$1" x="-5.08" y="0" visible="pad" length="middle" function="dot"/>
 <text x="0" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
@@ -2367,7 +2367,7 @@ chip</description>
 </deviceset>
 <deviceset name="TESTPAD(ROUND)" prefix="TP">
 <gates>
-<gate name="G$1" symbol="TESTPAD(ROUND)" x="0" y="0"/>
+<gate name="G$1" symbol="TESTPAD(ROUND)@1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TESTPAD(ROUND)">
@@ -3230,6 +3230,10 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <smd name="P$3" x="1" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$4" x="3" y="8.13" dx="3.2" dy="1.2" layer="1" rot="R90"/>
 </package>
+<package name="TESTPAD(ROUND)">
+<smd name="P$1" x="0" y="0" dx="2.794" dy="2.794" layer="1" roundness="100"/>
+<text x="1.27" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MICRO_SD_CARD">
@@ -3279,6 +3283,10 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <pin name="4" x="5.08" y="-5.08" visible="pin" length="middle" rot="R90"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.8128" layer="94"/>
 </symbol>
+<symbol name="TESTPAD(ROUND)">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle" function="dot"/>
+<text x="0" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SD-105027-101">
@@ -3308,8 +3316,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </device>
 </devices>
 </deviceset>
-<deviceset name="5023520200">
-<description>Molex connector 5023520200 (2 pin shrouded connector)</description>
+<deviceset name="5023520200" prefix="J">
+<description>Molex connector 5023520200 (2 pin shrouded connector)
+Pitch - 2mm</description>
 <gates>
 <gate name="G$1" symbol="5023520200" x="0" y="-2.54"/>
 </gates>
@@ -3325,7 +3334,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </device>
 </devices>
 </deviceset>
-<deviceset name="5023520410">
+<deviceset name="5023520410" prefix="J">
+<description>Molex connector 5023520200 (4 pin shrouded connector)
+Pitch - 2mm</description>
 <gates>
 <gate name="G$1" symbol="5023520410" x="0" y="0"/>
 </gates>
@@ -3336,6 +3347,22 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
 <connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPAD(ROUND)" prefix="TP">
+<description>Rount SMD test point with a 2.8mm footprint</description>
+<gates>
+<gate name="G$1" symbol="TESTPAD(ROUND)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TESTPAD(ROUND)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3447,8 +3474,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R2" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
-<part name="TP5" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
-<part name="TP6" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
+<part name="TP5" library="Kas-Connectors" deviceset="TESTPAD(ROUND)" device=""/>
+<part name="TP6" library="Kas-Connectors" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="TP7" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="TP8" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="TP13" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
@@ -3524,8 +3551,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="U$13" gate="G$1" x="78.74" y="0"/>
 <instance part="R1" gate="G$1" x="-22.86" y="-66.04" rot="MR0"/>
 <instance part="R2" gate="G$1" x="-25.4" y="-76.2" rot="MR0"/>
-<instance part="TP5" gate="G$1" x="-25.4" y="-73.66" rot="R180"/>
-<instance part="TP6" gate="G$1" x="-22.86" y="-71.12" rot="MR0"/>
+<instance part="TP5" gate="G$1" x="-27.94" y="-73.66" rot="R180"/>
+<instance part="TP6" gate="G$1" x="-22.86" y="-71.12" rot="R180"/>
 <instance part="TP7" gate="G$1" x="55.88" y="12.7"/>
 <instance part="TP8" gate="G$1" x="55.88" y="10.16"/>
 <instance part="U$20" gate="G$1" x="48.26" y="40.64" rot="R270"/>
@@ -3861,18 +3888,20 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <wire x1="-17.78" y1="-71.12" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="PA6"/>
 <wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
+<label x="-10.16" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA-0" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="TP5" gate="G$1" pin="P$1"/>
-<wire x1="-20.32" y1="-73.66" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-73.66"/>
-<label x="-2.54" y="-73.66" size="1.778" layer="95" rot="R180"/>
+<label x="-10.16" y="-73.66" size="1.778" layer="95"/>
+<wire x1="-22.86" y1="-73.66" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="0" y1="-73.66" x2="0" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="PA7"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="-76.2" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-73.66"/>
 </segment>
 </net>
 <net name="SD-SCLK" class="0">

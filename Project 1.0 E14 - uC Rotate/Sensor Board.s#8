@@ -3947,9 +3947,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="LSM9D-INT1-XM" class="0">
 <segment>
-<label x="-104.14" y="-7.62" size="1.778" layer="95"/>
-<wire x1="-81.28" y1="-12.7" x2="-81.28" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="-7.62" x2="-109.22" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="PE1"/>
+<wire x1="-33.02" y1="0" x2="-53.34" y2="0" width="0.1524" layer="91"/>
+<label x="-53.34" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LSM9D-INT-G" class="0">
@@ -4010,16 +4010,15 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="INT2-ADXL362" class="0">
 <segment>
-<label x="-53.34" y="0" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE1"/>
-<wire x1="-33.02" y1="0" x2="-53.34" y2="0" width="0.1524" layer="91"/>
+<label x="-104.14" y="2.54" size="1.778" layer="95"/>
+<wire x1="-78.74" y1="2.54" x2="-109.22" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-H3LIS331" class="0">
 <segment>
-<label x="-104.14" y="-2.54" size="1.778" layer="95"/>
-<wire x1="-78.74" y1="-5.08" x2="-78.74" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-2.54" x2="-109.22" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-53.34" y="2.54" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE2"/>
+<wire x1="-53.34" y1="2.54" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI-ADDR3" class="0">

@@ -3516,6 +3516,8 @@ Pitch - 2mm</description>
 <part name="C52" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R5" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
+<part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -3550,12 +3552,14 @@ Pitch - 2mm</description>
 <instance part="U$12" gate="G$1" x="71.12" y="-33.02"/>
 <instance part="U$13" gate="G$1" x="78.74" y="0"/>
 <instance part="R1" gate="G$1" x="-22.86" y="-66.04" rot="MR0"/>
-<instance part="R2" gate="G$1" x="-25.4" y="-76.2" rot="MR0"/>
+<instance part="R2" gate="G$1" x="-25.4" y="-78.74" rot="MR0"/>
 <instance part="TP5" gate="G$1" x="-27.94" y="-73.66" rot="R180"/>
-<instance part="TP6" gate="G$1" x="-22.86" y="-71.12" rot="R180"/>
+<instance part="TP6" gate="G$1" x="-27.94" y="-71.12" rot="R180"/>
 <instance part="TP7" gate="G$1" x="55.88" y="12.7"/>
 <instance part="TP8" gate="G$1" x="55.88" y="10.16"/>
 <instance part="U$20" gate="G$1" x="48.26" y="40.64" rot="R270"/>
+<instance part="R5" gate="G$1" x="-17.78" y="-71.12" rot="MR0"/>
+<instance part="R8" gate="G$1" x="-17.78" y="-73.66" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -3856,9 +3860,9 @@ Pitch - 2mm</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="-66.04" x2="-33.02" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-66.04" x2="-33.02" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-66.04" x2="-33.02" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-33.02" y1="-76.2" x2="-30.48" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-78.74" x2="-30.48" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-33.02" y="-73.66" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
@@ -3881,27 +3885,28 @@ Pitch - 2mm</description>
 <net name="SCL-0" class="0">
 <segment>
 <label x="43.18" y="15.24" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="TP6" gate="G$1" pin="P$1"/>
-<junction x="-17.78" y="-71.12"/>
-<wire x1="-17.78" y1="-71.12" x2="-17.78" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-71.12" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="PA6"/>
+<wire x1="-12.7" y1="-71.12" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-10.16" y="-71.12" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="-66.04" x2="-12.7" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-66.04" x2="-12.7" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<junction x="-12.7" y="-71.12"/>
 </segment>
 </net>
 <net name="SDA-0" class="0">
 <segment>
-<pinref part="TP5" gate="G$1" pin="P$1"/>
 <label x="-10.16" y="-73.66" size="1.778" layer="95"/>
-<wire x1="-22.86" y1="-73.66" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-78.74" x2="-12.7" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="0" y1="-73.66" x2="0" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="PA7"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-76.2" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-73.66"/>
+<wire x1="-20.32" y1="-78.74" x2="-12.7" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<junction x="-12.7" y="-73.66"/>
 </segment>
 </net>
 <net name="SD-SCLK" class="0">
@@ -4070,6 +4075,18 @@ Pitch - 2mm</description>
 <label x="-15.24" y="-53.34" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$11" gate="G$1" pin="PA1"/>
 <wire x1="-15.24" y1="-53.34" x2="-15.24" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

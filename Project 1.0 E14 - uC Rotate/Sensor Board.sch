@@ -694,6 +694,7 @@
 <wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <text x="20.32" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="20.32" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-12.7254" y1="12.7" x2="-12.7" y2="12.7" width="0.8128" layer="94"/>
 </symbol>
 <symbol name="MAX21000">
 <pin name="VDDIO" x="-20.32" y="10.16" visible="pin" length="middle"/>

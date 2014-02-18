@@ -5348,16 +5348,16 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="CS-LSM9DS0-XM" class="0">
 <segment>
-<label x="12.7" y="27.94" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<label x="12.7" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="3"/>
+<wire x1="25.4" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM9D30-G" class="0">
 <segment>
-<label x="12.7" y="30.48" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<label x="12.7" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LIS3DH" class="0">
