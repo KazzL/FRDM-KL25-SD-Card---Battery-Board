@@ -3947,23 +3947,23 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="LSM9D-INT1-XM" class="0">
 <segment>
-<label x="-53.34" y="-12.7" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PC7"/>
-<wire x1="-53.34" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-53.34" y="2.54" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE2"/>
+<wire x1="-53.34" y1="2.54" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LSM9D-INT-G" class="0">
 <segment>
-<label x="-53.34" y="-2.54" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE0"/>
-<wire x1="-33.02" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-53.34" y="0" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE1"/>
+<wire x1="-53.34" y1="0" x2="-33.02" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1-MAG3110" class="0">
 <segment>
-<label x="-53.34" y="7.62" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PF4"/>
-<wire x1="-33.02" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
+<label x="-53.34" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PB7"/>
+<wire x1="-53.34" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1-L3GD" class="0">
@@ -3975,9 +3975,9 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="INT2-MAX21000" class="0">
 <segment>
-<label x="-53.34" y="5.08" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE3"/>
-<wire x1="-53.34" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
+<label x="-53.34" y="-12.7" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PC7"/>
+<wire x1="-53.34" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-LPS331" class="0">
@@ -3989,16 +3989,16 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="INT1-MPL311" class="0">
 <segment>
-<label x="-53.34" y="10.16" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PB7"/>
-<wire x1="-33.02" y1="10.16" x2="-53.34" y2="10.16" width="0.1524" layer="91"/>
+<label x="-53.34" y="5.08" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE3"/>
+<wire x1="-53.34" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-LSM303" class="0">
 <segment>
-<label x="-53.34" y="2.54" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE2"/>
-<wire x1="-33.02" y1="2.54" x2="-53.34" y2="2.54" width="0.1524" layer="91"/>
+<label x="-53.34" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PD7"/>
+<wire x1="-53.34" y1="-5.08" x2="-33.02" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-LIS3DH" class="0">
@@ -4010,16 +4010,16 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </net>
 <net name="INT2-ADXL362" class="0">
 <segment>
-<label x="-53.34" y="0" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE1"/>
-<wire x1="-33.02" y1="0" x2="-53.34" y2="0" width="0.1524" layer="91"/>
+<label x="-53.34" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PF4"/>
+<wire x1="-53.34" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-H3LIS331" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="PD7"/>
-<wire x1="-33.02" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-53.34" y="-5.08" size="1.778" layer="95"/>
+<label x="-53.34" y="-2.54" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE0"/>
+<wire x1="-53.34" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI-ADDR3" class="0">
@@ -5224,8 +5224,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 </segment>
 <segment>
 <pinref part="U$21" gate="G$1" pin="VCC"/>
-<wire x1="-12.7" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
-<label x="-30.48" y="22.86" size="1.778" layer="95"/>
+<wire x1="-12.7" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="-25.4" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK-B" class="0">
@@ -5322,98 +5322,98 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <segment>
 <pinref part="U$21" gate="G$1" pin="0"/>
 <wire x1="12.7" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
-<label x="15.24" y="22.86" size="1.778" layer="95"/>
+<label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-H3LIS331DLTR" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<label x="15.24" y="25.4" size="1.778" layer="95"/>
+<label x="12.7" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-LSM303" class="0">
 <segment>
-<label x="15.24" y="27.94" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<label x="12.7" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-MAX21000" class="0">
 <segment>
-<label x="15.24" y="30.48" size="1.778" layer="95"/>
-<pinref part="U$21" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<label x="12.7" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM9DS0-XM" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<label x="15.24" y="33.02" size="1.778" layer="95"/>
+<label x="12.7" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="3"/>
+<wire x1="25.4" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LSM9D30-G" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<label x="15.24" y="35.56" size="1.778" layer="95"/>
+<label x="12.7" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$21" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS-LIS3DH" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="6"/>
 <wire x1="12.7" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-<label x="15.24" y="38.1" size="1.778" layer="95"/>
+<label x="12.7" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-LS3GD20" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="7"/>
 <wire x1="-12.7" y1="40.64" x2="-22.86" y2="40.64" width="0.1524" layer="91"/>
-<label x="-30.48" y="40.64" size="1.778" layer="95"/>
+<label x="-25.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-LPS331" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="8"/>
 <wire x1="-12.7" y1="38.1" x2="-22.86" y2="38.1" width="0.1524" layer="91"/>
-<label x="-30.48" y="38.1" size="1.778" layer="95"/>
+<label x="-25.4" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS-ADT7301" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="9"/>
 <wire x1="-12.7" y1="35.56" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
-<label x="-30.48" y="35.56" size="1.778" layer="95"/>
+<label x="-25.4" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-ADDR0" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="A"/>
 <wire x1="-12.7" y1="25.4" x2="-22.86" y2="25.4" width="0.1524" layer="91"/>
-<label x="-30.48" y="25.4" size="1.778" layer="95"/>
+<label x="-25.4" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-ADDR1" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="B"/>
 <wire x1="-12.7" y1="27.94" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
-<label x="-30.48" y="27.94" size="1.778" layer="95"/>
+<label x="-25.4" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-ADDR2" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="C"/>
 <wire x1="-12.7" y1="30.48" x2="-22.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="-30.48" y="30.48" size="1.778" layer="95"/>
+<label x="-25.4" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI-ADDR3" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="D"/>
 <wire x1="-12.7" y1="33.02" x2="-22.86" y2="33.02" width="0.1524" layer="91"/>
-<label x="-30.48" y="33.02" size="1.778" layer="95"/>
+<label x="-25.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

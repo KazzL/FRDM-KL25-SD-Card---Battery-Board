@@ -351,7 +351,8 @@ Pitch - 2mm</description>
 </deviceset>
 <deviceset name="22152046" prefix="J">
 <description>Molex connector 5023520200 (4 pin shrouded connector)
-Pitch - 2.54 mm</description>
+Pitch - 2.54
+mm</description>
 <gates>
 <gate name="G$1" symbol="22152046" x="0" y="0"/>
 </gates>

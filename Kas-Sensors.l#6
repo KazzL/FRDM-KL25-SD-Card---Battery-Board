@@ -814,11 +814,11 @@
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="NC" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND$0" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="VOUT" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="VCC" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND$1" x="-12.7" y="-2.54" length="middle"/>
+<pin name="NC" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GND$0" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="VOUT" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="GND$1" x="-12.7" y="-2.54" visible="pin" length="middle"/>
 <text x="7.62" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
 <text x="7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -903,12 +903,12 @@
 <text x="20.32" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TMP101">
-<pin name="SCL" x="-12.7" y="5.08" length="middle"/>
-<pin name="GND" x="-12.7" y="0" length="middle"/>
-<pin name="ADD1" x="-12.7" y="-5.08" length="middle"/>
-<pin name="V+" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="ADD0" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="SCL" x="-12.7" y="5.08" visible="pin" length="middle"/>
+<pin name="GND" x="-12.7" y="0" visible="pin" length="middle"/>
+<pin name="ADD1" x="-12.7" y="-5.08" visible="pin" length="middle"/>
+<pin name="V+" x="12.7" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="ADD0" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
 <wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
