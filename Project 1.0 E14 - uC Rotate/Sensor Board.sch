@@ -3437,7 +3437,6 @@ Pitch - 2mm</description>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R15" library="Kas-Passives" deviceset="RESISTOR" device="" value="1M"/>
 <part name="C30" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="C31" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
 <part name="C32" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
@@ -3530,7 +3529,6 @@ Pitch - 2mm</description>
 <instance part="GND30" gate="1" x="-66.04" y="-17.78"/>
 <instance part="GND31" gate="1" x="10.16" y="58.42"/>
 <instance part="GND32" gate="1" x="121.92" y="-60.96"/>
-<instance part="R15" gate="G$1" x="27.94" y="-45.72"/>
 <instance part="C30" gate="G$1" x="99.06" y="-10.16" rot="R180"/>
 <instance part="C31" gate="G$1" x="-48.26" y="-86.36" rot="R180"/>
 <instance part="C32" gate="G$1" x="-38.1" y="-86.36" rot="R180"/>
@@ -3785,14 +3783,6 @@ Pitch - 2mm</description>
 <wire x1="50.8" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$11" gate="G$1" pin="!WAKE"/>
-<wire x1="20.32" y1="-35.56" x2="20.32" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-45.72" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="VDD$3"/>
@@ -3817,11 +3807,8 @@ Pitch - 2mm</description>
 <segment>
 <pinref part="U$11" gate="G$1" pin="VBAT"/>
 <wire x1="83.82" y1="-10.16" x2="35.56" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="-45.72" x2="83.82" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-10.16" x2="83.82" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-45.72" x2="88.9" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="83.82" y="-45.72"/>
 <label x="38.1" y="-10.16" size="1.778" layer="95"/>
 <label x="86.36" y="-45.72" size="1.778" layer="95"/>
 </segment>
@@ -3987,18 +3974,11 @@ Pitch - 2mm</description>
 <wire x1="-53.34" y1="2.54" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LSM9D-INT-G" class="0">
-<segment>
-<label x="-53.34" y="0" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE1"/>
-<wire x1="-53.34" y1="0" x2="-33.02" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="INT1-MAG3110" class="0">
 <segment>
-<label x="-53.34" y="10.16" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PB7"/>
-<wire x1="-53.34" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="-53.34" y="17.78" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PB6"/>
+<wire x1="-53.34" y1="17.78" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT1-L3GD" class="0">
@@ -4024,9 +4004,9 @@ Pitch - 2mm</description>
 </net>
 <net name="INT1-MPL311" class="0">
 <segment>
-<label x="-53.34" y="5.08" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PE3"/>
-<wire x1="-53.34" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
+<label x="-53.34" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PF4"/>
+<wire x1="-53.34" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-LSM303" class="0">
@@ -4045,9 +4025,9 @@ Pitch - 2mm</description>
 </net>
 <net name="INT2-ADXL362" class="0">
 <segment>
-<label x="-53.34" y="7.62" size="1.778" layer="95"/>
-<pinref part="U$11" gate="G$1" pin="PF4"/>
-<wire x1="-53.34" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
+<label x="-53.34" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PB7"/>
+<wire x1="-53.34" y1="10.16" x2="-33.02" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INT2-H3LIS331" class="0">
@@ -4088,6 +4068,20 @@ Pitch - 2mm</description>
 <segment>
 <pinref part="TP5" gate="G$1" pin="P$1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="LSM9D-DRGY-G" class="0">
+<segment>
+<label x="-53.34" y="0" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="PE1"/>
+<wire x1="-53.34" y1="0" x2="-33.02" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LSM9D-INT2-XM" class="0">
+<segment>
+<pinref part="U$11" gate="G$1" pin="PE3"/>
+<wire x1="-33.02" y1="5.08" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
+<label x="-53.34" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -4465,6 +4459,13 @@ Pitch - 2mm</description>
 <pinref part="U$2" gate="G$1" pin="INT2"/>
 <wire x1="25.4" y1="-142.24" x2="45.72" y2="-142.24" width="0.1524" layer="91"/>
 <label x="27.94" y="-142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LSM9D-INT2-XM" class="0">
+<segment>
+<pinref part="U$17" gate="G$1" pin="INT2_XM"/>
+<wire x1="20.32" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
+<label x="22.86" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
