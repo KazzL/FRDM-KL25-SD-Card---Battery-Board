@@ -1398,8 +1398,8 @@ design rules under a new name.</description>
 <contactref element="U$11" pad="P$6"/>
 <wire x1="33.6804" y1="33.60383125" x2="33.6804" y2="39.93515" width="0.1524" layer="1"/>
 <wire x1="30.69906875" y1="30.6225" x2="33.6804" y2="33.60383125" width="0.1524" layer="1"/>
-<wire x1="33.6804" y1="39.93515" x2="32.7118" y2="40.90375" width="0.1524" layer="1"/>
-<wire x1="32.7118" y1="40.90375" x2="32.7372" y2="42.0192" width="0.1524" layer="1"/>
+<wire x1="33.6804" y1="39.93515" x2="32.7118" y2="40.90375" width="0" layer="19" extent="1-16"/>
+<wire x1="32.7118" y1="40.90375" x2="32.7372" y2="42.0192" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$6" pad="P$15"/>
@@ -2240,26 +2240,26 @@ design rules under a new name.</description>
 <contactref element="U$11" pad="P$7"/>
 <wire x1="32.8168" y1="33.4473375" x2="32.8168" y2="39.0652" width="0.1524" layer="1"/>
 <wire x1="30.345515625" y1="30.976053125" x2="32.8168" y2="33.4473375" width="0.1524" layer="1"/>
-<wire x1="32.8168" y1="39.0652" x2="30.226" y2="41.656" width="0.1524" layer="1"/>
-<wire x1="30.226" y1="41.656" x2="30.226" y2="64.1604" width="0.1524" layer="1"/>
-<wire x1="30.226" y1="64.1604" x2="27.525359375" y2="66.861040625" width="0.1524" layer="1"/>
 <wire x1="27.525359375" y1="66.861040625" x2="20.8842" y2="66.861040625" width="0.1524" layer="1"/>
+<wire x1="29.464" y1="42.418" x2="29.464" y2="64.897" width="0.1524" layer="1"/>
+<wire x1="29.464" y1="64.897" x2="27.525359375" y2="66.861040625" width="0.1524" layer="1"/>
+<wire x1="32.8168" y1="39.0652" x2="29.464" y2="42.418" width="0.1524" layer="1"/>
 </signal>
 <signal name="LSM9D-DEN-G">
 <contactref element="U$17" pad="P$10"/>
 </signal>
 <signal name="LSM9D-INT-G">
 <contactref element="U$17" pad="P$11"/>
-<contactref element="U$11" pad="P$8"/>
-<wire x1="31.9532" y1="33.290846875" x2="31.9532" y2="38.57625" width="0.1524" layer="1"/>
-<wire x1="29.9919625" y1="31.329609375" x2="31.9532" y2="33.290846875" width="0.1524" layer="1"/>
-<wire x1="31.9532" y1="38.57625" x2="28.956" y2="41.57345" width="0.1524" layer="1"/>
-<wire x1="28.956" y1="41.57345" x2="28.956" y2="63.5254" width="0.1524" layer="1"/>
-<wire x1="28.956" y1="63.5254" x2="26.895359375" y2="65.586040625" width="0.1524" layer="1"/>
-<wire x1="26.895359375" y1="65.586040625" x2="21.6092" y2="65.586040625" width="0.1524" layer="1"/>
 </signal>
 <signal name="LSM9D-DRGY-G">
 <contactref element="U$17" pad="P$12"/>
+<contactref element="U$11" pad="P$8"/>
+<wire x1="31.9532" y1="33.290846875" x2="31.9532" y2="38.57625" width="0.1524" layer="1"/>
+<wire x1="29.9919625" y1="31.329609375" x2="31.9532" y2="33.290846875" width="0.1524" layer="1"/>
+<wire x1="21.6592" y1="66.086040625" x2="26.395359375" y2="66.086040625" width="0.1524" layer="1"/>
+<wire x1="28.448" y1="42.08145" x2="28.448" y2="63.9572" width="0.1524" layer="1"/>
+<wire x1="28.448" y1="63.9572" x2="26.395359375" y2="66.086040625" width="0.1524" layer="1"/>
+<wire x1="31.9532" y1="38.57625" x2="28.448" y2="42.08145" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="LED1" pad="A"/>
@@ -2336,10 +2336,10 @@ design rules under a new name.</description>
 <signal name="INT2-ADXL362">
 <contactref element="U$10" pad="P$9"/>
 <contactref element="U$11" pad="P$5"/>
-<wire x1="37.7444" y1="36.960725" x2="37.7444" y2="50.546" width="0.1524" layer="1"/>
-<wire x1="31.052621875" y1="30.268946875" x2="37.7444" y2="36.960725" width="0.1524" layer="1"/>
+<wire x1="31.052621875" y1="30.268946875" x2="38.4048" y2="37.621125" width="0.1524" layer="1"/>
 <wire x1="36.1332" y1="51.2732" x2="37.0172" y2="51.2732" width="0.1524" layer="1"/>
-<wire x1="37.0172" y1="51.2732" x2="37.7444" y2="50.546" width="0.1524" layer="1"/>
+<wire x1="37.0172" y1="51.2732" x2="38.4048" y2="49.8856" width="0.1524" layer="1"/>
+<wire x1="38.4048" y1="37.621125" x2="38.4048" y2="49.8856" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="R3" pad="2"/>
