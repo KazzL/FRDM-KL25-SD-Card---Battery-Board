@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="2" name="Route2" color="13" fill="2" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="14" fill="2" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -144,22 +144,22 @@
 <text x="2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LGA-16(3X3)">
-<smd name="P$1" x="-1.375" y="1" dx="0.35" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$2" x="-1.375" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.375" y="0" dx="0.35" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$4" x="-1.375" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$5" x="-1.375" y="-1" dx="0.35" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$6" x="-0.5" y="-1.375" dx="0.35" dy="0.45" layer="1"/>
-<smd name="P$7" x="0" y="-1.375" dx="0.35" dy="0.45" layer="1"/>
-<smd name="P$8" x="0.5" y="-1.375" dx="0.35" dy="0.45" layer="1"/>
-<smd name="P$9" x="1.375" y="-1" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$10" x="1.375" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$11" x="1.375" y="0" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$12" x="1.375" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$13" x="1.375" y="1" dx="0.35" dy="0.45" layer="1" rot="R270"/>
-<smd name="P$14" x="0.5" y="1.375" dx="0.35" dy="0.45" layer="1" rot="R180"/>
-<smd name="P$15" x="0" y="1.375" dx="0.35" dy="0.45" layer="1" rot="R180"/>
-<smd name="P$16" x="-0.5" y="1.375" dx="0.35" dy="0.45" layer="1" rot="R180"/>
+<smd name="P$1" x="-1.225" y="1" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$2" x="-1.225" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$3" x="-1.225" y="0" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$4" x="-1.225" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$5" x="-1.225" y="-1" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$6" x="-0.5" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
+<smd name="P$7" x="0" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
+<smd name="P$8" x="0.5" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
+<smd name="P$9" x="1.225" y="-1" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$10" x="1.225" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$11" x="1.225" y="0" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$12" x="1.225" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$13" x="1.225" y="1" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$14" x="0.5" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$15" x="0" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$16" x="-0.5" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
@@ -173,8 +173,24 @@
 <wire x1="1.5" y1="1.5" x2="0.815" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-0.835" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.345" width="0.2032" layer="21"/>
-<text x="2" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="2" y="-1" size="1.27" layer="27">&gt;VALUE</text>
+<text x="2" y="-2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2" y="-3" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.5" y1="0.775" x2="-0.95" y2="1.225" layer="29"/>
+<rectangle x1="-1.5" y1="0.275" x2="-0.95" y2="0.725" layer="29"/>
+<rectangle x1="-1.5" y1="-0.225" x2="-0.95" y2="0.225" layer="29"/>
+<rectangle x1="-1.5" y1="-0.725" x2="-0.95" y2="-0.275" layer="29"/>
+<rectangle x1="-1.5" y1="-1.225" x2="-0.95" y2="-0.775" layer="29"/>
+<rectangle x1="-0.775" y1="-1.45" x2="-0.225" y2="-1" layer="29" rot="R90"/>
+<rectangle x1="-0.275" y1="-1.45" x2="0.275" y2="-1" layer="29" rot="R90"/>
+<rectangle x1="0.225" y1="-1.45" x2="0.775" y2="-1" layer="29" rot="R90"/>
+<rectangle x1="0.95" y1="-1.225" x2="1.5" y2="-0.775" layer="29" rot="R180"/>
+<rectangle x1="0.95" y1="-0.725" x2="1.5" y2="-0.275" layer="29" rot="R180"/>
+<rectangle x1="0.95" y1="-0.225" x2="1.5" y2="0.225" layer="29" rot="R180"/>
+<rectangle x1="0.95" y1="0.275" x2="1.5" y2="0.725" layer="29" rot="R180"/>
+<rectangle x1="0.95" y1="0.775" x2="1.5" y2="1.225" layer="29" rot="R180"/>
+<rectangle x1="0.225" y1="1" x2="0.775" y2="1.45" layer="29" rot="R270"/>
+<rectangle x1="-0.275" y1="1" x2="0.275" y2="1.45" layer="29" rot="R270"/>
+<rectangle x1="-0.775" y1="1" x2="-0.225" y2="1.45" layer="29" rot="R270"/>
 </package>
 <package name="LGA-8(5X3)">
 <smd name="P$5" x="1.875" y="1.075" dx="0.55" dy="1.05" layer="1"/>
@@ -263,19 +279,19 @@
 <text x="3.27" y="-1" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LGA-16(3X3.25)">
-<smd name="P$1" x="-1.2125" y="1" dx="0.3" dy="0.925" layer="1" rot="R90"/>
-<smd name="P$2" x="-1.2125" y="0.5" dx="0.3" dy="0.925" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.2125" y="0" dx="0.3" dy="0.925" layer="1" rot="R90"/>
-<smd name="P$4" x="-1.2125" y="-0.5" dx="0.3" dy="0.925" layer="1" rot="R90"/>
-<smd name="P$5" x="-1.2125" y="-1" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.274" y="1" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.274" y="0.5" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.274" y="0" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.274" y="-0.5" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.274" y="-1" dx="0.3" dy="0.925" layer="1" rot="R90"/>
 <smd name="P$6" x="-0.5" y="-1.275" dx="0.3" dy="0.8" layer="1"/>
 <smd name="P$7" x="0" y="-1.275" dx="0.3" dy="0.8" layer="1"/>
 <smd name="P$8" x="0.5" y="-1.275" dx="0.3" dy="0.8" layer="1"/>
-<smd name="P$9" x="1.2125" y="-1" dx="0.3" dy="0.925" layer="1" rot="R270"/>
-<smd name="P$10" x="1.2125" y="-0.5" dx="0.3" dy="0.925" layer="1" rot="R270"/>
-<smd name="P$11" x="1.2125" y="0" dx="0.3" dy="0.925" layer="1" rot="R90"/>
-<smd name="P$12" x="1.2125" y="0.5" dx="0.3" dy="0.925" layer="1" rot="R270"/>
-<smd name="P$13" x="1.2125" y="1" dx="0.3" dy="0.925" layer="1" rot="R270"/>
+<smd name="P$9" x="1.274" y="-1" dx="0.3" dy="0.925" layer="1" rot="R270"/>
+<smd name="P$10" x="1.274" y="-0.5" dx="0.3" dy="0.925" layer="1" rot="R270"/>
+<smd name="P$11" x="1.274" y="0" dx="0.3" dy="0.925" layer="1" rot="R90"/>
+<smd name="P$12" x="1.274" y="0.5" dx="0.3" dy="0.925" layer="1" rot="R270"/>
+<smd name="P$13" x="1.274" y="1" dx="0.3" dy="0.925" layer="1" rot="R270"/>
 <smd name="P$14" x="0.5" y="1.275" dx="0.3" dy="0.8" layer="1" rot="R180"/>
 <smd name="P$15" x="0" y="1.275" dx="0.3" dy="0.8" layer="1" rot="R180"/>
 <smd name="P$16" x="-0.5" y="1.275" dx="0.3" dy="0.8" layer="1" rot="R180"/>
@@ -388,30 +404,30 @@
 <text x="2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LGA-24(4X4)">
-<smd name="P$1" x="-1.725" y="1.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$2" x="-1.725" y="0.75" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$3" x="-1.725" y="0.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$4" x="-1.725" y="-0.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$5" x="-1.725" y="-0.75" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$6" x="-1.725" y="-1.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$7" x="-1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="-0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="-0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="1.725" y="-1.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$14" x="1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$15" x="1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$16" x="1.725" y="0.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$17" x="1.725" y="0.75" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$18" x="1.725" y="1.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$19" x="1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$20" x="0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$21" x="0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$22" x="-0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$23" x="-0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$24" x="-1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$1" x="-1.725" y="1.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$2" x="-1.725" y="0.75" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$3" x="-1.725" y="0.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$4" x="-1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$5" x="-1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$6" x="-1.725" y="-1.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$7" x="-1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$8" x="-0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$9" x="-0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$10" x="0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$11" x="0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$12" x="1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$13" x="1.725" y="-1.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$14" x="1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$15" x="1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$16" x="1.725" y="0.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$17" x="1.725" y="0.75" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$18" x="1.725" y="1.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$19" x="1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$20" x="0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$21" x="0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$22" x="-0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$23" x="-0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$24" x="-1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
 <wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="51"/>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="51"/>
@@ -426,8 +442,32 @@
 <wire x1="-2" y1="-2" x2="-2" y2="-1.6" width="0.2032" layer="21"/>
 <wire x1="-1" y1="1" x2="-0.99" y2="1" width="0.2032" layer="21"/>
 <wire x1="-0.99" y1="1" x2="-0.99" y2="0.99" width="0.2032" layer="21"/>
-<text x="3" y="-2" size="1.27" layer="25">&gt;NAME</text>
-<text x="3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<text x="3" y="-2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3" y="-3" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-2" y1="1.05" x2="-1.45" y2="1.45" layer="29"/>
+<rectangle x1="-2" y1="0.55" x2="-1.45" y2="0.95" layer="29"/>
+<rectangle x1="-2" y1="0.05" x2="-1.45" y2="0.45" layer="29"/>
+<rectangle x1="-2" y1="-0.45" x2="-1.45" y2="-0.05" layer="29"/>
+<rectangle x1="-2" y1="-0.95" x2="-1.45" y2="-0.55" layer="29"/>
+<rectangle x1="-2" y1="-1.45" x2="-1.45" y2="-1.05" layer="29"/>
+<rectangle x1="-1.525" y1="-1.925" x2="-0.975" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-1.025" y1="-1.925" x2="-0.475" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-0.525" y1="-1.925" x2="0.025" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-0.025" y1="-1.925" x2="0.525" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="0.475" y1="-1.925" x2="1.025" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="0.975" y1="-1.925" x2="1.525" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="1.45" y1="-1.45" x2="2" y2="-1.05" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="-0.95" x2="2" y2="-0.55" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="-0.45" x2="2" y2="-0.05" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="0.05" x2="2" y2="0.45" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="0.55" x2="2" y2="0.95" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="1.05" x2="2" y2="1.45" layer="29" rot="R180"/>
+<rectangle x1="0.975" y1="1.525" x2="1.525" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="0.475" y1="1.525" x2="1.025" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-0.025" y1="1.525" x2="0.525" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-0.525" y1="1.525" x2="0.025" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-1.025" y1="1.525" x2="-0.475" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-1.525" y1="1.525" x2="-0.975" y2="1.925" layer="29" rot="R270"/>
 </package>
 <package name="LGA-24(4X4)_HS">
 <smd name="P$1" x="-2.025" y="1.25" dx="0.85" dy="0.3" layer="1"/>
@@ -492,6 +532,66 @@
 <wire x1="1.25" y1="-0.676" x2="1.525" y2="-0.676" width="0.127" layer="51"/>
 <wire x1="1.525" y1="-0.676" x2="1.525" y2="0.676" width="0.127" layer="51"/>
 <wire x1="1.525" y1="0.676" x2="1.25" y2="0.676" width="0.127" layer="51"/>
+</package>
+<package name="DFN-10(3X3)">
+<smd name="P$1" x="-1.4" y="1" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$2" x="-1.4" y="0.5" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$3" x="-1.4" y="0" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$4" x="-1.4" y="-0.5" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$5" x="-1.4" y="-1" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$6" x="1.4" y="-1" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$7" x="1.4" y="-0.5" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$8" x="1.4" y="0" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$9" x="1.4" y="0.5" dx="1" dy="0.3" layer="1" stop="no"/>
+<smd name="P$10" x="1.4" y="1" dx="1" dy="0.3" layer="1" stop="no"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2023" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.2023" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.4" width="0.2023" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.4" width="0.2023" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.4" width="0.2023" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.2023" layer="21"/>
+<text x="-1.5" y="1.75" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-2.5" size="0.6096" layer="25">&gt;VALUE</text>
+<polygon width="0" layer="1">
+<vertex x="0.7" y="1.3"/>
+<vertex x="0.7" y="-1.3"/>
+<vertex x="-0.7" y="-1.3"/>
+<vertex x="-0.7" y="0.7" curve="90"/>
+<vertex x="-0.575" y="0.825" curve="90"/>
+<vertex x="-0.7" y="0.95"/>
+<vertex x="-0.7" y="1.3"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.7" y="1.3"/>
+<vertex x="0.7" y="-1.3"/>
+<vertex x="-0.7" y="-1.3"/>
+<vertex x="-0.7" y="0.7" curve="90"/>
+<vertex x="-0.575" y="0.825" curve="90"/>
+<vertex x="-0.7" y="0.95"/>
+<vertex x="-0.7" y="1.3"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.75" y="1.35"/>
+<vertex x="0.75" y="-1.35"/>
+<vertex x="-0.75" y="-1.35"/>
+<vertex x="-0.75" y="0.75"/>
+<vertex x="-0.7" y="0.75" curve="90"/>
+<vertex x="-0.625" y="0.825" curve="90"/>
+<vertex x="-0.7" y="0.9"/>
+<vertex x="-0.75" y="0.9"/>
+<vertex x="-0.75" y="1.35"/>
+</polygon>
+<smd name="P$11" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<rectangle x1="-1.95" y1="0.8" x2="-0.85" y2="1.2" layer="29"/>
+<rectangle x1="-1.95" y1="0.3" x2="-0.85" y2="0.7" layer="29"/>
+<rectangle x1="-1.95" y1="-0.2" x2="-0.85" y2="0.2" layer="29"/>
+<rectangle x1="-1.95" y1="-0.7" x2="-0.85" y2="-0.3" layer="29"/>
+<rectangle x1="-1.95" y1="-1.2" x2="-0.85" y2="-0.8" layer="29"/>
+<rectangle x1="0.85" y1="-1.2" x2="1.95" y2="-0.8" layer="29"/>
+<rectangle x1="0.85" y1="-0.7" x2="1.95" y2="-0.3" layer="29"/>
+<rectangle x1="0.85" y1="0.325" x2="1.95" y2="0.725" layer="29"/>
+<rectangle x1="0.85" y1="0.8" x2="1.95" y2="1.2" layer="29"/>
+<rectangle x1="0.85" y1="-0.2" x2="1.95" y2="0.2" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -758,6 +858,24 @@
 <text x="7.62" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SI7013">
+<pin name="SDA" x="-17.78" y="5.08" visible="pin" length="middle" direction="nc"/>
+<pin name="AD0/VOUT" x="-17.78" y="2.54" visible="pin" length="middle" direction="nc"/>
+<pin name="GNDD" x="-17.78" y="0" visible="pin" length="middle" direction="nc"/>
+<pin name="GNDA" x="-17.78" y="-2.54" visible="pin" length="middle" direction="nc"/>
+<pin name="VSNS" x="-17.78" y="-5.08" visible="pin" length="middle" direction="nc"/>
+<pin name="VINP" x="17.78" y="-5.08" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="VINN" x="17.78" y="-2.54" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="VDDA" x="17.78" y="0" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="VDDD" x="17.78" y="2.54" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="SCL" x="17.78" y="5.08" visible="pin" length="middle" direction="nc" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="15.24" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAG3110">
@@ -1022,7 +1140,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LIS3DH" uservalue="yes">
+<deviceset name="LIS3DH">
 <description>LIS3DH in a 3x3 LGA-16 package</description>
 <gates>
 <gate name="G$1" symbol="LIS3DH" x="-5.08" y="2.54"/>
@@ -1309,7 +1427,7 @@
 </devices>
 </deviceset>
 <deviceset name="ADT7301">
-<description>ADT7301 in a SOT6-23 package (Temperature)</description>
+<description>ADT7301 Temperature sensor</description>
 <gates>
 <gate name="G$1" symbol="ADT7301" x="0" y="0"/>
 </gates>
@@ -1322,6 +1440,31 @@
 <connect gate="G$1" pin="GND" pad="P$1"/>
 <connect gate="G$1" pin="SCLK" pad="P$4"/>
 <connect gate="G$1" pin="VDD" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI7013">
+<description>Si7013 Humidity sensor</description>
+<gates>
+<gate name="G$1" symbol="SI7013" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-10(3X3)">
+<connects>
+<connect gate="G$1" pin="AD0/VOUT" pad="P$2"/>
+<connect gate="G$1" pin="GNDA" pad="P$4"/>
+<connect gate="G$1" pin="GNDD" pad="P$3"/>
+<connect gate="G$1" pin="SCL" pad="P$10"/>
+<connect gate="G$1" pin="SDA" pad="P$1"/>
+<connect gate="G$1" pin="VDDA" pad="P$8"/>
+<connect gate="G$1" pin="VDDD" pad="P$9"/>
+<connect gate="G$1" pin="VINN" pad="P$7"/>
+<connect gate="G$1" pin="VINP" pad="P$6"/>
+<connect gate="G$1" pin="VSNS" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2284,7 +2427,7 @@ chip</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
-<package name="0402-CAP">
+<package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -2398,13 +2541,13 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" prefix="C">
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Ceramic SMT Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="0402-CAP">
+<device name="0402" package="C0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3383,11 +3526,11 @@ Pitch - 2mm</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Kas-Sensors" deviceset="MAG3110" device="_HS" value="MAG3110_HS"/>
-<part name="C1" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C2" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1uF"/>
-<part name="C3" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C4" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
+<part name="U$1" library="Kas-Sensors" deviceset="MAG3110" device="" value="MAG3110"/>
+<part name="C1" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C2" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1uF"/>
+<part name="C3" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C4" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3395,41 +3538,41 @@ Pitch - 2mm</description>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C5" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C9" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="U$3" library="Kas-Sensors" deviceset="L3GD20H" device="_HS" value="L3GD20H_HS"/>
+<part name="C5" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C9" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="U$3" library="Kas-Sensors" deviceset="L3GD20H" device="" value="L3GD20H"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C10" library="Kas-Passives" deviceset="CAPACITOR" device="" value="10nF"/>
+<part name="C10" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10nF"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C12" library="Kas-Passives" deviceset="CAPACITOR" device="" value="10uF"/>
-<part name="U$4" library="Kas-Sensors" deviceset="LPS331AP" device="_HS" value="LPS331AP_HS"/>
+<part name="C12" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10uF"/>
+<part name="U$4" library="Kas-Sensors" deviceset="LPS331AP" device="" value="LPS331AP"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C14" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="U$5" library="Kas-Sensors" deviceset="MPL3115A2" device="_HS" value="MPL3115A2_HS"/>
-<part name="C15" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C16" library="Kas-Passives" deviceset="CAPACITOR" device="" value="10uF"/>
-<part name="C17" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
+<part name="C14" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="U$5" library="Kas-Sensors" deviceset="MPL3115A2" device="" value="MPL3115A2"/>
+<part name="C15" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C16" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10uF"/>
+<part name="C17" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$6" library="Kas-Sensors" deviceset="LSM303D" device="_HS" value="LSM303D_HS"/>
-<part name="C18" library="Kas-Passives" deviceset="CAPACITOR" device="" value="4.7uF"/>
+<part name="U$6" library="Kas-Sensors" deviceset="LSM303D" device="" value="LSM303D"/>
+<part name="C18" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="4.7uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C20" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C21" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.22uF"/>
+<part name="C20" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C21" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.22uF"/>
 <part name="U$8" library="Kas-Sensors" deviceset="STLM20" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C23" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C23" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
 <part name="R10" library="Kas-Passives" deviceset="RESISTOR" device="" value="200"/>
-<part name="C24" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1uF"/>
-<part name="U$9" library="Kas-Sensors" deviceset="LIS3DH" device="_HS" value="LIS3DH"/>
-<part name="C26" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
+<part name="C24" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1uF"/>
+<part name="U$9" library="Kas-Sensors" deviceset="LIS3DH" device="" value="LIS3DH"/>
+<part name="C26" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$10" library="Kas-Sensors" deviceset="ADXL362" device="_HS" value="ADXL362"/>
+<part name="U$10" library="Kas-Sensors" deviceset="ADXL362" device="" value="ADXL362"/>
 <part name="U$11" library="Kas-Microcontroller" deviceset="TM4C1233H6PM" device=""/>
-<part name="C28" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C29" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C28" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C29" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3437,21 +3580,21 @@ Pitch - 2mm</description>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C30" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C31" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C32" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C33" library="Kas-Passives" deviceset="CAPACITOR" device="" value="2.2uF"/>
-<part name="C34" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1.0uF"/>
-<part name="C35" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.01uF"/>
-<part name="C36" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C37" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.01uF"/>
-<part name="C38" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
-<part name="C39" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.01uF"/>
-<part name="C40" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1.0uF"/>
-<part name="C41" library="Kas-Passives" deviceset="CAPACITOR" device="" value="24pF"/>
-<part name="C42" library="Kas-Passives" deviceset="CAPACITOR" device="" value="24pF"/>
-<part name="C43" library="Kas-Passives" deviceset="CAPACITOR" device="" value="10pF"/>
-<part name="C44" library="Kas-Passives" deviceset="CAPACITOR" device="" value="10pF"/>
+<part name="C30" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C31" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C32" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C33" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="2.2uF"/>
+<part name="C34" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1.0uF"/>
+<part name="C35" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.01uF"/>
+<part name="C36" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C37" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.01uF"/>
+<part name="C38" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C39" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.01uF"/>
+<part name="C40" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1.0uF"/>
+<part name="C41" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="24pF"/>
+<part name="C42" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="24pF"/>
+<part name="C43" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10pF"/>
+<part name="C44" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10pF"/>
 <part name="R16" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R17" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3479,12 +3622,12 @@ Pitch - 2mm</description>
 <part name="TP7" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="TP8" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="TP13" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
-<part name="U$17" library="Kas-Sensors" deviceset="LSM9DS0" device="_HS" value="LSM9DS0_HS"/>
+<part name="U$17" library="Kas-Sensors" deviceset="LSM9DS0" device="" value="LSM9DS0"/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C25" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C27" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
-<part name="C48" library="Kas-Passives" deviceset="CAPACITOR" device="" value="4.7uF"/>
-<part name="C49" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.22uF"/>
+<part name="C27" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C48" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="4.7uF"/>
+<part name="C49" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.22uF"/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
@@ -3496,28 +3639,33 @@ Pitch - 2mm</description>
 <part name="R3" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R4" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R6" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
-<part name="U$19" library="Kas-Sensors" deviceset="MAX21000" device="_HS"/>
-<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="" value="1uF"/>
+<part name="U$19" library="Kas-Sensors" deviceset="MAX21000" device="" value="MAX21000"/>
+<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1uF"/>
 <part name="C54" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$2" library="Kas-Sensors" deviceset="H3LIS331DLTR" device="_HS"/>
+<part name="U$2" library="Kas-Sensors" deviceset="H3LIS331DLTR" device="" value="H3LIS331DLTR"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$16" library="Kas-Connectors" deviceset="5023520200" device=""/>
 <part name="U$20" library="Kas-Connectors" deviceset="5023520410" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C6" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
 <part name="C7" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C8" library="Kas-Passives" deviceset="CAPACITOR" device="" value="100nF"/>
+<part name="C8" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="U$21" library="Kas-Buffers &amp; Level Shifters" deviceset="SN74HC42" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$15" library="Kas-Sensors" deviceset="ADT7301" device=""/>
-<part name="C52" library="Kas-Passives" deviceset="CAPACITOR" device="" value="0.1uF"/>
+<part name="C52" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
+<part name="U$22" library="Kas-Sensors" deviceset="SI7013" device=""/>
+<part name="R9" library="Kas-Passives" deviceset="RESISTOR" device="" value="2.0k"/>
+<part name="R11" library="Kas-Passives" deviceset="RESISTOR" device="" value="1.0k"/>
+<part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="0402"/>
 </parts>
 <sheets>
 <sheet>
@@ -4855,6 +5003,19 @@ Pitch - 2mm</description>
 <junction x="-83.82" y="-22.86"/>
 <label x="-88.9" y="-22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VDD"/>
+<wire x1="38.1" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
+<junction x="12.7" y="30.48"/>
+<junction x="20.32" y="30.48"/>
+<label x="2.54" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -5004,21 +5165,6 @@ Pitch - 2mm</description>
 <label x="73.66" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="VDD"/>
-<wire x1="38.1" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="30.48" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="22.86" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<junction x="12.7" y="30.48"/>
-<junction x="20.32" y="30.48"/>
-<label x="2.54" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SCL-0" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="SCL"/>
@@ -5082,6 +5228,11 @@ Pitch - 2mm</description>
 <instance part="C49" gate="G$1" x="-5.08" y="-40.64" rot="R270"/>
 <instance part="GND43" gate="1" x="-17.78" y="-35.56"/>
 <instance part="GND44" gate="1" x="50.8" y="-17.78"/>
+<instance part="U$22" gate="G$1" x="101.6" y="-7.62"/>
+<instance part="R9" gate="G$1" x="147.32" y="-22.86" rot="R270"/>
+<instance part="R11" gate="G$1" x="142.24" y="-7.62"/>
+<instance part="GND21" gate="1" x="73.66" y="-12.7"/>
+<instance part="C51" gate="G$1" x="132.08" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -5122,6 +5273,31 @@ Pitch - 2mm</description>
 <junction x="50.8" y="-10.16"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="U$22" gate="G$1" pin="AD0/VOUT"/>
+<wire x1="83.82" y1="-5.08" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-5.08" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="2.54" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="VINN"/>
+<wire x1="119.38" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="-10.16" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="137.16" y="-7.62"/>
+<pinref part="U$22" gate="G$1" pin="GNDD"/>
+<wire x1="83.82" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-7.62" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="73.66" y="-5.08"/>
+<pinref part="U$22" gate="G$1" pin="GNDA"/>
+<wire x1="83.82" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-10.16" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="73.66" y="-7.62"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<junction x="73.66" y="-10.16"/>
+<pinref part="C51" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<junction x="132.08" y="2.54"/>
+</segment>
 </net>
 <net name="MOSI-B" class="0">
 <segment>
@@ -5161,6 +5337,17 @@ Pitch - 2mm</description>
 <pinref part="U$17" gate="G$1" pin="VDD#1"/>
 <wire x1="20.32" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <junction x="30.48" y="0"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="VDDD"/>
+<pinref part="C51" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-5.08" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="G$1" pin="VDDA"/>
+<wire x1="119.38" y1="-7.62" x2="124.46" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-7.62" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="124.46" y="-5.08"/>
+<label x="119.38" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK-B" class="0">
@@ -5216,6 +5403,11 @@ Pitch - 2mm</description>
 <wire x1="20.32" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
 <label x="25.4" y="5.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
+<label x="137.16" y="-27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LSM9D-INT1-XM" class="0">
 <segment>
@@ -5247,6 +5439,31 @@ Pitch - 2mm</description>
 <pinref part="U$17" gate="G$1" pin="INT2_XM"/>
 <wire x1="20.32" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <label x="22.86" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL-0" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="SCL"/>
+<wire x1="119.38" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
+<label x="119.38" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA-0" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="SDA"/>
+<wire x1="83.82" y1="-2.54" x2="76.2" y2="-2.54" width="0.1524" layer="91"/>
+<label x="76.2" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U$22" gate="G$1" pin="VINP"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="-12.7" x2="147.32" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-12.7" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="-12.7" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="147.32" y="-12.7"/>
 </segment>
 </net>
 </nets>
