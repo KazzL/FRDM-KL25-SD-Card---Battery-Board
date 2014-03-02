@@ -104,7 +104,7 @@ Sheet=3
 
 [Win_3]
 Type="Control Panel"
-Loc="290 0 1680 1039"
+Loc="399 90 1250 776"
 State=2
 Number=0
 

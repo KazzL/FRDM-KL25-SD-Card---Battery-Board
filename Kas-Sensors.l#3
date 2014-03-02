@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,9 +22,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="15" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="15" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -57,27 +57,26 @@
 <library>
 <packages>
 <package name="LGA-16(3X3)">
-<smd name="P$1" x="-1.225" y="1" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$2" x="-1.225" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$3" x="-1.225" y="0" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$4" x="-1.225" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$5" x="-1.225" y="-1" dx="0.35" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$6" x="-0.5" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
-<smd name="P$7" x="0" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
-<smd name="P$8" x="0.5" y="-1.225" dx="0.35" dy="0.45" layer="1" stop="no"/>
-<smd name="P$9" x="1.225" y="-1" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$10" x="1.225" y="-0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$11" x="1.225" y="0" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$12" x="1.225" y="0.5" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$13" x="1.225" y="1" dx="0.35" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$14" x="0.5" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
-<smd name="P$15" x="0" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
-<smd name="P$16" x="-0.5" y="1.225" dx="0.35" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$1" x="-1.225" y="1" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$2" x="-1.225" y="0.5" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$3" x="-1.225" y="0" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$4" x="-1.225" y="-0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$5" x="-1.225" y="-1" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$6" x="-0.5" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
+<smd name="P$7" x="0" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
+<smd name="P$8" x="0.5" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
+<smd name="P$9" x="1.225" y="-1" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$10" x="1.225" y="-0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$11" x="1.225" y="0" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$12" x="1.225" y="0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$13" x="1.225" y="1" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$14" x="0.5" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$15" x="0" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$16" x="-0.5" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<smd name="P$17" x="-0.915" y="1.29" dx="0.15" dy="0.15" layer="1" roundness="100" rot="R180" stop="no"/>
 <wire x1="1.5" y1="-1.345" x2="1.5" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="-1.5" x2="0.815" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="-1.345" x2="-1.5" y2="-1.5" width="0.2032" layer="21"/>
@@ -86,8 +85,8 @@
 <wire x1="1.5" y1="1.5" x2="0.815" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-0.835" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.345" width="0.2032" layer="21"/>
-<text x="3" y="0" size="1.27" layer="25">&gt;NAME</text>
-<text x="3" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<text x="2" y="-2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2" y="-3" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.5" y1="0.775" x2="-0.95" y2="1.225" layer="29"/>
 <rectangle x1="-1.5" y1="0.275" x2="-0.95" y2="0.725" layer="29"/>
 <rectangle x1="-1.5" y1="-0.225" x2="-0.95" y2="0.225" layer="29"/>
@@ -104,6 +103,7 @@
 <rectangle x1="0.225" y1="1" x2="0.775" y2="1.45" layer="29" rot="R270"/>
 <rectangle x1="-0.275" y1="1" x2="0.275" y2="1.45" layer="29" rot="R270"/>
 <rectangle x1="-0.775" y1="1" x2="-0.225" y2="1.45" layer="29" rot="R270"/>
+<wire x1="-0.84" y1="1" x2="-0.84" y2="1.001" width="0.2023" layer="21"/>
 </package>
 <package name="LGA-16(3X3.25)">
 <smd name="P$1" x="-1.274" y="1" dx="0.3" dy="0.925" layer="1" rot="R90"/>
@@ -499,30 +499,30 @@
 <wire x1="-1.905" y1="2.1082" x2="-1.920240625" y2="2.110740625" width="0.127" layer="21"/>
 </package>
 <package name="LGA-24(4X4)">
-<smd name="P$1" x="-1.725" y="1.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$2" x="-1.725" y="0.75" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$3" x="-1.725" y="0.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$4" x="-1.725" y="-0.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$5" x="-1.725" y="-0.75" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$6" x="-1.725" y="-1.25" dx="0.45" dy="0.3" layer="1"/>
-<smd name="P$7" x="-1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="-0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="-0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="1.725" y="-1.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$14" x="1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$15" x="1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$16" x="1.725" y="0.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$17" x="1.725" y="0.75" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$18" x="1.725" y="1.25" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$19" x="1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$20" x="0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$21" x="0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$22" x="-0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$23" x="-0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
-<smd name="P$24" x="-1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$1" x="-1.725" y="1.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$2" x="-1.725" y="0.75" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$3" x="-1.725" y="0.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$4" x="-1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$5" x="-1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" stop="no"/>
+<smd name="P$6" x="-1.725" y="-1.25" dx="0.43221875" dy="0.3" layer="1" stop="no"/>
+<smd name="P$7" x="-1.25" y="-1.725" dx="0.43221875" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$8" x="-0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$9" x="-0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$10" x="0.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$11" x="0.75" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$12" x="1.25" y="-1.725" dx="0.45" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$13" x="1.725" y="-1.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$14" x="1.725" y="-0.75" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$15" x="1.725" y="-0.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$16" x="1.725" y="0.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$17" x="1.725" y="0.75" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$18" x="1.725" y="1.25" dx="0.45" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$19" x="1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$20" x="0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$21" x="0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$22" x="-0.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$23" x="-0.75" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$24" x="-1.25" y="1.725" dx="0.45" dy="0.3" layer="1" rot="R270" stop="no"/>
 <wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="51"/>
 <wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="51"/>
@@ -537,8 +537,32 @@
 <wire x1="-2" y1="-2" x2="-2" y2="-1.6" width="0.2032" layer="21"/>
 <wire x1="-1" y1="1" x2="-0.99" y2="1" width="0.2032" layer="21"/>
 <wire x1="-0.99" y1="1" x2="-0.99" y2="0.99" width="0.2032" layer="21"/>
-<text x="3" y="-2" size="1.27" layer="25">&gt;NAME</text>
-<text x="3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<text x="3" y="-2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="3" y="-3" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-2" y1="1.05" x2="-1.45" y2="1.45" layer="29"/>
+<rectangle x1="-2" y1="0.55" x2="-1.45" y2="0.95" layer="29"/>
+<rectangle x1="-2" y1="0.05" x2="-1.45" y2="0.45" layer="29"/>
+<rectangle x1="-2" y1="-0.45" x2="-1.45" y2="-0.05" layer="29"/>
+<rectangle x1="-2" y1="-0.95" x2="-1.45" y2="-0.55" layer="29"/>
+<rectangle x1="-2" y1="-1.45" x2="-1.45" y2="-1.05" layer="29"/>
+<rectangle x1="-1.525" y1="-1.925" x2="-0.975" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-1.025" y1="-1.925" x2="-0.475" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-0.525" y1="-1.925" x2="0.025" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="-0.025" y1="-1.925" x2="0.525" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="0.475" y1="-1.925" x2="1.025" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="0.975" y1="-1.925" x2="1.525" y2="-1.525" layer="29" rot="R90"/>
+<rectangle x1="1.45" y1="-1.45" x2="2" y2="-1.05" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="-0.95" x2="2" y2="-0.55" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="-0.45" x2="2" y2="-0.05" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="0.05" x2="2" y2="0.45" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="0.55" x2="2" y2="0.95" layer="29" rot="R180"/>
+<rectangle x1="1.45" y1="1.05" x2="2" y2="1.45" layer="29" rot="R180"/>
+<rectangle x1="0.975" y1="1.525" x2="1.525" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="0.475" y1="1.525" x2="1.025" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-0.025" y1="1.525" x2="0.525" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-0.525" y1="1.525" x2="0.025" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-1.025" y1="1.525" x2="-0.475" y2="1.925" layer="29" rot="R270"/>
+<rectangle x1="-1.525" y1="1.525" x2="-0.975" y2="1.925" layer="29" rot="R270"/>
 </package>
 <package name="LGA-24(4X4)_HS">
 <smd name="P$1" x="-2.025" y="1.25" dx="0.85" dy="0.3" layer="1"/>
@@ -603,6 +627,7 @@
 <wire x1="1.25" y1="-0.676" x2="1.525" y2="-0.676" width="0.127" layer="51"/>
 <wire x1="1.525" y1="-0.676" x2="1.525" y2="0.676" width="0.127" layer="51"/>
 <wire x1="1.525" y1="0.676" x2="1.25" y2="0.676" width="0.127" layer="51"/>
+<wire x1="0.96" y1="0.5" x2="0.94" y2="0.5" width="0.2023" layer="21"/>
 </package>
 <package name="MSOP-8">
 <smd name="P$1" x="-0.975" y="-2.05" dx="0.8" dy="0.38" layer="1" rot="R90"/>
@@ -676,7 +701,6 @@
 <vertex x="-0.75" y="0.9"/>
 <vertex x="-0.75" y="1.35"/>
 </polygon>
-<smd name="P$11" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <rectangle x1="-1.95" y1="0.8" x2="-0.85" y2="1.2" layer="29"/>
 <rectangle x1="-1.95" y1="0.3" x2="-0.85" y2="0.7" layer="29"/>
 <rectangle x1="-1.95" y1="-0.2" x2="-0.85" y2="0.2" layer="29"/>
@@ -684,7 +708,7 @@
 <rectangle x1="-1.95" y1="-1.2" x2="-0.85" y2="-0.8" layer="29"/>
 <rectangle x1="0.85" y1="-1.2" x2="1.95" y2="-0.8" layer="29"/>
 <rectangle x1="0.85" y1="-0.7" x2="1.95" y2="-0.3" layer="29"/>
-<rectangle x1="0.85" y1="0.325" x2="1.95" y2="0.725" layer="29"/>
+<rectangle x1="0.85" y1="0.3" x2="1.95" y2="0.7" layer="29"/>
 <rectangle x1="0.85" y1="0.8" x2="1.95" y2="1.2" layer="29"/>
 <rectangle x1="0.85" y1="-0.2" x2="1.95" y2="0.2" layer="29"/>
 </package>
@@ -1186,7 +1210,8 @@
 </symbols>
 <devicesets>
 <deviceset name="LIS3DH">
-<description>LIS3DH in a 3x3 LGA-16 package</description>
+<description>LIS3DH Accelorometer
+MEMS digital output motion sensor ultra low-power high performance 3-axes "nano" accelerometer</description>
 <gates>
 <gate name="G$1" symbol="LIS3DH" x="-5.08" y="2.54"/>
 </gates>
@@ -1240,7 +1265,8 @@
 </devices>
 </deviceset>
 <deviceset name="ADXL362">
-<description>ADXL362 in a 3x3.25 LGA-16 Package</description>
+<description>ADXL362 Accelorometer
+ADXL362:  MICROPOWER, 3-AXIS, ±2 g/±4 g/±8 g DIGITAL OUTPUT MEMS ACCELEROMETER</description>
 <gates>
 <gate name="G$1" symbol="ADXL362" x="-10.16" y="0"/>
 </gates>
@@ -1294,7 +1320,8 @@
 </devices>
 </deviceset>
 <deviceset name="ADXL78">
-<description>ADXL78 in a 5x5 LCC-8 package</description>
+<description>ADXL78 Acceorometer
+ADXL78:  SINGLE-AXIS, HIGH-G, IMEMS® ACCELEROMETERS</description>
 <gates>
 <gate name="G$1" symbol="ADXL78" x="-5.08" y="-2.54"/>
 </gates>
@@ -1332,7 +1359,8 @@
 </devices>
 </deviceset>
 <deviceset name="MPL3115A2">
-<description>MPL3115A2 in a 3x5 LGA-8 package</description>
+<description>MPL3115A2 Pressure sensor
+MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</description>
 <gates>
 <gate name="G$1" symbol="MPL3115A2" x="-5.08" y="-7.62"/>
 </gates>
@@ -1370,7 +1398,8 @@
 </devices>
 </deviceset>
 <deviceset name="LPS331AP">
-<description>LPS331AP in a 3x3 HCLGA-16 package</description>
+<description>LPS331AP Pressure sensor
+MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</description>
 <gates>
 <gate name="G$1" symbol="LPS331AP" x="-10.16" y="0"/>
 </gates>
@@ -1424,7 +1453,8 @@
 </devices>
 </deviceset>
 <deviceset name="FXAS21000">
-<description>FXAS21000 in a 4x4 QFN-24 package</description>
+<description>FXAS21000 Gyroscope
+FXAS21000: Xtrinsic 3-Axis Digital Gyroscope</description>
 <gates>
 <gate name="G$1" symbol="FXAS21000" x="-5.08" y="-5.08"/>
 </gates>
@@ -1494,7 +1524,8 @@
 </devices>
 </deviceset>
 <deviceset name="L3GD20H">
-<description>L3GD20H in a 3x3 LGA-16 package</description>
+<description>L3GD20H Gyroscope
+MEMS motion sensor:  three-axis digital output gyroscope</description>
 <gates>
 <gate name="G$1" symbol="L3GD20H" x="-2.54" y="-2.54"/>
 </gates>
@@ -1548,7 +1579,8 @@
 </devices>
 </deviceset>
 <deviceset name="LSM303D">
-<description>LSM303D in a 3x3 LGA-16 package</description>
+<description>LSM303D Magitometer &amp; Accelorometer
+Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer module</description>
 <gates>
 <gate name="G$1" symbol="LSM303D" x="2.54" y="0"/>
 </gates>
@@ -1602,7 +1634,8 @@
 </devices>
 </deviceset>
 <deviceset name="MAG3110">
-<description>MAG3110 in a 2x2 DFN-10 package</description>
+<description>MAG3110 Magnotometer
+MAG3110: Xtrinsic High Accuracy, 3D Magnetometer</description>
 <gates>
 <gate name="G$1" symbol="MAG3110" x="-12.7" y="12.7"/>
 </gates>
@@ -1644,7 +1677,8 @@
 </devices>
 </deviceset>
 <deviceset name="ADT7310">
-<description>ADT7310 Temerature sensor</description>
+<description>ADT7310 Temerature sensor
+ADT7310:  ±0.5°C ACCURATE, 16-BIT DIGITAL SPI TEMPERATURE SENSOR</description>
 <gates>
 <gate name="G$1" symbol="ADT7310" x="-2.54" y="-2.54"/>
 </gates>
@@ -1667,7 +1701,8 @@
 </devices>
 </deviceset>
 <deviceset name="STLM20">
-<description>STLM20 in a 1.35x2.2 SOT323-5L package</description>
+<description>STLM20 Temerature sensor
+Ultra-low current 2.4 V precision analog temperature sensor</description>
 <gates>
 <gate name="G$1" symbol="STLM20" x="-12.7" y="5.08"/>
 </gates>
@@ -1687,7 +1722,8 @@
 </devices>
 </deviceset>
 <deviceset name="LSM9DS0">
-<description>LSM9DS0 in a 4x4 LGA-24 package</description>
+<description>LSM9DS0 9D sensor
+iNEMO inertial module:3D accelerometer, 3D gyroscope, 3D magnetometer</description>
 <gates>
 <gate name="G$1" symbol="LSM9DS0" x="0" y="0"/>
 </gates>
@@ -1757,7 +1793,8 @@
 </devices>
 </deviceset>
 <deviceset name="MAX21000">
-<description>MAX21000 in a 3x3 LGA-16 package</description>
+<description>MAX21000 Gyroscope
+Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 <gates>
 <gate name="G$1" symbol="MAX21000" x="0" y="0"/>
 </gates>
@@ -1811,7 +1848,8 @@
 </devices>
 </deviceset>
 <deviceset name="H3LIS331DLTR">
-<description>H3LIS331DLTR in a 3x3 LGA-16 package</description>
+<description>H3LIS331DLTR Accelorometer
+MEMS motion sensor:  low-power high-g 3-axis digital accelerometer</description>
 <gates>
 <gate name="G$1" symbol="H3LIS331DLTR" x="-2.54" y="-5.08"/>
 </gates>
@@ -1865,7 +1903,8 @@
 </devices>
 </deviceset>
 <deviceset name="TMP101" prefix="U">
-<description>TMP101 Temperature sensor</description>
+<description>TMP101 Temperature sensor
+Digital Temperature Sensor with I2C Serial Interface, Prog. Thermostat/Alarm Function</description>
 <gates>
 <gate name="G$1" symbol="TMP101" x="0" y="0"/>
 </gates>
@@ -1886,7 +1925,8 @@
 </devices>
 </deviceset>
 <deviceset name="ADT7301">
-<description>ADT7301 Temperature sensor</description>
+<description>ADT7301 Temperature sensor
+ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LEAD SOT-23 AND 8-LEAD MSOP</description>
 <gates>
 <gate name="G$1" symbol="ADT7301" x="0" y="0"/>
 </gates>
@@ -1907,7 +1947,8 @@
 </devices>
 </deviceset>
 <deviceset name="AT30TS75">
-<description>AT30TS75 in a 8-MSOP package (Temperature)</description>
+<description>AT30TS75 Temperature sensor
+9- to 12-bit Selectable, ±0.5°C Accurate Digital Temperature Sensor</description>
 <gates>
 <gate name="G$1" symbol="AT30TS75" x="0" y="0"/>
 </gates>
@@ -1930,7 +1971,8 @@
 </devices>
 </deviceset>
 <deviceset name="SI7005">
-<description>Si7005 Humidity sensor</description>
+<description>Si7005 Humidity sensor
+​Si7005 Digital Relative Humidity and Temperature Sensor</description>
 <gates>
 <gate name="G$1" symbol="SI7005" x="0" y="0"/>
 </gates>
@@ -1970,7 +2012,8 @@
 </devices>
 </deviceset>
 <deviceset name="SI7013">
-<description>Si7013 Humidity sensor</description>
+<description>Si7013 Humidity sensor
+​Si7013 2nd Generation Relative Humidity and Temperature Sensors</description>
 <gates>
 <gate name="G$1" symbol="SI7013" x="0" y="0"/>
 </gates>

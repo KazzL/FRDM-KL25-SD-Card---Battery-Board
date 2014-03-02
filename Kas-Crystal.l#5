@@ -100,6 +100,18 @@
 <wire x1="-1.6" y1="0.03" x2="-1.6" y2="-0.03" width="0.2023" layer="21"/>
 <wire x1="1.6" y1="0.03" x2="1.6" y2="-0.03" width="0.2023" layer="21"/>
 </package>
+<package name="2-SMD(3.2X1.5)">
+<smd name="P$1" x="-1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<text x="2.365" y="-1.365" size="0.6096" layer="25">&gt;NAME</text>
+<text x="2.365" y="-2.095" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="-0.65" y1="0.9" x2="0.65" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="-0.9" x2="0.65" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AB26TRB">
@@ -127,23 +139,24 @@
 <text x="5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="NX3225GA">
-<pin name="A" x="-12.7" y="0" visible="pin" length="middle"/>
-<pin name="NC#0" x="10.16" y="0" visible="pin" length="middle" direction="nc" rot="R180"/>
-<pin name="B" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="NC#1" x="-12.7" y="10.16" visible="pin" length="middle" direction="nc"/>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="-12.7" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<text x="5.08" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
-<text x="5.08" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="A" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="B" x="7.62" y="0" visible="pin" length="short" rot="R180"/>
+<wire x1="-4.064" y1="2.54" x2="-4.064" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="-2.54" x2="4.318" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-2.54" x2="4.318" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.318" y1="2.54" x2="-4.064" y2="2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="-7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-9.144" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="AB26TRB" uservalue="yes">
 <description>AB26TRB in a cylindrical (1.90mm x 6.00mm) package 
-AB26TRB-32.768KHZ</description>
+AB26TRB-32.768KHZ 
+LP (pF)6, 10, 12.5
+FT (ppm) 10, 15</description>
 <gates>
 <gate name="G$1" symbol="AB26TRB" x="-7.62" y="7.62"/>
 </gates>
@@ -177,6 +190,7 @@ AB26TRB-32.768KHZ</description>
 </devices>
 </deviceset>
 <deviceset name="NX3225GA" uservalue="yes">
+<description>NX3225GA Crystal (16MHz, 25MHz)</description>
 <gates>
 <gate name="G$1" symbol="NX3225GA" x="0" y="-5.08"/>
 </gates>
@@ -185,8 +199,6 @@ AB26TRB-32.768KHZ</description>
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="B" pad="P$3"/>
-<connect gate="G$1" pin="NC#0" pad="P$2"/>
-<connect gate="G$1" pin="NC#1" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
