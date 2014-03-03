@@ -257,9 +257,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="1" y1="4.45" x2="2" y2="4.45" width="0.2023" layer="21"/>
 <wire x1="2" y1="4.45" x2="2" y2="1" width="0.2023" layer="21"/>
 <wire x1="-1" y1="-0.9" x2="1" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.0762" x2="-2" y2="-1.85" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="-1.85" width="0.127" layer="51"/>
 <wire x1="-2" y1="-1.85" x2="2" y2="-1.85" width="0.127" layer="51"/>
-<wire x1="2" y1="-1.85" x2="2" y2="-1.0762" width="0.127" layer="51"/>
+<wire x1="2" y1="-1.85" x2="2" y2="-1" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

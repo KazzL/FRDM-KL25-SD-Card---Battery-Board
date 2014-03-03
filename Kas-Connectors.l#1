@@ -240,9 +240,9 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="2" y1="4.45" x2="3" y2="4.45" width="0.2023" layer="21"/>
 <wire x1="3" y1="4.45" x2="3" y2="1" width="0.2023" layer="21"/>
 <wire x1="-2" y1="-0.9" x2="2" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1" x2="-3" y2="-1.85" width="0.127" layer="20"/>
-<wire x1="-3" y1="-1.85" x2="3" y2="-1.85" width="0.127" layer="20"/>
-<wire x1="3" y1="-1.85" x2="3" y2="-1" width="0.127" layer="20"/>
+<wire x1="-3" y1="-1" x2="-3" y2="-1.85" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.85" x2="3" y2="-1.85" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.85" x2="3" y2="-1" width="0.127" layer="51"/>
 <smd name="P$3" x="0.5" y="3.9" dx="1.5" dy="0.6" layer="1" rot="R90"/>
 <smd name="P$4" x="1.5" y="3.9" dx="1.5" dy="0.6" layer="1" rot="R90"/>
 </package>

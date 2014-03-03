@@ -264,6 +264,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </packages>
 <symbols>
 <symbol name="SD-105027-1001">
+<description>1.10mm, 0.76mm, 0.70mm Pitch microSD Card Header with Detect Switch (Pin 8), Height 1.70mm, Lead-Free, 0.102µm Gold (Au) Plating</description>
 <pin name="RSV" x="-12.7" y="-10.16" length="middle"/>
 <pin name="CS" x="-12.7" y="-7.62" length="middle"/>
 <pin name="DI" x="-12.7" y="-5.08" length="middle"/>

@@ -263,7 +263,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="MICRO_SD_CARD">
+<symbol name="SD-105027-1001">
 <pin name="RSV" x="-12.7" y="-10.16" length="middle"/>
 <pin name="CS" x="-12.7" y="-7.62" length="middle"/>
 <pin name="DI" x="-12.7" y="-5.08" length="middle"/>
@@ -351,7 +351,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <deviceset name="SD-105027-101">
 <description>1.10mm, 0.76mm, 0.70mm Pitch microSD Card Header with Detect Switch (Pin 8), Height 1.70mm, Lead-Free, 0.102µm Gold (Au) Plating</description>
 <gates>
-<gate name="G$1" symbol="MICRO_SD_CARD" x="0" y="0"/>
+<gate name="G$1" symbol="SD-105027-1001" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SD-105027-1001">
