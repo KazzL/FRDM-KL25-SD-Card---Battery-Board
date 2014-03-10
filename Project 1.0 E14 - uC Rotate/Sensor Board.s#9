@@ -3675,6 +3675,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5296,11 +5297,12 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="GND43" gate="1" x="-17.78" y="-35.56"/>
 <instance part="GND44" gate="1" x="50.8" y="-17.78"/>
 <instance part="U22" gate="G$1" x="101.6" y="-7.62"/>
-<instance part="R9" gate="G$1" x="147.32" y="-22.86" rot="R270"/>
-<instance part="R11" gate="G$1" x="142.24" y="-7.62"/>
+<instance part="R9" gate="G$1" x="144.78" y="-12.7"/>
+<instance part="R11" gate="G$1" x="137.16" y="-17.78" rot="R90"/>
 <instance part="GND21" gate="1" x="73.66" y="-12.7"/>
 <instance part="C51" gate="G$1" x="132.08" y="-2.54"/>
-<instance part="GND39" gate="1" x="147.32" y="-30.48"/>
+<instance part="GND39" gate="1" x="137.16" y="-25.4"/>
+<instance part="GND49" gate="1" x="162.56" y="-27.94"/>
 </instances>
 <busses>
 </busses>
@@ -5342,16 +5344,10 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="U22" gate="G$1" pin="AD0/VOUT"/>
 <wire x1="83.82" y1="-5.08" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-5.08" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="2.54" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U22" gate="G$1" pin="VINN"/>
-<wire x1="119.38" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-10.16" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="137.16" y="-7.62"/>
 <pinref part="U22" gate="G$1" pin="GNDD"/>
 <wire x1="83.82" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-7.62" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
@@ -5363,11 +5359,15 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <pinref part="GND21" gate="1" pin="GND"/>
 <junction x="73.66" y="-10.16"/>
 <pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
-<junction x="132.08" y="2.54"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="U22" gate="G$1" pin="VINN"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="119.38" y1="-10.16" x2="162.56" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-10.16" x2="162.56" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -5525,15 +5525,14 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <label x="76.2" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="U22" gate="G$1" pin="VINP"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="-12.7" x2="147.32" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="-12.7" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="-12.7" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="147.32" y="-12.7"/>
+<wire x1="139.7" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U22" gate="G$1" pin="VINP"/>
+<wire x1="137.16" y1="-12.7" x2="119.38" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="137.16" y="-12.7"/>
 </segment>
 </net>
 </nets>

@@ -3657,8 +3657,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="R5" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="U22" library="Kas-Sensors" deviceset="SI7013" device=""/>
-<part name="R9" library="Kas-Passives" deviceset="RESISTOR" device="" value="2.0k"/>
-<part name="R11" library="Kas-Passives" deviceset="RESISTOR" device="" value="1.0k"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="0402"/>
 <part name="J1" library="Kas-Connectors" deviceset="501568-0207" device=""/>
@@ -3670,17 +3668,16 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <part name="R13" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R14" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="Kas-Connectors" deviceset="501568-0207" device=""/>
 <part name="LED5" library="eagle-ltspice" deviceset="LED_E" device="SML0603" value="Green"/>
 <part name="R15" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4133,7 +4130,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <wire x1="-53.34" y1="17.78" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="INT1-L3GD" class="0">
+<net name="INT2-L3GD" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="PC5"/>
 <wire x1="-53.34" y1="-17.78" x2="-33.02" y2="-17.78" width="0.1524" layer="91"/>
@@ -5006,12 +5003,12 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <label x="15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INT1-L3GD" class="0">
+<net name="INT2-L3GD" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="INT1"/>
-<wire x1="43.18" y1="5.08" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
 <label x="25.4" y="2.54" size="1.778" layer="95"/>
-<wire x1="43.18" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="INT2"/>
+<wire x1="40.64" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -5310,12 +5307,8 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="GND43" gate="1" x="-17.78" y="-35.56"/>
 <instance part="GND44" gate="1" x="50.8" y="-17.78"/>
 <instance part="U22" gate="G$1" x="101.6" y="-7.62"/>
-<instance part="R9" gate="G$1" x="144.78" y="-12.7"/>
-<instance part="R11" gate="G$1" x="137.16" y="-17.78" rot="R90"/>
 <instance part="GND21" gate="1" x="73.66" y="-12.7"/>
 <instance part="C51" gate="G$1" x="132.08" y="-2.54"/>
-<instance part="GND39" gate="1" x="137.16" y="-25.4"/>
-<instance part="GND49" gate="1" x="162.56" y="-27.94"/>
 </instances>
 <busses>
 </busses>
@@ -5372,16 +5365,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <pinref part="GND21" gate="1" pin="GND"/>
 <junction x="73.66" y="-10.16"/>
 <pinref part="C51" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U22" gate="G$1" pin="VINN"/>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="119.38" y1="-10.16" x2="162.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-10.16" x2="162.56" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="INT_G"/>
@@ -5543,16 +5526,6 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <label x="76.2" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U22" gate="G$1" pin="VINP"/>
-<wire x1="137.16" y1="-12.7" x2="119.38" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="137.16" y="-12.7"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -5573,6 +5546,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <instance part="GND11" gate="1" x="-25.4" y="25.4"/>
 <instance part="GND50" gate="1" x="-25.4" y="2.54"/>
 <instance part="GND51" gate="1" x="27.94" y="2.54"/>
+<instance part="GND52" gate="1" x="30.48" y="-15.24"/>
 </instances>
 <busses>
 </busses>
@@ -5581,7 +5555,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</de
 <segment>
 <pinref part="U14" gate="G$1" pin="GND"/>
 <wire x1="15.24" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<label x="22.86" y="-12.7" size="1.778" layer="95"/>
+<pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="-43.18" y1="-30.48" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
