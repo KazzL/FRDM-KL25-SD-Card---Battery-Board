@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -808,7 +808,7 @@
 <pin name="GND$0" x="-15.24" y="-2.54" visible="pin" length="middle"/>
 <pin name="MOSI" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="MISO" x="-15.24" y="-7.62" visible="pin" length="middle"/>
-<pin name="CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="!CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
 <pin name="INT2" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="RES" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="INT1" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
@@ -888,7 +888,7 @@
 <pin name="GND$0" x="-15.24" y="-2.54" visible="pin" length="middle"/>
 <pin name="MOSI" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="MISO" x="-15.24" y="-7.62" visible="pin" length="middle"/>
-<pin name="CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="!CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
 <pin name="INT2" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="RSVD" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="INT1" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
@@ -941,7 +941,7 @@
 <pin name="SCL" x="-15.24" y="2.54" visible="pin" length="middle"/>
 <pin name="MOSI" x="-15.24" y="0" visible="pin" length="middle"/>
 <pin name="MISO" x="-15.24" y="-2.54" visible="pin" length="middle"/>
-<pin name="CS" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="!CS" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="INT2" x="-2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <pin name="INT1" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <pin name="DEN" x="2.54" y="-20.32" visible="pin" length="middle" rot="R90"/>
@@ -968,7 +968,7 @@
 <pin name="GND$0" x="-15.24" y="-2.54" visible="pin" length="middle"/>
 <pin name="MOSI" x="-15.24" y="-5.08" visible="pin" length="middle"/>
 <pin name="MISO" x="-15.24" y="-7.62" visible="pin" length="middle"/>
-<pin name="CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="!CS" x="-15.24" y="-10.16" visible="pin" length="middle"/>
 <pin name="INT2" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="RSVD" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="INT1" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
@@ -1068,7 +1068,7 @@
 <pin name="GND" x="-20.32" y="-10.16" visible="pin" length="middle"/>
 <pin name="MOSI" x="-5.08" y="-22.86" visible="pin" length="middle" rot="R90"/>
 <pin name="MISO" x="0" y="-22.86" visible="pin" length="middle" rot="R90"/>
-<pin name="CS" x="5.08" y="-22.86" visible="pin" length="middle" rot="R90"/>
+<pin name="!CS" x="5.08" y="-22.86" visible="pin" length="middle" rot="R90"/>
 <pin name="INT2" x="20.32" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="RSVD#0" x="20.32" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="INT1" x="20.32" y="0" visible="pin" length="middle" rot="R180"/>
@@ -1081,8 +1081,8 @@
 <wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
-<text x="20.32" y="-20.32" size="1.778" layer="94">&gt;NAME</text>
-<text x="20.32" y="-25.4" size="1.778" layer="94">&gt;VALUE</text>
+<text x="20.32" y="-20.32" size="1.6764" layer="95">&gt;NAME</text>
+<text x="20.32" y="-22.86" size="1.6764" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="H3LIS331DLTR">
 <pin name="VDDIO" x="-20.32" y="10.16" visible="pin" length="middle"/>
@@ -1092,7 +1092,7 @@
 <pin name="GND#0" x="-20.32" y="-10.16" visible="pin" length="middle"/>
 <pin name="MOSI" x="-5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <pin name="MISO" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
-<pin name="CS" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="!CS" x="5.08" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <pin name="INT2" x="20.32" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="RSVD#0" x="20.32" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="INT1" x="20.32" y="0" visible="pin" length="middle" rot="R180"/>
@@ -1188,13 +1188,13 @@
 <symbol name="SI7013">
 <pin name="SDA" x="-17.78" y="5.08" visible="pin" length="middle"/>
 <pin name="AD0/VOUT" x="-17.78" y="2.54" visible="pin" length="middle"/>
-<pin name="GNDD" x="-17.78" y="0" visible="pin" length="middle" direction="pas"/>
-<pin name="GNDA" x="-17.78" y="-2.54" visible="pin" length="middle" direction="pas"/>
-<pin name="VSNS" x="-17.78" y="-5.08" visible="pin" length="middle" direction="pwr"/>
-<pin name="VINP" x="17.78" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VINN" x="17.78" y="-2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDA" x="17.78" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDD" x="17.78" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GNDD" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="GNDA" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="VSNS" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="VINP" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VINN" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VDDA" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="VDDD" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="SCL" x="17.78" y="5.08" visible="pin" length="middle" function="clk" rot="R180"/>
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
@@ -1202,6 +1202,7 @@
 <wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
 <text x="15.24" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="FLOAT" x="-2.54" y="-12.7" visible="pin" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1214,10 +1215,10 @@ MEMS digital output motion sensor ultra low-power high performance 3-axes "nano"
 <devices>
 <device name="" package="LGA-16(3X3)">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="ADC1" pad="P$16"/>
 <connect gate="G$1" pin="ADC2" pad="P$15"/>
 <connect gate="G$1" pin="ADC3" pad="P$13"/>
-<connect gate="G$1" pin="CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="INT1" pad="P$11"/>
@@ -1237,10 +1238,10 @@ MEMS digital output motion sensor ultra low-power high performance 3-axes "nano"
 </device>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="ADC1" pad="P$16"/>
 <connect gate="G$1" pin="ADC2" pad="P$15"/>
 <connect gate="G$1" pin="ADC3" pad="P$13"/>
-<connect gate="G$1" pin="CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="INT1" pad="P$11"/>
@@ -1260,7 +1261,7 @@ MEMS digital output motion sensor ultra low-power high performance 3-axes "nano"
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADXL362">
+<deviceset name="ADXL362" prefix="U">
 <description>ADXL362 Accelorometer
 ADXL362:  MICROPOWER, 3-AXIS, ±2 g/±4 g/±8 g DIGITAL OUTPUT MEMS ACCELEROMETER</description>
 <gates>
@@ -1315,7 +1316,7 @@ ADXL362:  MICROPOWER, 3-AXIS, ±2 g/±4 g/±8 g DIGITAL OUTPUT MEMS ACCELEROMETE
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADXL78">
+<deviceset name="ADXL78" prefix="U">
 <description>ADXL78 Acceorometer
 ADXL78:  SINGLE-AXIS, HIGH-G, IMEMS® ACCELEROMETERS</description>
 <gates>
@@ -1354,7 +1355,7 @@ ADXL78:  SINGLE-AXIS, HIGH-G, IMEMS® ACCELEROMETERS</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPL3115A2">
+<deviceset name="MPL3115A2" prefix="U">
 <description>MPL3115A2 Pressure sensor
 MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</description>
 <gates>
@@ -1402,7 +1403,7 @@ MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</descripti
 <devices>
 <device name="" package="LGA-16(3X3)">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="GND$2" pad="P$13"/>
@@ -1425,7 +1426,7 @@ MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</descripti
 </device>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="GND$2" pad="P$13"/>
@@ -1448,7 +1449,7 @@ MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</descripti
 </device>
 </devices>
 </deviceset>
-<deviceset name="FXAS21000">
+<deviceset name="FXAS21000" prefix="U">
 <description>FXAS21000 Gyroscope
 FXAS21000: Xtrinsic 3-Axis Digital Gyroscope</description>
 <gates>
@@ -1519,7 +1520,7 @@ FXAS21000: Xtrinsic 3-Axis Digital Gyroscope</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="L3GD20H">
+<deviceset name="L3GD20H" prefix="U">
 <description>L3GD20H Gyroscope
 MEMS motion sensor:  three-axis digital output gyroscope</description>
 <gates>
@@ -1528,8 +1529,8 @@ MEMS motion sensor:  three-axis digital output gyroscope</description>
 <devices>
 <device name="" package="LGA-16(3X3)">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$5"/>
 <connect gate="G$1" pin="CAP" pad="P$14"/>
-<connect gate="G$1" pin="CS" pad="P$5"/>
 <connect gate="G$1" pin="DEN" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$12"/>
 <connect gate="G$1" pin="GND$1" pad="P$13"/>
@@ -1551,8 +1552,8 @@ MEMS motion sensor:  three-axis digital output gyroscope</description>
 </device>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$5"/>
 <connect gate="G$1" pin="CAP" pad="P$14"/>
-<connect gate="G$1" pin="CS" pad="P$5"/>
 <connect gate="G$1" pin="DEN" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$12"/>
 <connect gate="G$1" pin="GND$1" pad="P$13"/>
@@ -1583,8 +1584,8 @@ Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer m
 <devices>
 <device name="" package="LGA-16(3X3)">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="C1" pad="P$15"/>
-<connect gate="G$1" pin="CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="GND$2" pad="P$13"/>
@@ -1606,8 +1607,8 @@ Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer m
 </device>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="C1" pad="P$15"/>
-<connect gate="G$1" pin="CS" pad="P$8"/>
 <connect gate="G$1" pin="GND$0" pad="P$5"/>
 <connect gate="G$1" pin="GND$1" pad="P$12"/>
 <connect gate="G$1" pin="GND$2" pad="P$16"/>
@@ -1672,7 +1673,7 @@ MAG3110: Xtrinsic High Accuracy, 3D Magnetometer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADT7310">
+<deviceset name="ADT7310" prefix="U">
 <description>ADT7310 Temerature sensor
 ADT7310:  ±0.5°C ACCURATE, 16-BIT DIGITAL SPI TEMPERATURE SENSOR</description>
 <gates>
@@ -1797,7 +1798,7 @@ Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 <devices>
 <device name="" package="LGA-16(3X3)">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="DSYNC" pad="P$12"/>
 <connect gate="G$1" pin="GND" pad="P$5"/>
 <connect gate="G$1" pin="INT1" pad="P$11"/>
@@ -1820,7 +1821,7 @@ Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 </device>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="DSYNC" pad="P$12"/>
 <connect gate="G$1" pin="GND" pad="P$5"/>
 <connect gate="G$1" pin="INT1" pad="P$11"/>
@@ -1843,7 +1844,7 @@ Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="H3LIS331DLTR">
+<deviceset name="H3LIS331DLTR" prefix="U">
 <description>H3LIS331DLTR Accelorometer
 MEMS motion sensor:  low-power high-g 3-axis digital accelerometer</description>
 <gates>
@@ -1852,7 +1853,7 @@ MEMS motion sensor:  low-power high-g 3-axis digital accelerometer</description>
 <devices>
 <device name="_HS" package="LGA-16(3X3)_HS">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="GND#0" pad="P$5"/>
 <connect gate="G$1" pin="GND#1" pad="P$12"/>
 <connect gate="G$1" pin="GND#2" pad="P$13"/>
@@ -1875,7 +1876,7 @@ MEMS motion sensor:  low-power high-g 3-axis digital accelerometer</description>
 </device>
 <device name="" package="LGA-16(3X3)">
 <connects>
-<connect gate="G$1" pin="CS" pad="P$8"/>
+<connect gate="G$1" pin="!CS" pad="P$8"/>
 <connect gate="G$1" pin="GND#0" pad="P$5"/>
 <connect gate="G$1" pin="GND#1" pad="P$12"/>
 <connect gate="G$1" pin="GND#2" pad="P$13"/>
@@ -1920,7 +1921,7 @@ Digital Temperature Sensor with I2C Serial Interface, Prog. Thermostat/Alarm Fun
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADT7301">
+<deviceset name="ADT7301" prefix="U">
 <description>ADT7301 Temperature sensor
 ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LEAD SOT-23 AND 8-LEAD MSOP</description>
 <gates>
@@ -1942,7 +1943,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT30TS75">
+<deviceset name="AT30TS75" prefix="U">
 <description>AT30TS75 Temperature sensor
 9- to 12-bit Selectable, ±0.5°C Accurate Digital Temperature Sensor</description>
 <gates>
@@ -2017,6 +2018,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 <device name="" package="DFN-10(3X3)">
 <connects>
 <connect gate="G$1" pin="AD0/VOUT" pad="P$2"/>
+<connect gate="G$1" pin="FLOAT" pad="P$11"/>
 <connect gate="G$1" pin="GNDA" pad="P$4"/>
 <connect gate="G$1" pin="GNDD" pad="P$3"/>
 <connect gate="G$1" pin="SCL" pad="P$10"/>
