@@ -1697,7 +1697,7 @@ ADT7310:  ±0.5°C ACCURATE, 16-BIT DIGITAL SPI TEMPERATURE SENSOR</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STLM20">
+<deviceset name="STLM20" prefix="U">
 <description>STLM20 Temerature sensor
 Ultra-low current 2.4 V precision analog temperature sensor</description>
 <gates>
@@ -1967,7 +1967,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI7005">
+<deviceset name="SI7005" prefix="U">
 <description>Si7005 Humidity sensor
 ​Si7005 Digital Relative Humidity and Temperature Sensor</description>
 <gates>
@@ -2008,7 +2008,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI7013">
+<deviceset name="SI7013" prefix="U">
 <description>Si7013 Humidity sensor
 ​Si7013 2nd Generation Relative Humidity and Temperature Sensors</description>
 <gates>

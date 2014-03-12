@@ -1394,7 +1394,7 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPS331AP">
+<deviceset name="LPS331AP" prefix="U">
 <description>LPS331AP Pressure sensor
 MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</description>
 <gates>
@@ -1575,7 +1575,7 @@ MEMS motion sensor:  three-axis digital output gyroscope</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM303D">
+<deviceset name="LSM303D" prefix="U">
 <description>LSM303D Magitometer &amp; Accelorometer
 Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer module</description>
 <gates>
@@ -1718,7 +1718,7 @@ Ultra-low current 2.4 V precision analog temperature sensor</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM9DS0">
+<deviceset name="LSM9DS0" prefix="U">
 <description>LSM9DS0 9D sensor
 iNEMO inertial module:3D accelerometer, 3D gyroscope, 3D magnetometer</description>
 <gates>

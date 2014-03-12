@@ -135,8 +135,8 @@
 <wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="5.08" y="-5.08" size="1.778" layer="94">&gt;NAME</text>
-<text x="5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
+<text x="5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="NX3225GA">
 <pin name="A" x="-7.62" y="0" visible="pin" length="short"/>
@@ -150,9 +150,21 @@
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ABS07L">
+<pin name="P$1" x="-10.16" y="0" length="middle"/>
+<pin name="P$2" x="10.16" y="0" length="middle" rot="R180"/>
+<wire x1="-3.81" y1="-2.54" x2="4.064" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-2.54" x2="4.064" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="5.08" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="AB26TRB" uservalue="yes">
+<deviceset name="AB26TRB" prefix="X" uservalue="yes">
 <description>AB26TRB in a cylindrical (1.90mm x 6.00mm) package 
 AB26TRB-32.768KHZ 
 LP (pF)6, 10, 12.5
@@ -201,6 +213,25 @@ FT (ppm) 10, 15</description>
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="B" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABS07L">
+<description>SMD Ultra Low Profile Crystal, 32.768kHz
+LC (pF) 9, 7, 12.5
+FT (ppm) 20, 30</description>
+<gates>
+<gate name="G$1" symbol="ABS07L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2-SMD(3.2X1.5)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

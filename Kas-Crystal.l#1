@@ -164,7 +164,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AB26TRB" uservalue="yes">
+<deviceset name="AB26TRB" prefix="X" uservalue="yes">
 <description>AB26TRB in a cylindrical (1.90mm x 6.00mm) package 
 AB26TRB-32.768KHZ 
 LP (pF)6, 10, 12.5
@@ -184,7 +184,7 @@ FT (ppm) 10, 15</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX5032GA" uservalue="yes">
+<deviceset name="NX5032GA" prefix="X" uservalue="yes">
 <description>NX5032GA in a 2-SMD (5mmx3.2mm) package
 
 48.0, 32.0, 40.0,  27.0, 30.0, 24.0, 25.0, 16.384, 20.0, 13.560, 16.0, 12.0, 12.288, 10.0 (MHz)</description>
@@ -203,7 +203,7 @@ FT (ppm) 10, 15</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX3225GA" uservalue="yes">
+<deviceset name="NX3225GA" prefix="X" uservalue="yes">
 <description>NX3225GA Crystal (16MHz, 25MHz)</description>
 <gates>
 <gate name="G$1" symbol="NX3225GA" x="0" y="-5.08"/>
@@ -220,7 +220,10 @@ FT (ppm) 10, 15</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABS07L">
+<deviceset name="ABS07L" prefix="X">
+<description>SMD Ultra Low Profile Crystal, 32.768kHz
+LC (pF) 9, 7, 12.5
+FT (ppm) 20, 30</description>
 <gates>
 <gate name="G$1" symbol="ABS07L" x="0" y="0"/>
 </gates>

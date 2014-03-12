@@ -1206,7 +1206,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LIS3DH">
+<deviceset name="LIS3DH" prefix="U">
 <description>LIS3DH Accelorometer
 MEMS digital output motion sensor ultra low-power high performance 3-axes "nano" accelerometer</description>
 <gates>
@@ -1394,7 +1394,7 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPS331AP">
+<deviceset name="LPS331AP" prefix="U">
 <description>LPS331AP Pressure sensor
 MEMS pressure sensor, 260-1260 mbar absolute digital output barometer</description>
 <gates>
@@ -1718,7 +1718,7 @@ Ultra-low current 2.4 V precision analog temperature sensor</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM9DS0">
+<deviceset name="LSM9DS0" prefix="U">
 <description>LSM9DS0 9D sensor
 iNEMO inertial module:3D accelerometer, 3D gyroscope, 3D magnetometer</description>
 <gates>

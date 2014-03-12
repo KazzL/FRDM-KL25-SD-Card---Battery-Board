@@ -1630,7 +1630,7 @@ Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer m
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAG3110">
+<deviceset name="MAG3110" prefix="U">
 <description>MAG3110 Magnotometer
 MAG3110: Xtrinsic High Accuracy, 3D Magnetometer</description>
 <gates>
@@ -1789,7 +1789,7 @@ iNEMO inertial module:3D accelerometer, 3D gyroscope, 3D magnetometer</descripti
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX21000">
+<deviceset name="MAX21000" prefix="U">
 <description>MAX21000 Gyroscope
 Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 <gates>
@@ -1967,7 +1967,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI7005">
+<deviceset name="SI7005" prefix="U">
 <description>Si7005 Humidity sensor
 ​Si7005 Digital Relative Humidity and Temperature Sensor</description>
 <gates>

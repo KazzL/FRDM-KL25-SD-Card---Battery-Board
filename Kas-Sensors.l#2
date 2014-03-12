@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -843,6 +843,7 @@
 <pin name="GND$2" x="-2.54" y="20.32" visible="pin" length="middle" rot="R270"/>
 <text x="7.62" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="10.1854" width="0.6096" layer="94"/>
 </symbol>
 <symbol name="ADXL78">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -1697,7 +1698,7 @@ ADT7310:  ±0.5°C ACCURATE, 16-BIT DIGITAL SPI TEMPERATURE SENSOR</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STLM20">
+<deviceset name="STLM20" prefix="U">
 <description>STLM20 Temerature sensor
 Ultra-low current 2.4 V precision analog temperature sensor</description>
 <gates>
@@ -2008,7 +2009,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI7013">
+<deviceset name="SI7013" prefix="U">
 <description>Si7013 Humidity sensor
 ​Si7013 2nd Generation Relative Humidity and Temperature Sensors</description>
 <gates>

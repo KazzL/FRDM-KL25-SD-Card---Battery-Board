@@ -1575,7 +1575,7 @@ MEMS motion sensor:  three-axis digital output gyroscope</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM303D">
+<deviceset name="LSM303D" prefix="U">
 <description>LSM303D Magitometer &amp; Accelorometer
 Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer module</description>
 <gates>
@@ -1630,7 +1630,7 @@ Ultra compact high performance e-compass: 3D accelerometer and 3D magnetometer m
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAG3110">
+<deviceset name="MAG3110" prefix="U">
 <description>MAG3110 Magnotometer
 MAG3110: Xtrinsic High Accuracy, 3D Magnetometer</description>
 <gates>
@@ -1789,7 +1789,7 @@ iNEMO inertial module:3D accelerometer, 3D gyroscope, 3D magnetometer</descripti
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX21000">
+<deviceset name="MAX21000" prefix="U">
 <description>MAX21000 Gyroscope
 Ultra-Accurate, Low Power, 3-Axis Digital Output Gyroscope</description>
 <gates>
