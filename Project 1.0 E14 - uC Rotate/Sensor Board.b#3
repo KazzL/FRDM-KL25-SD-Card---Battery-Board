@@ -124,8 +124,6 @@
 <wire x1="1.5" y1="9" x2="1.5" y2="75" width="0" layer="20"/>
 <wire x1="1.5" y1="75" x2="40" y2="75" width="0" layer="20"/>
 <wire x1="40" y1="75" x2="40" y2="9" width="0" layer="20"/>
-<text x="2.0574" y="81.9912" size="1.778" layer="48">Dimensions goal = 38.5x67mm
-$19.991200372</text>
 </plain>
 <libraries>
 <library name="Kas-Sensors">
@@ -3020,10 +3018,4 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
