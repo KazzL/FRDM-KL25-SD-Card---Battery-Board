@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -840,6 +840,7 @@
 <wire x1="4" y1="-4" x2="4" y2="-3.6" width="0.127" layer="21"/>
 <wire x1="4" y1="3.6" x2="4" y2="4" width="0.127" layer="21"/>
 <wire x1="4" y1="4" x2="3.6" y2="4" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="3.175" x2="-3.175003125" y2="3.175" width="0.6096" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1256,48 +1257,49 @@
 <pin name="FLOAT" x="-2.54" y="-12.7" visible="pin" length="middle" rot="R90"/>
 </symbol>
 <symbol name="HMC6343">
-<pin name="NC$0" x="-22.86" y="12.7" length="middle" direction="nc"/>
-<pin name="NC$1" x="-22.86" y="10.16" length="middle" direction="nc"/>
-<pin name="VDD1" x="-22.86" y="7.62" length="middle"/>
-<pin name="NC$2" x="-22.86" y="5.08" length="middle" direction="nc"/>
-<pin name="NC$3" x="-22.86" y="2.54" length="middle" direction="nc"/>
-<pin name="NC$4" x="-22.86" y="0" length="middle" direction="nc"/>
-<pin name="NC$5" x="-22.86" y="-2.54" length="middle" direction="nc"/>
-<pin name="NC$6" x="-22.86" y="-5.08" length="middle" direction="nc"/>
-<pin name="NC$7" x="-22.86" y="-7.62" length="middle" direction="nc"/>
-<pin name="NC$8" x="-10.16" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="VDD3" x="-7.62" y="-22.86" length="middle" rot="R90"/>
-<pin name="NC$9" x="-5.08" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="NC$10" x="-2.54" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="NC$11" x="0" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="Z_OFF-" x="2.54" y="-22.86" length="middle" rot="R90"/>
-<pin name="Z_OFF+" x="5.08" y="-22.86" length="middle" rot="R90"/>
-<pin name="NC$12" x="7.62" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="NC$13" x="10.16" y="-22.86" length="middle" direction="nc" rot="R90"/>
-<pin name="Y_OFF-" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="Y_OFF+" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="VDD2" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="CS" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="X_OFF-" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="X_OFF+" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="GND2" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="NC$15" x="25.4" y="10.16" length="middle" direction="nc" rot="R180"/>
-<pin name="NC$16" x="25.4" y="12.7" length="middle" direction="nc" rot="R180"/>
-<pin name="NC$17" x="10.16" y="27.94" length="middle" direction="nc" rot="R270"/>
-<pin name="GND1" x="7.62" y="27.94" length="middle" rot="R270"/>
-<pin name="NC$18" x="5.08" y="27.94" length="middle" direction="nc" rot="R270"/>
-<pin name="NC$19" x="2.54" y="27.94" length="middle" direction="nc" rot="R270"/>
-<pin name="SCK/SCL" x="0" y="27.94" length="middle" rot="R270"/>
-<pin name="NC$20" x="-2.54" y="27.94" length="middle" direction="nc" rot="R270"/>
-<pin name="NC$21" x="-5.08" y="27.94" length="middle" direction="nc" rot="R270"/>
-<pin name="CS_CTRL" x="-7.62" y="27.94" length="middle" rot="R270"/>
-<pin name="SDA" x="-10.16" y="27.94" length="middle" rot="R270"/>
+<pin name="NC$0" x="-22.86" y="12.7" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$1" x="-22.86" y="10.16" visible="pin" length="middle" direction="nc"/>
+<pin name="VDD1" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="NC$2" x="-22.86" y="5.08" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$3" x="-22.86" y="2.54" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$4" x="-22.86" y="0" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$5" x="-22.86" y="-2.54" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$6" x="-22.86" y="-5.08" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$7" x="-22.86" y="-7.62" visible="pin" length="middle" direction="nc"/>
+<pin name="NC$8" x="-10.16" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="VDD3" x="-7.62" y="-22.86" visible="pin" length="middle" rot="R90"/>
+<pin name="NC$9" x="-5.08" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="NC$10" x="-2.54" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="NC$11" x="0" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="Z_OFF-" x="2.54" y="-22.86" visible="pin" length="middle" rot="R90"/>
+<pin name="Z_OFF+" x="5.08" y="-22.86" visible="pin" length="middle" rot="R90"/>
+<pin name="NC$12" x="7.62" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="NC$13" x="10.16" y="-22.86" visible="pin" length="middle" direction="nc" rot="R90"/>
+<pin name="Y_OFF-" x="25.4" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="Y_OFF+" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VDD2" x="25.4" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="CS" x="25.4" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="X_OFF-" x="25.4" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="X_OFF+" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="25.4" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="NC$15" x="25.4" y="10.16" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="NC$16" x="25.4" y="12.7" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="NC$17" x="10.16" y="27.94" visible="pin" length="middle" direction="nc" rot="R270"/>
+<pin name="GND1" x="7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="NC$18" x="5.08" y="27.94" visible="pin" length="middle" direction="nc" rot="R270"/>
+<pin name="NC$19" x="2.54" y="27.94" visible="pin" length="middle" direction="nc" rot="R270"/>
+<pin name="SCK/SCL" x="0" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="NC$20" x="-2.54" y="27.94" visible="pin" length="middle" direction="nc" rot="R270"/>
+<pin name="NC$21" x="-5.08" y="27.94" visible="pin" length="middle" direction="nc" rot="R270"/>
+<pin name="CS_CTRL" x="-7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
+<pin name="SDA" x="-10.16" y="27.94" visible="pin" length="middle" rot="R270"/>
 <wire x1="-17.78" y1="22.86" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-17.78" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-17.78" x2="20.32" y2="22.86" width="0.254" layer="94"/>
 <wire x1="20.32" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
 <text x="22.86" y="-20.32" size="1.778" layer="95">&gt;NAME</text>
 <text x="22.86" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-13.97" y1="19.05" x2="-13.970003125" y2="19.050003125" width="1.4224" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2130,7 +2132,7 @@ ADT7301:  13-BIT, ±1ºC ACCURATE, MICROPOWER DIGITAL TEMPERATURE SENSOR IN 6-LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="HMC6343">
+<deviceset name="HMC6343" prefix="U">
 <description>HMC6343 3-Axis Compass with Algorithms from Honeywell</description>
 <gates>
 <gate name="G$1" symbol="HMC6343" x="0" y="-2.54"/>

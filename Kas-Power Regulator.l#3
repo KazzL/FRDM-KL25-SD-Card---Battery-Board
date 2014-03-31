@@ -207,23 +207,23 @@
 <text x="-2.54" y="-3.81" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="S-PVQFN-N16">
-<smd name="1" x="-1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="2" x="-1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="3" x="-1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="4" x="-1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="5" x="-0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="6" x="-0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="7" x="0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="13" x="-1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="9" x="-1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="17" x="-1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="15" x="-1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="6" x="-0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="16" x="-0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="5" x="0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
 <smd name="8" x="0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="9" x="1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="10" x="1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="11" x="1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="12" x="1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="13" x="0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="14" x="0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="15" x="-0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="16" x="-0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="17" x="0" y="0" dx="1.7018" dy="1.7018" layer="1"/>
+<smd name="7" x="1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="3" x="1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="2" x="1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="1" x="1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="10" x="0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="12" x="0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="11" x="-0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="14" x="-0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="4" x="0" y="0" dx="1.7018" dy="1.7018" layer="1"/>
 <wire x1="-0.8382" y1="0.8382" x2="-0.8382" y2="-0.8382" width="0.1524" layer="31"/>
 <wire x1="-0.8382" y1="-0.8382" x2="0.8382" y2="-0.8382" width="0.1524" layer="31"/>
 <wire x1="0.8382" y1="-0.8382" x2="0.8382" y2="0.8382" width="0.1524" layer="31"/>
@@ -610,7 +610,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GRM1555C1E621JA01D" prefix="C">
+<deviceset name="GRM1555C1E621JA01D">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
@@ -634,7 +634,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="XAL4020-222MEB" prefix="I">
+<deviceset name="XAL4020-222MEB">
 <gates>
 <gate name="A" symbol="WB_INDUCTOR" x="0" y="0"/>
 </gates>
@@ -703,7 +703,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS62130RGTR" prefix="U">
+<deviceset name="TPS62130RGTR">
 <gates>
 <gate name="A" symbol="TPS62130RGTR" x="0" y="0"/>
 </gates>
@@ -714,11 +714,11 @@
 <connect gate="A" pin="EN" pad="13"/>
 <connect gate="A" pin="FB" pad="5"/>
 <connect gate="A" pin="FSW" pad="7"/>
-<connect gate="A" pin="GND_2" pad="6 15 16 17" route="any"/>
+<connect gate="A" pin="GND_2" pad="15"/>
 <connect gate="A" pin="PG" pad="4"/>
 <connect gate="A" pin="SS/TR" pad="9"/>
-<connect gate="A" pin="SW_2" pad="1 2 3"/>
-<connect gate="A" pin="VIN_2" pad="10 11 12"/>
+<connect gate="A" pin="SW_2" pad="1"/>
+<connect gate="A" pin="VIN_2" pad="11"/>
 <connect gate="A" pin="VOS" pad="14"/>
 </connects>
 <technologies>

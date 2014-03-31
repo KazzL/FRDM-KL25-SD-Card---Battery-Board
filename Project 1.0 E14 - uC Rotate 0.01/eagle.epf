@@ -104,12 +104,12 @@ Sheet=3
 
 [Win_3]
 Type="Control Panel"
-Loc="399 90 1250 776"
+Loc="351 395 1616 1081"
 State=2
 Number=0
 
 [Desktop]
-Screen="3000 1920"
+Screen="1920 1200"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
