@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -207,23 +207,23 @@
 <text x="-2.54" y="-3.81" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="S-PVQFN-N16">
-<smd name="13" x="-1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="9" x="-1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="17" x="-1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="15" x="-1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1"/>
-<smd name="6" x="-0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="16" x="-0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="5" x="0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="1" x="-1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="2" x="-1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="3" x="-1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="4" x="-1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1"/>
+<smd name="5" x="-0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="6" x="-0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
+<smd name="7" x="0.254" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
 <smd name="8" x="0.762" y="-1.2446" dx="0.508" dy="0.3048" layer="1" rot="R90"/>
-<smd name="7" x="1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="3" x="1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="2" x="1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="1" x="1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
-<smd name="10" x="0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="12" x="0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="11" x="-0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="14" x="-0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
-<smd name="4" x="0" y="0" dx="1.7018" dy="1.7018" layer="1"/>
+<smd name="9" x="1.2446" y="-0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="10" x="1.2446" y="-0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="11" x="1.2446" y="0.254" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="12" x="1.2446" y="0.762" dx="0.508" dy="0.3048" layer="1" rot="R180"/>
+<smd name="13" x="0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="14" x="0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="15" x="-0.254" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="16" x="-0.762" y="1.2446" dx="0.508" dy="0.3048" layer="1" rot="R270"/>
+<smd name="17" x="0" y="0" dx="1.7018" dy="1.7018" layer="1"/>
 <wire x1="-0.8382" y1="0.8382" x2="-0.8382" y2="-0.8382" width="0.1524" layer="31"/>
 <wire x1="-0.8382" y1="-0.8382" x2="0.8382" y2="-0.8382" width="0.1524" layer="31"/>
 <wire x1="0.8382" y1="-0.8382" x2="0.8382" y2="0.8382" width="0.1524" layer="31"/>
@@ -254,7 +254,7 @@
 <pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="0.762" y1="0" x2="0.762" y2="3.048" width="0.1524" layer="94"/>
-<text x="-4.7244" y="4.0386" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-4.7244" y="4.0386" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;VALUE</text>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="3.048" width="0.1524" layer="94"/>
 <wire x1="0.762" y1="-3.048" x2="0.762" y2="0" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
@@ -284,7 +284,7 @@
 <wire x1="-2.54" y1="-0.1778" x2="-2.54" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="0" y1="-0.1778" x2="0" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="2.54" y1="-0.1778" x2="2.54" y2="0" width="0" layer="94" curve="-53"/>
-<text x="-5.08" y="2.54" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;VALUE</text>
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="2.6924" y2="0.8382" width="0" layer="94" curve="-12"/>
@@ -306,7 +306,7 @@
 <wire x1="-2.54" y1="-0.1778" x2="-2.54" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="0" y1="-0.1778" x2="0" y2="0" width="0" layer="94" curve="-53"/>
 <wire x1="2.54" y1="-0.1778" x2="2.54" y2="0" width="0" layer="94" curve="-53"/>
-<text x="-4.7244" y="4.6736" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-5.08" y="5.08" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 </symbol>
 <symbol name="WB_RESISTOR">
 <pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -506,7 +506,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0402178KFKED">
+<deviceset name="CRCW0402178KFKED" prefix="R">
 <gates>
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
@@ -562,7 +562,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EMK212BJ106KG-T">
+<deviceset name="EMK212BJ106KG-T" prefix="C">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
@@ -586,7 +586,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GRM31CR61A226KE19L">
+<deviceset name="GRM31CR61A226KE19L" prefix="C">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
@@ -610,7 +610,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GRM1555C1E621JA01D">
+<deviceset name="GRM1555C1E621JA01D" prefix="C">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
@@ -634,7 +634,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="XAL4020-222MEB">
+<deviceset name="XAL4020-222MEB" prefix="I">
 <gates>
 <gate name="A" symbol="WB_INDUCTOR" x="0" y="0"/>
 </gates>
@@ -657,7 +657,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0402953KFKED">
+<deviceset name="CRCW0402953KFKED" prefix="R">
 <gates>
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
@@ -680,7 +680,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW0402100KFKED">
+<deviceset name="CRCW0402100KFKED" prefix="R">
 <gates>
 <gate name="A" symbol="WB_RESISTOR" x="0" y="0"/>
 </gates>
@@ -703,7 +703,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS62130RGTR">
+<deviceset name="TPS62130RGTR" prefix="U">
 <gates>
 <gate name="A" symbol="TPS62130RGTR" x="0" y="0"/>
 </gates>
@@ -714,11 +714,11 @@
 <connect gate="A" pin="EN" pad="13"/>
 <connect gate="A" pin="FB" pad="5"/>
 <connect gate="A" pin="FSW" pad="7"/>
-<connect gate="A" pin="GND_2" pad="15"/>
+<connect gate="A" pin="GND_2" pad="6 15 16 17" route="any"/>
 <connect gate="A" pin="PG" pad="4"/>
 <connect gate="A" pin="SS/TR" pad="9"/>
-<connect gate="A" pin="SW_2" pad="1"/>
-<connect gate="A" pin="VIN_2" pad="11"/>
+<connect gate="A" pin="SW_2" pad="1 2 3"/>
+<connect gate="A" pin="VIN_2" pad="10 11 12"/>
 <connect gate="A" pin="VOS" pad="14"/>
 </connects>
 <technologies>
@@ -737,7 +737,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GRM155R61C104KA88D">
+<deviceset name="GRM155R61C104KA88D" prefix="C">
 <gates>
 <gate name="A" symbol="WB_CAPACITOR" x="0" y="0"/>
 </gates>
