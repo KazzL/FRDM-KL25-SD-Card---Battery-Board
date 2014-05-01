@@ -3565,8 +3565,8 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <rectangle x1="-0.3766" y1="-0.1094" x2="-0.1266" y2="0.1156" layer="21"/>
 <smd name="A" x="0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="C" x="-0.55" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3598,17 +3598,34 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </symbols>
 <devicesets>
 <deviceset name="LED">
+<description>1.0X0.5MM ULTRA THIN SMD LED. 
+Lens Type : Water Clear</description>
 <gates>
 <gate name="G$1" symbol="LED" x="-5.08" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="LED_0402">
+<device name="G" package="LED_0402">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="Knightbright" constant="no"/>
+<attribute name="PART_NUMBER" value="APG1005CGC-T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R" package="LED_0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Knightbright"/>
+<attribute name="PART_NUMBER" value="APG1005SEC/E-T" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3703,7 +3720,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="C45" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="C46" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="C47" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="LED1" library="Kas-Diodes-LEDs" deviceset="LED" device="" value="Green"/>
+<part name="LED1" library="Kas-Diodes-LEDs" deviceset="LED" device="G" value="Green"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="Power"/>
 <part name="C13" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="100nF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP_POL" device="6032" value="1uF"/>
@@ -3760,9 +3777,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="0402"/>
 <part name="J1" library="Kas-Connectors" deviceset="501568-0207" device=""/>
 <part name="J4" library="Kas-Connectors" deviceset="501568-0407" device=""/>
-<part name="LED2" library="Kas-Diodes-LEDs" deviceset="LED" device="" value="Green"/>
-<part name="LED3" library="Kas-Diodes-LEDs" deviceset="LED" device="" value="Green"/>
-<part name="LED4" library="Kas-Diodes-LEDs" deviceset="LED" device="" value="Green"/>
+<part name="LED2" library="Kas-Diodes-LEDs" deviceset="LED" device="R" value="Red"/>
+<part name="LED3" library="Kas-Diodes-LEDs" deviceset="LED" device="R" value="Red"/>
+<part name="LED4" library="Kas-Diodes-LEDs" deviceset="LED" device="R" value="Red"/>
 <part name="R12" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R13" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R14" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
@@ -3772,7 +3789,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="Kas-Connectors" deviceset="501568-0207" device=""/>
-<part name="LED5" library="Kas-Diodes-LEDs" deviceset="LED" device="" value="Green"/>
+<part name="LED5" library="Kas-Diodes-LEDs" deviceset="LED" device="R" value="Red"/>
 <part name="R15" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3827,13 +3844,13 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="R2" gate="G$1" x="-25.4" y="-78.74" rot="MR0"/>
 <instance part="TP5" gate="G$1" x="-27.94" y="-73.66" rot="R180"/>
 <instance part="TP6" gate="G$1" x="-27.94" y="-71.12" rot="R180"/>
-<instance part="TP7" gate="G$1" x="55.88" y="7.62"/>
-<instance part="TP8" gate="G$1" x="55.88" y="5.08"/>
+<instance part="TP7" gate="G$1" x="58.42" y="12.7" rot="R90"/>
+<instance part="TP8" gate="G$1" x="53.34" y="10.16" rot="R90"/>
 <instance part="R5" gate="G$1" x="-17.78" y="-71.12" rot="MR0"/>
 <instance part="R8" gate="G$1" x="-17.78" y="-73.66" rot="MR0"/>
 <instance part="J4" gate="G$1" x="38.1" y="40.64" rot="R270"/>
 <instance part="GND45" gate="1" x="20.32" y="-55.88"/>
-<instance part="J2" gate="G$1" x="58.42" y="7.62" rot="R270"/>
+<instance part="J2" gate="G$1" x="63.5" y="10.16" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4300,27 +4317,24 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <segment>
 <pinref part="TP7" gate="G$1" pin="P$1"/>
 <pinref part="U11" gate="G$1" pin="PD5"/>
-<wire x1="50.8" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <label x="38.1" y="7.62" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<junction x="50.8" y="7.62"/>
+<wire x1="63.5" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<junction x="58.42" y="7.62"/>
 </segment>
 </net>
 <net name="U6RX" class="0">
 <segment>
 <pinref part="TP8" gate="G$1" pin="P$1"/>
 <pinref part="U11" gate="G$1" pin="PD4"/>
-<wire x1="50.8" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
 <label x="38.1" y="5.08" size="1.778" layer="95"/>
-<wire x1="50.8" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
-<junction x="50.8" y="5.08"/>
-<wire x1="53.34" y1="5.08" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="5.08"/>
+<wire x1="53.34" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="5.08" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="10.16" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IND-LED-4" class="0">
@@ -5762,7 +5776,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <net name="SD-CS" class="0">
 <segment>
 <label x="-25.4" y="-48.26" size="1.778" layer="95"/>
-<wire x1="-48.26" y1="-48.26" x2="-10.16" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-48.26" x2="-10.16" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="!CS"/>
 </segment>
 </net>

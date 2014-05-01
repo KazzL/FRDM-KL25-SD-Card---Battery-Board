@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,22 +57,23 @@
 <library>
 <packages>
 <package name="LGA-16(3X3)">
-<smd name="P$1" x="-1.225" y="1" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$2" x="-1.225" y="0.5" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$3" x="-1.225" y="0" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$4" x="-1.225" y="-0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$5" x="-1.225" y="-1" dx="0.345" dy="0.45" layer="1" rot="R90" stop="no"/>
-<smd name="P$6" x="-0.5" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
-<smd name="P$7" x="0" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
-<smd name="P$8" x="0.5" y="-1.225" dx="0.345" dy="0.45" layer="1" stop="no"/>
-<smd name="P$9" x="1.225" y="-1" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$10" x="1.225" y="-0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$11" x="1.225" y="0" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$12" x="1.225" y="0.5" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$13" x="1.225" y="1" dx="0.345" dy="0.45" layer="1" rot="R270" stop="no"/>
-<smd name="P$14" x="0.5" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
-<smd name="P$15" x="0" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
-<smd name="P$16" x="-0.5" y="1.225" dx="0.345" dy="0.45" layer="1" rot="R180" stop="no"/>
+<description>12.58268 x 17.71654 should be 13.58268 x 17.71654 footprints</description>
+<smd name="P$1" x="-1.225" y="1" dx="0.3196" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$2" x="-1.225" y="0.5" dx="0.3196" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$3" x="-1.225" y="0" dx="0.3196" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$4" x="-1.225" y="-0.5" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$5" x="-1.225" y="-1" dx="0.3196" dy="0.45" layer="1" rot="R90" stop="no"/>
+<smd name="P$6" x="-0.5" y="-1.225" dx="0.3196" dy="0.45" layer="1" stop="no"/>
+<smd name="P$7" x="0" y="-1.225" dx="0.3196" dy="0.45" layer="1" stop="no"/>
+<smd name="P$8" x="0.5" y="-1.225" dx="0.3196" dy="0.45" layer="1" stop="no"/>
+<smd name="P$9" x="1.225" y="-1" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$10" x="1.225" y="-0.5" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$11" x="1.225" y="0" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$12" x="1.225" y="0.5" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$13" x="1.225" y="1" dx="0.3196" dy="0.45" layer="1" rot="R270" stop="no"/>
+<smd name="P$14" x="0.5" y="1.225" dx="0.3196" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$15" x="0" y="1.225" dx="0.3196" dy="0.45" layer="1" rot="R180" stop="no"/>
+<smd name="P$16" x="-0.5" y="1.225" dx="0.3196" dy="0.45" layer="1" rot="R180" stop="no"/>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
@@ -474,7 +475,8 @@
 <wire x1="-2.0574" y1="-0.2032" x2="-2.059940625" y2="-0.205740625" width="0.127" layer="21"/>
 </package>
 <package name="DFN-10(2X2)_HS">
-<smd name="P$1" x="-1.15" y="0.8" dx="0.225" dy="1.1" layer="1" rot="R90"/>
+<description>7.85827 x 43.30709  should be 8.85827 x 43.30709</description>
+<smd name="P$1" x="-1.15" y="0.8" dx="0.1996" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$2" x="-1.15" y="0.4" dx="0.225" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$3" x="-1.15" y="0" dx="0.225" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$4" x="-1.15" y="-0.4" dx="0.225" dy="1.1" layer="1" rot="R90"/>
@@ -840,6 +842,7 @@
 <wire x1="4" y1="-4" x2="4" y2="-3.6" width="0.127" layer="21"/>
 <wire x1="4" y1="3.6" x2="4" y2="4" width="0.127" layer="21"/>
 <wire x1="4" y1="4" x2="3.6" y2="4" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="3.175" x2="-3.175003125" y2="3.175" width="0.6096" layer="21"/>
 </package>
 </packages>
 <symbols>

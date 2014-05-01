@@ -3598,6 +3598,8 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </symbols>
 <devicesets>
 <deviceset name="LED">
+<description>1.0X0.5MM ULTRA THIN SMD LED. 
+Lens Type : Water Clear</description>
 <gates>
 <gate name="G$1" symbol="LED" x="-5.08" y="2.54"/>
 </gates>
@@ -3830,25 +3832,25 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="C40" gate="G$1" x="66.04" y="-76.2" rot="R180"/>
 <instance part="C41" gate="G$1" x="66.04" y="-27.94" rot="R90"/>
 <instance part="C42" gate="G$1" x="78.74" y="-27.94" rot="R90"/>
-<instance part="C43" gate="G$1" x="71.12" y="12.7" rot="R180"/>
-<instance part="C44" gate="G$1" x="86.36" y="12.7" rot="R180"/>
+<instance part="C43" gate="G$1" x="76.2" y="12.7" rot="R180"/>
+<instance part="C44" gate="G$1" x="91.44" y="12.7" rot="R180"/>
 <instance part="R16" gate="G$1" x="55.88" y="0"/>
 <instance part="R17" gate="G$1" x="104.14" y="-7.62"/>
 <instance part="GND33" gate="1" x="66.04" y="-86.36"/>
 <instance part="GND34" gate="1" x="-48.26" y="-96.52"/>
 <instance part="X1" gate="G$1" x="71.12" y="-33.02"/>
-<instance part="X2" gate="G$1" x="78.74" y="0"/>
+<instance part="X2" gate="G$1" x="83.82" y="0"/>
 <instance part="R1" gate="G$1" x="-22.86" y="-66.04" rot="MR0"/>
 <instance part="R2" gate="G$1" x="-25.4" y="-78.74" rot="MR0"/>
 <instance part="TP5" gate="G$1" x="-27.94" y="-73.66" rot="R180"/>
 <instance part="TP6" gate="G$1" x="-27.94" y="-71.12" rot="R180"/>
-<instance part="TP7" gate="G$1" x="55.88" y="7.62"/>
-<instance part="TP8" gate="G$1" x="55.88" y="5.08"/>
+<instance part="TP7" gate="G$1" x="58.42" y="12.7" rot="R90"/>
+<instance part="TP8" gate="G$1" x="53.34" y="10.16" rot="R90"/>
 <instance part="R5" gate="G$1" x="-17.78" y="-71.12" rot="MR0"/>
 <instance part="R8" gate="G$1" x="-17.78" y="-73.66" rot="MR0"/>
 <instance part="J4" gate="G$1" x="38.1" y="40.64" rot="R270"/>
 <instance part="GND45" gate="1" x="20.32" y="-55.88"/>
-<instance part="J2" gate="G$1" x="58.42" y="7.62" rot="R270"/>
+<instance part="J2" gate="G$1" x="63.5" y="5.08" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -3876,14 +3878,14 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="GND32" gate="1" pin="GND"/>
 <pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="C44" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="15.24" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="121.92" y="-5.08"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="-15.24" x2="121.92" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="121.92" y="-15.24"/>
-<junction x="86.36" y="15.24"/>
+<junction x="91.44" y="15.24"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="GND$3"/>
@@ -4053,20 +4055,20 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="A"/>
 <pinref part="C43" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="7.62" x2="71.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="0" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
-<junction x="71.12" y="0"/>
+<wire x1="60.96" y1="0" x2="76.2" y2="0" width="0.1524" layer="91"/>
+<junction x="76.2" y="0"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="B"/>
-<wire x1="86.36" y1="0" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="0" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="U11" gate="G$1" pin="OSC0"/>
-<wire x1="86.36" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="7.62" x2="86.36" y2="0" width="0.1524" layer="91"/>
-<junction x="86.36" y="0"/>
+<wire x1="91.44" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="7.62" x2="91.44" y2="0" width="0.1524" layer="91"/>
+<junction x="91.44" y="0"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4315,27 +4317,22 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <segment>
 <pinref part="TP7" gate="G$1" pin="P$1"/>
 <pinref part="U11" gate="G$1" pin="PD5"/>
-<wire x1="50.8" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <label x="38.1" y="7.62" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<junction x="50.8" y="7.62"/>
+<wire x1="63.5" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<junction x="58.42" y="7.62"/>
 </segment>
 </net>
 <net name="U6RX" class="0">
 <segment>
 <pinref part="TP8" gate="G$1" pin="P$1"/>
 <pinref part="U11" gate="G$1" pin="PD4"/>
-<wire x1="50.8" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
 <label x="38.1" y="5.08" size="1.778" layer="95"/>
-<wire x1="50.8" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
-<junction x="50.8" y="5.08"/>
-<wire x1="53.34" y1="5.08" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="5.08"/>
+<wire x1="53.34" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="10.16" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IND-LED-4" class="0">
