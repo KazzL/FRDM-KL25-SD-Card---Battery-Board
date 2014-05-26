@@ -475,7 +475,8 @@
 <wire x1="-2.0574" y1="-0.2032" x2="-2.059940625" y2="-0.205740625" width="0.127" layer="21"/>
 </package>
 <package name="DFN-10(2X2)_HS">
-<smd name="P$1" x="-1.15" y="0.8" dx="0.225" dy="1.1" layer="1" rot="R90"/>
+<description>7.85827 x 43.30709  should be 8.85827 x 43.30709</description>
+<smd name="P$1" x="-1.15" y="0.8" dx="0.1996" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$2" x="-1.15" y="0.4" dx="0.225" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$3" x="-1.15" y="0" dx="0.225" dy="1.1" layer="1" rot="R90"/>
 <smd name="P$4" x="-1.15" y="-0.4" dx="0.225" dy="1.1" layer="1" rot="R90"/>

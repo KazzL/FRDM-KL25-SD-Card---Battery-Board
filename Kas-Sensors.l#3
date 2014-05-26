@@ -105,7 +105,6 @@
 <rectangle x1="-0.275" y1="1" x2="0.275" y2="1.45" layer="29" rot="R270"/>
 <rectangle x1="-0.775" y1="1" x2="-0.225" y2="1.45" layer="29" rot="R270"/>
 <wire x1="-0.84" y1="1" x2="-0.84" y2="1.001" width="0.2023" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="LGA-16(3X3.25)">
 <smd name="P$1" x="-1.2425" y="1" dx="0.3" dy="0.865" layer="1" rot="R90" stop="no"/>
