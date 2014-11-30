@@ -1,0 +1,390 @@
+**************************************************************************************
+***                                                                                ***
+*** Zetex Circuit Simulator Version 5.40b - 21/03/2014 12:21:24 PM                 ***
+*** Platform: Windows NT version 6.1                                               ***
+*** Serial Number:                                                                 ***
+*** User:                                                                          ***
+***                                                                                ***
+*** TITLE:                                                                         ***
+*** NETLIST: C:\Users\Kasriel Lewis\Dropbox\Eagle Projects\Spice Modles\netlist.net***
+***                                                                                ***
+**************************************************************************************
+
+********************************************************************************
+***                                                                          ***
+***                                Input Deck                                ***
+***                                                                          ***
+********************************************************************************
+
+V1 R1_P 0 -5
+V2 V2_P 0 0
+V3 Q1_S 0 0
+R1 R1_P R1_N 1K
+R2 R1_P R2_N 1K
+V4 V4_P 0 0
+V5 Q3_D 0 0
+R3 R1_P R3_N 1K
+V6 V6_P 0 0
+V7 Q2_S 0 0
+x$Q1 R1_N V2_P Q1_S DI_DMP3035LSS
+x$Q2 V6_P R3_N Q2_S DI_DMP3035LSS
+x$Q3 Q3_D V4_P R2_N DI_DMP3035LSS
+.op
+.options optimise=0 nodelimit=100000
+.SUBCKT DI_DMP3035LSS   10 20 30
+*     TERMINALS:  D  G  S
+M1   1  2  3  3  DMOS L=1U W=1U
+RD  10  1  15.6m
+RS  40  3  1.87m
+RG  20  2  76.7
+CGS  2  3  179p
+EGD 12  0  2  1  1
+VFB 14  0  0
+FFB  2  1  VFB  1
+CGD 13 14  347p
+R1  13  0  1.00
+D1  12 13  DLIM
+DDG 15 14  DCGD
+R2  12 15  1.00
+D2  15  0  DLIM
+DSD  3 10  DSUB
+LS  30 40  7.50n
+.MODEL DMOS PMOS(LEVEL=3 VMAX=62.5k THETA=80.0m
++ ETA=450u VTO=-2.00 KP=23.3
+.MODEL DCGD D (CJO=347p VJ=0.600 M=0.680
+.MODEL DSUB D (IS=49.8n N=1.50 RS=29.2m BV=30.0
++ CJO=92.5p VJ=0.800 M=0.420 TT=196n
+.MODEL DLIM D (IS=100U)
+.ENDS
+
+********************************************************************************
+***                                                                          ***
+*** Starting DC Operating point analysis analysis at 12:21:24 PM             ***
+***                                                                          ***
+*** Analysis card: .op                                                       ***
+***                                                                          ***
+********************************************************************************
+
+********************************************************************************
+***                                                                          ***
+***                             Device parameters                            ***
+***                                                                          ***
+********************************************************************************
+Model parameters for devices of type Diode
+==========================================
+Model:       Q1.DCGD      Q1.DLIM      Q1.DSUB      Q2.DCGD      Q2.DLIM      
+
+bv           0            0            30           0            0            
+cjo          347p         0            92.5p        347p         0            
+is           0            100u         49.8n        0            100u         
+m            680m         0            420m         680m         0            
+n            0            0            1.5          0            0            
+rs           0            0            29.2m        0            0            
+tt           0            0            196n         0            0            
+vj           600m         0            800m         600m         0            
+
+Model:       Q2.DSUB      Q3.DCGD      Q3.DLIM      Q3.DSUB      
+
+bv           30           0            0            30           
+cjo          92.5p        347p         0            92.5p        
+is           49.8n        0            100u         49.8n        
+m            420m         680m         0            420m         
+n            1.5          0            0            1.5          
+rs           29.2m        0            0            29.2m        
+tt           196n         0            0            196n         
+vj           800m         600m         0            800m         
+
+
+Model parameters for devices of type MOS3
+=========================================
+Model:       Q1.DMOS      Q2.DMOS      Q3.DMOS      
+
+eta          450u         450u         450u         
+kp           23.3         23.3         23.3         
+theta        80m          80m          80m          
+vmax         62.5k        62.5k        62.5k        
+vt0          -2           -2           -2           
+
+
+********************************************************************************
+***                                                                          ***
+***                        DC OPERATING POINT RESULTS                        ***
+***                                                                          ***
+***                           Analysis card: ".op"                           ***
+***                                                                          ***
+********************************************************************************
+
+NODE VOLTAGES AND BRANCH CURRENTS
+=================================
+
+R1_P                          -5           
+V2_P                          0            
+Q1_S                          0            
+R1_N                          -443.3538944m
+R2_N                          -692.9426401m
+V4_P                          0            
+Q3_D                          0            
+R3_N                          -4.999999995 
+V6_P                          0            
+Q2_S                          0            
+Q1.1                          -443.3538944m
+Q1.2                          -1.870361421n
+Q1.3                          -8.520928172u
+Q1.40                         0            
+Q1.12                         443.35389253m
+Q1.14                         0            
+Q1.13                         241.83901303m
+Q1.15                         201.5148795m 
+Q2.1                          -43.52728451f
+Q2.2                          -4.9999999946
+Q2.3                          -4.15081926f 
+Q2.40                         0            
+Q2.12                         -4.9999999946
+Q2.14                         0            
+Q2.13                         -100.000005u 
+Q2.15                         -4.9998999946
+Q3.1                          -67.18931792u
+Q3.2                          -7.12092617f 
+Q3.3                          -692.9345859m
+Q3.40                         -692.9426401m
+Q3.12                         67.189317917u
+Q3.14                         0            
+Q3.13                         259.11072742n
+Q3.15                         66.930207189u
+Q3.DSD#internal               -692.9345844m
+Q2.DSD#internal               -4.150819104f
+Q1.DSD#internal               -141.5749937u
+Q3.VFB#p                      92.841279924a
+Q2.VFB#p                      -5.009899995p
+Q1.VFB#p                      24.38541618p 
+Q3.LS#p                       -4.30705736m 
+Q2.LS#p                       2.2196894438p
+Q1.LS#p                       4.5566460812m
+Q3.EGD#p                      -518.2214549n
+Q2.EGD#p                      200.00001501u
+Q1.EGD#p                      -483.6780261m
+V7#p                          -2.219689444p
+V6#p                          -2.790210551p
+V5#p                          -4.30705736m 
+V4#p                          -92.84127992a
+V3#p                          -4.556646081m
+V2#p                          -24.38541618p
+V1#p                          8.8637034705m
+
+DEVICE OPERATING POINT VALUES
+=============================
+
+Operating point for devices of type Diode
+=========================================
+Instance:    Q1.D1        Q1.D2        Q1.DDG       Q1.DSD       Q2.D1        
+Using model: Q1.DLIM      Q1.DLIM      Q1.DCGD      Q1.DSUB      Q2.DLIM      
+
+c            0            0            458.34457p   23.14994158n 0            
+g            9.3542093082 9.3542093074 936.4209307p 117.4518776m 1p           
+Id           241.839013m  241.839013m  24.38541618p 4.55664608m  -100.000005u 
+pwr          48.73415957m 48.73415956m 4.914024203p 2.019561678m 499.9900245u 
+q            0            0            79.86408995p 940.8074954p 0            
+Rs           0            0            0            29.2m        0            
+vd_internal  201.5148795m 201.5148795m 201.5148795m 443.2123194m -4.999899995 
+
+Instance:    Q2.D2        Q2.DDG       Q2.DSD       Q3.D1        Q3.D2        
+Using model: Q2.DLIM      Q2.DCGD      Q2.DSUB      Q3.DLIM      Q3.DLIM      
+
+c            0            75.98182849p 92.75159133p 0            0            
+g            1p           1p           1.283629238u 3.876368244m 3.876368244m 
+Id           -100.000005u -5.00989999p -5.32987E-21 259.1107274n 259.1107274n 
+pwr          499.9900245u 25.04899896p 22.12333E-36 17.34233467p 17.34233467p 
+q            0            -679.033253p -383.497E-27 0            0            
+Rs           0            0            29.2m        0            0            
+vd_internal  -4.999899995 -4.999899995 -4.1508191f  66.93020719u 66.93020719u 
+
+Instance:    Q3.DDG       Q3.DSD       
+Using model: Q3.DCGD      Q3.DSUB      
+
+c            347.0263239p 71.17744614p 
+g            1.387636824p 1p           
+Id           92.84127992a -49.8006929n 
+pwr          6.213886E-21 34.50862246n 
+q            23.2256628f  -55.6360897p 
+Rs           0            29.2m        
+vd_internal  66.93020719u -692.934584m 
+
+
+Operating point for devices of type MOS3
+========================================
+Instance:    Q1.M1        Q2.M1        Q3.M1        
+Using model: Q1.DMOS      Q2.DMOS      Q3.DMOS      
+
+capbd        0            0            0            
+capbs        0            0            0            
+capgb        172.65719a   0            172.65719a   
+capgd        0            86.32859499a 0            
+capgs        0            86.32859499a 0            
+cbd0         0            0            0            
+cbdsw0       0            0            0            
+cbs0         0            0            0            
+cbssw0       0            0            0            
+drainvcrit   730.268104m  730.268104m  730.268104m  
+gbd          1.000000014p 1.386635011p 166.5239917m 
+gbs          1.386635011p 1.386635011p 1.386635011p 
+gdrain       0            0            0            
+gds          0            56.37096766  0            
+gm           0            592.1959655f 0            
+gmbs         0            0            0            
+gsource      0            0            0            
+ib           453.3453731f 54.18999E-27 -4.30700756m 
+id           -453.345373f -2.20296899p 4.307007559m 
+ig           0            0            0            
+is           0            2.202968987p 0            
+pwr          200.9885738f 86.74513E-27 2.984185114m 
+qbd          0            0            0            
+qbs          0            0            0            
+qgb          -1.47088E-21 0            -119.640138a 
+qgd          0            431.6429745a 0            
+qgs          0            431.6429745a 0            
+sourcevcrit  730.268104m  730.268104m  730.268104m  
+vbd_internal 443.3453735m 39.07985047f -692.867397m 
+vbs_internal 0            0            0            
+vds_internal -443.345373m -39.0798505f 692.8673966m 
+vdsat        0            -1.025414566 0            
+vgs_internal 8.51905781u  -4.999999995 692.9345859m 
+von          -1.999529134 -2           -1.999264122 
+
+
+Operating point for devices of type Capacitor
+=============================================
+Instance:    Q1.CGD       Q1.CGS       Q2.CGD       Q2.CGS       Q3.CGD       
+Using model: $Capacitor   $Capacitor   $Capacitor   $Capacitor   $Capacitor   
+
+cc           347p         179p         347p         179p         347p         
+ip           0            0            0            0            0            
+pwr          0            0            0            0            0            
+
+Instance:    Q3.CGS       
+Using model: $Capacitor   
+
+cc           179p         
+ip           0            
+pwr          0            
+
+
+Operating point for devices of type CCCS
+========================================
+Instance:    Q1.FFB       Q2.FFB       Q3.FFB       
+Using model: $CCCS        $CCCS        $CCCS        
+
+ip           24.38541618p -5.00989999p 92.84127992a 
+pwr          10.81136918p 25.04949995p 6.237942E-21 
+
+
+Operating point for devices of type Inductor
+============================================
+Instance:    Q1.LS        Q2.LS        Q3.LS        
+Using model: $Inductor    $Inductor    $Inductor    
+
+ip           4.556646081m 2.219689444p -4.30705736m 
+pwr          0            0            0            
+
+
+Operating point for devices of type Resistor
+============================================
+Instance:    Q1.R1        Q1.R2        Q1.RD        Q1.RG        Q1.RS        
+Using model: $Resistor    $Resistor    $Resistor    $Resistor    $Resistor    
+
+in           -241.839013m -241.839013m 25.28210736p -24.3854162p -4.55664608m 
+ip           241.839013m  241.839013m  -25.2821074p 24.38541618p 4.556646081m 
+pwr          58.48610822m 58.48610822m 9.971285E-24 45.60954E-21 38.82685396n 
+rr           1            1            15.6m        76.7         1.87m        
+
+Instance:    Q2.R1        Q2.R2        Q2.RD        Q2.RG        Q2.RS        
+Using model: $Resistor    $Resistor    $Resistor    $Resistor    $Resistor    
+
+in           100.000005u  100.00001u   -2.79021055p 5.009899995p -2.21968944p 
+ip           -100.000005u -100.00001u  2.790210545p -5.0099p     2.219689444p 
+pwr          10.000001n   10.000002n   121.4503E-27 1.925101E-21 9.21353E-27  
+rr           1            1            15.6m        76.7         1.87m        
+
+Instance:    Q3.R1        Q3.R2        Q3.RD        Q3.RG        Q3.RS        
+Using model: $Resistor    $Resistor    $Resistor    $Resistor    $Resistor    
+
+in           -259.110727n -259.110728n -4.30700756m -92.8412799a 4.30705736m  
+ip           259.1107274n 259.1107275n 4.307007559m 92.84127992a -4.30705736m 
+pwr          67.13836906f 67.13836911f 289.3849002n 661.1159E-33 34.6898896n  
+rr           1            1            15.6m        76.7         1.87m        
+
+Instance:    R1           R2           R3           
+Using model: $Resistor    $Resistor    $Resistor    
+
+in           4.556646106m 4.30705736m  5.009899989p 
+ip           -4.55664611m -4.30705736m -5.00989999p 
+pwr          20.76302373m 18.5507431m  25.0991E-21  
+rr           1k           1k           1k           
+
+
+Operating point for devices of type VCVS
+========================================
+Instance:    Q1.EGD       Q2.EGD       Q3.EGD       
+Using model: $VCVS        $VCVS        $VCVS        
+
+ip           -483.678026m 200.000015u  -518.221455n 
+pwr          -214.440536m -1.00000007m -34.8189461p 
+
+
+Operating point for devices of type Vsource
+===========================================
+Instance:    Q1.VFB       Q2.VFB       Q3.VFB       V1           V2           
+Using model: $Vsource     $Vsource     $Vsource     $Vsource     $Vsource     
+
+acimag       0            0            0            0            0            
+acmag        0            0            0            0            0            
+acphase      0            0            0            0            0            
+acreal       0            0            0            0            0            
+ip           24.38541618p -5.00989999p 92.84127992a 8.863703471m -24.3854162p 
+pwr          0            0            0            -44.3185174m 0            
+
+Instance:    V3           V4           V5           V6           V7           
+Using model: $Vsource     $Vsource     $Vsource     $Vsource     $Vsource     
+
+acimag       0            0            0            0            0            
+acmag        0            0            0            0            0            
+acphase      0            0            0            0            0            
+acreal       0            0            0            0            0            
+ip           -4.55664608m -92.8412799a -4.30705736m -2.79021055p -2.21968944p 
+pwr          0            0            0            0            0            
+
+
+Analysis statistics
+===================
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 13
+Transient iterations = 0
+Transient timepoints = 0
+Accepted timepoints = 0
+Total analysis time = 6.05382e-012
+Transient time = 0
+Matrix reordering time = 0
+L-U decomposition time = 0
+Matrix solve time = 0
+Load time = 0
+Transient L-U decomp time = 0
+Transient solve time = 0
+Circuit build time = 0.015
+Simulator initialise time = 6.05382e-012
+JI2 Iterations = 13
+Diag. GMIN stepping iterations = 0
+Junc. GMIN stepping iterations = 0
+Source stepping iterations = 0
+PTA iterations = 0
+Number of matrix fill ins = 15
+Number of initial matrix elements = 166
+Circuit equations = 54
+State vector size = 114
+
+Run statistics
+==============
+
+Netlist read in time = 5.47118e-012
+Total run time = 0.015 seconds
+Analysis concluded 21/03/2014 12:21:24 PM

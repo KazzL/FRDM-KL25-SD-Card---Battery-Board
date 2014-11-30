@@ -1282,8 +1282,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C2012X5R0J226M" x="35.052" y="-7.82955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="IRMS" value="0.0" x="35.052" y="-7.82955" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R18" library="Kas-Passives" package="R0402" value="" x="5.3086" y="13.5636" rot="R180"/>
-<element name="R19" library="Kas-Passives" package="R0402" value="" x="36.8046" y="3.2258" rot="R90"/>
+<element name="R18" library="Kas-Passives" package="R0402" value="0" x="5.3086" y="13.5636" rot="R180"/>
+<element name="R19" library="Kas-Passives" package="R0402" value="0" x="36.8046" y="3.2258" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">

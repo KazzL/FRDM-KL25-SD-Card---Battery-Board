@@ -1,0 +1,22 @@
+* C:\Users\Kasriel Lewis\Dropbox\Eagle Projects\Spice Modles\E-Match Charging Circuit.sxsch
+*#SIMETRIX
+V1 V1_P 0 5 Sine(0 5 200u 0 0)
+V3 Q1_S 0 5
+R1 Q1_S Q1_G 2.2k
+R3 R3_P R3_N 50
+R4 Q3_B V1_P 10k
+X$Q1 R3_P Q1_G Q1_S DI_DMP3035LSS pinnames: D G S
+Q3 Q1_G Q3_B 0 0 BC239B
+C1 R3_N 0 1 IC=0  BRANCH={IF(ANALYSIS=2||ANALYSIS=5,1,0)}
+.GRAPH R3_N axisType="auto" persistence=-1 curveLabel="Cap Input" xLog="auto" yLog="auto"  nowarn=true
+.GRAPH Q1_G axisType="auto" persistence=-1 curveLabel="Charge Control" xLog="auto" yLog="auto"  nowarn=true
+.GRAPH Q3_B axisType="auto" persistence=-1 curveLabel="Pulsing" xLog="auto" yLog="auto"  nowarn=true
+.GRAPH R3_P axisType="auto" persistence=-1 curveLabel="Charger Output" xLog="auto" yLog="auto"  nowarn=true
+.TRAN 2k
+*.DC MODEL=V1 PARAM=voltage 0 0 0
+
+
+.LIB C:\Users\Kasriel Lewis\Downloads\DMN3033LSD.txt
+
+.LIB ..\..\..\Downloads\DMN3033LDM.txt
+
