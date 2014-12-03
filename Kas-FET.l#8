@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="13" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -136,17 +136,16 @@
 <smd name="P$15" x="-1.625" y="2.925" dx="0.75" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$16" x="-2.275" y="2.925" dx="0.75" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$17" x="0" y="0" dx="2.46" dy="2.31" layer="1"/>
-<wire x1="-2.55" y1="2.25" x2="-2.55" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.55" y1="2.25" x2="-2.55" y2="-2.25" width="0.2286" layer="21"/>
-<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.2286" layer="21"/>
-<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.2286" layer="21"/>
-<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.2286" layer="21"/>
+<wire x1="-2.55" y1="2.25" x2="-2.55" y2="-2.25" width="0.127" layer="1"/>
+<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.127" layer="1"/>
+<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.127" layer="1"/>
+<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.127" layer="1"/>
+<wire x1="-2.55" y1="2.25" x2="-2.55" y2="-2.25" width="0.254" layer="21"/>
+<wire x1="-2.55" y1="-2.25" x2="2.55" y2="-2.25" width="0.254" layer="21"/>
+<wire x1="2.55" y1="-2.25" x2="2.55" y2="2.25" width="0.254" layer="21"/>
+<wire x1="2.55" y1="2.25" x2="-2.55" y2="2.25" width="0.254" layer="21"/>
 <text x="3.81" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.81" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.905" y1="-1.651" x2="-1.905" y2="-1.6764" width="0.381" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -187,25 +186,24 @@
 <wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
-<pin name="!SLEEP" x="-22.86" y="17.78" visible="pin" length="middle"/>
+<pin name="!SLEEP" x="-22.86" y="17.78" length="middle"/>
 <pin name="AOUT1" x="-22.86" y="12.7" visible="pin" length="middle"/>
-<pin name="AISEN" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="AISEN" x="-22.86" y="7.62" length="middle"/>
 <pin name="AOUT2" x="-22.86" y="2.54" visible="pin" length="middle"/>
-<pin name="BOUT2" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="BOUT2" x="-22.86" y="-2.54" length="middle"/>
 <pin name="BISEN" x="-22.86" y="-7.62" visible="pin" length="middle"/>
-<pin name="BOUT1" x="-22.86" y="-12.7" visible="pin" length="middle"/>
+<pin name="BOUT1" x="-22.86" y="-12.7" length="middle"/>
 <pin name="!FAULT" x="-22.86" y="-17.78" visible="pin" length="middle"/>
-<pin name="BIN1" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="BIN2" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="NC" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="VM" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="VINT" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="AIN2" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="AIN1" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="BIN1" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="BIN2" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="NC" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="VM" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="VINT" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="AIN2" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="AIN1" x="22.86" y="17.78" length="middle" rot="R180"/>
 <text x="17.78" y="-25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="17.78" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="CENTER_PAD" x="0" y="-25.4" visible="pin" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -220,37 +218,6 @@
 <connect gate="G$1" pin="D" pad="P$1 P$5 P$8"/>
 <connect gate="G$1" pin="G" pad="P$4"/>
 <connect gate="G$1" pin="S" pad="P$2 P$3 P$6 P$7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DRV8833C" uservalue="yes">
-<description>DRV8833C Dual H-Bridge Motor Driver</description>
-<gates>
-<gate name="G$1" symbol="DRV8833CPWPR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="16-TSSOP">
-<connects>
-<connect gate="G$1" pin="!FAULT" pad="P$8"/>
-<connect gate="G$1" pin="!SLEEP" pad="P$1"/>
-<connect gate="G$1" pin="AIN1" pad="P$16"/>
-<connect gate="G$1" pin="AIN2" pad="P$15"/>
-<connect gate="G$1" pin="AISEN" pad="P$3"/>
-<connect gate="G$1" pin="AOUT1" pad="P$2"/>
-<connect gate="G$1" pin="AOUT2" pad="P$4"/>
-<connect gate="G$1" pin="BIN1" pad="P$9"/>
-<connect gate="G$1" pin="BIN2" pad="P$10"/>
-<connect gate="G$1" pin="BISEN" pad="P$6"/>
-<connect gate="G$1" pin="BOUT1" pad="P$7"/>
-<connect gate="G$1" pin="BOUT2" pad="P$5"/>
-<connect gate="G$1" pin="GND" pad="P$13"/>
-<connect gate="G$1" pin="NC" pad="P$11"/>
-<connect gate="G$1" pin="VINT" pad="P$14"/>
-<connect gate="G$1" pin="VM" pad="P$12"/>
 </connects>
 <technologies>
 <technology name=""/>
