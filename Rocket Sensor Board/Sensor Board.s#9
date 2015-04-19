@@ -3850,7 +3850,7 @@ Lens Type : Water Clear</description>
 <instance part="R8" gate="G$1" x="-17.78" y="-73.66" rot="MR0"/>
 <instance part="J4" gate="G$1" x="38.1" y="40.64" rot="R270"/>
 <instance part="GND45" gate="1" x="20.32" y="-55.88"/>
-<instance part="J2" gate="G$1" x="63.5" y="10.16" rot="R270"/>
+<instance part="J2" gate="G$1" x="63.5" y="5.08" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -4331,9 +4331,7 @@ Lens Type : Water Clear</description>
 <wire x1="53.34" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
 <label x="38.1" y="5.08" size="1.778" layer="95"/>
 <junction x="53.34" y="5.08"/>
-<wire x1="53.34" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="5.08" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>

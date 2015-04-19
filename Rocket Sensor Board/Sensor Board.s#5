@@ -3808,8 +3808,8 @@ Lens Type : Water Clear</description>
 <part name="C56" library="Power Regulator" deviceset="C2012X5R0J226M" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R18" library="Kas-Passives" deviceset="RESISTOR" device=""/>
-<part name="R19" library="Kas-Passives" deviceset="RESISTOR" device=""/>
+<part name="R18" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
+<part name="R19" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 </parts>
 <sheets>
 <sheet>
