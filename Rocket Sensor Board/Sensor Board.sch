@@ -2776,18 +2776,6 @@ FT (ppm) 20, 30</description>
 </library>
 <library name="Kas-Passives">
 <packages>
-<package name="4.3X7.3SMD">
-<smd name="P$1" x="-3" y="0" dx="2.4" dy="1.3" layer="1"/>
-<smd name="P$2" x="3" y="0" dx="2.4" dy="1.3" layer="1"/>
-<wire x1="-3.65" y1="2.15" x2="-3.65" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2.15" x2="3.015" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3.015" y1="-2.15" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="3.175" y2="2.15" width="0.127" layer="51"/>
-<wire x1="3.175" y1="2.15" x2="-3.65" y2="2.15" width="0.127" layer="51"/>
-<text x="4" y="-4" size="1.27" layer="25">&gt;NAME</text>
-<text x="4" y="-6" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="TESTPAD(ROUND)">
 <smd name="P$1" x="0" y="0" dx="2.794" dy="2.794" layer="1" roundness="100"/>
 <text x="1.27" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
@@ -2805,6 +2793,7 @@ FT (ppm) 20, 30</description>
 <rectangle x1="-0.1" y1="-0.275" x2="0.1" y2="0.275" layer="21"/>
 </package>
 <package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.95" y1="0.45" x2="0.95" y2="0.45" width="0.0508" layer="39"/>
 <wire x1="0.95" y1="0.45" x2="0.95" y2="-0.45" width="0.0508" layer="39"/>
 <wire x1="0.95" y1="-0.45" x2="-0.95" y2="-0.45" width="0.0508" layer="39"/>
@@ -2818,22 +2807,40 @@ FT (ppm) 20, 30</description>
 <rectangle x1="-0.8" y1="-0.3" x2="-0.2" y2="0.3" layer="29"/>
 <rectangle x1="0.2" y1="-0.3" x2="0.8" y2="0.3" layer="29"/>
 </package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+</package>
 </packages>
 <symbols>
-<symbol name="EEFCD0J100ER">
-<pin name="@P$1" x="0" y="0" visible="off" length="short"/>
-<pin name="@P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<wire x1="3.302" y1="-2.032" x2="3.302" y2="0" width="0.6096" layer="94"/>
-<wire x1="3.302" y1="0" x2="3.302" y2="2.032" width="0.6096" layer="94"/>
-<wire x1="4.318" y1="2.032" x2="4.318" y2="0" width="0.6096" layer="94"/>
-<text x="1.27" y="1.27" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="7.366" y="1.778" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<wire x1="4.318" y1="0" x2="4.318" y2="-2.032" width="0.6096" layer="94"/>
-<wire x1="1.604" y1="2" x2="1.604" y2="1" width="0.127" layer="94"/>
-<wire x1="1.104" y1="1.54" x2="2.104" y2="1.54" width="0.127" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="4.318" y2="0" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="TESTPAD(ROUND)@1">
 <pin name="P$1" x="-5.08" y="0" visible="pad" length="middle" function="dot"/>
 <text x="0" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
@@ -2865,23 +2872,6 @@ FT (ppm) 20, 30</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="EEFCD0J100ER" prefix="C" uservalue="yes">
-<description>ALU Capacitor</description>
-<gates>
-<gate name="G$1" symbol="EEFCD0J100ER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="4.3X7.3SMD">
-<connects>
-<connect gate="G$1" pin="@P$1" pad="P$1"/>
-<connect gate="G$1" pin="@P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TESTPAD(ROUND)" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TESTPAD(ROUND)@1" x="0" y="0"/>
@@ -2927,6 +2917,438 @@ FT (ppm) 20, 30</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="10P-NPO/COG-5%-50V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="NPO/COG" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM1555C1H100JZ01D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="48W5737" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.01U-X7R-10%-25V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TMK105B7103KV-F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="77M8496" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.01 uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.01U-X7R-10%-50V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM155R71H103KA88D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="14T3284" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.01 uF" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-10V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM155R71A104KA01D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="14T3276" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-16V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402YC104KAT2A" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="09R7024" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="16" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-16V-V2" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EMK105B7104KV-F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="77M8427" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="16" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-25V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E104K050BB" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3147" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-50V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005X7R1H104K050BB" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3230" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1U-X6S-10%-10V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X6S" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005X6S1A105K050BC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3221" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 105" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1U-X5R-10%-10V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="Johanson Dielectrics Inc." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="100R07X105KV4T" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="41T2953" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="1 uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.2U-X5R-10%-10V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LMK105BJ225MV-F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="78T6311" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="2.2 uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="24P-NPO/COG-5%-50V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="NPO/COG" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005C0G1H240J" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="48W5746" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="24 pF" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7U-X5R-10%-6.3V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005X5R0J475K050BC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3211" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7 uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10U-X5R-20%-4V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AMK105CBJ106MV" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="45W1995" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="4" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7U-X5R-20%-10V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ZRB15XR61A475ME01D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="42Y1213" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="4.7 uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="22U-X5R-20%-6.3V" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR60J226ME01L" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="42Y1214" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.22U-X7R-10%-25V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GCM188R71H224KA64D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="31Y1713" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.22U-X7R-10%-50V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UMK107B7224KA-TR" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="29X1406" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10U-X5R-10%-6.3V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X5R0J106K080AB" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3239" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10U-X5R-10%-10V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1068X5R1A106K080AC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="04X3243" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7U-X5R-10%-25V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E475KE11D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="68X2788" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7U-Y5V--20+80-10V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="Y5V" constant="no"/>
+<attribute name="MANUFACTURER" value="MURATA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BF51A475ZA01L" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="14T3337" constant="no"/>
+<attribute name="TEMPERATURE" value="-30 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="-20 ~ +80%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="22U-X5R-20%-6.3V-V2" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C2012X5R0J226M/1.25" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="55X2702" constant="no"/>
+<attribute name="TEMPERATURE" value="-30 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3989,27 +4411,27 @@ Lens Type : Water Clear</description>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
-<part name="C9" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C9" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
 <part name="U3" library="Kas-Sensors" deviceset="L3GD20H" device="" value="L3GD20H"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C10" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10nF"/>
+<part name="C10" library="Kas-Passives" deviceset="CAPACITOR" device="0.01U-X7R-10%-50V" value="0.01 uF"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C12" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10uF"/>
+<part name="C12" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
 <part name="U4" library="Kas-Sensors" deviceset="LPS331AP" device="" value="LPS331AP"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C14" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C14" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
 <part name="U5" library="Kas-Sensors" deviceset="MPL3115A2" device="" value="MPL3115A2"/>
 <part name="C15" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="C16" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="10uF"/>
 <part name="C17" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U6" library="Kas-Sensors" deviceset="LSM303D" device="" value="LSM303D"/>
-<part name="C18" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="4.7uF"/>
+<part name="C18" library="Kas-Passives" deviceset="CAPACITOR" device="4.7U-X5R-10%-25V" value="4.7uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C20" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
-<part name="C21" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.22uF"/>
+<part name="C20" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
+<part name="C21" library="Kas-Passives" deviceset="CAPACITOR" device="0.22U-X7R-10%-50V" value="0.22uF"/>
 <part name="U8" library="Kas-Sensors" deviceset="STLM20" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4017,12 +4439,12 @@ Lens Type : Water Clear</description>
 <part name="R10" library="Kas-Passives" deviceset="RESISTOR" device="" value="200"/>
 <part name="C24" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1uF"/>
 <part name="U9" library="Kas-Sensors" deviceset="LIS3DH" device="" value="LIS3DH"/>
-<part name="C26" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C26" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U10" library="Kas-Sensors" deviceset="ADXL362" device="" value="ADXL362"/>
 <part name="U11" library="Kas-Microcontroller" deviceset="TM4C1233H6PM" device=""/>
-<part name="C28" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
-<part name="C29" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
+<part name="C28" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-50V" value="0.1 uF"/>
+<part name="C29" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-50V" value="0.1 uF"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4051,12 +4473,8 @@ Lens Type : Water Clear</description>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X1" library="Kas-Crystal" deviceset="ABS07L" device="" value="32.768 kHz"/>
 <part name="X2" library="Kas-Crystal" deviceset="NX3225GA" device="" value="16.000 MHz"/>
-<part name="C45" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C46" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C47" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="LED1" library="Kas-Diodes-LEDs" deviceset="LED" device="G" value="Green"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="Power"/>
-<part name="C13" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="100nF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP_POL" device="6032" value="1uF"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4070,9 +4488,8 @@ Lens Type : Water Clear</description>
 <part name="TP13" library="Kas-Passives" deviceset="TESTPAD(ROUND)" device=""/>
 <part name="U17" library="Kas-Sensors" deviceset="LSM9DS0" device="" value="LSM9DS0"/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C25" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C27" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
-<part name="C48" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="4.7uF"/>
+<part name="C27" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-16V" value="0.1 uF"/>
+<part name="C48" library="Kas-Passives" deviceset="CAPACITOR" device="4.7U-Y5V--20+80-10V" value="4.7uF"/>
 <part name="C49" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.22uF"/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4086,17 +4503,15 @@ Lens Type : Water Clear</description>
 <part name="R4" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="R6" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="U19" library="Kas-Sensors" deviceset="MAX21000" device="" value="MAX21000"/>
-<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="1uF"/>
-<part name="C54" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
+<part name="C11" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1 uF"/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U2" library="Kas-Sensors" deviceset="H3LIS331DLTR" device="" value="H3LIS331DLTR"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="0.1uF"/>
-<part name="C7" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
-<part name="C8" library="Kas-Passives" deviceset="CAPACITOR" device="0402" value="100nF"/>
+<part name="C6" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1 uF"/>
+<part name="C8" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
 <part name="U21" library="Kas-Buffers &amp; Level Shifters" deviceset="SN74HC42" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U15" library="Kas-Sensors" deviceset="ADT7301" device=""/>
@@ -4107,7 +4522,7 @@ Lens Type : Water Clear</description>
 <part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="" value="0"/>
 <part name="U22" library="Kas-Sensors" deviceset="SI7013" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="0402"/>
+<part name="C51" library="Kas-Passives" deviceset="CAPACITOR" device="4.7U-X5R-10%-6.3V" value="4.7 uF"/>
 <part name="J1" library="Kas-Connectors" deviceset="501568-0207" device=""/>
 <part name="J4" library="Kas-Connectors" deviceset="501568-0407" device=""/>
 <part name="LED2" library="Kas-Diodes-LEDs" deviceset="LED" device="R" value="Red"/>
@@ -4126,7 +4541,6 @@ Lens Type : Water Clear</description>
 <part name="R15" library="Kas-Passives" deviceset="RESISTOR" device="" value="10k"/>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C22" library="Kas-Passives" deviceset="EEFCD0J100ER" device="" value="10uF"/>
 <part name="U7" library="Power Regulator" deviceset="TPS62082DSGR" device=""/>
 <part name="R9" library="Power Regulator" deviceset="CRCW0402178KFKED" device=""/>
 <part name="I1" library="Power Regulator" deviceset="SDR0403-1R0ML" device=""/>
@@ -4142,6 +4556,18 @@ Lens Type : Water Clear</description>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="U13" library="Kas-Buffers &amp; Level Shifters" deviceset="SN74AUP3G17" device=""/>
+<part name="C57" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
+<part name="C58" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-6.3V" value="10uF"/>
+<part name="C7" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-6.3V" value="10uF"/>
+<part name="C47" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
+<part name="C59" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-6.3V" value="10uF"/>
+<part name="C13" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-6.3V" value="10uF"/>
+<part name="C45" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1 uF"/>
+<part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C60" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-6.3V" value="10uF"/>
+<part name="C25" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-10V" value="10uF"/>
+<part name="C46" library="Kas-Passives" deviceset="CAPACITOR" device="10U-X5R-10%-10V" value="10uF"/>
+<part name="C22" library="Kas-Passives" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1 uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4758,12 +5184,10 @@ Lens Type : Water Clear</description>
 <instance part="GND8" gate="1" x="7.62" y="40.64"/>
 <instance part="GND9" gate="1" x="-68.58" y="27.94"/>
 <instance part="GND10" gate="1" x="-48.26" y="68.58"/>
-<instance part="C7" gate="G$1" x="-12.7" y="66.04" rot="R270"/>
 <instance part="C8" gate="G$1" x="-2.54" y="60.96"/>
 <instance part="U9" gate="G$1" x="-35.56" y="-30.48"/>
 <instance part="C26" gate="G$1" x="-7.62" y="-15.24"/>
 <instance part="GND25" gate="1" x="-66.04" y="-40.64"/>
-<instance part="C47" gate="G$1" x="-15.24" y="-17.78" rot="R90"/>
 <instance part="U10" gate="G$1" x="55.88" y="-25.4"/>
 <instance part="C28" gate="G$1" x="81.28" y="-2.54"/>
 <instance part="C29" gate="G$1" x="27.94" y="-20.32" rot="R90"/>
@@ -4773,6 +5197,9 @@ Lens Type : Water Clear</description>
 <instance part="GND29" gate="1" x="43.18" y="-5.08"/>
 <instance part="C19" gate="G$1" x="71.12" y="0"/>
 <instance part="GND41" gate="1" x="40.64" y="-33.02"/>
+<instance part="C57" gate="G$1" x="-63.5" y="-22.86" rot="R270"/>
+<instance part="C58" gate="G$1" x="-15.24" y="-15.24"/>
+<instance part="C7" gate="G$1" x="-12.7" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -4789,7 +5216,6 @@ Lens Type : Water Clear</description>
 <wire x1="-7.62" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="50.8" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="7.62" y="45.72"/>
-<pinref part="C7" gate="G$1" pin="@P$2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="58.42" x2="-7.62" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="58.42" x2="-2.54" y2="58.42" width="0.1524" layer="91"/>
@@ -4800,6 +5226,7 @@ Lens Type : Water Clear</description>
 <wire x1="-12.7" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="35.56" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-2.54" y="45.72"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND#0"/>
@@ -4824,15 +5251,18 @@ Lens Type : Water Clear</description>
 <wire x1="2.54" y1="-10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="-10.16" x2="-15.24" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-10.16" x2="-66.04" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-10.16" x2="-66.04" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-10.16" x2="-66.04" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U9" gate="G$1" pin="GND$1"/>
+<wire x1="-66.04" y1="-22.86" x2="-66.04" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-33.02" x2="2.54" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="2.54" y="-33.02"/>
 <junction x="-66.04" y="-33.02"/>
 <pinref part="C26" gate="G$1" pin="1"/>
-<junction x="-15.24" y="-10.16"/>
 <junction x="-7.62" y="-10.16"/>
-<pinref part="C47" gate="G$1" pin="@P$2"/>
+<pinref part="C57" gate="G$1" pin="2"/>
+<junction x="-66.04" y="-22.86"/>
+<pinref part="C58" gate="G$1" pin="1"/>
+<junction x="-15.24" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
@@ -4974,6 +5404,7 @@ Lens Type : Water Clear</description>
 <pinref part="U9" gate="G$1" pin="VDD_IO"/>
 <wire x1="-50.8" y1="-22.86" x2="-58.42" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-58.42" y="-22.86" size="1.778" layer="95"/>
+<pinref part="C57" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="-15.24" y1="-27.94" x2="-7.62" y2="-27.94" width="0.1524" layer="91"/>
@@ -4983,8 +5414,8 @@ Lens Type : Water Clear</description>
 <pinref part="U9" gate="G$1" pin="VDD"/>
 <wire x1="-15.24" y1="-27.94" x2="-20.32" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-27.94"/>
-<pinref part="C47" gate="G$1" pin="@P$1"/>
 <label x="-12.7" y="-27.94" size="1.778" layer="95"/>
+<pinref part="C58" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDDIO"/>
@@ -4997,13 +5428,13 @@ Lens Type : Water Clear</description>
 <label x="-25.4" y="66.04" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="66.04" x2="-12.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="@P$1"/>
-<junction x="-12.7" y="66.04"/>
-<wire x1="-12.7" y1="66.04" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="RSVD#1"/>
+<wire x1="-12.7" y1="66.04" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="60.96" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="66.04" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-27.94" y="66.04"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<junction x="-12.7" y="66.04"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="2"/>
@@ -5039,7 +5470,6 @@ Lens Type : Water Clear</description>
 <instance part="GND20" gate="1" x="-12.7" y="-60.96"/>
 <instance part="C20" gate="G$1" x="-22.86" y="-35.56"/>
 <instance part="C21" gate="G$1" x="-96.52" y="-38.1" rot="R180"/>
-<instance part="C46" gate="G$1" x="-30.48" y="-38.1" rot="R90"/>
 <instance part="U1" gate="G$1" x="45.72" y="-43.18"/>
 <instance part="C1" gate="G$1" x="27.94" y="-33.02" rot="R180"/>
 <instance part="C2" gate="G$1" x="5.08" y="-45.72"/>
@@ -5054,11 +5484,10 @@ Lens Type : Water Clear</description>
 <instance part="GND7" gate="1" x="71.12" y="-50.8"/>
 <instance part="C5" gate="G$1" x="71.12" y="-45.72"/>
 <instance part="U19" gate="G$1" x="-63.5" y="20.32"/>
-<instance part="C11" gate="G$1" x="-43.18" y="53.34"/>
-<instance part="C54" gate="G$1" x="-22.86" y="58.42" rot="R270"/>
-<instance part="GND47" gate="1" x="-33.02" y="43.18"/>
-<instance part="GND48" gate="1" x="-91.44" y="5.08"/>
-<instance part="C6" gate="G$1" x="-33.02" y="53.34"/>
+<instance part="C11" gate="G$1" x="-50.8" y="53.34"/>
+<instance part="GND47" gate="1" x="-45.72" y="45.72"/>
+<instance part="GND48" gate="1" x="-99.06" y="5.08"/>
+<instance part="C6" gate="G$1" x="-99.06" y="25.4"/>
 <instance part="C9" gate="G$1" x="10.16" y="17.78"/>
 <instance part="U3" gate="G$1" x="43.18" y="25.4"/>
 <instance part="GND14" gate="1" x="10.16" y="10.16"/>
@@ -5066,10 +5495,14 @@ Lens Type : Water Clear</description>
 <instance part="GND16" gate="1" x="78.74" y="45.72"/>
 <instance part="C10" gate="G$1" x="66.04" y="48.26" rot="R90"/>
 <instance part="GND17" gate="1" x="58.42" y="12.7"/>
-<instance part="C12" gate="G$1" x="17.78" y="43.18" rot="R180"/>
-<instance part="C13" gate="G$1" x="7.62" y="45.72" rot="R270"/>
+<instance part="C12" gate="G$1" x="20.32" y="43.18" rot="R180"/>
 <instance part="GND40" gate="1" x="-17.78" y="5.08"/>
 <instance part="GND46" gate="1" x="45.72" y="-2.54"/>
+<instance part="C13" gate="G$1" x="7.62" y="43.18" rot="R180"/>
+<instance part="C45" gate="G$1" x="-91.44" y="-27.94"/>
+<instance part="GND50" gate="1" x="-91.44" y="-20.32" rot="R180"/>
+<instance part="C60" gate="G$1" x="-30.48" y="-35.56"/>
+<instance part="C46" gate="G$1" x="-38.1" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -5107,9 +5540,9 @@ Lens Type : Water Clear</description>
 <junction x="-12.7" y="-50.8"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <junction x="-22.86" y="-30.48"/>
-<pinref part="C46" gate="G$1" pin="@P$2"/>
-<junction x="-30.48" y="-30.48"/>
 <junction x="-12.7" y="-58.42"/>
+<pinref part="C60" gate="G$1" pin="1"/>
+<junction x="-30.48" y="-30.48"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -5148,19 +5581,22 @@ Lens Type : Water Clear</description>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="C54" gate="G$1" pin="@P$2"/>
-<wire x1="-43.18" y1="50.8" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="50.8" x2="-22.86" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="50.8" x2="-33.02" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-33.02" y="50.8"/>
+<wire x1="-50.8" y1="50.8" x2="-45.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="48.26" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="48.26" x2="-45.72" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-45.72" y="50.8"/>
 </segment>
 <segment>
 <pinref part="U19" gate="G$1" pin="GND"/>
 <pinref part="GND48" gate="1" pin="GND"/>
-<wire x1="-83.82" y1="10.16" x2="-91.44" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="10.16" x2="-91.44" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="10.16" x2="-99.06" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="10.16" x2="-99.06" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="-99.06" y1="10.16" x2="-99.06" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-99.06" y="10.16"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -5168,12 +5604,12 @@ Lens Type : Water Clear</description>
 <wire x1="68.58" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <junction x="12.7" y="38.1"/>
-<pinref part="C13" gate="G$1" pin="@P$2"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND$1"/>
@@ -5208,6 +5644,10 @@ Lens Type : Water Clear</description>
 <pinref part="U3" gate="G$1" pin="DEN"/>
 <wire x1="45.72" y1="5.08" x2="45.72" y2="0" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="GND50" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOSI-B" class="0">
@@ -5383,43 +5823,39 @@ Lens Type : Water Clear</description>
 <wire x1="-63.5" y1="43.18" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="58.42" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U19" gate="G$1" pin="VDD#0"/>
-<wire x1="-58.42" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="58.42" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="43.18" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-58.42" y="58.42"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-43.18" y="58.42"/>
-<pinref part="C54" gate="G$1" pin="@P$1"/>
-<wire x1="-33.02" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-22.86" y="58.42"/>
+<junction x="-50.8" y="58.42"/>
 <label x="-63.5" y="58.42" size="1.778" layer="95"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<junction x="-33.02" y="58.42"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="58.42" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U19" gate="G$1" pin="VDDIO"/>
-<wire x1="-83.82" y1="30.48" x2="-93.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="30.48" x2="-99.06" y2="30.48" width="0.1524" layer="91"/>
 <label x="-93.98" y="30.48" size="1.778" layer="95"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="RSVD$3"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="45.72" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="48.26" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VDD"/>
+<wire x1="7.62" y1="48.26" x2="-2.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="17.78" y="48.26"/>
+<junction x="20.32" y="48.26"/>
 <junction x="40.64" y="48.26"/>
 <junction x="43.18" y="48.26"/>
-<wire x1="-2.54" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<junction x="7.62" y="48.26"/>
-<pinref part="C13" gate="G$1" pin="@P$1"/>
 <label x="0" y="48.26" size="1.778" layer="95"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<junction x="7.62" y="48.26"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDDIO"/>
@@ -5455,7 +5891,6 @@ Lens Type : Water Clear</description>
 <pinref part="U6" gate="G$1" pin="VDD"/>
 <wire x1="-48.26" y1="-40.64" x2="-30.48" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-40.64" x2="-22.86" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="@P$1"/>
 <wire x1="-22.86" y1="-40.64" x2="-20.32" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-38.1" x2="-30.48" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-30.48" y="-40.64"/>
@@ -5463,11 +5898,14 @@ Lens Type : Water Clear</description>
 <wire x1="-22.86" y1="-38.1" x2="-22.86" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-40.64"/>
 <label x="-22.86" y="-40.64" size="1.778" layer="95"/>
+<pinref part="C60" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VDDIO"/>
-<wire x1="-78.74" y1="-35.56" x2="-86.36" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-35.56" x2="-91.44" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="-35.56" x2="-91.44" y2="-30.48" width="0.1524" layer="91"/>
 <label x="-86.36" y="-35.56" size="1.778" layer="95"/>
+<pinref part="C45" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -5480,7 +5918,6 @@ Lens Type : Water Clear</description>
 <instance part="U4" gate="G$1" x="-55.88" y="12.7"/>
 <instance part="GND13" gate="1" x="-25.4" y="2.54"/>
 <instance part="C14" gate="G$1" x="-10.16" y="12.7"/>
-<instance part="C45" gate="G$1" x="-20.32" y="10.16" rot="R90"/>
 <instance part="GND38" gate="1" x="-88.9" y="7.62"/>
 <instance part="U5" gate="G$1" x="53.34" y="27.94"/>
 <instance part="C15" gate="G$1" x="12.7" y="17.78"/>
@@ -5497,6 +5934,8 @@ Lens Type : Water Clear</description>
 <instance part="C52" gate="G$1" x="35.56" y="-35.56"/>
 <instance part="GND12" gate="1" x="35.56" y="-40.64"/>
 <instance part="GND18" gate="1" x="20.32" y="-20.32"/>
+<instance part="C47" gate="G$1" x="-76.2" y="20.32" rot="R90"/>
+<instance part="C59" gate="G$1" x="-20.32" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -5524,18 +5963,22 @@ Lens Type : Water Clear</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="20.32" x2="-10.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="@P$2"/>
 <wire x1="-20.32" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="17.78" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-20.32" y="20.32"/>
 <pinref part="U4" gate="G$1" pin="INT1"/>
 <wire x1="-40.64" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-25.4" y="7.62"/>
+<pinref part="C59" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND$0"/>
 <wire x1="-71.12" y1="10.16" x2="-88.9" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="20.32" x2="-88.9" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="20.32" x2="-88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-88.9" y="10.16"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -5696,6 +6139,7 @@ Lens Type : Water Clear</description>
 <pinref part="U4" gate="G$1" pin="VDDIO"/>
 <wire x1="-73.66" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
 <label x="-76.2" y="20.32" size="1.778" layer="95"/>
+<pinref part="C47" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U15" gate="G$1" pin="VDD"/>
@@ -5737,8 +6181,8 @@ Lens Type : Water Clear</description>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="7.62" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="7.62" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="@P$1"/>
 <label x="-17.78" y="7.62" size="1.778" layer="95"/>
+<pinref part="C59" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="3.3V-B" class="0">
@@ -5761,7 +6205,6 @@ Lens Type : Water Clear</description>
 <instances>
 <instance part="U17" gate="G$1" x="0" y="0"/>
 <instance part="GND42" gate="1" x="-30.48" y="-12.7"/>
-<instance part="C25" gate="G$1" x="45.72" y="-2.54" rot="R270"/>
 <instance part="C27" gate="G$1" x="55.88" y="-7.62"/>
 <instance part="C48" gate="G$1" x="-17.78" y="-30.48"/>
 <instance part="C49" gate="G$1" x="-5.08" y="-40.64" rot="R270"/>
@@ -5771,7 +6214,8 @@ Lens Type : Water Clear</description>
 <instance part="GND21" gate="1" x="73.66" y="-12.7"/>
 <instance part="C51" gate="G$1" x="132.08" y="-2.54"/>
 <instance part="GND39" gate="1" x="0" y="-22.86"/>
-<instance part="C22" gate="G$1" x="139.7" y="2.54" rot="R270"/>
+<instance part="C25" gate="G$1" x="45.72" y="-7.62"/>
+<instance part="C22" gate="G$1" x="144.78" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -5804,13 +6248,13 @@ Lens Type : Water Clear</description>
 <pinref part="GND43" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C25" gate="G$1" pin="@P$2"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="-10.16" x2="50.8" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-10.16" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-10.16" x2="50.8" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="-10.16"/>
 <pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="C25" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="AD0/VOUT"/>
@@ -5828,9 +6272,9 @@ Lens Type : Water Clear</description>
 <pinref part="GND21" gate="1" pin="GND"/>
 <junction x="73.66" y="-10.16"/>
 <pinref part="C51" gate="G$1" pin="1"/>
-<pinref part="C22" gate="G$1" pin="@P$1"/>
-<wire x1="139.7" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
 <junction x="132.08" y="2.54"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U17" gate="G$1" pin="DEN_G"/>
@@ -5867,12 +6311,10 @@ Lens Type : Water Clear</description>
 <wire x1="30.48" y1="0" x2="30.48" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="30.48" y="-2.54"/>
-<pinref part="C25" gate="G$1" pin="@P$1"/>
-<wire x1="45.72" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="45.72" y="-2.54"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <junction x="55.88" y="-2.54"/>
 <pinref part="U17" gate="G$1" pin="VDD#1"/>
+<wire x1="45.72" y1="-2.54" x2="55.88" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <junction x="30.48" y="0"/>
 <pinref part="U17" gate="G$1" pin="VDD_IO"/>
@@ -5880,6 +6322,8 @@ Lens Type : Water Clear</description>
 <label x="25.4" y="5.08" size="1.778" layer="95"/>
 <wire x1="30.48" y1="2.54" x2="30.48" y2="5.08" width="0.1524" layer="91"/>
 <junction x="30.48" y="2.54"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<junction x="45.72" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="VDDD"/>
@@ -5891,9 +6335,9 @@ Lens Type : Water Clear</description>
 <wire x1="124.46" y1="-7.62" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="124.46" y="-5.08"/>
 <label x="119.38" y="-5.08" size="1.778" layer="95"/>
-<pinref part="C22" gate="G$1" pin="@P$2"/>
-<wire x1="139.7" y1="-5.08" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-5.08" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="132.08" y="-5.08"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U22" gate="G$1" pin="VSNS"/>
