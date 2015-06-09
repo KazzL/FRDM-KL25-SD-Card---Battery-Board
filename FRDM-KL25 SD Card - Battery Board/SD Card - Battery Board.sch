@@ -881,6 +881,85 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="Kas-Buck Boost Battery Control">
+<packages>
+<package name="TPS6300X">
+<smd name="P$1" x="-1" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.5" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$3" x="0" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$4" x="0.5" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$5" x="1" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$6" x="1" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$7" x="0.5" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$8" x="0" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$9" x="-0.5" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<smd name="P$10" x="-1" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90"/>
+<rectangle x1="1" y1="0.04" x2="1.97" y2="0.46" layer="31"/>
+<rectangle x1="1" y1="-0.46" x2="1.97" y2="-0.04" layer="29"/>
+<rectangle x1="-1.97" y1="0.04" x2="-1" y2="0.46" layer="29"/>
+<rectangle x1="-1.97" y1="-0.46" x2="-1" y2="-0.04" layer="29"/>
+<smd name="P$11" x="0" y="0" dx="2.4" dy="1.65" layer="1"/>
+<rectangle x1="-1.9" y1="0.11" x2="-1" y2="0.39" layer="1"/>
+<rectangle x1="-1.9" y1="-0.39" x2="-1" y2="-0.11" layer="1"/>
+<rectangle x1="1" y1="0.11" x2="1.9" y2="0.39" layer="1"/>
+<rectangle x1="1" y1="-0.39" x2="1.9" y2="-0.11" layer="31"/>
+<rectangle x1="-1.9" y1="0.11" x2="-1" y2="0.39" layer="31"/>
+<rectangle x1="-1.9" y1="-0.39" x2="-1" y2="-0.11" layer="31"/>
+<rectangle x1="1" y1="0.11" x2="1.9" y2="0.39" layer="31"/>
+<rectangle x1="1" y1="-0.39" x2="1.9" y2="-0.11" layer="1"/>
+<text x="0" y="-4" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS6300X">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<pin name="VOUT" x="-20.32" y="10.16" length="middle"/>
+<pin name="L2" x="-20.32" y="5.08" length="middle"/>
+<pin name="PGND" x="-20.32" y="0" length="middle"/>
+<pin name="L1" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VIN" x="-20.32" y="-10.16" length="middle"/>
+<pin name="EN" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="PS/SYNC" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="VINA" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="FB" x="20.32" y="10.16" length="middle" rot="R180"/>
+<text x="7.62" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="POWER_PAD" x="0" y="-17.78" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS6300X" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TPS6300X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TPS6300X">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$6"/>
+<connect gate="G$1" pin="FB" pad="P$10"/>
+<connect gate="G$1" pin="GND" pad="P$9"/>
+<connect gate="G$1" pin="L1" pad="P$4"/>
+<connect gate="G$1" pin="L2" pad="P$2"/>
+<connect gate="G$1" pin="PGND" pad="P$3"/>
+<connect gate="G$1" pin="POWER_PAD" pad="P$11"/>
+<connect gate="G$1" pin="PS/SYNC" pad="P$7"/>
+<connect gate="G$1" pin="VIN" pad="P$5"/>
+<connect gate="G$1" pin="VINA" pad="P$8"/>
+<connect gate="G$1" pin="VOUT" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -903,6 +982,8 @@
 <part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R9" library="Kas-Passives" deviceset="RESISTOR" device="0402" value="200"/>
 <part name="R10" library="Kas-Passives" deviceset="RESISTOR" device="0402" value="200"/>
+<part name="U1" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="" value="TPS63000"/>
+<part name="U2" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="" value="TPS63002"/>
 </parts>
 <sheets>
 <sheet>
@@ -935,6 +1016,8 @@
 <plain>
 </plain>
 <instances>
+<instance part="U1" gate="G$1" x="25.4" y="71.12"/>
+<instance part="U2" gate="G$1" x="93.98" y="71.12"/>
 </instances>
 <busses>
 </busses>
