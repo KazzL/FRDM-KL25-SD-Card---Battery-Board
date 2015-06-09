@@ -7,11 +7,20 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Buffers & Level Shifters.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Connectors.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Crystal.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Diodes-LEDs.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-FET.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Microcontroller.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Passives.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Power Regulator.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Pwr.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Sensors.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="3182 197 3781 596"
+Loc="1966 59 2731 706"
 State=2
 Number=0
 
