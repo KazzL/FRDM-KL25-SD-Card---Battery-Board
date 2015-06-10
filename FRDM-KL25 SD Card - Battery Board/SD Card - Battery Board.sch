@@ -252,19 +252,6 @@
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="R0402">
-<description>RESISTOR</description>
-<wire x1="-0.95" y1="0.45" x2="0.95" y2="0.45" width="0.0508" layer="39"/>
-<wire x1="0.95" y1="0.45" x2="0.95" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="0.95" y1="-0.45" x2="-0.95" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="-0.95" y1="-0.45" x2="-0.95" y2="0.45" width="0.0508" layer="39"/>
-<smd name="1" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
-<smd name="2" x="0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.1" y1="-0.275" x2="0.1" y2="0.275" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -276,21 +263,6 @@
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -743,142 +715,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>0402 Resistor</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0-100M-X%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="200-100M-1%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2000X" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="73T6485" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="1%" constant="no"/>
-<attribute name="VALUE" value="200" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="330-100M-5%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2GEJ301X" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="65T8277" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="5%" constant="no"/>
-<attribute name="VALUE" value="330" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="10K-62.5M-1%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="67R9884" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="1%" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="4.7K-62.5M-5%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402JR-134K7L" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="68R0040" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="5%" constant="no"/>
-<attribute name="VALUE" value="4.7k" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="178K-64M-1%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402178KFKED" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="52K6754" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="1%" constant="no"/>
-<attribute name="VALUE" value="178k" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1M-100M-X%-50V" package="R0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF1004X" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="64R5250" constant="no"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
-<attribute name="TOLARANCE" value="1%" constant="no"/>
-<attribute name="VALUE" value="1M" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="Kas-Buck Boost Battery Control">
@@ -1105,6 +941,178 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="Kas-Resistors">
+<packages>
+<package name="R0402">
+<description>RESISTOR</description>
+<wire x1="-0.95" y1="0.45" x2="0.95" y2="0.45" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="0.45" x2="0.95" y2="-0.45" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="-0.45" x2="-0.95" y2="-0.45" width="0.0508" layer="39"/>
+<wire x1="-0.95" y1="-0.45" x2="-0.95" y2="0.45" width="0.0508" layer="39"/>
+<smd name="1" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2" x="0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.1" y1="-0.275" x2="0.1" y2="0.275" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<description>0402 Resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0-100M-X%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="51W3639" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="200-100M-1%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2000X" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="73T6485" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="200" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="330-100M-5%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2GEJ301X" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="65T8277" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="330" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="10K-62.5M-1%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="67R9884" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="4.7K-62.5M-5%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402JR-134K7L" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="68R0040" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="4.7k" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="178K-64M-1%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402178KFKED" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="52K6754" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="178k" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1M-100M-X%-50V" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF1004X" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="64R5250" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1117,16 +1125,16 @@
 <parts>
 <part name="U$1" library="Kas-Connectors" deviceset="693061010991" device=""/>
 <part name="C1" library="Kas-Passives" deviceset="CAPACITOR" device="1U-X5R-10%-10V" value="1 uF"/>
-<part name="R1" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R2" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R3" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R4" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R5" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R6" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R7" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R8" library="Kas-Passives" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R9" library="Kas-Passives" deviceset="RESISTOR" device="0402" value="200"/>
-<part name="R10" library="Kas-Passives" deviceset="RESISTOR" device="0402" value="200"/>
+<part name="R1" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R2" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R3" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R4" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R5" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R6" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R7" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R8" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-1%-50V" value="200"/>
+<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-1%-50V" value="200"/>
 <part name="U1" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="" value="TPS63001"/>
 <part name="U2" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="" value="TPS63002"/>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device=""/>
