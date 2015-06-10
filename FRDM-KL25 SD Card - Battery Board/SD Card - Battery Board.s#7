@@ -1741,93 +1741,6 @@ Lens Type : Water Clear</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Kas-Inductors">
-<packages>
-<package name="XAL4020">
-<smd name="1" x="-1.185" y="0" dx="0.98" dy="3.7" layer="1"/>
-<smd name="2" x="1.185" y="0" dx="0.98" dy="3.7" layer="1"/>
-<wire x1="-2.185" y1="-2.2766" x2="2.175" y2="-2.2766" width="0.1524" layer="21"/>
-<wire x1="2.175" y1="-2.2766" x2="2.175" y2="2.2766" width="0.1524" layer="21"/>
-<wire x1="2.175" y1="2.2766" x2="-2.175" y2="2.2766" width="0.1524" layer="21"/>
-<wire x1="-2.175" y1="2.2766" x2="-2.185" y2="-2.2766" width="0.1524" layer="21"/>
-<text x="-2.54" y="2.81" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.54" y="-4.08" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="WB_INDUCTOR">
-<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="2.54" y1="0" x2="2.6924" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="2.6924" y1="0.8382" x2="3.81" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="3.81" y1="1.8542" x2="4.9022" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="4.9022" y1="0.8382" x2="5.08" y2="0.0762" width="0" layer="94" curve="-2"/>
-<wire x1="0" y1="0" x2="0.1524" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="0.1524" y1="0.8382" x2="1.27" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="1.27" y1="1.8542" x2="2.3622" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="2.3622" y1="0.8382" x2="2.54" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-2.54" y1="0" x2="-2.3876" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="-2.3876" y1="0.8382" x2="-1.27" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="-1.27" y1="1.8542" x2="-0.1778" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="-0.1778" y1="0.8382" x2="0" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-5.08" y1="0" x2="-4.9276" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="-4.9276" y1="0.8382" x2="-3.81" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="-3.81" y1="1.8542" x2="-2.7178" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="-2.7178" y1="0.8382" x2="-2.54" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-2.54" y1="-0.1778" x2="-2.54" y2="0" width="0" layer="94" curve="-53"/>
-<wire x1="0" y1="-0.1778" x2="0" y2="0" width="0" layer="94" curve="-53"/>
-<wire x1="2.54" y1="-0.1778" x2="2.54" y2="0" width="0" layer="94" curve="-53"/>
-<text x="-5.08" y="2.54" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;VALUE</text>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.6924" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="2.6924" y1="0.8382" x2="3.81" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="3.81" y1="1.8542" x2="4.9022" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="4.9022" y1="0.8382" x2="5.08" y2="0.0762" width="0" layer="94" curve="-2"/>
-<wire x1="0" y1="0" x2="0.1524" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="0.1524" y1="0.8382" x2="1.27" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="1.27" y1="1.8542" x2="2.3622" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="2.3622" y1="0.8382" x2="2.54" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-2.54" y1="0" x2="-2.3876" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="-2.3876" y1="0.8382" x2="-1.27" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="-1.27" y1="1.8542" x2="-0.1778" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="-0.1778" y1="0.8382" x2="0" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-5.08" y1="0" x2="-4.9276" y2="0.8382" width="0" layer="94" curve="-12"/>
-<wire x1="-4.9276" y1="0.8382" x2="-3.81" y2="1.8542" width="0" layer="94" curve="-78"/>
-<wire x1="-3.81" y1="1.8542" x2="-2.7178" y2="0.8382" width="0" layer="94" curve="-79"/>
-<wire x1="-2.7178" y1="0.8382" x2="-2.54" y2="-0.1778" width="0" layer="94" curve="-17"/>
-<wire x1="-2.54" y1="-0.1778" x2="-2.54" y2="0" width="0" layer="94" curve="-53"/>
-<wire x1="0" y1="-0.1778" x2="0" y2="0" width="0" layer="94" curve="-53"/>
-<wire x1="2.54" y1="-0.1778" x2="2.54" y2="0" width="0" layer="94" curve="-53"/>
-<text x="-5.08" y="5.08" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="XAL4020-222MEB" prefix="L">
-<gates>
-<gate name="A" symbol="WB_INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XAL4020">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DCR" value="0.04" constant="no"/>
-<attribute name="IDC" value="5.5" constant="no"/>
-<attribute name="L" value="2.2E-6" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Coilcraft" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XAL4020-222MEB" constant="no"/>
-<attribute name="VENDOR" value="Coilcraft" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1870,24 +1783,6 @@ Lens Type : Water Clear</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="100"/>
 <part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="0.01"/>
-<part name="6.3V-0603-X7R-CERAMIC-2" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="6.3V-0603-X7R-CERAMIC-1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="L1" library="Kas-Inductors" deviceset="XAL4020-222MEB" device="" value="VLF4012-2R2"/>
-<part name="L2" library="Kas-Inductors" deviceset="XAL4020-222MEB" device="" value="VLF4012-2R2"/>
-<part name="6.3V-0603-X7R-CERAMIC-3" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="6.3V-0603-X7R-CERAMIC-4" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="25V-0603-X7R-CERAMIC-10%-2" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="0.1uF"/>
-<part name="25V-0603-X7R-CERAMIC-10%-1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="1.6k"/>
-<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="20k"/>
-<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="1k"/>
-<part name="U$3" library="Kas-Diodes-LEDs" deviceset="LED" device="G" value="LEDY"/>
 </parts>
 <sheets>
 <sheet>
@@ -1918,14 +1813,12 @@ Lens Type : Water Clear</description>
 <sheet>
 <description>Battery Monitoring</description>
 <plain>
-<text x="15.24" y="96.52" size="1.778" layer="104">add schottky diode</text>
-<text x="10.16" y="22.86" size="1.778" layer="104">add schottky diode</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-12.7" y="86.36"/>
 <instance part="U2" gate="G$1" x="-20.32" y="12.7"/>
 <instance part="U3" gate="G$1" x="142.24" y="76.2"/>
-<instance part="U4" gate="G$1" x="91.44" y="0"/>
+<instance part="U4" gate="G$1" x="139.7" y="7.62"/>
 <instance part="GND1" gate="1" x="88.9" y="48.26"/>
 <instance part="GRM155R60J474KE19D-2" gate="G$1" x="109.22" y="58.42"/>
 <instance part="GRM155R60J474KE19D-1" gate="G$1" x="96.52" y="68.58"/>
@@ -1942,24 +1835,6 @@ Lens Type : Water Clear</description>
 <instance part="GND3" gate="1" x="190.5" y="48.26" rot="R90"/>
 <instance part="R16" gate="G$1" x="195.58" y="27.94"/>
 <instance part="R17" gate="G$1" x="205.74" y="48.26" rot="R90"/>
-<instance part="6.3V-0603-X7R-CERAMIC-2" gate="G$1" x="-43.18" y="104.14"/>
-<instance part="6.3V-0603-X7R-CERAMIC-1" gate="G$1" x="-43.18" y="71.12"/>
-<instance part="L1" gate="A" x="-53.34" y="88.9" rot="R90"/>
-<instance part="L2" gate="A" x="-53.34" y="12.7" rot="R90"/>
-<instance part="6.3V-0603-X7R-CERAMIC-3" gate="G$1" x="-48.26" y="35.56"/>
-<instance part="6.3V-0603-X7R-CERAMIC-4" gate="G$1" x="-50.8" y="-12.7"/>
-<instance part="R18" gate="G$1" x="-55.88" y="71.12" rot="R90"/>
-<instance part="R19" gate="G$1" x="-60.96" y="-5.08" rot="R90"/>
-<instance part="R20" gate="G$1" x="-60.96" y="-25.4" rot="R90"/>
-<instance part="R21" gate="G$1" x="-55.88" y="55.88" rot="R90"/>
-<instance part="25V-0603-X7R-CERAMIC-10%-2" gate="G$1" x="50.8" y="5.08"/>
-<instance part="25V-0603-X7R-CERAMIC-10%-1" gate="G$1" x="35.56" y="12.7"/>
-<instance part="R22" gate="G$1" x="63.5" y="-2.54"/>
-<instance part="R23" gate="G$1" x="63.5" y="-10.16"/>
-<instance part="R24" gate="G$1" x="63.5" y="-20.32"/>
-<instance part="R25" gate="G$1" x="124.46" y="-20.32"/>
-<instance part="R26" gate="G$1" x="132.08" y="-5.08"/>
-<instance part="U$3" gate="G$1" x="127" y="10.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2134,70 +2009,6 @@ Lens Type : Water Clear</description>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="27.94" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
 <junction x="205.74" y="27.94"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="-33.02" y1="91.44" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="L1" gate="A" pin="1"/>
-<wire x1="-45.72" y1="91.44" x2="-45.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="96.52" x2="-53.34" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="L2"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="L1"/>
-<pinref part="L1" gate="A" pin="2"/>
-<wire x1="-33.02" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="6.3V-0603-X7R-CERAMIC-1" gate="G$1" pin="1"/>
-<wire x1="-33.02" y1="76.2" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
-<wire x1="-33.02" y1="96.52" x2="-43.18" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="6.3V-0603-X7R-CERAMIC-2" gate="G$1" pin="2"/>
-<wire x1="-43.18" y1="96.52" x2="-43.18" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<pinref part="6.3V-0603-X7R-CERAMIC-4" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="2.54" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="2.54" x2="-50.8" y2="-7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="6.3V-0603-X7R-CERAMIC-3" gate="G$1" pin="2"/>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="-48.26" y1="33.02" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="22.86" x2="-40.64" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="L2" gate="A" pin="1"/>
-<wire x1="-53.34" y1="20.32" x2="-48.26" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="L2"/>
-<wire x1="-48.26" y1="20.32" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="17.78" x2="-40.64" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="L1"/>
-<pinref part="L2" gate="A" pin="2"/>
-<wire x1="-40.64" y1="7.62" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="5.08" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

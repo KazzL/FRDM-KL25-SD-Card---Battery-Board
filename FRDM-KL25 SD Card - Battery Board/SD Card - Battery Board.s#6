@@ -1876,18 +1876,6 @@ Lens Type : Water Clear</description>
 <part name="L2" library="Kas-Inductors" deviceset="XAL4020-222MEB" device="" value="VLF4012-2R2"/>
 <part name="6.3V-0603-X7R-CERAMIC-3" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="6.3V-0603-X7R-CERAMIC-4" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="25V-0603-X7R-CERAMIC-10%-2" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="0.1uF"/>
-<part name="25V-0603-X7R-CERAMIC-10%-1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0603" value="10uF"/>
-<part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="1.6k"/>
-<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="20k"/>
-<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="1k"/>
-<part name="U$3" library="Kas-Diodes-LEDs" deviceset="LED" device="G" value="LEDY"/>
 </parts>
 <sheets>
 <sheet>
@@ -1918,14 +1906,12 @@ Lens Type : Water Clear</description>
 <sheet>
 <description>Battery Monitoring</description>
 <plain>
-<text x="15.24" y="96.52" size="1.778" layer="104">add schottky diode</text>
-<text x="10.16" y="22.86" size="1.778" layer="104">add schottky diode</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-12.7" y="86.36"/>
 <instance part="U2" gate="G$1" x="-20.32" y="12.7"/>
 <instance part="U3" gate="G$1" x="142.24" y="76.2"/>
-<instance part="U4" gate="G$1" x="91.44" y="0"/>
+<instance part="U4" gate="G$1" x="139.7" y="7.62"/>
 <instance part="GND1" gate="1" x="88.9" y="48.26"/>
 <instance part="GRM155R60J474KE19D-2" gate="G$1" x="109.22" y="58.42"/>
 <instance part="GRM155R60J474KE19D-1" gate="G$1" x="96.52" y="68.58"/>
@@ -1948,18 +1934,6 @@ Lens Type : Water Clear</description>
 <instance part="L2" gate="A" x="-53.34" y="12.7" rot="R90"/>
 <instance part="6.3V-0603-X7R-CERAMIC-3" gate="G$1" x="-48.26" y="35.56"/>
 <instance part="6.3V-0603-X7R-CERAMIC-4" gate="G$1" x="-50.8" y="-12.7"/>
-<instance part="R18" gate="G$1" x="-55.88" y="71.12" rot="R90"/>
-<instance part="R19" gate="G$1" x="-60.96" y="-5.08" rot="R90"/>
-<instance part="R20" gate="G$1" x="-60.96" y="-25.4" rot="R90"/>
-<instance part="R21" gate="G$1" x="-55.88" y="55.88" rot="R90"/>
-<instance part="25V-0603-X7R-CERAMIC-10%-2" gate="G$1" x="50.8" y="5.08"/>
-<instance part="25V-0603-X7R-CERAMIC-10%-1" gate="G$1" x="35.56" y="12.7"/>
-<instance part="R22" gate="G$1" x="63.5" y="-2.54"/>
-<instance part="R23" gate="G$1" x="63.5" y="-10.16"/>
-<instance part="R24" gate="G$1" x="63.5" y="-20.32"/>
-<instance part="R25" gate="G$1" x="124.46" y="-20.32"/>
-<instance part="R26" gate="G$1" x="132.08" y="-5.08"/>
-<instance part="U$3" gate="G$1" x="127" y="10.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
