@@ -9,17 +9,17 @@ Desktop="Desktop"
 AutoSaveProject=1
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Buck Boost Battery Control.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Buffers & Level Shifters.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Capacitors.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Connectors.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Crystal.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Diodes-LEDs.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-FET.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Inductors.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Microcontroller.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Power Regulator.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Pwr.lbr"
-UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Sensors.lbr"
 UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Resistors.lbr"
-UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Inductors.lbr"
-UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Capacitors.lbr"
+UsedLibrary="/home/kasriel/Documents/eagle_library/eagle-library/Kas-Sensors.lbr"
 
 [Win_1]
 Type="Board Editor"
@@ -69,11 +69,11 @@ Layer=16
 
 [Win_2]
 Type="Schematic Editor"
-Loc="0 0 1096 790"
+Loc="2356 52 3771 1021"
 State=2
 Number=1
 File="Weather Board.sch"
-View="1.40208 23.6601 100.198 87.7189"
+View="-30.8607 -17.2686 174.002 115.564"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -112,11 +112,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -30.8607 -17.2686 174.002 115.564"
 Sheet=1
 
 [Win_3]
 Type="Control Panel"
-Loc="2307 148 3825 993"
+Loc="2212 488 2811 887"
 State=2
 Number=0
 
