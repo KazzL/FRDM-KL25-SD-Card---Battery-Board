@@ -250,6 +250,8 @@
 <pin name="P$6" x="-7.62" y="-20.32" length="middle"/>
 <pin name="P$7" x="-7.62" y="-25.4" length="middle"/>
 <pin name="P$8" x="-7.62" y="-30.48" length="middle"/>
+<text x="2.54" y="-38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -877,7 +879,7 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 <attribute name="NEWARK_PART_NUMBER" value="04X3147" constant="no"/>
 <attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
 <attribute name="TOLARANCE" value="10%" constant="no"/>
-<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
 <attribute name="VOLTAGE" value="25" constant="no"/>
 </technology>
 </technologies>
@@ -1305,6 +1307,42 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 <technology name=""/>
 </technologies>
 </device>
+<device name="0.1U-X5R-10%25V-0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TAIYO YUDEN" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TMK107BJ104KA-T" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="86H5300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-10V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCSH18B104K100CT" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="23T7300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1324,6 +1362,8 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 <part name="U$1" library="Kas-Sensors" deviceset="STCN75DS2F" device=""/>
 <part name="R1" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.01U-X7R-10%-25V-0603" value="0.1uF"/>
+<part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
+<part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1335,6 +1375,8 @@ MPL3115A2: 50 to 110kPa, 2.5v, Absolute Xtrinsic Smart Pressure Sensor</descript
 <instance part="U$1" gate="G$1" x="137.16" y="86.36"/>
 <instance part="R1" gate="G$1" x="152.4" y="88.9"/>
 <instance part="C1" gate="G$1" x="154.94" y="76.2"/>
+<instance part="C2" gate="G$1" x="-12.7" y="22.86"/>
+<instance part="C3" gate="G$1" x="-2.54" y="22.86"/>
 </instances>
 <busses>
 </busses>
