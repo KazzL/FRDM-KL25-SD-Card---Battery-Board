@@ -1812,19 +1812,19 @@
 </library>
 <library name="Kas-Inductors">
 <packages>
-<package name="TY0NRS4010T2R2MDGG">
-<smd name="P$1" x="0" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$2" x="0" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="3.81" width="0.127" layer="51"/>
-<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<text x="2.54" y="-7.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
+<package name="NRS401X">
+<smd name="P$1" x="0" y="1.4" dx="3.7" dy="1.2" layer="1"/>
+<smd name="P$2" x="0" y="-1.4" dx="3.7" dy="1.2" layer="1"/>
+<wire x1="-2" y1="2.2" x2="-2" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2.2" x2="2" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.2" x2="2" y2="2.2" width="0.127" layer="51"/>
+<wire x1="2" y1="2.2" x2="-2" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.2" x2="-2" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-2.2" x2="2" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2.2" x2="2" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.2" x2="-2" y2="2.2" width="0.2032" layer="21"/>
+<text x="1.54" y="-3.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.54" y="-5.16" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1881,7 +1881,7 @@
 <gate name="G$1" symbol="WB_INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TY0NRS4010T2R2MDGG">
+<device name="" package="NRS401X">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>

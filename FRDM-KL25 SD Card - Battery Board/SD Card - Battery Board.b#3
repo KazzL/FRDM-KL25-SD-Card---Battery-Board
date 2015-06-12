@@ -1029,14 +1029,14 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E104K050BB" x="-83.82" y="-227.33" size="1.778" layer="27" display="off"/>
 <attribute name="NEWARK_PART_NUMBER" value="04X3147" x="-83.82" y="-227.33" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="Kas-Capacitors" package="C0402" value="1uF" x="-83.82" y="-232.41">
-<attribute name="MANUFACTURER" value="Murata" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
+<element name="C8" library="Kas-Capacitors" package="C0603" value="1uF" x="-83.82" y="-232.41">
+<attribute name="MANUFACTURER" value="AVX" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
 <attribute name="TOLARANCE" value="10%" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
 <attribute name="DIELECTRIC" value="X5R" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="10" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="14T3276" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84K8388" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="-55 ~ 85" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM155R61A104KA01D" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD105KAT2A" x="-83.82" y="-232.41" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="Kas-Capacitors" package="C0603" value="0.47uF" x="-83.82" y="-237.49">
 <attribute name="MANUFACTURER" value="Taiyo Yuden" x="-83.82" y="-237.49" size="1.778" layer="27" display="off"/>

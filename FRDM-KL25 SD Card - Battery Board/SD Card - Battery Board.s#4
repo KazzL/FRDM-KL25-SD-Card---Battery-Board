@@ -1956,7 +1956,7 @@
 <part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-25" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
-<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="1uF"/>
+<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V-0603" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
 <part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
 <part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>

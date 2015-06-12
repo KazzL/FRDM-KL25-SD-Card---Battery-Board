@@ -1897,11 +1897,11 @@
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="D2" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="R-1.85V-20MA" value="Red-LED"/>
-<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
+<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="100"/>
+<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="100"/>
+<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
 <part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0.01"/>
 <part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>

@@ -1948,7 +1948,7 @@
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
-<part name="D3" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
@@ -1962,8 +1962,8 @@
 <part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
 <part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
 <part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
-<part name="U$1" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
-<part name="U$2" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
+<part name="D3" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
+<part name="D4" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="U$3" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
 <part name="R27" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R28" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
@@ -2030,7 +2030,7 @@
 <instance part="R24" gate="G$1" x="63.5" y="-20.32"/>
 <instance part="R25" gate="G$1" x="124.46" y="-20.32"/>
 <instance part="R26" gate="G$1" x="132.08" y="-5.08"/>
-<instance part="D3" gate="G$1" x="127" y="10.16" rot="R180"/>
+<instance part="D1" gate="G$1" x="127" y="10.16" rot="R180"/>
 <instance part="C2" gate="G$1" x="-43.18" y="106.68"/>
 <instance part="C3" gate="G$1" x="-43.18" y="71.12"/>
 <instance part="C4" gate="G$1" x="-48.26" y="35.56"/>
@@ -2042,8 +2042,8 @@
 <instance part="C10" gate="G$1" x="180.34" y="58.42"/>
 <instance part="C11" gate="G$1" x="165.1" y="45.72"/>
 <instance part="C12" gate="G$1" x="180.34" y="33.02"/>
-<instance part="U$1" gate="G$1" x="25.4" y="91.44"/>
-<instance part="U$2" gate="G$1" x="17.78" y="17.78"/>
+<instance part="D3" gate="G$1" x="25.4" y="91.44"/>
+<instance part="D4" gate="G$1" x="17.78" y="17.78"/>
 <instance part="U$3" gate="G$1" x="2.54" y="-43.18"/>
 <instance part="R27" gate="G$1" x="22.86" y="73.66"/>
 <instance part="R28" gate="G$1" x="17.78" y="0"/>

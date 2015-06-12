@@ -1996,8 +1996,8 @@
 <instance part="C3" gate="G$1" x="-43.18" y="71.12"/>
 <instance part="C4" gate="G$1" x="-48.26" y="35.56"/>
 <instance part="C5" gate="G$1" x="-50.8" y="-12.7"/>
-<instance part="C6" gate="G$1" x="58.42" y="15.24"/>
-<instance part="C7" gate="G$1" x="40.64" y="2.54"/>
+<instance part="C6" gate="G$1" x="68.58" y="15.24"/>
+<instance part="C7" gate="G$1" x="60.96" y="7.62"/>
 <instance part="C1" gate="G$1" x="96.52" y="68.58"/>
 <instance part="C9" gate="G$1" x="109.22" y="58.42"/>
 <instance part="C10" gate="G$1" x="180.34" y="58.42"/>

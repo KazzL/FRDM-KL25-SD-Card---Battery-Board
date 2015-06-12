@@ -1964,7 +1964,7 @@
 <part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
 <part name="D3" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="D4" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
-<part name="U$3" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
+<part name="J2" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
 <part name="R27" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R28" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R29" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
@@ -2044,7 +2044,7 @@
 <instance part="C12" gate="G$1" x="180.34" y="33.02"/>
 <instance part="D3" gate="G$1" x="25.4" y="91.44"/>
 <instance part="D4" gate="G$1" x="17.78" y="17.78"/>
-<instance part="U$3" gate="G$1" x="2.54" y="-43.18"/>
+<instance part="J2" gate="G$1" x="2.54" y="-43.18"/>
 <instance part="R27" gate="G$1" x="22.86" y="73.66"/>
 <instance part="R28" gate="G$1" x="17.78" y="0"/>
 <instance part="R29" gate="G$1" x="-22.86" y="-55.88"/>

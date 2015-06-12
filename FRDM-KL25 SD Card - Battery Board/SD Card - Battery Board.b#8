@@ -907,23 +907,25 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CPF0603F10KC1" x="-52.07" y="-158.75" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50" x="-52.07" y="-158.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R22" library="Kas-Resistors" package="R0402" value="1.6k" x="-52.07" y="-171.45">
+<element name="R22" library="Kas-Resistors" package="R0603" value="1.6k" x="-52.07" y="-171.45">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="40P0004" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="1.6k" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-6AEB162V" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
+<attribute name="POWER_RATING" value="125mW" x="-52.07" y="-171.45" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R23" library="Kas-Resistors" package="R0402" value="20k" x="-52.07" y="-175.26">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<element name="R23" library="Kas-Resistors" package="R0603" value="20k" x="-52.07" y="-175.26">
+<attribute name="MANUFACTURER" value="TE Connectivity" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
 <attribute name="TOLARANCE" value="1%" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="50ppm" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="51R8610" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="20k" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0603F20KC1" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
+<attribute name="POWER_RATING" value="63mW" x="-52.07" y="-175.26" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R24" library="Kas-Resistors" package="R0603" value="10k" x="-52.07" y="-179.07">
 <attribute name="MANUFACTURER" value="TE Connectivity" x="-52.07" y="-179.07" size="1.778" layer="27" display="off"/>

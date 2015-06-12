@@ -1922,8 +1922,8 @@
 <part name="R6" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R7" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R8" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
-<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
-<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
+<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
+<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
 <part name="U1" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63001" value="TPS63001"/>
 <part name="U2" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63002" value="TPS63002"/>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device="" value="BQ27510DRZT-G3"/>

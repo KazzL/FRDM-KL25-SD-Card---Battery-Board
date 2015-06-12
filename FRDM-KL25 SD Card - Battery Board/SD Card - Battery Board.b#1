@@ -1093,7 +1093,7 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="38K6878" x="-83.82" y="-264.16" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PMEG2020EJ" x="-83.82" y="-264.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$3" library="Kas-Connectors" package="SD47346-001-USB-MICRO-MOLEX" value="" x="-92.71" y="-257.81">
+<element name="J2" library="Kas-Connectors" package="SD47346-001-USB-MICRO-MOLEX" value="" x="-92.71" y="-257.81">
 <attribute name="#_ROWS" value="1" x="-92.71" y="-257.81" size="1.778" layer="27" display="off"/>
 <attribute name="#_PINS" value="5" x="-92.71" y="-257.81" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-92.71" y="-257.81" size="1.778" layer="27" display="off"/>

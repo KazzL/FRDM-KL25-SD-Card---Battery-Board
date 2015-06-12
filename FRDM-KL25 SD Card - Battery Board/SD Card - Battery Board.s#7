@@ -1471,6 +1471,24 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="0.1U-X5R-10%25V-0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TAIYO YUDEN" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TMK107BJ104KA-T" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="86H5300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1923,9 +1941,9 @@
 <part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
 <part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
-<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
-<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
-<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
+<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
 <part name="U$1" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="U$2" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="U$3" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>

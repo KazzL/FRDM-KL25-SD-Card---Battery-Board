@@ -1981,7 +1981,6 @@
 <sheet>
 <description>SD Card Connection</description>
 <plain>
-<text x="-7.62" y="73.66" size="1.778" layer="104">Change to 0603 Resistors</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="25.4" y="63.5"/>
