@@ -745,23 +745,25 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CPF0603F10KC1" x="-29.21" y="-31.75" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50" x="-29.21" y="-31.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="Kas-Resistors" package="R0402" value="200" x="-29.21" y="-35.56">
+<element name="R9" library="Kas-Resistors" package="R0603" value="200" x="-29.21" y="-35.56">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="200" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="-29.21" y="-35.56" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R10" library="Kas-Resistors" package="R0402" value="200" x="-29.21" y="-38.1">
+<element name="R10" library="Kas-Resistors" package="R0603" value="200" x="-29.21" y="-38.1">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="200" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="-29.21" y="-38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="Kas-Buck Boost Battery Control" package="VFDFN-10" value="TPS63001" x="-29.21" y="-41.91">
 <attribute name="INPUT_VOLTAGE" value="1.8 - 5.5" x="-29.21" y="-41.91" size="1.778" layer="27" display="off"/>
@@ -1143,6 +1145,42 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="46T8541" x="-121.92" y="-278.13" size="1.778" layer="27" display="off"/>
 <attribute name="SELF_RESONANCE" value="73MHz" x="-121.92" y="-278.13" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="-121.92" y="-278.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R32" library="Kas-Resistors" package="R0603" value="100" x="-123.19" y="-292.1">
+<attribute name="POWER_RATING" value="62.5mW" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Multicomp" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="01P2055" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCTF0603BTC1000" x="-123.19" y="-292.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R33" library="Kas-Resistors" package="R0603" value="100" x="-123.19" y="-297.18">
+<attribute name="POWER_RATING" value="62.5mW" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Multicomp" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="01P2055" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCTF0603BTC1000" x="-123.19" y="-297.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C13" library="Kas-Capacitors" package="C0603" value="0.1uF" x="-123.19" y="-302.26">
+<attribute name="MANUFACTURER" value="Multicomp" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="10%" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="23T7300" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCSH18B104K100CT" x="-123.19" y="-302.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="Kas-Capacitors" package="C0603" value="0.1uF" x="-123.19" y="-307.34">
+<attribute name="MANUFACTURER" value="Multicomp" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="10%" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="23T7300" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCSH18B104K100CT" x="-123.19" y="-307.34" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

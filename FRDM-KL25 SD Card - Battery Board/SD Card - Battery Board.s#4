@@ -1489,6 +1489,24 @@
 </technology>
 </technologies>
 </device>
+<device name="0.1U-X7R-10%-10V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCSH18B104K100CT" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="23T7300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1904,8 +1922,8 @@
 <part name="R6" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R7" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R8" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
-<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
-<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
+<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
+<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
 <part name="U1" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63001" value="TPS63001"/>
 <part name="U2" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63002" value="TPS63002"/>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device="" value="BQ27510DRZT-G3"/>
@@ -1954,6 +1972,10 @@
 <part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
 <part name="L1" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="L2" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
+<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="C13" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
+<part name="C14" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2031,6 +2053,10 @@
 <instance part="R31" gate="G$1" x="-45.72" y="58.42"/>
 <instance part="L1" gate="G$1" x="-53.34" y="88.9" rot="R90"/>
 <instance part="L2" gate="G$1" x="-53.34" y="12.7" rot="R90"/>
+<instance part="R32" gate="G$1" x="-27.94" y="60.96"/>
+<instance part="R33" gate="G$1" x="-33.02" y="-20.32"/>
+<instance part="C13" gate="G$1" x="-15.24" y="58.42"/>
+<instance part="C14" gate="G$1" x="-17.78" y="-22.86"/>
 </instances>
 <busses>
 </busses>
