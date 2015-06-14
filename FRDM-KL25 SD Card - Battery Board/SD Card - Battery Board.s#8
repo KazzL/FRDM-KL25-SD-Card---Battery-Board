@@ -1471,6 +1471,42 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="0.1U-X5R-10%25V-0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TAIYO YUDEN" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TMK107BJ104KA-T" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="86H5300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="25" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1U-X7R-10%-10V" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X7R" constant="no"/>
+<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCSH18B104K100CT" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="23T7300" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1612,7 +1648,7 @@
 <technology name="">
 <attribute name="MANUFACTURER" value="NXP" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PMEG2020EJ" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="38K6878" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0865" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1776,19 +1812,19 @@
 </library>
 <library name="Kas-Inductors">
 <packages>
-<package name="TY0NRS4010T2R2MDGG">
-<smd name="P$1" x="0" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$2" x="0" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="3.81" width="0.127" layer="51"/>
-<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<text x="2.54" y="-7.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="2.54" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
+<package name="NRS401X">
+<smd name="P$1" x="0" y="1.4" dx="3.7" dy="1.2" layer="1"/>
+<smd name="P$2" x="0" y="-1.4" dx="3.7" dy="1.2" layer="1"/>
+<wire x1="-2" y1="2.2" x2="-2" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2.2" x2="2" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.2" x2="2" y2="2.2" width="0.127" layer="51"/>
+<wire x1="2" y1="2.2" x2="-2" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.2" x2="-2" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-2.2" x2="2" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="2" y1="-2.2" x2="2" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.2" x2="-2" y2="2.2" width="0.2032" layer="21"/>
+<text x="1.54" y="-3.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.54" y="-5.16" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1845,7 +1881,7 @@
 <gate name="G$1" symbol="WB_INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TY0NRS4010T2R2MDGG">
+<device name="" package="NRS401X">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -1886,8 +1922,8 @@
 <part name="R6" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R7" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R8" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
-<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
-<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="200"/>
+<part name="R9" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
+<part name="R10" library="Kas-Resistors" deviceset="RESISTOR" device="200-100M-0.1%-75V" value="200"/>
 <part name="U1" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63001" value="TPS63001"/>
 <part name="U2" library="Kas-Buck Boost Battery Control" deviceset="TPS6300X" device="TPS63002" value="TPS63002"/>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device="" value="BQ27510DRZT-G3"/>
@@ -1902,7 +1938,7 @@
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
-<part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0.01"/>
+<part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0.01-100M-1%-50V" value="0.01"/>
 <part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
@@ -1912,7 +1948,7 @@
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-63M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
-<part name="D3" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
@@ -1920,15 +1956,15 @@
 <part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-25" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
-<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="1uF"/>
+<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V-0603" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
 <part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0603" value="0.47uF"/>
-<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
-<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
-<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%-10V-0402" value="0.1uF"/>
-<part name="U$1" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
-<part name="U$2" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
-<part name="U$3" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
+<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="D3" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
+<part name="D4" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
+<part name="J2" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
 <part name="R27" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R28" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R29" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
@@ -1936,12 +1972,15 @@
 <part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
 <part name="L1" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="L2" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
+<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="C13" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
+<part name="C14" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-10V" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
 <description>SD Card Connection</description>
 <plain>
-<text x="-7.62" y="73.66" size="1.778" layer="104">Change to 0603 Resistors</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="25.4" y="63.5"/>
@@ -1991,7 +2030,7 @@
 <instance part="R24" gate="G$1" x="63.5" y="-20.32"/>
 <instance part="R25" gate="G$1" x="124.46" y="-20.32"/>
 <instance part="R26" gate="G$1" x="132.08" y="-5.08"/>
-<instance part="D3" gate="G$1" x="127" y="10.16" rot="R180"/>
+<instance part="D1" gate="G$1" x="127" y="10.16" rot="R180"/>
 <instance part="C2" gate="G$1" x="-43.18" y="106.68"/>
 <instance part="C3" gate="G$1" x="-43.18" y="71.12"/>
 <instance part="C4" gate="G$1" x="-48.26" y="35.56"/>
@@ -2003,9 +2042,9 @@
 <instance part="C10" gate="G$1" x="180.34" y="58.42"/>
 <instance part="C11" gate="G$1" x="165.1" y="45.72"/>
 <instance part="C12" gate="G$1" x="180.34" y="33.02"/>
-<instance part="U$1" gate="G$1" x="25.4" y="91.44"/>
-<instance part="U$2" gate="G$1" x="17.78" y="17.78"/>
-<instance part="U$3" gate="G$1" x="2.54" y="-43.18"/>
+<instance part="D3" gate="G$1" x="25.4" y="91.44"/>
+<instance part="D4" gate="G$1" x="17.78" y="17.78"/>
+<instance part="J2" gate="G$1" x="2.54" y="-43.18"/>
 <instance part="R27" gate="G$1" x="22.86" y="73.66"/>
 <instance part="R28" gate="G$1" x="17.78" y="0"/>
 <instance part="R29" gate="G$1" x="-22.86" y="-55.88"/>
@@ -2013,6 +2052,10 @@
 <instance part="R31" gate="G$1" x="-45.72" y="58.42"/>
 <instance part="L1" gate="G$1" x="-53.34" y="88.9" rot="R90"/>
 <instance part="L2" gate="G$1" x="-53.34" y="12.7" rot="R90"/>
+<instance part="R32" gate="G$1" x="-27.94" y="60.96"/>
+<instance part="R33" gate="G$1" x="-33.02" y="-20.32"/>
+<instance part="C13" gate="G$1" x="-15.24" y="58.42"/>
+<instance part="C14" gate="G$1" x="-17.78" y="-22.86"/>
 </instances>
 <busses>
 </busses>
