@@ -2720,9 +2720,9 @@ Source: Samtec SSW.pdf</description>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device="" value="BQ27510DRZT-G3"/>
 <part name="U4" library="Kas-Buck Boost Battery Control" deviceset="B224210" device="" value="BQ24210DQCT"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
+<part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="D2" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="R-1.85V-20MA" value="Red-LED"/>
 <part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -2730,14 +2730,14 @@ Source: Samtec SSW.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
 <part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0.01-100M-1%-50V" value="0.01"/>
-<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
+<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="1.6K-125M-0.1%-100V" value="1.6k"/>
 <part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="20K-63M-1%-50V" value="20k"/>
-<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
+<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
 <part name="D1" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>

@@ -1485,29 +1485,29 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="0.1uF" x="8" y="-41" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MC0603B104K250CT" x="8" y="-41" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="4" y="-48">
-<attribute name="OC_NEWARK" value="85K7646" x="4" y="-48" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-108-02-S-D" x="4" y="-48" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="4" y="-48" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="4" y="-48" size="1.778" layer="27" display="off"/>
+<element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="22" y="5">
+<attribute name="OC_NEWARK" value="85K7646" x="22" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SSW-108-02-S-D" x="22" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="22" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="22" y="5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J4" library="Kas-Connectors" package="SSW-110-02-S-D" value="SSW-110-02-S-D" x="7" y="-58">
-<attribute name="OC_NEWARK" value="11P9480" x="7" y="-58" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-110-02-S-D" x="7" y="-58" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="7" y="-58" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="7" y="-58" size="1.778" layer="27" display="off"/>
+<element name="J4" library="Kas-Connectors" package="SSW-110-02-S-D" value="SSW-110-02-S-D" x="55" y="7">
+<attribute name="OC_NEWARK" value="11P9480" x="55" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SSW-110-02-S-D" x="55" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="55" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="55" y="7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J5" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="4" y="-68">
-<attribute name="OC_NEWARK" value="85K7646" x="4" y="-68" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-108-02-S-D" x="4" y="-68" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="4" y="-68" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="4" y="-68" size="1.778" layer="27" display="off"/>
+<element name="J5" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="58" y="47">
+<attribute name="OC_NEWARK" value="85K7646" x="58" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SSW-108-02-S-D" x="58" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="58" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="58" y="47" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J6" library="Kas-Connectors" package="SSW-106-02-S-D" value="SSW-106-02-S-D" x="1" y="-78">
-<attribute name="OC_NEWARK" value="11P9414" x="1" y="-78" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-106-02-S-D" x="1" y="-78" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="1" y="-78" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="1" y="-78" size="1.778" layer="27" display="off"/>
+<element name="J6" library="Kas-Connectors" package="SSW-106-02-S-D" value="SSW-106-02-S-D" x="24" y="47">
+<attribute name="OC_NEWARK" value="11P9414" x="24" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SSW-106-02-S-D" x="24" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="24" y="47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="24" y="47" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

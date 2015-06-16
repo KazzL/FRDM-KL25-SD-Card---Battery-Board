@@ -2314,7 +2314,7 @@ Source: Samtec TSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSW-108-02-S-D" prefix="X">
+<deviceset name="SSW-108-02-S-D" prefix="J">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <gates>
@@ -2486,7 +2486,7 @@ Source: Samtec SSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSW-106-02-S-D" prefix="X">
+<deviceset name="SSW-106-02-S-D" prefix="J">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <gates>
@@ -2788,10 +2788,10 @@ Source: Samtec SSW.pdf</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="Kas-Pwr" deviceset="VCC" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="Kas-Connectors" deviceset="SSW-108-02-S-D" device=""/>
-<part name="J3" library="Kas-Connectors" deviceset="SSW-110-02-S-D" device=""/>
-<part name="X2" library="Kas-Connectors" deviceset="SSW-108-02-S-D" device=""/>
-<part name="X3" library="Kas-Connectors" deviceset="SSW-106-02-S-D" device=""/>
+<part name="J3" library="Kas-Connectors" deviceset="SSW-108-02-S-D" device=""/>
+<part name="J4" library="Kas-Connectors" deviceset="SSW-110-02-S-D" device=""/>
+<part name="J5" library="Kas-Connectors" deviceset="SSW-108-02-S-D" device=""/>
+<part name="J6" library="Kas-Connectors" deviceset="SSW-106-02-S-D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3574,70 +3574,70 @@ Source: Samtec SSW.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="106.68" y="20.32"/>
-<instance part="X1" gate="-2" x="127" y="20.32"/>
-<instance part="X1" gate="-3" x="106.68" y="17.78"/>
-<instance part="X1" gate="-4" x="127" y="17.78"/>
-<instance part="X1" gate="-5" x="106.68" y="15.24"/>
-<instance part="X1" gate="-6" x="127" y="15.24"/>
-<instance part="X1" gate="-7" x="106.68" y="12.7"/>
-<instance part="X1" gate="-8" x="127" y="12.7"/>
-<instance part="X1" gate="-9" x="106.68" y="10.16"/>
-<instance part="X1" gate="-10" x="127" y="10.16"/>
-<instance part="X1" gate="-11" x="106.68" y="7.62"/>
-<instance part="X1" gate="-12" x="127" y="7.62"/>
-<instance part="X1" gate="-13" x="106.68" y="5.08"/>
-<instance part="X1" gate="-14" x="127" y="5.08"/>
-<instance part="X1" gate="-15" x="106.68" y="2.54"/>
-<instance part="X1" gate="-16" x="127" y="2.54"/>
-<instance part="J3" gate="-1" x="104.14" y="73.66"/>
-<instance part="J3" gate="-2" x="124.46" y="73.66"/>
-<instance part="J3" gate="-3" x="104.14" y="71.12"/>
-<instance part="J3" gate="-4" x="124.46" y="71.12"/>
-<instance part="J3" gate="-5" x="104.14" y="68.58"/>
-<instance part="J3" gate="-6" x="124.46" y="68.58"/>
-<instance part="J3" gate="-7" x="104.14" y="66.04"/>
-<instance part="J3" gate="-8" x="124.46" y="66.04"/>
-<instance part="J3" gate="-9" x="104.14" y="63.5"/>
-<instance part="J3" gate="-10" x="124.46" y="63.5"/>
-<instance part="J3" gate="-11" x="104.14" y="60.96"/>
-<instance part="J3" gate="-12" x="124.46" y="60.96"/>
-<instance part="J3" gate="-13" x="104.14" y="58.42"/>
-<instance part="J3" gate="-14" x="124.46" y="58.42"/>
-<instance part="J3" gate="-15" x="104.14" y="55.88"/>
-<instance part="J3" gate="-16" x="124.46" y="55.88"/>
-<instance part="J3" gate="-17" x="104.14" y="53.34"/>
-<instance part="J3" gate="-18" x="124.46" y="53.34"/>
-<instance part="J3" gate="-19" x="104.14" y="50.8"/>
-<instance part="J3" gate="-20" x="124.46" y="50.8"/>
-<instance part="X2" gate="-1" x="43.18" y="73.66"/>
-<instance part="X2" gate="-2" x="63.5" y="73.66"/>
-<instance part="X2" gate="-3" x="43.18" y="71.12"/>
-<instance part="X2" gate="-4" x="63.5" y="71.12"/>
-<instance part="X2" gate="-5" x="43.18" y="68.58"/>
-<instance part="X2" gate="-6" x="63.5" y="68.58"/>
-<instance part="X2" gate="-7" x="43.18" y="66.04"/>
-<instance part="X2" gate="-8" x="63.5" y="66.04"/>
-<instance part="X2" gate="-9" x="43.18" y="63.5"/>
-<instance part="X2" gate="-10" x="63.5" y="63.5"/>
-<instance part="X2" gate="-11" x="43.18" y="60.96"/>
-<instance part="X2" gate="-12" x="63.5" y="60.96"/>
-<instance part="X2" gate="-13" x="43.18" y="58.42"/>
-<instance part="X2" gate="-14" x="63.5" y="58.42"/>
-<instance part="X2" gate="-15" x="43.18" y="55.88"/>
-<instance part="X2" gate="-16" x="63.5" y="55.88"/>
-<instance part="X3" gate="-1" x="43.18" y="22.86"/>
-<instance part="X3" gate="-2" x="63.5" y="22.86"/>
-<instance part="X3" gate="-3" x="43.18" y="20.32"/>
-<instance part="X3" gate="-4" x="63.5" y="20.32"/>
-<instance part="X3" gate="-5" x="43.18" y="17.78"/>
-<instance part="X3" gate="-6" x="63.5" y="17.78"/>
-<instance part="X3" gate="-7" x="43.18" y="15.24"/>
-<instance part="X3" gate="-8" x="63.5" y="15.24"/>
-<instance part="X3" gate="-9" x="43.18" y="12.7"/>
-<instance part="X3" gate="-10" x="63.5" y="12.7"/>
-<instance part="X3" gate="-11" x="43.18" y="10.16"/>
-<instance part="X3" gate="-12" x="63.5" y="10.16"/>
+<instance part="J3" gate="-1" x="106.68" y="15.24"/>
+<instance part="J3" gate="-2" x="127" y="15.24"/>
+<instance part="J3" gate="-3" x="106.68" y="12.7"/>
+<instance part="J3" gate="-4" x="127" y="12.7"/>
+<instance part="J3" gate="-5" x="106.68" y="10.16"/>
+<instance part="J3" gate="-6" x="127" y="10.16"/>
+<instance part="J3" gate="-7" x="106.68" y="7.62"/>
+<instance part="J3" gate="-8" x="127" y="7.62"/>
+<instance part="J3" gate="-9" x="106.68" y="5.08"/>
+<instance part="J3" gate="-10" x="127" y="5.08"/>
+<instance part="J3" gate="-11" x="106.68" y="2.54"/>
+<instance part="J3" gate="-12" x="127" y="2.54"/>
+<instance part="J3" gate="-13" x="106.68" y="0"/>
+<instance part="J3" gate="-14" x="127" y="0"/>
+<instance part="J3" gate="-15" x="106.68" y="-2.54"/>
+<instance part="J3" gate="-16" x="127" y="-2.54"/>
+<instance part="J4" gate="-1" x="104.14" y="68.58"/>
+<instance part="J4" gate="-2" x="124.46" y="68.58"/>
+<instance part="J4" gate="-3" x="104.14" y="66.04"/>
+<instance part="J4" gate="-4" x="124.46" y="66.04"/>
+<instance part="J4" gate="-5" x="104.14" y="63.5"/>
+<instance part="J4" gate="-6" x="124.46" y="63.5"/>
+<instance part="J4" gate="-7" x="104.14" y="60.96"/>
+<instance part="J4" gate="-8" x="124.46" y="60.96"/>
+<instance part="J4" gate="-9" x="104.14" y="58.42"/>
+<instance part="J4" gate="-10" x="124.46" y="58.42"/>
+<instance part="J4" gate="-11" x="104.14" y="55.88"/>
+<instance part="J4" gate="-12" x="124.46" y="55.88"/>
+<instance part="J4" gate="-13" x="104.14" y="53.34"/>
+<instance part="J4" gate="-14" x="124.46" y="53.34"/>
+<instance part="J4" gate="-15" x="104.14" y="50.8"/>
+<instance part="J4" gate="-16" x="124.46" y="50.8"/>
+<instance part="J4" gate="-17" x="104.14" y="48.26"/>
+<instance part="J4" gate="-18" x="124.46" y="48.26"/>
+<instance part="J4" gate="-19" x="104.14" y="45.72"/>
+<instance part="J4" gate="-20" x="124.46" y="45.72"/>
+<instance part="J5" gate="-1" x="30.48" y="66.04"/>
+<instance part="J5" gate="-2" x="50.8" y="66.04"/>
+<instance part="J5" gate="-3" x="30.48" y="63.5"/>
+<instance part="J5" gate="-4" x="50.8" y="63.5"/>
+<instance part="J5" gate="-5" x="30.48" y="60.96"/>
+<instance part="J5" gate="-6" x="50.8" y="60.96"/>
+<instance part="J5" gate="-7" x="30.48" y="58.42"/>
+<instance part="J5" gate="-8" x="50.8" y="58.42"/>
+<instance part="J5" gate="-9" x="30.48" y="55.88"/>
+<instance part="J5" gate="-10" x="50.8" y="55.88"/>
+<instance part="J5" gate="-11" x="30.48" y="53.34"/>
+<instance part="J5" gate="-12" x="50.8" y="53.34"/>
+<instance part="J5" gate="-13" x="30.48" y="50.8"/>
+<instance part="J5" gate="-14" x="50.8" y="50.8"/>
+<instance part="J5" gate="-15" x="30.48" y="48.26"/>
+<instance part="J5" gate="-16" x="50.8" y="48.26"/>
+<instance part="J6" gate="-1" x="38.1" y="20.32"/>
+<instance part="J6" gate="-2" x="58.42" y="20.32"/>
+<instance part="J6" gate="-3" x="38.1" y="17.78"/>
+<instance part="J6" gate="-4" x="58.42" y="17.78"/>
+<instance part="J6" gate="-5" x="38.1" y="15.24"/>
+<instance part="J6" gate="-6" x="58.42" y="15.24"/>
+<instance part="J6" gate="-7" x="38.1" y="12.7"/>
+<instance part="J6" gate="-8" x="58.42" y="12.7"/>
+<instance part="J6" gate="-9" x="38.1" y="10.16"/>
+<instance part="J6" gate="-10" x="58.42" y="10.16"/>
+<instance part="J6" gate="-11" x="38.1" y="7.62"/>
+<instance part="J6" gate="-12" x="58.42" y="7.62"/>
 </instances>
 <busses>
 </busses>

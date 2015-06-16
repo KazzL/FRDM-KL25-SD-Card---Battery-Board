@@ -2799,9 +2799,9 @@ Source: Samtec SSW.pdf</description>
 <part name="P+5" library="Kas-Pwr" deviceset="VCC" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="con-samtec" deviceset="SSW-106-02-S-D" device=""/>
-<part name="X2" library="con-samtec" deviceset="SSW-106-02-S-D" device=""/>
 <part name="X3" library="con-samtec" deviceset="SSW-108-02-S-D" device=""/>
 <part name="X4" library="con-samtec" deviceset="SSW-110-02-S-D" device=""/>
+<part name="X2" library="con-samtec" deviceset="SSW-108-02-S-D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3596,18 +3596,6 @@ Source: Samtec SSW.pdf</description>
 <instance part="X1" gate="-10" x="30.48" y="50.8"/>
 <instance part="X1" gate="-11" x="10.16" y="48.26"/>
 <instance part="X1" gate="-12" x="30.48" y="48.26"/>
-<instance part="X2" gate="-1" x="7.62" y="33.02"/>
-<instance part="X2" gate="-2" x="27.94" y="33.02"/>
-<instance part="X2" gate="-3" x="7.62" y="30.48"/>
-<instance part="X2" gate="-4" x="27.94" y="30.48"/>
-<instance part="X2" gate="-5" x="7.62" y="27.94"/>
-<instance part="X2" gate="-6" x="27.94" y="27.94"/>
-<instance part="X2" gate="-7" x="7.62" y="25.4"/>
-<instance part="X2" gate="-8" x="27.94" y="25.4"/>
-<instance part="X2" gate="-9" x="7.62" y="22.86"/>
-<instance part="X2" gate="-10" x="27.94" y="22.86"/>
-<instance part="X2" gate="-11" x="7.62" y="20.32"/>
-<instance part="X2" gate="-12" x="27.94" y="20.32"/>
 <instance part="X3" gate="-1" x="96.52" y="63.5"/>
 <instance part="X3" gate="-2" x="116.84" y="63.5"/>
 <instance part="X3" gate="-3" x="96.52" y="60.96"/>
@@ -3644,6 +3632,22 @@ Source: Samtec SSW.pdf</description>
 <instance part="X4" gate="-18" x="114.3" y="5.08"/>
 <instance part="X4" gate="-19" x="93.98" y="2.54"/>
 <instance part="X4" gate="-20" x="114.3" y="2.54"/>
+<instance part="X2" gate="-1" x="10.16" y="30.48"/>
+<instance part="X2" gate="-2" x="30.48" y="30.48"/>
+<instance part="X2" gate="-3" x="10.16" y="27.94"/>
+<instance part="X2" gate="-4" x="30.48" y="27.94"/>
+<instance part="X2" gate="-5" x="10.16" y="25.4"/>
+<instance part="X2" gate="-6" x="30.48" y="25.4"/>
+<instance part="X2" gate="-7" x="10.16" y="22.86"/>
+<instance part="X2" gate="-8" x="30.48" y="22.86"/>
+<instance part="X2" gate="-9" x="10.16" y="20.32"/>
+<instance part="X2" gate="-10" x="30.48" y="20.32"/>
+<instance part="X2" gate="-11" x="10.16" y="17.78"/>
+<instance part="X2" gate="-12" x="30.48" y="17.78"/>
+<instance part="X2" gate="-13" x="10.16" y="15.24"/>
+<instance part="X2" gate="-14" x="30.48" y="15.24"/>
+<instance part="X2" gate="-15" x="10.16" y="12.7"/>
+<instance part="X2" gate="-16" x="30.48" y="12.7"/>
 </instances>
 <busses>
 </busses>

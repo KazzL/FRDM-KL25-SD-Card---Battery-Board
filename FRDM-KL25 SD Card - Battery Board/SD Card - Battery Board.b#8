@@ -802,16 +802,16 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS63001DRCR" x="-21.86" y="34.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OUTPUT_CURRENT" value="1.2A" x="-21.86" y="34.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U2" library="Kas-Buck Boost Battery Control" package="VFDFN-10" value="TPS63002" x="-74.71" y="-12.91" rot="R180">
-<attribute name="INPUT_VOLTAGE" value="1.8 ~ 5.5" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOPOLOGY" value="Switching" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instuments" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OUTPUT_VOLTAGE" value="5" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SWITCHING_FREQUENCY" value="1.5MHz" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="85K1713" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE" value="-40 ~ 85" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63002DRCR" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OUTPUT_CURRENT" value="1.8A" x="-109" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U2" library="Kas-Buck Boost Battery Control" package="VFDFN-10" value="TPS63002" x="-75" y="-13" rot="R180">
+<attribute name="INPUT_VOLTAGE" value="1.8 ~ 5.5" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOPOLOGY" value="Switching" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instuments" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OUTPUT_VOLTAGE" value="5" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SWITCHING_FREQUENCY" value="1.5MHz" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="85K1713" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TEMPERATURE" value="-40 ~ 85" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63002DRCR" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OUTPUT_CURRENT" value="1.8A" x="-109.29" y="28.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="Kas-Buck Boost Battery Control" package="VFDFN-12" value="BQ27510DRZT-G3" x="76.96" y="72.81">
 <attribute name="INPUT_VOLTAGE" value="2.7 - 5.5" x="143" y="69" size="1.778" layer="27" display="off"/>
@@ -911,23 +911,23 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="62" y="-73" size="1.778" layer="27" display="off"/>
 <attribute name="POWER_RATING" value="100mW" x="-0.23" y="-12.04" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R19" library="Kas-Resistors" package="R0603" value="10k" x="-75.96" y="-18.31" rot="R90">
-<attribute name="MANUFACTURER" value="Visay" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="75" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-15" y="49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="-75.96" y="-18.31" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R19" library="Kas-Resistors" package="R0603" value="10k" x="-76" y="-18">
+<attribute name="MANUFACTURER" value="Visay" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-8.69" y="-78.96" size="1.778" layer="27" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="-76" y="-18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R20" library="Kas-Resistors" package="R0603" value="10k" x="-89.51" y="-10.96">
-<attribute name="MANUFACTURER" value="Visay" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="75" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-73" y="-77" size="1.778" layer="27" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="-89.51" y="-10.96" size="1.778" layer="27" display="off"/>
+<element name="R20" library="Kas-Resistors" package="R0603" value="10k" x="-62" y="-23" rot="R90">
+<attribute name="MANUFACTURER" value="Visay" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="4.04" y="-6.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="-62" y="-23" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R21" library="Kas-Resistors" package="R0603" value="10k" x="12" y="-13" rot="R90">
 <attribute name="MANUFACTURER" value="Visay" x="78.04" y="8.59" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1018,14 +1018,14 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE" value="-55 ~ 125" x="45" y="50" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="JMK212AB7106KG-T" x="45" y="50" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C4" library="Kas-Capacitors" package="C0805" value="10uF" x="-70.26" y="-12.96" rot="R90">
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="10%" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIELECTRIC" value="X7R" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="6.3" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="29T3553" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE" value="-55 ~ 125" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="JMK212AB7106KG-T" x="-22" y="48" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C4" library="Kas-Capacitors" package="C0805" value="10uF" x="-70" y="-12" rot="R90">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLARANCE" value="10%" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="6.3" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="29T3553" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="JMK212AB7106KG-T" x="-21.74" y="48.96" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="Kas-Capacitors" package="C0805" value="10uF" x="-78.26" y="-12.31" rot="R90">
 <attribute name="MANUFACTURER" value="Taiyo Yuden" x="-30" y="55" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1113,10 +1113,10 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="75R0865" x="-67" y="-59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PMEG2020EJ" x="-67" y="-59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D4" library="Kas-Diodes-LEDs" package="SC-90" value="" x="-73.39" y="-18.23" rot="R90">
-<attribute name="MANUFACTURER" value="NXP" x="-1" y="44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="75R0865" x="-1" y="44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMEG2020EJ" x="-1" y="44" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D4" library="Kas-Diodes-LEDs" package="SC-90" value="" x="-71" y="-7" rot="R270">
+<attribute name="MANUFACTURER" value="NXP" x="-143.39" y="-69.23" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0865" x="-143.39" y="-69.23" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMEG2020EJ" x="-143.39" y="-69.23" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J2" library="Kas-Connectors" package="SD47346-001-USB-MICRO-MOLEX" value="" x="77.22" y="36.98" rot="R180">
 <attribute name="#_ROWS" value="1" x="31.5" y="44.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1133,13 +1133,13 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="51W3639" x="95.2" y="0.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="95.2" y="0.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R28" library="Kas-Resistors" package="R0402" value="0" x="-88.78" y="-7.8">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="-71" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="-71" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50" x="-71" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="-71" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="-71" y="-84" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="-71" y="-84" size="1.778" layer="27" display="off"/>
+<element name="R28" library="Kas-Resistors" package="R0402" value="0" x="-53" y="-23" rot="R90">
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLARANCE" value="1%" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="50" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="23.2" y="-5.22" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R29" library="Kas-Resistors" package="R0402" value="0" x="74.41" y="39.2">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="96" y="-37" size="1.778" layer="27" display="off"/>
@@ -1149,7 +1149,7 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="51W3639" x="96" y="-37" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="96" y="-37" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R30" library="Kas-Resistors" package="R0603" value="DNP" x="-80.12" y="-17.23" rot="R270"/>
+<element name="R30" library="Kas-Resistors" package="R0603" value="DNP" x="-80" y="-18"/>
 <element name="R31" library="Kas-Resistors" package="R0603" value="DNP" x="-4.51" y="-12.04"/>
 <element name="L1" library="Kas-Inductors" package="NRS401X" value="2.2uH" x="1" y="-2" rot="R270">
 <attribute name="CONSTRUCTION" value="Shielded" x="-39.64" y="-68.04" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1161,15 +1161,15 @@ design rules under a new name.</description>
 <attribute name="SELF_RESONANCE" value="73MHz" x="-39.64" y="-68.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="-39.64" y="-68.04" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="L2" library="Kas-Inductors" package="NRS401X" value="2.2uH" x="-75.2" y="-6.68" rot="R270">
-<attribute name="CONSTRUCTION" value="Shielded" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT_RATING" value="1.5" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLARANCE" value="20%" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SATURATION_CURRENT" value="1.2" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="46T8541" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SELF_RESONANCE" value="73MHz" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="-126" y="-27" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="L2" library="Kas-Inductors" package="NRS401X" value="2.2uH" x="-75" y="-7" rot="R270">
+<attribute name="CONSTRUCTION" value="Shielded" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CURRENT_RATING" value="1.5" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLARANCE" value="20%" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SATURATION_CURRENT" value="1.2" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="46T8541" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SELF_RESONANCE" value="73MHz" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="-125.8" y="-27.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="Kas-Resistors" package="R0603" value="100" x="16" y="-13" rot="R90">
 <attribute name="POWER_RATING" value="62.5mW" x="82.04" y="33.99" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1180,14 +1180,14 @@ design rules under a new name.</description>
 <attribute name="NEWARK_PART_NUMBER" value="01P2055" x="82.04" y="33.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCTF0603BTC1000" x="82.04" y="33.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R33" library="Kas-Resistors" package="R0603" value="100" x="-89.07" y="-14.96">
-<attribute name="POWER_RATING" value="62.5mW" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Multicomp" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="TOLARANCE" value="0.1%" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="75" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="01P2055" x="-37" y="-81" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCTF0603BTC1000" x="-37" y="-81" size="1.778" layer="27" display="off"/>
+<element name="R33" library="Kas-Resistors" package="R0603" value="100" x="-57" y="-23" rot="R90">
+<attribute name="POWER_RATING" value="62.5mW" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Multicomp" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="75" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="01P2055" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCTF0603BTC1000" x="9.04" y="29.07" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="Kas-Capacitors" package="C0603" value="0.1uF" x="8" y="-13" rot="R90">
 <attribute name="MANUFACTURER" value="Multicomp" x="63.88" y="39.07" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1199,15 +1199,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="0.1uF" x="8" y="-13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MC0603B104K250CT" x="8" y="-13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C14" library="Kas-Capacitors" package="C0603" value="0.1uF" x="-64.88" y="-13.42" rot="R90">
-<attribute name="MANUFACTURER" value="Multicomp" x="-9" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIELECTRIC" value="X7R" x="-9" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="06R4925" x="-9" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE" value="-55 ~ 125" x="-9" y="45" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="25" x="-64.88" y="-13.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="10%" x="-64.88" y="-13.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="-64.88" y="-13.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MC0603B104K250CT" x="-64.88" y="-13.42" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C14" library="Kas-Capacitors" package="C0603" value="0.1uF" x="-67" y="-23" rot="R90">
+<attribute name="MANUFACTURER" value="Multicomp" x="-11.12" y="35.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIELECTRIC" value="X7R" x="-11.12" y="35.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="06R4925" x="-11.12" y="35.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TEMPERATURE" value="-55 ~ 125" x="-11.12" y="35.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="25" x="-67" y="-23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLARANCE" value="10%" x="-67" y="-23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="-67" y="-23" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC0603B104K250CT" x="-67" y="-23" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1269,14 +1269,14 @@ design rules under a new name.</description>
 <wire x1="1.5" y1="-8.475" x2="5.74" y2="-7.21" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="-7" x2="1.5" y2="-8.475" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="-5.525" x2="1" y2="-7" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.26" y1="-3.66" x2="1" y2="-7" width="0" layer="19" extent="1-1"/>
-<wire x1="-5.36" y1="-12.04" x2="-3.26" y2="-3.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.26" y1="-13.91" x2="-5.36" y2="-12.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.21" y1="-14.385" x2="-70.26" y2="-13.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.71" y1="-12.91" x2="-74.21" y2="-14.385" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.71" y1="-11.435" x2="-74.71" y2="-12.91" width="0" layer="19" extent="1-1"/>
-<wire x1="-78.26" y1="-11.36" x2="-74.71" y2="-11.435" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.12" y1="-16.38" x2="-78.26" y2="-11.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.26" y1="-3.66" x2="1" y2="-5.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.36" y1="-12.04" x2="1.5" y2="-8.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-70" y1="-12.95" x2="-5.36" y2="-12.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-75" y1="-11.525" x2="-70" y2="-12.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-75" y1="-13" x2="-75" y2="-11.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.5" y1="-14.475" x2="-75" y2="-13" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.26" y1="-11.36" x2="-75" y2="-11.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.85" y1="-18" x2="-78.26" y2="-11.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U3" pad="P$2"/>
@@ -1305,10 +1305,10 @@ design rules under a new name.</description>
 <wire x1="92.17" y1="7.655" x2="82" y2="62.04" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="-8.475" x2="92.17" y2="7.655" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-5.525" x2="1" y2="-8.475" width="0" layer="19" extent="1-1"/>
-<wire x1="0.62" y1="-12.04" x2="1" y2="-8.475" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.26" y1="-5.56" x2="0" y2="-5.525" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.71" y1="-14.385" x2="-3.26" y2="-5.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.96" y1="-17.46" x2="-74.71" y2="-14.385" width="0" layer="19" extent="1-1"/>
+<wire x1="0.62" y1="-12.04" x2="1" y2="-8.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-75" y1="-14.475" x2="-3.26" y2="-5.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.15" y1="-18" x2="-75" y2="-14.475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R14" pad="2"/>
@@ -1361,17 +1361,17 @@ design rules under a new name.</description>
 <signal name="N$12">
 <contactref element="U2" pad="P$5"/>
 <contactref element="C5" pad="1"/>
-<wire x1="-75.71" y1="-11.435" x2="-78.26" y2="-13.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-76" y1="-11.525" x2="-78.26" y2="-13.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="P$2"/>
 <contactref element="L2" pad="P$1"/>
-<wire x1="-73.8" y1="-6.68" x2="-74.21" y2="-11.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.6" y1="-7" x2="-74.5" y2="-11.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="U2" pad="P$4"/>
 <contactref element="L2" pad="P$2"/>
-<wire x1="-76.6" y1="-6.68" x2="-75.21" y2="-11.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.4" y1="-7" x2="-75.5" y2="-11.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="J1" pad="P$9"/>
@@ -1449,7 +1449,7 @@ design rules under a new name.</description>
 <wire x1="40.02" y1="17.12" x2="33.26" y2="16.12" width="0" layer="19" extent="1-1"/>
 <wire x1="5.39" y1="-2.95" x2="33.34" y2="13.12" width="0" layer="19" extent="1-1"/>
 <wire x1="5.74" y1="-5.31" x2="5.39" y2="-2.95" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="-5.525" x2="5.39" y2="-2.95" width="0" layer="19" extent="1-1"/>
+<wire x1="2" y1="-5.525" x2="5.74" y2="-5.31" width="0" layer="19" extent="1-1"/>
 <wire x1="2" y1="-8.475" x2="2" y2="-5.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
@@ -1477,7 +1477,7 @@ design rules under a new name.</description>
 <wire x1="83.7" y1="62.04" x2="89.85" y2="74.39" width="0" layer="19" extent="1-1"/>
 <wire x1="75.96" y1="74.785" x2="89.85" y2="74.39" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-8.475" x2="83.7" y2="62.04" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.71" y1="-14.385" x2="0" y2="-8.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-76" y1="-14.475" x2="0" y2="-8.475" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V_KL25Z--ADD-JUMPER">
 <contactref element="D4" pad="P$1"/>
@@ -1486,8 +1486,8 @@ design rules under a new name.</description>
 <contactref element="U2" pad="P$7"/>
 <contactref element="R30" pad="2"/>
 <contactref element="R19" pad="1"/>
-<wire x1="-75.96" y1="-19.16" x2="-80.12" y2="-18.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.21" y1="-14.385" x2="-75.96" y2="-19.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.85" y1="-18" x2="-79.15" y2="-18" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.5" y1="-14.475" x2="-76.85" y2="-18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V_CHARGE">
 <contactref element="J2" pad="P$1"/>
@@ -1545,9 +1545,9 @@ design rules under a new name.</description>
 <contactref element="U2" pad="P$1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="D4" pad="P$2"/>
-<wire x1="-73.39" y1="-17.13" x2="-73.71" y2="-14.385" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.71" y1="-11.435" x2="-73.71" y2="-14.385" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.26" y1="-12.01" x2="-73.71" y2="-11.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-74" y1="-11.525" x2="-74" y2="-14.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-71" y1="-8.1" x2="-74" y2="-11.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-70" y1="-11.05" x2="-71" y2="-8.1" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

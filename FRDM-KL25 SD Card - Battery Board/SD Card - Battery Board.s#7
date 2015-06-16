@@ -2311,6 +2311,8 @@
 <description>Battery Monitoring</description>
 <plain>
 <text x="185.42" y="76.2" size="1.778" layer="91">Add Jumper</text>
+<text x="7.62" y="53.34" size="1.778" layer="104">TPS6300x Data Sheet</text>
+<text x="7.62" y="-20.32" size="1.778" layer="104">TPS6300x Data Sheet</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-12.7" y="86.36"/>
