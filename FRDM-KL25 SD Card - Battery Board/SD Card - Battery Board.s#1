@@ -752,7 +752,7 @@
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Yageo" constant="no"/>
-<attribute name="MANUFACTURE_PART_NUMBER" value="RL0603FR-070R01L" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RL0603FR-070R01L" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="39K1663" constant="no"/>
 <attribute name="POWER_RATING" value="100mW" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="1500ppm" constant="no"/>
@@ -831,6 +831,78 @@
 <attribute name="TOLARANCE" value="0.1%" constant="no"/>
 <attribute name="VALUE" value="1.6k" constant="no"/>
 <attribute name="VOLTAGE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.6K-63M-1%-50V-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F1K6" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7403" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.6k" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="100-63M-1%50V-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F100R" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7409" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100pp" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1K-63M-1%-50V-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F1K0" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7398" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1k" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F20K" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7439" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="20k" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1577,12 +1649,48 @@
 <technology name="">
 <attribute name="DIELECTRIC" value="X5R" constant="no"/>
 <attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
-<attribute name="MANUFACTURE_PART_NUMBER" value="MC0603X474K100CT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC0603X474K100CT" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="06R5250" constant="no"/>
 <attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
-<attribute name="TLARANCE" value="10%" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
 <attribute name="VALUE" value="0.47uF" constant="no"/>
 <attribute name="VOLTAGE" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.1-X5R-10%-16V-0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC0402X104K160CT" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="06R4871" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF" constant="no"/>
+<attribute name="VOLTAGE" value="16" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0.47U-X5R-10%-6.3V-0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
+<attribute name="MANUFACTURER_PARTR_NUMBER" value="MC0402X474K6R3CT" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="06R4896" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="0.47uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2231,12 +2339,17 @@ Source: Samtec TSW.pdf</description>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="-10.16" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="-20.32" size="1.778" layer="104">&gt;NAME</text>
-<text x="-5.08" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="104">&gt;NAME</text>
+<text x="-2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P$1" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <wire x1="-5.08" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-15.24" x2="0" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$2" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="P$3" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="P$4" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="P$5" x="5.08" y="5.08" length="middle" rot="R180"/>
+<pin name="P$6" x="5.08" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="FPINV">
 <wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
@@ -2300,6 +2413,11 @@ Source: Samtec TSW.pdf</description>
 <connect gate="G$1" pin="GND" pad="P$5"/>
 <connect gate="G$1" pin="ID" pad="P$4"/>
 <connect gate="G$1" pin="P$1" pad="P$6"/>
+<connect gate="G$1" pin="P$2" pad="P$7"/>
+<connect gate="G$1" pin="P$3" pad="P$8"/>
+<connect gate="G$1" pin="P$4" pad="P$9"/>
+<connect gate="G$1" pin="P$5" pad="P$10"/>
+<connect gate="G$1" pin="P$6" pad="P$11"/>
 <connect gate="G$1" pin="VBUS" pad="P$1"/>
 </connects>
 <technologies>
@@ -2720,53 +2838,53 @@ Source: Samtec SSW.pdf</description>
 <part name="U3" library="Kas-Buck Boost Battery Control" deviceset="BQ27510-G3" device="" value="BQ27510DRZT-G3"/>
 <part name="U4" library="Kas-Buck Boost Battery Control" deviceset="B224210" device="" value="BQ24210DQCT"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
+<part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="D2" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="R-1.85V-20MA" value="Red-LED"/>
-<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
+<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
+<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
 <part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0.01-100M-1%-50V" value="0.01"/>
-<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="1.6K-125M-0.1%-100V" value="1.6k"/>
-<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="20K-63M-1%-50V" value="20k"/>
-<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-100M-0.5%-75V" value="10k"/>
-<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
+<part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="1.6K-63M-1%-50V-0402" value="1.6k"/>
+<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="" value="20k"/>
+<part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
+<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
 <part name="D1" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-25" value="10uF"/>
+<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V-0603" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
 <part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
-<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
-<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
-<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X5R-10%25V-0603" value="0.1uF"/>
+<part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
+<part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
+<part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
 <part name="D3" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="D4" library="Kas-Diodes-LEDs" deviceset="SCHOTTKY" device=""/>
 <part name="J2" library="Kas-Connectors" deviceset="USB-MICRO" device="SD-47346-001"/>
 <part name="R27" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R28" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R29" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
-<part name="R30" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
-<part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
+<part name="R30" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
+<part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
 <part name="L1" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="L2" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
-<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
-<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="100-62.5M-0.1%-75V" value="100"/>
-<part name="C13" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V-0603" value="0.1uF"/>
-<part name="C14" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V-0603" value="0.1uF"/>
+<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
+<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
+<part name="C13" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
+<part name="C14" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="GND4" library="Kas-Pwr" deviceset="GND" device=""/>
 <part name="P+1" library="Kas-Pwr" deviceset="VCC" device=""/>
 <part name="P+2" library="Kas-Pwr" deviceset="VCC" device=""/>
