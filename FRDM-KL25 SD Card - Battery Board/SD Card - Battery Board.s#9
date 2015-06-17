@@ -73,7 +73,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
@@ -752,7 +752,7 @@
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Yageo" constant="no"/>
-<attribute name="MANUFACTURE_PART_NUMBER" value="RL0603FR-070R01L" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RL0603FR-070R01L" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="39K1663" constant="no"/>
 <attribute name="POWER_RATING" value="100mW" constant="no"/>
 <attribute name="TEMPERATURE_COEFFICIENT" value="1500ppm" constant="no"/>
@@ -866,6 +866,42 @@
 <attribute name="TEMPERATURE_COEFFICIENT" value="100pp" constant="no"/>
 <attribute name="TOLARANCE" value="1%" constant="no"/>
 <attribute name="VALUE" value="100" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1K-63M-1%-50V-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F1K0" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7398" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="1k" constant="no"/>
+<attribute name="VOLTAGE" value="50" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="20K-63M-1%-50V-0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F20K" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="95W7439" constant="no"/>
+<attribute name="POWER_RATING" value="63mW" constant="no"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" constant="no"/>
+<attribute name="TOLARANCE" value="1%" constant="no"/>
+<attribute name="VALUE" value="20k" constant="no"/>
 <attribute name="VOLTAGE" value="50" constant="no"/>
 </technology>
 </technologies>
@@ -1176,7 +1212,7 @@
 <attribute name="NEWARK_PART_NUMBER" value="41T2953" constant="no"/>
 <attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
 <attribute name="TOLARANCE" value="10%" constant="no"/>
-<attribute name="VALUE" value="1 uF" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
 <attribute name="VOLTAGE" value="10" constant="no"/>
 </technology>
 </technologies>
@@ -1613,10 +1649,10 @@
 <technology name="">
 <attribute name="DIELECTRIC" value="X5R" constant="no"/>
 <attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
-<attribute name="MANUFACTURE_PART_NUMBER" value="MC0603X474K100CT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC0603X474K100CT" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="06R5250" constant="no"/>
 <attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
-<attribute name="TLARANCE" value="10%" constant="no"/>
+<attribute name="TOLARANCE" value="10%" constant="no"/>
 <attribute name="VALUE" value="0.47uF" constant="no"/>
 <attribute name="VOLTAGE" value="10" constant="no"/>
 </technology>
@@ -1664,22 +1700,19 @@
 </library>
 <library name="Kas-Diodes-LEDs">
 <packages>
-<package name="1.6X3.2">
-<smd name="P$1" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
-<smd name="P$2" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
-<text x="0" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.6" x2="1.6" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.6" x2="1.6" y2="1.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.6" x2="-1.6" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-0.9" y1="1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-0.9" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="0.9" y1="-1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-1.6" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="0.9" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="-1.05" y1="2.1" x2="-1.06" y2="2.1" width="0.4064" layer="21"/>
+<package name="0.8X1.2">
+<smd name="P$1" x="-0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="P$2" x="0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-1.33" y1="0.49" x2="-1.33" y2="-0.49" width="0.127" layer="21"/>
+<wire x1="-1.33" y1="-0.49" x2="1.33" y2="-0.49" width="0.127" layer="21"/>
+<wire x1="1.33" y1="-0.49" x2="1.33" y2="0.49" width="0.127" layer="21"/>
+<wire x1="1.33" y1="0.49" x2="-1.33" y2="0.49" width="0.127" layer="21"/>
+<text x="0.62" y="-2.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="0.62" y="-4.16" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.33" y1="0.49" x2="-1.33" y2="-0.49" width="0.127" layer="51"/>
+<wire x1="-1.33" y1="-0.49" x2="1.33" y2="-0.49" width="0.127" layer="51"/>
+<wire x1="1.33" y1="-0.49" x2="1.33" y2="0.49" width="0.127" layer="51"/>
+<wire x1="1.33" y1="0.49" x2="-1.33" y2="0.49" width="0.127" layer="51"/>
 </package>
 <package name="SC-90">
 <smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -1742,44 +1775,55 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1.6X3.2" prefix="D" uservalue="yes">
+<deviceset name="0.8X1.2">
 <gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="R-1.85V-20MA" package="1.6X3.2">
+<device name="0.8X1.2" package="0.8X1.2">
 <connects>
-<connect gate="G$1" pin="A" pad="P$2"/>
-<connect gate="G$1" pin="C" pad="P$1"/>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GREEN-3.3V-20M" package="0.8X1.2">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Red" constant="no"/>
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="LUMINOUS_INTENSITY" value="17mcd" constant="no"/>
-<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCL-S250SRC" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="14N9351" constant="no"/>
-<attribute name="VOLTAGE" value="1.85" constant="no"/>
-<attribute name="WAVELENGTH" value="660nm" constant="no"/>
+<attribute name="COLOR" value="Green" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="3.3" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="420mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="KPG-1608ZGC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="56P5117" constant="no"/>
+<attribute name="VIEWING_ANGLE" value="120" constant="no"/>
+<attribute name="WAVELENGTH" value="525nm" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="Y-X.XX-XXMA" package="1.6X3.2">
+<device name="BLUE-3.3V-20M" package="0.8X1.2">
 <connects>
-<connect gate="G$1" pin="A" pad="P$2"/>
-<connect gate="G$1" pin="C" pad="P$1"/>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Yellow" constant="no"/>
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="LUMINOUS_INTENSITY" value="11mcd" constant="no"/>
-<attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCL-S250YC" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="14N9352" constant="no"/>
-<attribute name="VOLTAGE" value="2.1" constant="no"/>
-<attribute name="WAVELENGTH" value="590nm" constant="no"/>
+<attribute name="COLOR" value="Blue" constant="no"/>
+<attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
+<attribute name="FORWARD_VOLTAGE" value="3.3" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="95cmd" constant="no"/>
+<attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="KPG-1608QBC-E" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="56P5113" constant="no"/>
+<attribute name="VIEWING_ANGLE" value="120" constant="no"/>
+<attribute name="WAVELENGTH" value="470nm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2303,12 +2347,17 @@ Source: Samtec TSW.pdf</description>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="-10.16" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="-5.08" y="-20.32" size="1.778" layer="104">&gt;NAME</text>
-<text x="-5.08" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="104">&gt;NAME</text>
+<text x="-2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P$1" x="-10.16" y="-20.32" visible="pin" length="middle" rot="R90"/>
 <wire x1="-5.08" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-15.24" x2="0" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="10.16" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$2" x="-10.16" y="15.24" length="middle" rot="R270"/>
+<pin name="P$3" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="P$4" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="P$5" x="5.08" y="5.08" length="middle" rot="R180"/>
+<pin name="P$6" x="5.08" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 <symbol name="FPINV">
 <wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
@@ -2372,6 +2421,11 @@ Source: Samtec TSW.pdf</description>
 <connect gate="G$1" pin="GND" pad="P$5"/>
 <connect gate="G$1" pin="ID" pad="P$4"/>
 <connect gate="G$1" pin="P$1" pad="P$6"/>
+<connect gate="G$1" pin="P$2" pad="P$7"/>
+<connect gate="G$1" pin="P$3" pad="P$8"/>
+<connect gate="G$1" pin="P$4" pad="P$9"/>
+<connect gate="G$1" pin="P$5" pad="P$10"/>
+<connect gate="G$1" pin="P$6" pad="P$11"/>
 <connect gate="G$1" pin="VBUS" pad="P$1"/>
 </connects>
 <technologies>
@@ -2795,8 +2849,8 @@ Source: Samtec SSW.pdf</description>
 <part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="R-1.85V-20MA" value="Red-LED"/>
-<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
+<part name="D2" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="GREEN-3.3V-20M" value="Red-LED"/>
+<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -2807,19 +2861,19 @@ Source: Samtec SSW.pdf</description>
 <part name="R20" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R21" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R22" library="Kas-Resistors" deviceset="RESISTOR" device="1.6K-63M-1%-50V-0402" value="1.6k"/>
-<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="20K-63M-1%-50V" value="20k"/>
+<part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="20k"/>
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-62.5M-0.1%-75V" value="1k"/>
-<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.6X3.2" device="Y-X.XX-XXMA" value="Yellow-LED"/>
+<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Yellow-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-25" value="10uF"/>
+<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
-<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V-0603" value="1uF"/>
+<part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
 <part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
 <part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
@@ -2831,8 +2885,8 @@ Source: Samtec SSW.pdf</description>
 <part name="R27" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R28" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
 <part name="R29" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="0"/>
-<part name="R30" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
-<part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0603" value="DNP"/>
+<part name="R30" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
+<part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
 <part name="L1" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="L2" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
@@ -2864,6 +2918,8 @@ Source: Samtec SSW.pdf</description>
 <part name="J4" library="Kas-Connectors" deviceset="SSW-110-02-S-D" device=""/>
 <part name="J5" library="Kas-Connectors" deviceset="SSW-108-02-S-D" device=""/>
 <part name="J6" library="Kas-Connectors" deviceset="SSW-106-02-S-D" device=""/>
+<part name="R34" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3052,6 +3108,7 @@ Source: Samtec SSW.pdf</description>
 <text x="185.42" y="76.2" size="1.778" layer="91">Add Jumper</text>
 <text x="7.62" y="53.34" size="1.778" layer="104">TPS6300x Data Sheet</text>
 <text x="7.62" y="-20.32" size="1.778" layer="104">TPS6300x Data Sheet</text>
+<text x="167.64" y="-50.8" size="1.778" layer="104">Self EN</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-12.7" y="86.36"/>
@@ -3077,7 +3134,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="R23" gate="G$1" x="121.92" y="-27.94"/>
 <instance part="R24" gate="G$1" x="109.22" y="-40.64"/>
 <instance part="R25" gate="G$1" x="172.72" y="-38.1"/>
-<instance part="R26" gate="G$1" x="185.42" y="-17.78" rot="R90"/>
+<instance part="R26" gate="G$1" x="193.04" y="-17.78" rot="R90"/>
 <instance part="D1" gate="G$1" x="175.26" y="-22.86" rot="R180"/>
 <instance part="C2" gate="G$1" x="-33.02" y="109.22"/>
 <instance part="C3" gate="G$1" x="-43.18" y="71.12"/>
@@ -3117,11 +3174,13 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND15" gate="1" x="-43.18" y="40.64"/>
 <instance part="GND16" gate="1" x="-38.1" y="-48.26"/>
 <instance part="P+3" gate="VCC" x="195.58" y="83.82"/>
-<instance part="P+4" gate="VCC" x="185.42" y="-7.62"/>
+<instance part="P+4" gate="VCC" x="193.04" y="-7.62"/>
 <instance part="GND17" gate="1" x="144.78" y="-43.18"/>
 <instance part="GND18" gate="1" x="88.9" y="-43.18"/>
 <instance part="P+5" gate="VCC" x="-12.7" y="111.76"/>
 <instance part="GND19" gate="1" x="-12.7" y="-5.08"/>
+<instance part="R34" gate="G$1" x="172.72" y="-15.24"/>
+<instance part="GND20" gate="1" x="182.88" y="-17.78"/>
 </instances>
 <busses>
 </busses>
@@ -3260,6 +3319,11 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="POWER_PAD"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="182.88" y1="-15.24" x2="177.8" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3448,7 +3512,7 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-48.26" y1="96.52" x2="-78.74" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="PS/SYNC-1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS/SYNC"/>
 <wire x1="7.62" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
@@ -3457,6 +3521,7 @@ Source: Samtec SSW.pdf</description>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <junction x="38.1" y="78.74"/>
+<label x="7.62" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!BAT_LOW" class="0">
@@ -3489,7 +3554,7 @@ Source: Samtec SSW.pdf</description>
 <label x="-76.2" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="PS/SYNC-2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PS/SYNC"/>
 <wire x1="7.62" y1="10.16" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
@@ -3498,6 +3563,7 @@ Source: Samtec SSW.pdf</description>
 <wire x1="30.48" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <junction x="35.56" y="7.62"/>
+<label x="7.62" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V_CHARGE" class="0">
@@ -3538,7 +3604,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="185.42" y1="-10.16" x2="185.42" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-10.16" x2="193.04" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="96.52" x2="-33.02" y2="104.14" width="0.1524" layer="91"/>
@@ -3571,7 +3637,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="-22.86" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-22.86" x2="180.34" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!FN" class="0">
@@ -3584,6 +3650,10 @@ Source: Samtec SSW.pdf</description>
 <wire x1="165.1" y1="-27.94" x2="187.96" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="165.1" y="-27.94"/>
 <label x="160.02" y="-27.94" size="1.778" layer="95"/>
+<wire x1="165.1" y1="-38.1" x2="165.1" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="165.1" y="-38.1"/>
+<wire x1="165.1" y1="-45.72" x2="170.18" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="170.18" y="-45.72"/>
 </segment>
 </net>
 <net name="!PG" class="0">
@@ -3596,6 +3666,10 @@ Source: Samtec SSW.pdf</description>
 <wire x1="182.88" y1="-38.1" x2="182.88" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="182.88" y="-33.02"/>
 <label x="160.02" y="-33.02" size="1.778" layer="95"/>
+<wire x1="182.88" y1="-38.1" x2="182.88" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-45.72" x2="172.72" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="182.88" y="-38.1"/>
+<junction x="172.72" y="-45.72"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -3640,10 +3714,23 @@ Source: Samtec SSW.pdf</description>
 <junction x="-33.02" y="33.02"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="VDPM"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="-15.24" x2="167.64" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-17.78" x2="165.1" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
+<text x="33.02" y="-17.78" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="147.32" y="30.48" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="-68.58" y="35.56" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="53.34" y="101.6" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
 </plain>
 <instances>
 <instance part="J3" gate="-1" x="106.68" y="15.24"/>
