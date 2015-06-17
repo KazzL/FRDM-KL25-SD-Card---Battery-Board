@@ -1644,12 +1644,12 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <wire x1="26.81" y1="17.27" x2="31.64" y2="13.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$17">
+<signal name="SPI-CSB-SD">
 <contactref element="J1" pad="P$1"/>
 <contactref element="R2" pad="1"/>
 <wire x1="26.81" y1="19.77" x2="31.56" y2="16.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$18">
+<signal name="SPI-MOSI">
 <contactref element="J1" pad="P$2"/>
 <contactref element="R3" pad="1"/>
 <wire x1="26.81" y1="22.27" x2="31.48" y2="19.12" width="0" layer="19" extent="1-1"/>
@@ -1661,12 +1661,12 @@ design rules under a new name.</description>
 <wire x1="31.04" y1="24.46" x2="34.16" y2="24.12" width="0" layer="19" extent="1-1"/>
 <wire x1="26.81" y1="23.97" x2="31.04" y2="24.46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$22">
+<signal name="SPI-SCLK">
 <contactref element="J1" pad="P$5"/>
 <contactref element="R4" pad="1"/>
 <wire x1="26.81" y1="29.77" x2="31.4" y2="29.12" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$24">
+<signal name="SPI-MISO">
 <contactref element="J1" pad="P$7"/>
 <contactref element="R5" pad="1"/>
 <wire x1="38.32" y1="17.12" x2="26.81" y2="34.7" width="0" layer="19" extent="1-1"/>
@@ -1718,10 +1718,10 @@ design rules under a new name.</description>
 <wire x1="2" y1="-5.525" x2="5.74" y2="-5.31" width="0" layer="19" extent="1-1"/>
 <wire x1="2" y1="-8.475" x2="2" y2="-5.525" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$20">
+<signal name="SD-CARD-DETECT">
 <contactref element="R9" pad="1"/>
 </signal>
-<signal name="N$21">
+<signal name="SD-WRITE-PROTECT">
 <contactref element="R10" pad="1"/>
 </signal>
 <signal name="3.3V_KL25Z--ADD-JUMPER">
@@ -1838,13 +1838,13 @@ design rules under a new name.</description>
 <signal name="I2C-SCL-1.1">
 <contactref element="J3" pad="3"/>
 </signal>
-<signal name="SPI-SCK">
+<signal name="SPI-SCK-0.0">
 <contactref element="J4" pad="10"/>
 </signal>
-<signal name="SOI-MISO">
+<signal name="SOI-MISO-0.0">
 <contactref element="J4" pad="12"/>
 </signal>
-<signal name="SPI-MOSI">
+<signal name="SPI-MOSI-0.0">
 <contactref element="J4" pad="14"/>
 </signal>
 <signal name="VIN">
@@ -1863,6 +1863,33 @@ design rules under a new name.</description>
 </signal>
 <signal name="I2C-SCL-1.2">
 <contactref element="J6" pad="11"/>
+</signal>
+<signal name="SPI-MISO-0.1">
+<contactref element="J3" pad="15"/>
+</signal>
+<signal name="SPI-MOSI-0.1">
+<contactref element="J3" pad="5"/>
+</signal>
+<signal name="SPI-SCK-0.1">
+<contactref element="J3" pad="7"/>
+</signal>
+<signal name="INT2-21002">
+<contactref element="J4" pad="20"/>
+</signal>
+<signal name="SPI-CSB-21002">
+<contactref element="J4" pad="16"/>
+</signal>
+<signal name="INT1-8700">
+<contactref element="J3" pad="12"/>
+</signal>
+<signal name="INT2-8700">
+<contactref element="J3" pad="8"/>
+</signal>
+<signal name="SPI-CSB-8700">
+<contactref element="J6" pad="5"/>
+</signal>
+<signal name="INT1-21002">
+<contactref element="J3" pad="6"/>
 </signal>
 </signals>
 </board>

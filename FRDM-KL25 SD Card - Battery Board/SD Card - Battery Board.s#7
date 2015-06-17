@@ -3801,6 +3801,126 @@ Source: Samtec SSW.pdf</description>
 <busses>
 </busses>
 <nets>
+<net name="I2C-SCL-1.0" class="0">
+<segment>
+<pinref part="J4" gate="-2" pin="1"/>
+<wire x1="154.94" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="154.94" y="91.44" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SDA-1.0" class="0">
+<segment>
+<pinref part="J4" gate="-4" pin="1"/>
+<wire x1="154.94" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="154.94" y="88.9" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SDA-0" class="0">
+<segment>
+<pinref part="J3" gate="-2" pin="1"/>
+<wire x1="154.94" y1="15.24" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
+<label x="154.94" y="15.24" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SCL-0" class="0">
+<segment>
+<pinref part="J3" gate="-4" pin="1"/>
+<wire x1="154.94" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<label x="154.94" y="12.7" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SDA-1.1" class="0">
+<segment>
+<pinref part="J3" gate="-1" pin="1"/>
+<wire x1="134.62" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
+<label x="134.62" y="15.24" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SCL-1.1" class="0">
+<segment>
+<pinref part="J3" gate="-3" pin="1"/>
+<wire x1="134.62" y1="12.7" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
+<label x="134.62" y="12.7" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="SPI-SCK" class="0">
+<segment>
+<pinref part="J4" gate="-10" pin="1"/>
+<wire x1="154.94" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<label x="154.94" y="81.28" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="SOI-MISO" class="0">
+<segment>
+<pinref part="J4" gate="-12" pin="1"/>
+<wire x1="154.94" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="154.94" y="78.74" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="SPI-MOSI" class="0">
+<segment>
+<pinref part="J4" gate="-14" pin="1"/>
+<wire x1="154.94" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+<label x="154.94" y="76.2" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="J5" gate="-15" pin="1"/>
+<wire x1="40.64" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<label x="40.64" y="73.66" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="5V++" class="0">
+<segment>
+<pinref part="J5" gate="-9" pin="1"/>
+<wire x1="40.64" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
+<label x="40.64" y="81.28" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="3.3V++" class="0">
+<segment>
+<pinref part="J5" gate="-3" pin="1"/>
+<wire x1="40.64" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<label x="40.64" y="88.9" size="2.54" layer="95" ratio="14"/>
+</segment>
+<segment>
+<pinref part="J5" gate="-7" pin="1"/>
+<wire x1="40.64" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+<label x="40.64" y="83.82" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SDA-1.2" class="0">
+<segment>
+<pinref part="J6" gate="-9" pin="1"/>
+<wire x1="40.64" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
+<label x="40.64" y="5.08" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="I2C-SCL-1.2" class="0">
+<segment>
+<pinref part="J6" gate="-11" pin="1"/>
+<wire x1="40.64" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
+<label x="40.64" y="2.54" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="J5" gate="-11" pin="1"/>
+<wire x1="40.64" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+<label x="40.64" y="78.74" size="2.54" layer="95" ratio="14"/>
+</segment>
+<segment>
+<pinref part="J5" gate="-13" pin="1"/>
+<wire x1="40.64" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<label x="40.64" y="76.2" size="2.54" layer="95" ratio="14"/>
+</segment>
+<segment>
+<pinref part="J4" gate="-8" pin="1"/>
+<wire x1="154.94" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<label x="154.94" y="83.82" size="2.54" layer="95" ratio="14"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

@@ -852,7 +852,7 @@
 </technology>
 </technologies>
 </device>
-<device name="100-63M-1%50V-0402" package="R0402">
+<device name="100-63M-1%-50V-0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2850,11 +2850,11 @@ Source: Samtec SSW.pdf</description>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="D2" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="GREEN-3.3V-20M" value="Green-LED"/>
-<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
+<part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
+<part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
+<part name="R16" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
 <part name="R17" library="Kas-Resistors" deviceset="RESISTOR" device="0.01-100M-1%-50V" value="0.01"/>
 <part name="R18" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R19" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
@@ -2864,7 +2864,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R23" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="20k"/>
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="0-100M-X%-50V" value="1k"/>
+<part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Blue-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
@@ -2889,8 +2889,8 @@ Source: Samtec SSW.pdf</description>
 <part name="R31" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
 <part name="L1" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
 <part name="L2" library="Kas-Inductors" deviceset="TY0NRS4010T2R2MDGG" device="" value="2.2uH"/>
-<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
-<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="100-63M-1%50V-0402" value="100"/>
+<part name="R32" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
+<part name="R33" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
 <part name="C13" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="C14" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="GND4" library="Kas-Pwr" deviceset="GND" device=""/>
@@ -2955,10 +2955,9 @@ Source: Samtec SSW.pdf</description>
 <junction x="2.54" y="78.74"/>
 <wire x1="2.54" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="-12.7" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SPI-CSB-SD" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CD/DAT3"/>
 <wire x1="81.28" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
@@ -2969,7 +2968,7 @@ Source: Samtec SSW.pdf</description>
 <label x="-12.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="SPI-MOSI" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CMD"/>
 <wire x1="81.28" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
@@ -2991,7 +2990,7 @@ Source: Samtec SSW.pdf</description>
 <junction x="71.12" y="63.5"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="SPI-SCLK" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CLK"/>
 <wire x1="81.28" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
@@ -3002,7 +3001,7 @@ Source: Samtec SSW.pdf</description>
 <label x="-12.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="SPI-MISO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="DAT0"/>
 <wire x1="81.28" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
@@ -3086,14 +3085,14 @@ Source: Samtec SSW.pdf</description>
 <junction x="53.34" y="91.44"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="SD-CARD-DETECT" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="63.5" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
 <label x="-12.7" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="SD-WRITE-PROTECT" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
@@ -3942,42 +3941,42 @@ Source: Samtec SSW.pdf</description>
 <label x="134.62" y="7.62" size="2.54" layer="95" ratio="14"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="INT2-21002" class="0">
 <segment>
 <pinref part="J4" gate="-20" pin="1"/>
 <wire x1="167.64" y1="68.58" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <label x="167.64" y="68.58" size="2.54" layer="95" ratio="14"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="SPI-CSB-21002" class="0">
 <segment>
 <pinref part="J4" gate="-16" pin="1"/>
 <wire x1="167.64" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
 <label x="167.64" y="73.66" size="2.54" layer="95" ratio="14"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="INT1-8700" class="0">
 <segment>
 <pinref part="J3" gate="-12" pin="1"/>
 <wire x1="167.64" y1="2.54" x2="177.8" y2="2.54" width="0.1524" layer="91"/>
-<label x="165.1" y="2.54" size="2.54" layer="95" ratio="14"/>
+<label x="167.64" y="2.54" size="2.54" layer="95" ratio="14"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="INT2-8700" class="0">
 <segment>
 <pinref part="J3" gate="-8" pin="1"/>
 <wire x1="167.64" y1="7.62" x2="177.8" y2="7.62" width="0.1524" layer="91"/>
-<label x="165.1" y="7.62" size="2.54" layer="95" ratio="14"/>
+<label x="167.64" y="7.62" size="2.54" layer="95" ratio="14"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="INT1-21002" class="0">
 <segment>
-<label x="165.1" y="10.16" size="2.54" layer="95" ratio="14"/>
+<label x="167.64" y="10.16" size="2.54" layer="95" ratio="14"/>
 <pinref part="J3" gate="-6" pin="1"/>
 <wire x1="167.64" y1="10.16" x2="177.8" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="SPI-CSB-8700" class="0">
 <segment>
 <pinref part="J6" gate="-5" pin="1"/>
 <wire x1="40.64" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
