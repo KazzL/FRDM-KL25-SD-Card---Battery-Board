@@ -1694,6 +1694,24 @@
 </technology>
 </technologies>
 </device>
+<device name="10U-X5R-20%-6.3V-0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005X5R0J106M050BC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="05X9827" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -1994,8 +2012,8 @@ Source: Samtec SSW.pdf</description>
 <pad name="14" x="6.35" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="15" x="8.89" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="16" x="8.89" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-9.398" y="-4.318" size="1.6764" layer="21" font="vector">1</text>
-<text x="-9.398" y="2.794" size="1.6764" layer="21" font="vector">2</text>
+<text x="-9.398" y="3.302" size="1.6764" layer="21" font="vector">1</text>
+<text x="-9.398" y="-4.826" size="1.6764" layer="21" font="vector">2</text>
 <text x="-10.795" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -2464,22 +2482,22 @@ Source: Samtec SSW.pdf</description>
 <devices>
 <device name="" package="SSW-108-02-S-D">
 <connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-10" pin="1" pad="10"/>
-<connect gate="-11" pin="1" pad="11"/>
-<connect gate="-12" pin="1" pad="12"/>
-<connect gate="-13" pin="1" pad="13"/>
-<connect gate="-14" pin="1" pad="14"/>
-<connect gate="-15" pin="1" pad="15"/>
-<connect gate="-16" pin="1" pad="16"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-<connect gate="-5" pin="1" pad="5"/>
-<connect gate="-6" pin="1" pad="6"/>
-<connect gate="-7" pin="1" pad="7"/>
-<connect gate="-8" pin="1" pad="8"/>
-<connect gate="-9" pin="1" pad="9"/>
+<connect gate="-1" pin="1" pad="2"/>
+<connect gate="-10" pin="1" pad="9"/>
+<connect gate="-11" pin="1" pad="12"/>
+<connect gate="-12" pin="1" pad="11"/>
+<connect gate="-13" pin="1" pad="14"/>
+<connect gate="-14" pin="1" pad="13"/>
+<connect gate="-15" pin="1" pad="16"/>
+<connect gate="-16" pin="1" pad="15"/>
+<connect gate="-2" pin="1" pad="1"/>
+<connect gate="-3" pin="1" pad="4"/>
+<connect gate="-4" pin="1" pad="3"/>
+<connect gate="-5" pin="1" pad="6"/>
+<connect gate="-6" pin="1" pad="5"/>
+<connect gate="-7" pin="1" pad="8"/>
+<connect gate="-8" pin="1" pad="7"/>
+<connect gate="-9" pin="1" pad="10"/>
 </connects>
 <technologies>
 <technology name="">
@@ -2867,11 +2885,11 @@ Source: Samtec SSW.pdf</description>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Blue-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
-<part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
+<part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V" value="1uF"/>
 <part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0402" value="0.47uF"/>
@@ -3151,7 +3169,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="J2" gate="G$1" x="-7.62" y="-25.4"/>
 <instance part="R27" gate="G$1" x="22.86" y="60.96" rot="R90"/>
 <instance part="R28" gate="G$1" x="22.86" y="-10.16" rot="R90"/>
-<instance part="R29" gate="G$1" x="-27.94" y="-45.72"/>
+<instance part="R29" gate="G$1" x="-25.4" y="-50.8"/>
 <instance part="R30" gate="G$1" x="35.56" y="2.54" rot="R90"/>
 <instance part="R31" gate="G$1" x="38.1" y="73.66" rot="R90"/>
 <instance part="L1" gate="G$1" x="-53.34" y="86.36" rot="R90"/>
@@ -3171,7 +3189,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND13" gate="1" x="-38.1" y="12.7"/>
 <instance part="GND14" gate="1" x="-43.18" y="-5.08"/>
 <instance part="GND15" gate="1" x="-43.18" y="40.64"/>
-<instance part="GND16" gate="1" x="-38.1" y="-48.26"/>
+<instance part="GND16" gate="1" x="-38.1" y="-53.34"/>
 <instance part="P+3" gate="VCC" x="195.58" y="83.82"/>
 <instance part="P+4" gate="VCC" x="193.04" y="-7.62"/>
 <instance part="GND17" gate="1" x="144.78" y="-43.18"/>
@@ -3287,9 +3305,10 @@ Source: Samtec SSW.pdf</description>
 <pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="-22.86" y1="-38.1" x2="-38.1" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-38.1" x2="-38.1" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-45.72" x2="-38.1" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-45.72"/>
+<wire x1="-38.1" y1="-38.1" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-50.8" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-50.8"/>
+<pinref part="R29" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="THERMAL_PAD"/>
@@ -3394,6 +3413,12 @@ Source: Samtec SSW.pdf</description>
 <wire x1="160.02" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
 <label x="160.02" y="-12.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="-33.02" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<label x="-43.18" y="5.08" size="2.54" layer="95" ratio="14"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -3477,13 +3502,6 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-48.26" y1="81.28" x2="-48.26" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="78.74" x2="-53.34" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="-33.02" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -3583,9 +3601,10 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="P$1"/>
+<pinref part="J2" gate="G$1" pin="P$6"/>
+<wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-50.8" x2="-20.32" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="-45.72" x2="-17.78" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
