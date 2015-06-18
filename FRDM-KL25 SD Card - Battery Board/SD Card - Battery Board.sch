@@ -2867,7 +2867,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="D2" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="GREEN-3.3V-20M" value="Green-LED"/>
+<part name="D2" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="GREEN-3.3V-20M" value="Yellow-LED"/>
 <part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
@@ -2883,7 +2883,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
-<part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Blue-LED"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Red-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
@@ -3721,10 +3721,10 @@ Source: Samtec SSW.pdf</description>
 <sheet>
 <description>Connectors</description>
 <plain>
-<text x="76.2" y="-43.18" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
-<text x="190.5" y="30.48" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
-<text x="-68.58" y="35.56" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
-<text x="66.04" y="124.46" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="-5.08" y="-38.1" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="187.96" y="-38.1" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="190.5" y="124.46" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
+<text x="7.62" y="127" size="2.54" layer="101" ratio="14">NEED TO ADD BATTERY CONNECTION</text>
 </plain>
 <instances>
 <instance part="J3" gate="-1" x="124.46" y="58.42"/>
@@ -3791,9 +3791,9 @@ Source: Samtec SSW.pdf</description>
 <instance part="J6" gate="-10" x="86.36" y="48.26"/>
 <instance part="J6" gate="-11" x="50.8" y="45.72"/>
 <instance part="J6" gate="-12" x="86.36" y="45.72"/>
-<instance part="J2" gate="G$1" x="-27.94" y="111.76"/>
-<instance part="R29" gate="G$1" x="-45.72" y="86.36"/>
-<instance part="GND16" gate="1" x="-58.42" y="83.82"/>
+<instance part="J2" gate="G$1" x="76.2" y="7.62"/>
+<instance part="R29" gate="G$1" x="58.42" y="-17.78"/>
+<instance part="GND16" gate="1" x="45.72" y="-20.32"/>
 </instances>
 <busses>
 </busses>
@@ -3920,10 +3920,10 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="-43.18" y1="99.06" x2="-58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="99.06" x2="-58.42" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="86.36" x2="-58.42" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-58.42" y="86.36"/>
+<wire x1="60.96" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-5.08" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-17.78" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="45.72" y="-17.78"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -3993,15 +3993,15 @@ Source: Samtec SSW.pdf</description>
 <net name="+5V_CHARGE" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="VBUS"/>
-<wire x1="-43.18" y1="119.38" x2="-63.5" y2="119.38" width="0.1524" layer="91"/>
-<label x="-63.5" y="119.38" size="1.778" layer="95"/>
+<wire x1="60.96" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="40.64" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="P$6"/>
-<wire x1="-22.86" y1="101.6" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="86.36" x2="-40.64" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-2.54" x2="81.28" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 </net>

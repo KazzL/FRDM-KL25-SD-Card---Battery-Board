@@ -1694,6 +1694,24 @@
 </technology>
 </technologies>
 </device>
+<device name="10U-X5R-20%-6.3V-0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="X5R" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1005X5R0J106M050BC" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="05X9827" constant="no"/>
+<attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
+<attribute name="TOLARANCE" value="20%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -2867,15 +2885,15 @@ Source: Samtec SSW.pdf</description>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Blue-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
-<part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
-<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X7R-10%-6.3V" value="10uF"/>
+<part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C4" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C5" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
+<part name="C6" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
 <part name="C7" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1U-X7R-10%-25V" value="0.1uF"/>
 <part name="C8" library="Kas-Capacitors" deviceset="CAPACITOR" device="1U-X5R-10%-10V" value="1uF"/>
-<part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
-<part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-10V-0603" value="0.47uF"/>
+<part name="C1" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0402" value="0.47uF"/>
+<part name="C9" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.47U-X5R-10%-6.3V-0402" value="0.47uF"/>
 <part name="C10" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
 <part name="C11" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
 <part name="C12" library="Kas-Capacitors" deviceset="CAPACITOR" device="0.1-X5R-10%-16V-0402" value="0.1uF"/>
