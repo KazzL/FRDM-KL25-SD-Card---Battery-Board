@@ -748,21 +748,8 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-2" y1="-0.95" x2="2" y2="-0.95" width="0.127" layer="21"/>
 <wire x1="2" y1="-0.95" x2="2" y2="4.35" width="0.127" layer="21"/>
 <wire x1="2" y1="4.35" x2="1" y2="4.35" width="0.127" layer="21"/>
-</package>
-<package name="501568-0207">
-<description>1.00mm Pitch Pico-Clasp™ Wire-to-Board Header, Surface Mount, Single Row, Right Angle, with Friction Lock, 2 Circuits, Lead-Free</description>
-<smd name="P$1" x="-0.5" y="3.9" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$2" x="0.5" y="3.9" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$5" x="-1.8" y="0" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$6" x="1.8" y="0" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<wire x1="-2" y1="1" x2="-2" y2="4.45" width="0.2023" layer="21"/>
-<wire x1="-2" y1="4.45" x2="-1" y2="4.45" width="0.2023" layer="21"/>
-<wire x1="1" y1="4.45" x2="2" y2="4.45" width="0.2023" layer="21"/>
-<wire x1="2" y1="4.45" x2="2" y2="1" width="0.2023" layer="21"/>
-<wire x1="-1" y1="-0.9" x2="1" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1" x2="-2" y2="-1.85" width="0.127" layer="51"/>
-<wire x1="-2" y1="-1.85" x2="2" y2="-1.85" width="0.127" layer="51"/>
-<wire x1="2" y1="-1.85" x2="2" y2="-1" width="0.127" layer="51"/>
+<text x="2.54" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1559,13 +1546,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="15.24" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.24" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$1" library="Kas-Connectors" package="50156-0207" value="501568-0207-V2" x="-25.4508" y="-3.3528">
-<attribute name="#_ROWS" value="1" x="-25.4508" y="-3.3528" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PAR_NUMBER" value="501568-0207" x="-25.4508" y="-3.3528" size="1.778" layer="27" display="off"/>
-<attribute name="#_PINS" value="2" x="-25.4508" y="-3.3528" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="-25.4508" y="-3.3528" size="1.778" layer="27" display="off"/>
+<element name="J15" library="Kas-Connectors" package="50156-0207" value="501568-0207-V2" x="-13.3604" y="8.0264" rot="R270">
+<attribute name="#_ROWS" value="1" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PAR_NUMBER" value="501568-0207" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="#_PINS" value="2" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J15" library="Kas-Connectors" package="501568-0207" value="501568-0207" x="-29.9974" y="-2.4638"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -1725,7 +1711,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-9.5504" y1="28.6258" x2="-8.4328" y2="29.7434" width="0.2032" layer="1"/>
 <wire x1="-8.4328" y1="29.7434" x2="-6.9088" y2="29.7434" width="0.2032" layer="1"/>
 <wire x1="-6.9088" y1="29.7434" x2="-6.858" y2="29.7942" width="0.2032" layer="1"/>
-<wire x1="6.3116" y1="17.719" x2="-4.6656" y2="29.7942" width="0" layer="19" extent="1-1"/>
+<contactref element="J15" pad="P$1"/>
+<wire x1="-8.5604" y1="8.5264" x2="-11.1798" y2="24.4142" width="0" layer="19" extent="1-1"/>
+<wire x1="6.0706" y1="6.028125" x2="-8.5604" y2="8.5264" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R14" pad="2"/>
@@ -1786,6 +1774,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R17" pad="1"/>
 <wire x1="-7.83" y1="17.1958" x2="-7.83" y2="14.7651" width="0.2032" layer="1"/>
 <wire x1="-7.83" y1="14.7651" x2="-7.5937" y2="14.5288" width="0.2032" layer="1"/>
+<contactref element="J15" pad="P$2"/>
+<wire x1="-8.5604" y1="7.5264" x2="-7.5937" y2="14.5288" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="P$2"/>
