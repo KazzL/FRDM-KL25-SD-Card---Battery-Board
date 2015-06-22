@@ -3727,9 +3727,8 @@ Source: Samtec SSW.pdf</description>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="3.3V_KL25Z" class="0">
+<net name="N$17" class="0">
 <segment>
-<label x="-78.74" y="96.52" size="1.778" layer="95"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="-48.26" y1="96.52" x2="-78.74" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="J7" gate="-2" pin="1"/>
@@ -3900,13 +3899,6 @@ Source: Samtec SSW.pdf</description>
 <wire x1="165.1" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3V3+" class="0">
-<segment>
-<pinref part="J7" gate="-1" pin="1"/>
-<wire x1="-81.28" y1="96.52" x2="-91.44" y2="96.52" width="0.1524" layer="91"/>
-<label x="-91.44" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="UC_EN_CHARGE" class="0">
 <segment>
 <pinref part="J9" gate="-3" pin="1"/>
@@ -4024,6 +4016,13 @@ Source: Samtec SSW.pdf</description>
 <pinref part="J14" gate="-3" pin="1"/>
 <wire x1="20.32" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
 <label x="20.32" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3.3V_KL25Z" class="0">
+<segment>
+<pinref part="J7" gate="-1" pin="1"/>
+<wire x1="-81.28" y1="96.52" x2="-91.44" y2="96.52" width="0.1524" layer="91"/>
+<label x="-91.44" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -4303,7 +4302,7 @@ Source: Samtec SSW.pdf</description>
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="3.3V_KL25Z" class="0">
 <segment>
 <wire x1="48.26" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <label x="48.26" y="93.98" size="1.778" layer="95" ratio="14"/>

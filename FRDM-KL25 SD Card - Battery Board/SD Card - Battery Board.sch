@@ -161,11 +161,10 @@
 <wire x1="1.6" y1="-2" x2="1.3" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-0.6" x2="-1.6" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-2" x2="-1.3" y2="-2" width="0.2032" layer="21"/>
-<hole x="0" y="0" drill="0.3"/>
-<hole x="-0.75" y="0.5" drill="0.3"/>
-<hole x="-0.75" y="-0.5" drill="0.3"/>
-<hole x="0.75" y="0.5" drill="0.3"/>
-<hole x="0.75" y="-0.5" drill="0.3"/>
+<hole x="0" y="0" drill="0.3302"/>
+<hole x="-0.75" y="-0.5" drill="0.3302"/>
+<hole x="0.75" y="0.5" drill="0.3302"/>
+<hole x="0.75" y="-0.5" drill="0.3302"/>
 <rectangle x1="-1.19" y1="1" x2="-0.81" y2="1.95" layer="29"/>
 <rectangle x1="-0.69" y1="1" x2="-0.31" y2="1.95" layer="29"/>
 <rectangle x1="-0.19" y1="1" x2="0.19" y2="1.95" layer="29"/>
@@ -177,6 +176,7 @@
 <rectangle x1="0.31" y1="-1.95" x2="0.69" y2="-1" layer="29"/>
 <rectangle x1="0.81" y1="-1.95" x2="1.19" y2="-1" layer="29"/>
 <rectangle x1="-1.25" y1="-0.875" x2="1.25" y2="0.875" layer="29"/>
+<hole x="-0.762" y="0.508" drill="0.3302"/>
 </package>
 <package name="VFDFN-12">
 <smd name="P$1" x="-1" y="-1.975" dx="0.2" dy="0.85" layer="1" stop="no"/>
@@ -205,12 +205,12 @@
 <rectangle x1="0.975" y1="-1.225" x2="1.65" y2="-0.975" layer="31"/>
 <rectangle x1="0.975" y1="0.925" x2="1.7" y2="1.275" layer="29"/>
 <rectangle x1="-1.025" y1="-1.275" x2="1.025" y2="1.275" layer="29"/>
-<hole x="0.5" y="0" drill="0.3"/>
-<hole x="-0.5" y="0" drill="0.3"/>
-<hole x="0.5" y="0.9" drill="0.3"/>
-<hole x="-0.5" y="0.9" drill="0.3"/>
-<hole x="0.5" y="-0.9" drill="0.3"/>
-<hole x="-0.5" y="-0.9" drill="0.3"/>
+<hole x="0.5" y="0" drill="0.3302"/>
+<hole x="-0.5" y="0" drill="0.3302"/>
+<hole x="0.5" y="0.9" drill="0.3302"/>
+<hole x="-0.5" y="0.9" drill="0.3302"/>
+<hole x="0.5" y="-0.9" drill="0.3302"/>
+<hole x="-0.5" y="-0.9" drill="0.3302"/>
 <text x="0" y="5" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="3" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.7" y1="-1.6" x2="-1.71" y2="-1.6" width="0.3048" layer="21"/>
