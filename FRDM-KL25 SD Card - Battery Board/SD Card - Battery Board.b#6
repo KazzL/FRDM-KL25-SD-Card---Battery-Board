@@ -1546,11 +1546,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="15.24" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.24" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J15" library="Kas-Connectors" package="50156-0207" value="501568-0207-V2" x="-21.3106" y="-10.033">
-<attribute name="#_ROWS" value="1" x="-21.3106" y="-10.033" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PAR_NUMBER" value="501568-0207" x="-21.3106" y="-10.033" size="1.778" layer="27" display="off"/>
-<attribute name="#_PINS" value="2" x="-21.3106" y="-10.033" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="-21.3106" y="-10.033" size="1.778" layer="27" display="off"/>
+<element name="J15" library="Kas-Connectors" package="50156-0207" value="501568-0207-V2" x="-13.3604" y="8.0264" rot="R270">
+<attribute name="#_ROWS" value="1" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PAR_NUMBER" value="501568-0207" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="#_PINS" value="2" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="-13.3604" y="8.0264" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
