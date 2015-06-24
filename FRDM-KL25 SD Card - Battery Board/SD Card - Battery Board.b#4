@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -128,6 +128,34 @@
 <wire x1="53.6321" y1="50.5206" x2="66.3321" y2="37.8206" width="0" layer="20" curve="-90"/>
 <wire x1="53.6321" y1="-2.8194" x2="66.3321" y2="9.8806" width="0" layer="20" curve="90"/>
 <wire x1="-2.2225" y1="50.5206" x2="53.6321" y2="50.5206" width="0" layer="20"/>
+<text x="65.8622" y="34.671" size="1.016" layer="22" ratio="5" rot="MR270">Kas Lewis
+KasEmbeddedProjects.blogspot.ca
+
+FRDM-KL25Z Battery &amp; SD Card Board
+06/2015
+Rev A</text>
+<text x="12.9286" y="23.3172" size="0.8128" layer="21" ratio="5" rot="R180">!BAT_LOW</text>
+<text x="13.5382" y="33.655" size="0.8128" layer="21" ratio="5" rot="R180">!BAT_LOW</text>
+<text x="14.4018" y="22.6314" size="0.8128" layer="21" ratio="5">PTB10</text>
+<text x="14.7574" y="32.9184" size="0.8128" layer="21" ratio="5">PTB9</text>
+<text x="10.6426" y="36.4744" size="0.8128" layer="21" ratio="5">3V3+ Enable</text>
+<text x="11.3792" y="26.162" size="0.8128" layer="21" ratio="5">5V+ Enable</text>
+<text x="16.8656" y="38.735" size="0.8128" layer="21" ratio="5">3V3+</text>
+<text x="19.9136" y="28.4734" size="0.8128" layer="21" ratio="5">5V+</text>
+<text x="27.8638" y="30.1244" size="0.8128" layer="21" ratio="5" rot="R90">SD Card Pullups</text>
+<text x="29.6418" y="41.9862" size="0.8128" layer="21" ratio="5">PTE5</text>
+<text x="24.3332" y="42.0624" size="0.8128" layer="21" ratio="5">PTE3</text>
+<text x="19.8628" y="24.2824" size="0.8128" layer="21" ratio="5">SD-MOSI</text>
+<text x="19.685" y="14.1986" size="0.8128" layer="21" ratio="5">SD-MISO</text>
+<text x="19.6342" y="19.2024" size="0.8128" layer="21" ratio="5">SD-SCLK</text>
+<text x="8.4582" y="12.192" size="0.8128" layer="21" ratio="5">I2C-SCL</text>
+<text x="8.2042" y="3.9878" size="0.8128" layer="21" ratio="5">I2C-SDA</text>
+<text x="-12.192" y="23.241" size="0.8128" layer="21" ratio="5" rot="R90">Charge Enable</text>
+<text x="-8.6106" y="21.0566" size="0.8128" layer="21" ratio="5" rot="R90">SELF_EN</text>
+<text x="-8.8392" y="27.7876" size="0.8128" layer="21" ratio="5" rot="R90">uC Enable</text>
+<text x="5.7404" y="3.9624" size="0.8128" layer="21" ratio="5" rot="R90">I2C Pullups</text>
+<text x="6.7564" y="8.001" size="0.8128" layer="21" ratio="5">I2C-1</text>
+<text x="11.5062" y="8.0264" size="0.8128" layer="21" ratio="5">I2C-0</text>
 </plain>
 <libraries>
 <library name="Kas-Resistors">
@@ -496,8 +524,8 @@ Source: Samtec SSW.pdf</description>
 <pad name="14" x="6.35" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="15" x="8.89" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="16" x="8.89" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-9.398" y="3.302" size="1.6764" layer="21" font="vector">1</text>
-<text x="-9.398" y="-4.826" size="1.6764" layer="21" font="vector">2</text>
+<text x="-9.398" y="3.302" size="1.6764" layer="51" font="vector">1</text>
+<text x="-9.398" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-10.795" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -608,8 +636,8 @@ Source: Samtec SSW.pdf</description>
 <pad name="18" x="8.89" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="19" x="11.43" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="20" x="11.43" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-11.938" y="3.302" size="1.6764" layer="21" font="vector">1</text>
-<text x="-11.938" y="-4.826" size="1.6764" layer="21" font="vector">2</text>
+<text x="-11.938" y="3.302" size="1.6764" layer="51" font="vector">1</text>
+<text x="-11.938" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-13.335" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="14.605" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -680,8 +708,8 @@ Source: Samtec SSW.pdf</description>
 <pad name="10" x="3.81" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="11" x="6.35" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="12" x="6.35" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-6.858" y="3.302" size="1.6764" layer="21" font="vector">1</text>
-<text x="-6.858" y="-4.826" size="1.6764" layer="21" font="vector">2</text>
+<text x="-6.858" y="3.302" size="1.6764" layer="51" font="vector">1</text>
+<text x="-6.858" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.525" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -700,9 +728,9 @@ Source: Samtec SSW.pdf</description>
 <wire x1="2.025" y1="0.755" x2="2.025" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="2.025" y1="-0.745" x2="0.525" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="0.525" y1="-0.745" x2="0.525" y2="0.755" width="0.2032" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-1.778" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
+<text x="-4.318" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -725,10 +753,10 @@ Source: Samtec SSW.pdf</description>
 <wire x1="3.295" y1="0.755" x2="3.295" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="3.295" y1="-0.745" x2="1.795" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="1.795" y1="-0.745" x2="1.795" y2="0.755" width="0.2032" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="3" x="2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-3.048" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
+<text x="-5.588" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -1379,7 +1407,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NEWARK_PART_NUMBER" value="51W3639" x="62.7069" y="49.5712" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="62.7069" y="49.5712" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R30" library="Kas-Resistors" package="R0402" value="DNP" x="12.827" y="28.1458" rot="R270"/>
+<element name="R30" library="Kas-Resistors" package="R0402" value="DNP" x="12.827" y="28.1458" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.5255" y="29.0348" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="11.684" y="29.2253" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="R31" library="Kas-Resistors" package="R0402" value="DNP" x="12.827" y="38.36621875" rot="R270"/>
 <element name="L1" library="Kas-Inductors" package="NRS401X" value="2.2uH" x="0.848359375" y="38.43901875">
 <attribute name="CONSTRUCTION" value="Shielded" x="66.888359375" y="-2.20098125" size="1.778" layer="27" display="off"/>
@@ -1401,17 +1432,21 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="SELF_RESONANCE" value="73MHz" x="21.1582" y="-22.5714" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="21.1582" y="-22.5714" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="39.676325" y="1.016" rot="MR0">
+<element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="39.676325" y="1.016" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="85K7646" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="SSW-108-02-S-D" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="50.471325" y="-1.524" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="27.611325" y="-1.524" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="J4" library="Kas-Connectors" package="SSW-110-02-S-D" value="SSW-110-02-S-D" x="15.3543" y="1.016" rot="MR0">
+<element name="J4" library="Kas-Connectors" package="SSW-110-02-S-D" value="SSW-110-02-S-D" x="15.3543" y="1.016" smashed="yes" rot="MR0">
 <attribute name="OC_NEWARK" value="11P9480" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="SSW-110-02-S-D" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="0.8636" y="-1.2065" size="1.27" layer="26"/>
+<attribute name="VALUE" x="0.7493" y="-1.524" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="J5" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="21.85543125" y="46.801278125" rot="MR180">
 <attribute name="OC_NEWARK" value="85K7646" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1432,23 +1467,23 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J8" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="19.05" y="30.7594" rot="R180">
-<attribute name="OC_NEWARK" value="11P9351" x="19.05" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="19.05" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="19.05" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="19.05" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J8" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="20.6248" y="30.7594" rot="R180">
+<attribute name="OC_NEWARK" value="11P9351" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SSW-102-02-S-S" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" rot="R90">
-<attribute name="OC_NEWARK" value="11P9367" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J9" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" rot="R270">
+<attribute name="OC_NEWARK" value="11P9367" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J10" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="35.59301875">
-<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="35.59301875" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="35.59301875" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="13.462" y="35.59301875" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="13.462" y="35.59301875" size="1.778" layer="27" display="off"/>
+<element name="J10" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="35.08501875" rot="R180">
+<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J11" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="3.1242" y="7.3152" rot="R270">
 <attribute name="OC_NEWARK" value="11P9351" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1456,23 +1491,27 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J12" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="10.668">
-<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="10.287" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="10.287" y="10.668" size="1.778" layer="27" display="off"/>
+<element name="J12" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="10.668" rot="R180">
+<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J13" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="7.62">
-<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="10.287" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="10.287" y="7.62" size="1.778" layer="27" display="off"/>
+<element name="J13" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="6.35" smashed="yes" rot="R180">
+<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="14.732" y="7.62" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.572" y="7.62" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J14" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="25.2984" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="25.2984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="25.2984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="13.462" y="25.2984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="13.462" y="25.2984" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J14" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="24.7904" smashed="yes" rot="R180">
+<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17.907" y="26.0604" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="7.747" y="26.0604" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="J15" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="28.20543125" y="40.5638" rot="R180">
 <attribute name="OC_NEWARK" value="11P9367" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1504,11 +1543,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="#_PINS" value="2" x="-12.7" y="7.239" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-12.7" y="7.239" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J20" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="24.384" y="34.5186" rot="R90">
-<attribute name="OC_NEWARK" value="11P9351" x="24.384" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="24.384" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="24.384" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="24.384" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J20" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="25.4" y="34.5186" rot="R90">
+<attribute name="OC_NEWARK" value="11P9351" x="25.4" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SSW-102-02-S-S" x="25.4" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="25.4" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="25.4" y="34.5186" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1701,7 +1740,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="3.1242" y1="12.6238" x2="3.556" y2="12.6238" width="0.2032" layer="16"/>
 <wire x1="7.0612" y1="9.1186" x2="9.4742" y2="9.1186" width="0.2032" layer="16"/>
 <wire x1="9.4742" y1="9.1186" x2="10.287" y2="8.3058" width="0.2032" layer="16"/>
-<wire x1="10.287" y1="8.3058" x2="10.287" y2="7.62" width="0.2032" layer="16"/>
+<wire x1="10.287" y1="8.3058" x2="10.287" y2="6.35" width="0.2032" layer="16"/>
 <wire x1="3.556" y1="12.6238" x2="7.0612" y2="9.1186" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$7">
@@ -1872,11 +1911,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D2" pad="P$2"/>
 <contactref element="U3" pad="P$12"/>
 <contactref element="R11" pad="2"/>
-<contactref element="J10" pad="3"/>
-<contactref element="J14" pad="1"/>
 <wire x1="-0.992" y1="17.3528" x2="0.381" y2="17.3528" width="0.2032" layer="1"/>
-<wire x1="0.381" y1="17.3528" x2="10.7488" y2="17.3528" width="0.2032" layer="1"/>
-<wire x1="16.002" y1="25.2984" x2="16.002" y2="35.59301875" width="0.2032" layer="16"/>
 <wire x1="-13.2842" y1="17.335" x2="-11.8242" y2="17.335" width="0.2032" layer="1"/>
 <wire x1="-11.8242" y1="17.335" x2="-10.8966" y2="18.2626" width="0.2032" layer="1"/>
 <wire x1="-10.8966" y1="18.2626" x2="-9.263" y2="18.2626" width="0.2032" layer="1"/>
@@ -1884,15 +1919,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-9.263" y1="17.3528" x2="-7.8354" y2="17.3528" width="0.2032" layer="1"/>
 <via x="-7.8354" y="17.3528" extent="1-16" drill="0.6"/>
 <via x="0.381" y="17.3528" extent="1-16" drill="0.6"/>
-<wire x1="10.7488" y1="17.3528" x2="16.002" y2="22.606" width="0.2032" layer="1"/>
-<wire x1="16.002" y1="22.606" x2="16.002" y2="25.2984" width="0.2032" layer="1"/>
 <wire x1="-7.8354" y1="17.3528" x2="0.381" y2="17.3528" width="0.2032" layer="16"/>
+<contactref element="J14" pad="3"/>
+<wire x1="0.381" y1="17.3528" x2="4.6528" y2="17.3528" width="0.2032" layer="1"/>
+<wire x1="4.6528" y1="17.3528" x2="10.922" y2="23.622" width="0.2032" layer="1"/>
+<wire x1="10.922" y1="23.622" x2="10.922" y2="24.7904" width="0.2032" layer="1"/>
+<contactref element="J10" pad="3"/>
+<wire x1="10.922" y1="24.7904" x2="10.922" y2="35.08501875" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$18">
 <contactref element="D4" pad="P$1"/>
 <contactref element="J8" pad="2"/>
 <wire x1="14.2846" y1="30.764690625" x2="14.289890625" y2="30.7594" width="0.2032" layer="1"/>
-<wire x1="14.289890625" y1="30.7594" x2="17.78" y2="30.7594" width="0.3048" layer="1"/>
+<wire x1="14.289890625" y1="30.7594" x2="19.3548" y2="30.7594" width="0.3048" layer="1"/>
 </signal>
 <signal name="PS/SYNC-2">
 <contactref element="U2" pad="P$7"/>
@@ -1982,37 +2021,38 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="I2C-SCL-1">
 <contactref element="J4" pad="20"/>
-<contactref element="J12" pad="1"/>
 <wire x1="5.1816" y1="1.0033" x2="3.9243" y2="-0.254" width="0.2032" layer="1"/>
-<wire x1="7.747" y1="10.668" x2="6.5278" y2="10.668" width="0.2032" layer="1"/>
 <wire x1="6.5278" y1="10.668" x2="5.1816" y2="9.3218" width="0.2032" layer="1"/>
 <wire x1="5.1816" y1="9.3218" x2="5.1816" y2="1.0033" width="0.2032" layer="1"/>
+<contactref element="J12" pad="3"/>
+<wire x1="6.5278" y1="10.668" x2="7.747" y2="10.668" width="0.2032" layer="1"/>
 </signal>
 <signal name="I2C-SDA-1">
 <contactref element="J4" pad="18"/>
-<contactref element="J13" pad="1"/>
-<wire x1="7.747" y1="7.62" x2="7.747" y2="1.0287" width="0.2032" layer="1"/>
 <wire x1="7.747" y1="1.0287" x2="6.4643" y2="-0.254" width="0.2032" layer="1"/>
+<contactref element="J13" pad="3"/>
+<wire x1="7.747" y1="6.35" x2="7.747" y2="1.0287" width="0.2032" layer="1"/>
 </signal>
 <signal name="I2C-SDA-0">
 <contactref element="J3" pad="16"/>
-<contactref element="J13" pad="3"/>
 <wire x1="24.6634" y1="3.937" x2="27.9908" y2="3.937" width="0.2032" layer="1"/>
-<wire x1="12.827" y1="7.62" x2="20.9804" y2="7.62" width="0.2032" layer="1"/>
-<wire x1="20.9804" y1="7.62" x2="24.6634" y2="3.937" width="0.2032" layer="1"/>
 <wire x1="27.9908" y1="3.937" x2="28.8036" y2="3.1242" width="0.2032" layer="1"/>
 <wire x1="28.8036" y1="3.1242" x2="28.8036" y2="1.728725" width="0.2032" layer="1"/>
 <wire x1="28.8036" y1="1.728725" x2="30.786325" y2="-0.254" width="0.2032" layer="1"/>
+<contactref element="J13" pad="1"/>
+<wire x1="22.6441" y1="5.9563" x2="24.6634" y2="3.937" width="0.2032" layer="1"/>
+<wire x1="12.827" y1="6.35" x2="22.2504" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="22.2504" y1="6.35" x2="22.6441" y2="5.9563" width="0.2032" layer="1"/>
 </signal>
 <signal name="I2C-SCL-0">
 <contactref element="J3" pad="14"/>
-<contactref element="J12" pad="3"/>
 <wire x1="25.3238" y1="4.9022" x2="30.8356" y2="4.9022" width="0.2032" layer="1"/>
 <wire x1="32.0294" y1="3.7084" x2="32.0294" y2="1.042925" width="0.2032" layer="1"/>
 <wire x1="32.0294" y1="1.042925" x2="33.326325" y2="-0.254" width="0.2032" layer="1"/>
-<wire x1="12.827" y1="10.668" x2="19.558" y2="10.668" width="0.2032" layer="1"/>
 <wire x1="19.558" y1="10.668" x2="25.3238" y2="4.9022" width="0.2032" layer="1"/>
 <wire x1="30.8356" y1="4.9022" x2="32.0294" y2="3.7084" width="0.2032" layer="1"/>
+<contactref element="J12" pad="1"/>
+<wire x1="19.558" y1="10.668" x2="12.827" y2="10.668" width="0.2032" layer="1"/>
 </signal>
 <signal name="I2C-SDA-1.1">
 <contactref element="J3" pad="15"/>
@@ -2045,26 +2085,35 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J3" pad="12"/>
 </signal>
 <signal name="UC_EN_CHARGE">
-<contactref element="J9" pad="3"/>
+<contactref element="J5" pad="1"/>
+<wire x1="-10.8712" y1="40.2844" x2="-10.6299" y2="40.5257" width="0.3048" layer="16"/>
+<wire x1="-10.6299" y1="40.5257" x2="-5.624321875" y2="45.531278125" width="0.3048" layer="16"/>
+<wire x1="-5.624321875" y1="45.531278125" x2="12.96543125" y2="45.531278125" width="0.3048" layer="16"/>
+<contactref element="J9" pad="1"/>
+<wire x1="-10.8712" y1="29.3116" x2="-10.8712" y2="40.2844" width="0.2032" layer="16"/>
 </signal>
 <signal name="SELF_EN">
 <contactref element="R25" pad="1"/>
-<contactref element="J9" pad="1"/>
-<wire x1="-10.8712" y1="24.2316" x2="-10.3124" y2="24.2316" width="0.2032" layer="1"/>
 <wire x1="-10.3124" y1="24.2316" x2="-8.4074" y2="26.1366" width="0.2032" layer="1"/>
 <wire x1="-8.4074" y1="26.1366" x2="-8.4074" y2="27.8706" width="0.2032" layer="1"/>
+<contactref element="J9" pad="3"/>
+<wire x1="-10.3124" y1="24.2316" x2="-10.8712" y2="24.2316" width="0.2032" layer="1"/>
 </signal>
 <signal name="UC_3V3_EN">
+<contactref element="J5" pad="3"/>
+<wire x1="15.1384" y1="35.94861875" x2="15.1384" y2="45.164246875" width="0.2032" layer="16"/>
+<wire x1="15.1384" y1="45.164246875" x2="15.50543125" y2="45.531278125" width="0.2032" layer="16"/>
 <contactref element="J10" pad="1"/>
+<wire x1="16.002" y1="35.08501875" x2="15.1384" y2="35.94861875" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="P$6"/>
 <contactref element="J10" pad="2"/>
-<wire x1="9.331959375" y1="37.06621875" x2="8.959159375" y2="37.43901875" width="0.2032" layer="1"/>
-<wire x1="8.959159375" y1="37.43901875" x2="7.790359375" y2="37.43901875" width="0.2032" layer="1"/>
-<wire x1="9.331959375" y1="37.06621875" x2="12.20978125" y2="37.06621875" width="0.2032" layer="1"/>
-<wire x1="12.20978125" y1="37.06621875" x2="12.954" y2="36.322" width="0.2032" layer="1"/>
-<wire x1="12.954" y1="36.322" x2="13.462" y2="35.59301875" width="0.2032" layer="1"/>
+<wire x1="8.857559375" y1="37.43901875" x2="7.790359375" y2="37.43901875" width="0.2032" layer="1"/>
+<wire x1="9.712959375" y1="36.58361875" x2="12.59078125" y2="36.58361875" width="0.2032" layer="1"/>
+<wire x1="12.59078125" y1="36.58361875" x2="13.462" y2="35.7124" width="0.2032" layer="1"/>
+<wire x1="13.462" y1="35.7124" x2="13.462" y2="35.08501875" width="0.2032" layer="1"/>
+<wire x1="9.712959375" y1="36.58361875" x2="8.857559375" y2="37.43901875" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R12" pad="2"/>
@@ -2084,14 +2133,18 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$13">
 <contactref element="U2" pad="P$6"/>
 <contactref element="J14" pad="2"/>
-<wire x1="9.398" y1="26.7208" x2="8.9002" y2="27.2186" width="0.2032" layer="1"/>
-<wire x1="8.9002" y1="27.2186" x2="7.7802" y2="27.2186" width="0.2032" layer="1"/>
-<wire x1="9.398" y1="26.7208" x2="12.1666" y2="26.7208" width="0.2032" layer="1"/>
-<wire x1="12.1666" y1="26.7208" x2="12.954" y2="25.9334" width="0.2032" layer="1"/>
-<wire x1="12.954" y1="25.9334" x2="13.462" y2="25.2984" width="0.2032" layer="1"/>
+<wire x1="8.7224" y1="27.2186" x2="7.7802" y2="27.2186" width="0.2032" layer="1"/>
+<wire x1="9.6774" y1="26.2636" x2="12.446" y2="26.2636" width="0.2032" layer="1"/>
+<wire x1="12.446" y1="26.2636" x2="13.462" y2="25.2476" width="0.2032" layer="1"/>
+<wire x1="13.462" y1="25.2476" x2="13.462" y2="24.7904" width="0.2032" layer="1"/>
+<wire x1="9.6774" y1="26.2636" x2="8.7224" y2="27.2186" width="0.2032" layer="1"/>
 </signal>
 <signal name="UC_5V_EN">
-<contactref element="J14" pad="3"/>
+<contactref element="J5" pad="5"/>
+<contactref element="J14" pad="1"/>
+<wire x1="17.9324" y1="26.7208" x2="17.9324" y2="45.418246875" width="0.2032" layer="16"/>
+<wire x1="17.9324" y1="45.418246875" x2="18.04543125" y2="45.531278125" width="0.2032" layer="16"/>
+<wire x1="17.9324" y1="26.7208" x2="16.002" y2="24.7904" width="0.2032" layer="16"/>
 </signal>
 <signal name="3.3V_KL25Z">
 <contactref element="J7" pad="1"/>
@@ -2108,10 +2161,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="5V_KL25Z">
 <contactref element="J8" pad="1"/>
 <contactref element="J5" pad="10"/>
-<wire x1="20.32" y1="30.7594" x2="20.32" y2="31.9278" width="0.3048" layer="16"/>
 <wire x1="23.12543125" y1="48.071278125" x2="21.8948" y2="46.840646875" width="0.3048" layer="16"/>
-<wire x1="21.8948" y1="46.840646875" x2="21.8948" y2="33.5026" width="0.3048" layer="16"/>
-<wire x1="21.8948" y1="33.5026" x2="20.32" y2="31.9278" width="0.3048" layer="16"/>
+<wire x1="21.8948" y1="46.840646875" x2="21.8948" y2="30.7594" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="U2" pad="P$10"/>
@@ -2258,7 +2309,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="29.503" y="23.0124" extent="1-16" drill="0.6"/>
 <wire x1="29.503" y1="23.0124" x2="29.503" y2="28.1686" width="0.4064" layer="16"/>
 <wire x1="29.503" y1="20.5486" x2="29.503" y2="23.0124" width="0.4064" layer="16"/>
-<wire x1="24.384" y1="33.2486" x2="29.503" y2="33.2486" width="0.4064" layer="16"/>
+<wire x1="25.4" y1="33.2486" x2="29.503" y2="33.2486" width="0.4064" layer="16"/>
 <wire x1="29.503" y1="28.1686" x2="29.503" y2="25.6286" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
@@ -2268,27 +2319,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.294759375" y1="40.985109375" x2="14.30205" y2="40.97781875" width="0.2032" layer="1"/>
 <wire x1="14.30205" y1="40.97781875" x2="16.774159375" y2="40.97781875" width="0.4064" layer="1"/>
 <wire x1="16.774159375" y1="40.97781875" x2="21.963378125" y2="35.7886" width="0.4064" layer="1"/>
-<wire x1="21.963378125" y1="35.7886" x2="24.384" y2="35.7886" width="0.4064" layer="1"/>
+<wire x1="21.963378125" y1="35.7886" x2="25.4" y2="35.7886" width="0.4064" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,377a7b82440608fe"/>
-<approved hash="4,1,34e07818783a34c2"/>
-<approved hash="4,1,33f87f007dca3132"/>
-<approved hash="4,1,2f780b80340c10f4"/>
-<approved hash="4,1,2ce2081a08302cc8"/>
-<approved hash="4,1,2bfa0f020dc02938"/>
-<approved hash="4,1,11b5824d82c81130"/>
-<approved hash="4,1,137f8087820411fc"/>
-<approved hash="4,1,2cfe39063a6a2f92"/>
-<approved hash="4,1,474418bc1a3e45c6"/>
-<approved hash="4,1,b1c80230022cb1d4"/>
-<approved hash="4,1,f41eb9c6b9f0f428"/>
-<approved hash="4,1,f578b8a0c5b4886c"/>
-<approved hash="4,1,5b665cbe5bca5c12"/>
-<approved hash="4,1,3c2621fe21c83c10"/>
-<approved hash="4,1,7de06838152800f0"/>
-</errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
