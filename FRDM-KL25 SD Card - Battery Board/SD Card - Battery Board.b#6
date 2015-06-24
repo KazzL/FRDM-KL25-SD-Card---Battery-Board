@@ -1469,11 +1469,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" rot="R90">
-<attribute name="OC_NEWARK" value="11P9367" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J9" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" rot="R270">
+<attribute name="OC_NEWARK" value="11P9367" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SSW-103-02-S-S" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-10.8712" y="26.7716" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J10" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="35.08501875" rot="R180">
 <attribute name="OC_NEWARK" value="11P9367" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2080,17 +2080,18 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="UC_EN_CHARGE">
 <contactref element="J5" pad="1"/>
-<wire x1="-10.8712" y1="40.2844" x2="-5.624321875" y2="45.531278125" width="0.3048" layer="16"/>
+<wire x1="-10.8712" y1="40.2844" x2="-10.6299" y2="40.5257" width="0.3048" layer="16"/>
+<wire x1="-10.6299" y1="40.5257" x2="-5.624321875" y2="45.531278125" width="0.3048" layer="16"/>
 <wire x1="-5.624321875" y1="45.531278125" x2="12.96543125" y2="45.531278125" width="0.3048" layer="16"/>
 <contactref element="J9" pad="1"/>
-<wire x1="-10.8712" y1="24.2316" x2="-10.8712" y2="40.2844" width="0" layer="19" extent="16-16"/>
+<wire x1="-10.8712" y1="29.3116" x2="-10.8712" y2="40.2844" width="0.2032" layer="16"/>
 </signal>
 <signal name="SELF_EN">
 <contactref element="R25" pad="1"/>
 <wire x1="-10.3124" y1="24.2316" x2="-8.4074" y2="26.1366" width="0.2032" layer="1"/>
 <wire x1="-8.4074" y1="26.1366" x2="-8.4074" y2="27.8706" width="0.2032" layer="1"/>
 <contactref element="J9" pad="3"/>
-<wire x1="-8.4074" y1="27.8706" x2="-10.8712" y2="29.3116" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.3124" y1="24.2316" x2="-10.8712" y2="24.2316" width="0.2032" layer="1"/>
 </signal>
 <signal name="UC_3V3_EN">
 <contactref element="J5" pad="3"/>
