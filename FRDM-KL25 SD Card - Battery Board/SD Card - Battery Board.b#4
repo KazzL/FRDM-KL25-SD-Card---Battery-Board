@@ -128,8 +128,6 @@
 <wire x1="53.6321" y1="50.5206" x2="66.3321" y2="37.8206" width="0" layer="20" curve="-90"/>
 <wire x1="53.6321" y1="-2.8194" x2="66.3321" y2="9.8806" width="0" layer="20" curve="90"/>
 <wire x1="-2.2225" y1="50.5206" x2="53.6321" y2="50.5206" width="0" layer="20"/>
-<text x="25.39" y="57.26" size="1.778" layer="1">TPS63001</text>
-<text x="-1.47" y="58.344" size="1.778" layer="1">TPS63002</text>
 </plain>
 <libraries>
 <library name="Kas-Resistors">
@@ -1187,22 +1185,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NEWARK_PART_NUMBER" value="67R9884" x="72.2122" y="95.4558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="72.2122" y="95.4558" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R20" library="Kas-Resistors" package="R0402" value="10k" x="4.53" y="54.344" rot="R90">
-<attribute name="MANUFACTURER" value="Yageo" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="67R9884" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="70.57" y="70.854" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R21" library="Kas-Resistors" package="R0402" value="10k" x="30.39" y="54.26" rot="R90">
-<attribute name="MANUFACTURER" value="Yageo" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm/C" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="67R9884" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="96.43" y="75.85" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="R22" library="Kas-Resistors" package="R0402" value="1.6k" x="-5.2324" y="32.7914" rot="R270">
 <attribute name="POWER_RATING" value="63mW" x="-66.1924" y="6.1214" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="-66.1924" y="6.1214" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1389,22 +1371,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NEWARK_PART_NUMBER" value="47M0505" x="34.8869" y="27.813" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SD-47346-001" x="34.8869" y="27.813" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R27" library="Kas-Resistors" package="R0402" value="0" x="37.39" y="54.26" rot="R90">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="113.59" y="68.23" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R28" library="Kas-Resistors" package="R0402" value="0" x="13.53" y="54.344" rot="R90">
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="200ppm/C" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="51W3639" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U020R00X" x="89.73" y="72.124" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="R29" library="Kas-Resistors" package="R0402" value="0" x="-13.4931" y="27.9812" rot="R90">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="62.7069" y="49.5712" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLARANCE" value="1%" x="62.7069" y="49.5712" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1434,44 +1400,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NEWARK_PART_NUMBER" value="46T8541" x="21.1582" y="-22.5714" size="1.778" layer="27" display="off"/>
 <attribute name="SELF_RESONANCE" value="73MHz" x="21.1582" y="-22.5714" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NRS4010T2R2MDGG" x="21.1582" y="-22.5714" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R32" library="Kas-Resistors" package="R0402" value="100" x="34.39" y="54.26" rot="R90">
-<attribute name="POWER_RATING" value="63mW" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="95W7398" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F1K0" x="100.43" y="101.25" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R33" library="Kas-Resistors" package="R0402" value="100" x="9.53" y="54.344" rot="R90">
-<attribute name="POWER_RATING" value="63mW" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="1%" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="50" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="100ppm" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="95W7398" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRG0402F1K0" x="75.57" y="106.414" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C13" library="Kas-Capacitors" package="C0402" value="0.1uF" x="26.39" y="54.26" rot="R90">
-<attribute name="MANUFACTURER" value="TDK" x="82.27" y="106.33" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIELECTRIC" value="X7R" x="82.27" y="106.33" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="04X3147" x="82.27" y="106.33" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE" value="-55 ~ 125" x="82.27" y="106.33" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="25" x="26.39" y="54.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="10%" x="26.39" y="54.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="26.39" y="54.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E104K050BB" x="26.39" y="54.26" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C14" library="Kas-Capacitors" package="C0402" value="0.1uF" x="-0.47" y="54.344" rot="R90">
-<attribute name="MANUFACTURER" value="TDK" x="55.41" y="112.764" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIELECTRIC" value="X7R" x="55.41" y="112.764" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="04X3147" x="55.41" y="112.764" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMPERATURE" value="-55 ~ 125" x="55.41" y="112.764" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="25" x="-0.47" y="54.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLARANCE" value="10%" x="-0.47" y="54.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="-0.47" y="54.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA2B3X7R1E104K050BB" x="-0.47" y="54.344" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="39.676325" y="1.016" rot="MR0">
 <attribute name="OC_NEWARK" value="85K7646" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2344,19 +2272,19 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="4,1,377a7b82440608fe"/>
 <approved hash="4,1,34e07818783a34c2"/>
 <approved hash="4,1,33f87f007dca3132"/>
-<approved hash="4,1,377a7b82440608fe"/>
-<approved hash="4,1,2ce2081a08302cc8"/>
 <approved hash="4,1,2f780b80340c10f4"/>
+<approved hash="4,1,2ce2081a08302cc8"/>
 <approved hash="4,1,2bfa0f020dc02938"/>
-<approved hash="4,1,137f8087820411fc"/>
 <approved hash="4,1,11b5824d82c81130"/>
+<approved hash="4,1,137f8087820411fc"/>
 <approved hash="4,1,2cfe39063a6a2f92"/>
 <approved hash="4,1,474418bc1a3e45c6"/>
 <approved hash="4,1,b1c80230022cb1d4"/>
-<approved hash="4,1,f578b8a0c5b4886c"/>
 <approved hash="4,1,f41eb9c6b9f0f428"/>
+<approved hash="4,1,f578b8a0c5b4886c"/>
 <approved hash="4,1,5b665cbe5bca5c12"/>
 <approved hash="4,1,3c2621fe21c83c10"/>
 <approved hash="4,1,7de06838152800f0"/>

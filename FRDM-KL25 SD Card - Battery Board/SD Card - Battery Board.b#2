@@ -1872,11 +1872,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D2" pad="P$2"/>
 <contactref element="U3" pad="P$12"/>
 <contactref element="R11" pad="2"/>
-<contactref element="J10" pad="3"/>
-<contactref element="J14" pad="1"/>
 <wire x1="-0.992" y1="17.3528" x2="0.381" y2="17.3528" width="0.2032" layer="1"/>
 <wire x1="0.381" y1="17.3528" x2="10.7488" y2="17.3528" width="0.2032" layer="1"/>
-<wire x1="16.002" y1="25.2984" x2="16.002" y2="35.59301875" width="0.2032" layer="16"/>
 <wire x1="-13.2842" y1="17.335" x2="-11.8242" y2="17.335" width="0.2032" layer="1"/>
 <wire x1="-11.8242" y1="17.335" x2="-10.8966" y2="18.2626" width="0.2032" layer="1"/>
 <wire x1="-10.8966" y1="18.2626" x2="-9.263" y2="18.2626" width="0.2032" layer="1"/>
@@ -1885,8 +1882,11 @@ Please make sure your boards conform to these design rules.</description>
 <via x="-7.8354" y="17.3528" extent="1-16" drill="0.6"/>
 <via x="0.381" y="17.3528" extent="1-16" drill="0.6"/>
 <wire x1="10.7488" y1="17.3528" x2="16.002" y2="22.606" width="0.2032" layer="1"/>
-<wire x1="16.002" y1="22.606" x2="16.002" y2="25.2984" width="0.2032" layer="1"/>
 <wire x1="-7.8354" y1="17.3528" x2="0.381" y2="17.3528" width="0.2032" layer="16"/>
+<contactref element="J10" pad="1"/>
+<contactref element="J14" pad="3"/>
+<wire x1="10.922" y1="25.2984" x2="10.922" y2="35.59301875" width="0" layer="19" extent="1-1"/>
+<wire x1="16.002" y1="22.606" x2="10.922" y2="25.2984" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="D4" pad="P$1"/>
@@ -2059,9 +2059,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-8.4074" y1="26.1366" x2="-8.4074" y2="27.8706" width="0.2032" layer="1"/>
 </signal>
 <signal name="UC_3V3_EN">
-<contactref element="J10" pad="1"/>
 <contactref element="J5" pad="3"/>
-<wire x1="10.922" y1="35.59301875" x2="15.50543125" y2="45.531278125" width="0" layer="19" extent="1-1"/>
+<contactref element="J10" pad="3"/>
+<wire x1="16.002" y1="35.59301875" x2="15.50543125" y2="45.531278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="P$6"/>
@@ -2097,11 +2097,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.954" y1="25.9334" x2="13.462" y2="25.2984" width="0.2032" layer="1"/>
 </signal>
 <signal name="UC_5V_EN">
-<contactref element="J14" pad="3"/>
-<wire x1="10.922" y1="25.2984" x2="14.6812" y2="29.0576" width="0.3048" layer="16"/>
-<wire x1="14.6812" y1="29.0576" x2="14.6812" y2="44.1706" width="0.3048" layer="16"/>
 <contactref element="J5" pad="5"/>
-<wire x1="14.6812" y1="44.1706" x2="18.04543125" y2="45.531278125" width="0" layer="19" extent="16-16"/>
+<contactref element="J14" pad="1"/>
+<wire x1="16.002" y1="25.2984" x2="18.04543125" y2="45.531278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V_KL25Z">
 <contactref element="J7" pad="1"/>

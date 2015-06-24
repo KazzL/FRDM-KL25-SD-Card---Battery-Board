@@ -2206,6 +2206,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="SPI-CSB-SD-B">
 <contactref element="J15" pad="1"/>
+<contactref element="J5" pad="15"/>
+<wire x1="30.7594" y1="40.5638" x2="30.74543125" y2="45.531278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="J1" pad="P$1"/>
@@ -2293,6 +2295,8 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="SPI-CSB-SD-A">
 <contactref element="J15" pad="3"/>
+<contactref element="J5" pad="11"/>
+<wire x1="25.6794" y1="40.5638" x2="25.66543125" y2="45.531278125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI-MISO-SD-A">
 <contactref element="J18" pad="3"/>
