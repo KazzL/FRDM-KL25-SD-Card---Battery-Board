@@ -3363,8 +3363,15 @@ Source: Samtec SSW.pdf</description>
 <label x="-17.78" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
+<label x="71.12" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3V3-SD-PULLUP" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="10.16" y="91.44"/>
@@ -3379,13 +3386,7 @@ Source: Samtec SSW.pdf</description>
 <junction x="33.02" y="91.44"/>
 <wire x1="33.02" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<junction x="40.64" y="91.44"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<junction x="71.12" y="91.44"/>
-<wire x1="40.64" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<junction x="78.74" y="91.44"/>
-<label x="48.26" y="91.44" size="1.778" layer="95"/>
+<label x="-12.7" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -3830,13 +3831,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="+3V3-SD" class="0">
-<segment>
-<pinref part="J20" gate="-1" pin="1"/>
-<wire x1="-73.66" y1="111.76" x2="-86.36" y2="111.76" width="0.1524" layer="91"/>
-<label x="-86.36" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PS/SYNC-1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS/SYNC"/>
@@ -4124,7 +4118,7 @@ Source: Samtec SSW.pdf</description>
 <junction x="-33.02" y="33.02"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="+3V3-SD" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="-48.26" y1="96.52" x2="-66.04" y2="96.52" width="0.1524" layer="91"/>
@@ -4134,6 +4128,14 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-71.12" y1="111.76" x2="-66.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="111.76" x2="-66.04" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-66.04" y="96.52"/>
+<label x="-63.5" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3V3-SD-PULLUP" class="0">
+<segment>
+<pinref part="J20" gate="-1" pin="1"/>
+<wire x1="-73.66" y1="111.76" x2="-86.36" y2="111.76" width="0.1524" layer="91"/>
+<label x="-86.36" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -2348,9 +2348,9 @@ Source: Samtec SSW.pdf</description>
 <wire x1="2.025" y1="0.755" x2="2.025" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="2.025" y1="-0.745" x2="0.525" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="0.525" y1="-0.745" x2="0.525" y2="0.755" width="0.2032" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="1.27" y="0" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-1.778" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
+<text x="-4.318" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -2388,10 +2388,10 @@ Source: Samtec SSW.pdf</description>
 <wire x1="3.295" y1="0.755" x2="3.295" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="3.295" y1="-0.745" x2="1.795" y2="-0.745" width="0.2032" layer="51"/>
 <wire x1="1.795" y1="-0.745" x2="1.795" y2="0.755" width="0.2032" layer="51"/>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="3" x="2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-3.048" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
+<text x="-5.588" y="-3.048" size="1.6764" layer="21" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -3862,9 +3862,9 @@ Source: Samtec SSW.pdf</description>
 <label x="157.48" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="20.32" y="68.58" size="1.778" layer="95"/>
-<pinref part="J10" gate="-1" pin="1"/>
-<wire x1="20.32" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="20.32" y="73.66" size="1.778" layer="95"/>
+<pinref part="J10" gate="-3" pin="1"/>
+<wire x1="33.02" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="20.32" y="0" size="1.778" layer="95"/>
@@ -4022,9 +4022,9 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="UC_3V3_EN" class="0">
 <segment>
-<label x="20.32" y="73.66" size="1.778" layer="95"/>
-<pinref part="J10" gate="-3" pin="1"/>
-<wire x1="20.32" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="20.32" y="68.58" size="1.778" layer="95"/>
+<pinref part="J10" gate="-1" pin="1"/>
+<wire x1="33.02" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4051,30 +4051,30 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="I2C-SCL-0" class="0">
 <segment>
-<pinref part="J12" gate="-3" pin="1"/>
-<wire x1="226.06" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
-<label x="226.06" y="93.98" size="1.778" layer="95"/>
+<label x="226.06" y="88.9" size="1.778" layer="95"/>
+<pinref part="J12" gate="-1" pin="1"/>
+<wire x1="241.3" y1="88.9" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C-SCL-1" class="0">
 <segment>
-<pinref part="J12" gate="-1" pin="1"/>
-<wire x1="226.06" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="226.06" y="88.9" size="1.778" layer="95"/>
+<label x="226.06" y="93.98" size="1.778" layer="95"/>
+<pinref part="J12" gate="-3" pin="1"/>
+<wire x1="226.06" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C-SDA-0" class="0">
 <segment>
-<pinref part="J13" gate="-3" pin="1"/>
-<wire x1="226.06" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
-<label x="226.06" y="76.2" size="1.778" layer="95"/>
+<label x="226.06" y="71.12" size="1.778" layer="95"/>
+<pinref part="J13" gate="-1" pin="1"/>
+<wire x1="241.3" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C-SDA-1" class="0">
 <segment>
-<pinref part="J13" gate="-1" pin="1"/>
-<wire x1="226.06" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
-<label x="226.06" y="71.12" size="1.778" layer="95"/>
+<label x="226.06" y="76.2" size="1.778" layer="95"/>
+<pinref part="J13" gate="-3" pin="1"/>
+<wire x1="241.3" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -4090,7 +4090,8 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <label x="20.32" y="5.08" size="1.778" layer="95"/>
 <pinref part="J14" gate="-1" pin="1"/>
-<wire x1="20.32" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V_KL25Z" class="0">
