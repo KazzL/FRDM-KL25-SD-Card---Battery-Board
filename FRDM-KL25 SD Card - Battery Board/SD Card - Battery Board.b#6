@@ -128,10 +128,10 @@
 <wire x1="53.6321" y1="50.5206" x2="66.3321" y2="37.8206" width="0" layer="20" curve="-90"/>
 <wire x1="53.6321" y1="-2.8194" x2="66.3321" y2="9.8806" width="0" layer="20" curve="90"/>
 <wire x1="-2.2225" y1="50.5206" x2="53.6321" y2="50.5206" width="0" layer="20"/>
-<text x="65.8622" y="34.671" size="1.016" layer="22" ratio="5" rot="MR270">Kas Lewis
+<text x="56.9468" y="35.8648" size="1.016" layer="22" ratio="5" rot="MR270">Kas Lewis
 KasEmbeddedProjects.blogspot.ca
 
-FRDM-KL25Z-I Battery &amp; SD Card Board
+FRDM-KL25Z-I Battery &amp; SD Card Shield
 06/2015
 Rev A</text>
 <text x="12.954" y="23.3172" size="1.016" layer="21" ratio="5" rot="R180">!BAT_LOW</text>
@@ -998,115 +998,115 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="33.2486" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="51.9938" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="33.2486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.4612" y="32.4104" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="35.1536" size="1.27" layer="28" rot="MR180"/>
+<element name="R1" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="33.2486" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="52.959" y="104.3686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="33.2486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.4264" y="32.4104" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="35.1536" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R2" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="30.7086" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="57.0738" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="30.7086" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.385" y="29.7942" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="32.6136" size="1.27" layer="28" rot="MR180"/>
+<element name="R2" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="30.7086" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="58.039" y="101.8286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="30.7086" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.3502" y="29.7942" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="32.6136" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R3" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="28.1686" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="62.1538" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="28.1686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.4104" y="27.2796" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="30.0736" size="1.27" layer="28" rot="MR180"/>
+<element name="R3" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="28.1686" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="63.119" y="99.2886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="28.1686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.3756" y="27.2796" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="30.0736" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R4" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="20.5486" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="67.2338" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="20.5486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.4612" y="19.2278" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="22.4536" size="1.27" layer="28" rot="MR180"/>
+<element name="R4" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="20.5486" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="68.199" y="91.6686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="20.5486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.4264" y="19.2278" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="22.4536" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R5" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="15.4686" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="72.3138" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="15.4686" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.4866" y="14.4526" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="17.3736" size="1.27" layer="28" rot="MR180"/>
+<element name="R5" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="15.4686" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="73.279" y="86.5886" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="15.4686" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.4518" y="14.4526" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="17.3736" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R6" library="Kas-Resistors" package="R0603" value="10k" x="35.4838" y="12.9286" smashed="yes" rot="MR180">
-<attribute name="MANUFACTURER" value="Visay" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="77.3938" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="35.4838" y="12.9286" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="32.4358" y="12.0142" size="0.6096" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="34.8488" y="14.8336" size="1.27" layer="28" rot="MR180"/>
+<element name="R6" library="Kas-Resistors" package="R0603" value="10k" x="36.449" y="12.9286" smashed="yes" rot="MR180">
+<attribute name="MANUFACTURER" value="Visay" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="78.359" y="84.0486" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="36.449" y="12.9286" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="33.401" y="12.0142" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="35.814" y="14.8336" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R7" library="Kas-Resistors" package="R0603" value="10k" x="30.353" y="25.6286" smashed="yes" rot="MR0">
-<attribute name="MANUFACTURER" value="Visay" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE" value="75" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-16.637" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="30.353" y="25.6286" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="33.401" y="26.5938" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="30.988" y="23.7236" size="1.27" layer="28" rot="MR0"/>
+<element name="R7" library="Kas-Resistors" package="R0603" value="10k" x="30.734" y="25.6286" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="Visay" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-16.256" y="-45.4914" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="30.734" y="25.6286" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="33.782" y="26.5938" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="31.369" y="23.7236" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R8" library="Kas-Resistors" package="R0603" value="10k" x="30.353" y="10.3886" smashed="yes" rot="MR0">
-<attribute name="MANUFACTURER" value="Visay" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOLARANCE" value="0.5%" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE" value="75" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-21.717" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="POWER_RATING" value="100mW" x="30.353" y="10.3886" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="33.6296" y="11.2522" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="30.988" y="8.4836" size="1.27" layer="28" rot="MR0"/>
+<element name="R8" library="Kas-Resistors" package="R0603" value="10k" x="30.734" y="10.3886" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="Visay" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLARANCE" value="0.5%" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="75" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="84R1889" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW060310K0DEEA" x="-21.336" y="-60.7314" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POWER_RATING" value="100mW" x="30.734" y="10.3886" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="34.0106" y="11.2522" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="31.369" y="8.4836" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R9" library="Kas-Resistors" package="R0603" value="200" x="30.353" y="28.2194" smashed="yes" rot="MR180">
-<attribute name="POWER_RATING" value="100mW" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TOLARANCE" value="0.1%" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="75" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="97.663" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="31.6484" y="29.6418" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="29.718" y="30.1244" size="1.27" layer="28" rot="MR180"/>
+<element name="R9" library="Kas-Resistors" package="R0603" value="200" x="30.734" y="28.2194" smashed="yes" rot="MR180">
+<attribute name="POWER_RATING" value="100mW" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="75" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="98.044" y="94.2594" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="32.0294" y="29.6418" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="30.099" y="30.1244" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R10" library="Kas-Resistors" package="R0603" value="200" x="39.1922" y="10.414" smashed="yes" rot="MR0">
-<attribute name="POWER_RATING" value="100mW" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TOLARANCE" value="0.1%" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VOLTAGE" value="75" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="7.4422" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="39.9288" y="11.7856" size="0.6096" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="39.8272" y="8.509" size="1.27" layer="28" rot="MR0"/>
+<element name="R10" library="Kas-Resistors" package="R0603" value="200" x="37.591375" y="10.414" smashed="yes" rot="MR0">
+<attribute name="POWER_RATING" value="100mW" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TOLARANCE" value="0.1%" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VOLTAGE" value="75" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="25ppm" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="39P9961" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB201V" x="5.841375" y="-50.546" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="38.327975" y="11.7856" size="0.6096" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="38.226375" y="8.509" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U1" library="Kas-Buck Boost Battery Control" package="VFDFN-10" value="TPS63001" x="6.315359375" y="38.43901875" smashed="yes" rot="R270">
 <attribute name="INPUT_VOLTAGE" value="1.8 - 5.5" x="-35.594640625" y="15.57901875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1683,7 +1683,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 </elements>
 <signals>
-<signal name="GND" airwireshidden="yes">
+<signal name="GND">
 <contactref element="U3" pad="P$1"/>
 <contactref element="U3" pad="P$6"/>
 <contactref element="U3" pad="P$13"/>
@@ -1940,7 +1940,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="P$9"/>
 <contactref element="R1" pad="1"/>
 <via x="33.02" y="33.2486" extent="1-16" drill="0.6"/>
-<wire x1="33.02" y1="33.2486" x2="34.6338" y2="33.2486" width="0.4064" layer="16"/>
+<wire x1="33.02" y1="33.2486" x2="35.599" y2="33.2486" width="0.4064" layer="16"/>
 <wire x1="33.02" y1="33.2506" x2="33.02" y2="33.2486" width="0.4064" layer="1"/>
 <wire x1="33.02" y1="33.2506" x2="36.396" y2="33.2506" width="0.4064" layer="1"/>
 </signal>
@@ -1956,10 +1956,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R9" pad="2"/>
 <contactref element="R7" pad="1"/>
 <via x="33.02" y="25.6286" extent="1-16" drill="0.6"/>
-<wire x1="31.203" y1="25.6286" x2="33.02" y2="25.6286" width="0.4064" layer="16"/>
+<wire x1="31.584" y1="25.6286" x2="33.02" y2="25.6286" width="0.4064" layer="16"/>
 <wire x1="33.02" y1="25.6286" x2="33.942" y2="26.5506" width="0.4064" layer="1"/>
 <wire x1="33.942" y1="26.5506" x2="36.396" y2="26.5506" width="0.4064" layer="1"/>
-<wire x1="31.203" y1="25.6286" x2="31.203" y2="28.2194" width="0.4064" layer="16"/>
+<wire x1="31.584" y1="25.6286" x2="31.584" y2="28.2194" width="0.4064" layer="16"/>
 </signal>
 <signal name="SPI-SCLK-SD-A">
 <contactref element="J4" pad="12"/>
@@ -1972,7 +1972,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="P$8"/>
 <contactref element="R6" pad="1"/>
 <via x="33.02" y="12.9286" extent="1-16" drill="0.6"/>
-<wire x1="34.6338" y1="12.9286" x2="33.02" y2="12.9286" width="0.3048" layer="16"/>
+<wire x1="35.599" y1="12.9286" x2="33.02" y2="12.9286" width="0.3048" layer="16"/>
 <wire x1="33.02" y1="12.9286" x2="34.212" y2="14.1206" width="0.3048" layer="1"/>
 <wire x1="34.212" y1="14.1206" x2="36.396" y2="14.1206" width="0.3048" layer="1"/>
 </signal>
@@ -1983,8 +1983,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="33.02" y="10.3886" extent="1-16" drill="0.6"/>
 <wire x1="33.02" y1="10.3886" x2="33.402" y2="10.7706" width="0.4064" layer="1"/>
 <wire x1="33.402" y1="10.7706" x2="36.396" y2="10.7706" width="0.4064" layer="1"/>
-<wire x1="31.203" y1="10.3886" x2="33.02" y2="10.3886" width="0.4064" layer="16"/>
-<wire x1="38.3422" y1="10.414" x2="33.02" y2="10.3886" width="0.4064" layer="16"/>
+<wire x1="31.584" y1="10.3886" x2="33.02" y2="10.3886" width="0.4064" layer="16"/>
+<wire x1="36.741375" y1="10.414" x2="33.02" y2="10.3886" width="0.4064" layer="16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="R26" pad="2"/>
@@ -2016,12 +2016,16 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="SD-CARD-DETECT">
 <contactref element="R9" pad="1"/>
 <contactref element="J6" pad="1"/>
-<wire x1="29.503" y1="28.2194" x2="35.901375" y2="45.531278125" width="0" layer="19" extent="16-16"/>
+<via x="31.6992" y="34.7726" extent="1-16" drill="0.6"/>
+<wire x1="35.901375" y1="38.974775" x2="35.901375" y2="45.531278125" width="0.3048" layer="1"/>
+<wire x1="31.6992" y1="34.7726" x2="29.884" y2="32.9574" width="0.3048" layer="16"/>
+<wire x1="29.884" y1="32.9574" x2="29.884" y2="28.2194" width="0.3048" layer="16"/>
+<wire x1="35.901375" y1="38.974775" x2="31.6992" y2="34.7726" width="0.3048" layer="1"/>
 </signal>
 <signal name="SD-WRITE-PROTECT">
 <contactref element="R10" pad="1"/>
 <contactref element="J6" pad="3"/>
-<wire x1="40.0422" y1="10.414" x2="38.441375" y2="45.531278125" width="0" layer="19" extent="16-16"/>
+<wire x1="38.441375" y1="10.414" x2="38.441375" y2="45.531278125" width="0.4064" layer="16"/>
 </signal>
 <signal name="PS/SYNC-1">
 <contactref element="U1" pad="P$7"/>
@@ -2310,13 +2314,14 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="P$1"/>
 <contactref element="R2" pad="1"/>
 <via x="33.02" y="30.7086" extent="1-16" drill="0.6"/>
-<wire x1="34.6338" y1="30.7086" x2="33.02" y2="30.7086" width="0.4064" layer="16"/>
+<wire x1="35.599" y1="30.7086" x2="33.02" y2="30.7086" width="0.4064" layer="16"/>
 <wire x1="33.02" y1="30.7086" x2="33.062" y2="30.7506" width="0.4064" layer="1"/>
 <wire x1="33.062" y1="30.7506" x2="36.396" y2="30.7506" width="0.4064" layer="1"/>
 <contactref element="J15" pad="2"/>
-<wire x1="33.062" y1="30.7506" x2="30.607" y2="33.2056" width="0.4064" layer="1"/>
-<wire x1="30.607" y1="33.2056" x2="28.2194" y2="35.5932" width="0.3048" layer="1"/>
 <wire x1="28.2194" y1="35.5932" x2="28.20543125" y2="40.5638" width="0.3048" layer="1"/>
+<wire x1="28.2194" y1="35.5932" x2="28.2194" y2="33.528" width="0.3048" layer="1"/>
+<wire x1="28.2194" y1="33.528" x2="31.0388" y2="30.7086" width="0.3048" layer="1"/>
+<wire x1="31.0388" y1="30.7086" x2="33.02" y2="30.7086" width="0.3048" layer="1"/>
 </signal>
 <signal name="SPI-MOSI-SD-B">
 <contactref element="J16" pad="1"/>
@@ -2330,19 +2335,18 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="SPI-SCLK-SD-B">
 <contactref element="J17" pad="1"/>
 <contactref element="J3" pad="9"/>
-<wire x1="24.2316" y1="17.78" x2="26.4922" y2="15.5194" width="0.3048" layer="1"/>
-<wire x1="26.4922" y1="15.5194" x2="26.4922" y2="14.605" width="0.3048" layer="1"/>
-<wire x1="26.4922" y1="14.605" x2="38.406325" y2="2.690875" width="0.3048" layer="1"/>
-<wire x1="38.406325" y1="2.690875" x2="38.406325" y2="2.286" width="0.3048" layer="1"/>
+<wire x1="24.2316" y1="17.78" x2="26.2128" y2="15.7988" width="0.3048" layer="1"/>
+<wire x1="26.2128" y1="15.7988" x2="26.2128" y2="14.479525" width="0.3048" layer="1"/>
+<wire x1="26.2128" y1="14.479525" x2="38.406325" y2="2.286" width="0.3048" layer="1"/>
 </signal>
 <signal name="SPI-MISO-SD-B">
 <contactref element="J18" pad="1"/>
 <contactref element="J3" pad="1"/>
 <wire x1="45.137325" y1="5.715" x2="48.566325" y2="2.286" width="0.3048" layer="16"/>
 <wire x1="24.2316" y1="12.7" x2="31.2166" y2="5.715" width="0.3048" layer="1"/>
-<wire x1="31.2166" y1="5.715" x2="33.782" y2="5.715" width="0.3048" layer="1"/>
-<via x="33.782" y="5.715" extent="1-16" drill="0.6"/>
-<wire x1="33.782" y1="5.715" x2="45.137325" y2="5.715" width="0.3048" layer="16"/>
+<wire x1="31.2166" y1="5.715" x2="33.02" y2="5.715" width="0.3048" layer="1"/>
+<via x="33.02" y="5.715" extent="1-16" drill="0.6"/>
+<wire x1="33.02" y1="5.715" x2="45.137325" y2="5.715" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$35">
 <contactref element="J1" pad="P$7"/>
@@ -2358,7 +2362,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.0124" y1="15.4686" x2="24.6888" y2="15.4686" width="0.3048" layer="1"/>
 <via x="24.6888" y="15.4686" extent="1-16" drill="0.6"/>
 <wire x1="24.6888" y1="15.4686" x2="27.686" y2="15.4686" width="0.3048" layer="16"/>
-<wire x1="34.6338" y1="15.4686" x2="33.02" y2="15.4686" width="0.2032" layer="16"/>
+<wire x1="35.599" y1="15.4686" x2="33.02" y2="15.4686" width="0.2032" layer="16"/>
 <via x="33.02" y="15.4686" extent="1-16" drill="0.6"/>
 <wire x1="33.02" y1="15.4686" x2="32.98933125" y2="15.47109375" width="0.2032" layer="1"/>
 <wire x1="32.98933125" y1="15.47109375" x2="32.5119" y2="15.4508625" width="0.2032" layer="1"/>
@@ -2369,7 +2373,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="J17" pad="2"/>
 <via x="33.02" y="20.5486" extent="1-16" drill="0.6"/>
-<wire x1="34.6338" y1="20.5486" x2="33.02" y2="20.5486" width="0.4064" layer="16"/>
+<wire x1="35.599" y1="20.5486" x2="33.02" y2="20.5486" width="0.4064" layer="16"/>
 <wire x1="33.02" y1="20.5486" x2="33.222" y2="20.7506" width="0.3048" layer="1"/>
 <wire x1="33.222" y1="20.7506" x2="36.396" y2="20.7506" width="0.3048" layer="1"/>
 <wire x1="22.86" y1="20.5486" x2="33.02" y2="20.5486" width="0.3048" layer="1"/>
@@ -2385,7 +2389,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.241" y1="28.1686" x2="21.6916" y2="26.6192" width="0.3048" layer="1"/>
 <wire x1="36.396" y1="28.2506" x2="33.102" y2="28.2506" width="0.3048" layer="1"/>
 <wire x1="33.102" y1="28.2506" x2="33.02" y2="28.1686" width="0.3048" layer="1"/>
-<wire x1="34.6338" y1="28.1686" x2="33.102" y2="28.2506" width="0.3048" layer="16"/>
+<wire x1="35.599" y1="28.1686" x2="33.102" y2="28.2506" width="0.3048" layer="16"/>
 <wire x1="33.102" y1="28.2506" x2="33.02" y2="28.1686" width="0.3048" layer="16"/>
 <wire x1="21.6916" y1="26.6192" x2="21.6916" y2="22.86" width="0.3048" layer="1"/>
 </signal>
@@ -2406,22 +2410,22 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C8" pad="1"/>
 <wire x1="36.396" y1="23.0256" x2="34.746" y2="23.0256" width="0.4064" layer="1"/>
 <wire x1="34.746" y1="21.8692" x2="34.746" y2="23.0256" width="0.4064" layer="1"/>
-<via x="29.503" y="23.0124" extent="1-16" drill="0.6"/>
+<via x="29.884" y="23.0124" extent="1-16" drill="0.6"/>
 <contactref element="D3" pad="P$1"/>
 <contactref element="J7" pad="2"/>
 <contactref element="J20" pad="2"/>
 <wire x1="14.294759375" y1="40.985109375" x2="14.30205" y2="40.97781875" width="0.2032" layer="1"/>
 <wire x1="14.30205" y1="40.97781875" x2="16.774159375" y2="40.97781875" width="0.4064" layer="1"/>
-<wire x1="29.5162" y1="23.0256" x2="34.746" y2="23.0256" width="0.4064" layer="1"/>
+<wire x1="29.884" y1="23.0256" x2="34.746" y2="23.0256" width="0.4064" layer="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R8" pad="2"/>
 <wire x1="16.774159375" y1="40.97781875" x2="20.159978125" y2="37.592" width="0.4064" layer="1"/>
 <wire x1="20.159978125" y1="37.592" x2="26.924" y2="37.592" width="0.4064" layer="1"/>
-<wire x1="26.924" y1="37.592" x2="26.924" y2="28.2076" width="0.4064" layer="16"/>
-<wire x1="26.924" y1="28.2076" x2="29.503" y2="25.6286" width="0.4064" layer="16"/>
-<wire x1="29.5162" y1="23.0256" x2="29.503" y2="23.0124" width="0.4064" layer="1"/>
-<wire x1="29.503" y1="25.6286" x2="29.503" y2="23.0124" width="0.4064" layer="16"/>
-<wire x1="29.503" y1="10.3886" x2="29.503" y2="23.0124" width="0.4064" layer="16"/>
+<wire x1="26.924" y1="37.592" x2="26.924" y2="28.5886" width="0.4064" layer="16"/>
+<wire x1="29.884" y1="23.0256" x2="29.884" y2="23.0124" width="0.4064" layer="1"/>
+<wire x1="29.884" y1="25.6286" x2="29.884" y2="23.0124" width="0.4064" layer="16"/>
+<wire x1="29.884" y1="10.3886" x2="29.884" y2="23.0124" width="0.4064" layer="16"/>
+<wire x1="26.924" y1="28.5886" x2="29.884" y2="25.6286" width="0.4064" layer="16"/>
 </signal>
 <signal name="+3V3-SD-PULLUP">
 <contactref element="R1" pad="2"/>
@@ -2430,15 +2434,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R4" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="R6" pad="2"/>
-<wire x1="36.3338" y1="28.1686" x2="36.3338" y2="30.7086" width="0.4064" layer="16"/>
-<wire x1="36.3338" y1="30.7086" x2="36.3338" y2="33.2486" width="0.4064" layer="16"/>
-<wire x1="36.3338" y1="20.5486" x2="36.3338" y2="15.4686" width="0.4064" layer="16"/>
-<wire x1="36.3338" y1="12.9286" x2="36.3338" y2="15.4686" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="28.1686" x2="37.299" y2="30.7086" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="30.7086" x2="37.299" y2="33.2486" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="20.5486" x2="37.299" y2="15.4686" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="12.9286" x2="37.299" y2="15.4686" width="0.4064" layer="16"/>
 <contactref element="J20" pad="1"/>
-<wire x1="36.3338" y1="33.2486" x2="36.3338" y2="35.6752" width="0.4064" layer="16"/>
-<wire x1="36.3338" y1="35.6752" x2="34.417" y2="37.592" width="0.4064" layer="16"/>
 <wire x1="34.417" y1="37.592" x2="29.464" y2="37.592" width="0.4064" layer="16"/>
-<wire x1="36.3338" y1="20.5486" x2="36.3338" y2="28.1686" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="20.5486" x2="37.299" y2="28.1686" width="0.4064" layer="16"/>
+<wire x1="34.417" y1="37.592" x2="37.299" y2="34.71" width="0.4064" layer="16"/>
+<wire x1="37.299" y1="34.71" x2="37.299" y2="33.2486" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>
