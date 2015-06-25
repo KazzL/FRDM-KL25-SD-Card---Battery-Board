@@ -2391,7 +2391,7 @@ Source: Samtec SSW.pdf</description>
 <pad name="1" x="-2.54" y="0" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.5" shape="octagon"/>
 <pad name="3" x="2.54" y="0" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-5.588" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
+<text x="-5.588" y="-3.048" size="1.6764" layer="51" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -3362,6 +3362,8 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-17.78" y1="53.34" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <label x="-17.78" y="53.34" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="+3V3-SD-PULLUP" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -3830,13 +3832,6 @@ Source: Samtec SSW.pdf</description>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="+3V3-SD" class="0">
-<segment>
-<pinref part="J20" gate="-1" pin="1"/>
-<wire x1="-73.66" y1="111.76" x2="-86.36" y2="111.76" width="0.1524" layer="91"/>
-<label x="-86.36" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PS/SYNC-1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PS/SYNC"/>
@@ -4134,6 +4129,13 @@ Source: Samtec SSW.pdf</description>
 <wire x1="-71.12" y1="111.76" x2="-66.04" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="111.76" x2="-66.04" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-66.04" y="96.52"/>
+</segment>
+</net>
+<net name="+3V3-SD-PULLUP" class="0">
+<segment>
+<pinref part="J20" gate="-1" pin="1"/>
+<wire x1="-73.66" y1="111.76" x2="-86.36" y2="111.76" width="0.1524" layer="91"/>
+<label x="-86.36" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
