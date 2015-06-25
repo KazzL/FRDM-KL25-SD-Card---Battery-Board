@@ -145,7 +145,7 @@
 <rectangle x1="-1.9" y1="0.11" x2="-1.2" y2="0.39" layer="31"/>
 <rectangle x1="-1.9" y1="-0.39" x2="-1.2" y2="-0.11" layer="31"/>
 <rectangle x1="1.2" y1="0.11" x2="1.9" y2="0.39" layer="31"/>
-<rectangle x1="1" y1="-0.39" x2="1.9" y2="-0.11" layer="1"/>
+<rectangle x1="1.2" y1="-0.39" x2="1.9" y2="-0.11" layer="1"/>
 <text x="0" y="-4" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.42" y1="-1.1" x2="-1.41" y2="-1.1" width="0.3048" layer="21"/>
@@ -470,8 +470,8 @@
 <wire x1="0.95" y1="0.45" x2="0.95" y2="-0.45" width="0.0508" layer="39"/>
 <wire x1="0.95" y1="-0.45" x2="-0.95" y2="-0.45" width="0.0508" layer="39"/>
 <wire x1="-0.95" y1="-0.45" x2="-0.95" y2="0.45" width="0.0508" layer="39"/>
-<smd name="1" x="-0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
-<smd name="2" x="0.425" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -479,35 +479,29 @@
 </package>
 <package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="0.7" dy="1.1" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.7" dy="1.1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.8128" layer="21"/>
 </package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="1" x="-1.1" y="0" dx="1.1" dy="1.3" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1.1" dy="1.3" layer="1"/>
 <text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.8128" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1707,23 +1701,24 @@
 </library>
 <library name="Kas-Diodes-LEDs">
 <packages>
-<package name="0.8X1.2">
-<smd name="P$1" x="-0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
-<smd name="P$2" x="0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
-<wire x1="-1.33" y1="0.49" x2="-1.33" y2="-0.49" width="0.127" layer="21"/>
-<wire x1="-1.33" y1="-0.49" x2="1.33" y2="-0.49" width="0.127" layer="21"/>
-<wire x1="1.33" y1="-0.49" x2="1.33" y2="0.49" width="0.127" layer="21"/>
-<wire x1="1.33" y1="0.49" x2="-1.33" y2="0.49" width="0.127" layer="21"/>
-<text x="0.62" y="-2.62" size="1.27" layer="25">&gt;NAME</text>
-<text x="0.62" y="-4.16" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.33" y1="0.49" x2="-1.33" y2="-0.49" width="0.127" layer="51"/>
-<wire x1="-1.33" y1="-0.49" x2="1.33" y2="-0.49" width="0.127" layer="51"/>
-<wire x1="1.33" y1="-0.49" x2="1.33" y2="0.49" width="0.127" layer="51"/>
-<wire x1="1.33" y1="0.49" x2="-1.33" y2="0.49" width="0.127" layer="51"/>
+<package name="1.25X1.4">
+<smd name="P$1" x="-0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$2" x="0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<text x="2" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="51"/>
+<text x="8.73" y="4.62" size="1.27" layer="25" rot="R180">!!! FIX FOOT PRINT !!!!</text>
 </package>
 <package name="SC-90">
-<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
 <wire x1="-1.525" y1="0.825" x2="-1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="-1.525" y1="-0.825" x2="1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="1.525" y1="-0.825" x2="1.525" y2="0.825" width="0.127" layer="51"/>
@@ -1735,6 +1730,8 @@
 <wire x1="-1.1" y1="-0.5" x2="-1.11" y2="-0.5" width="0.254" layer="21"/>
 <text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.85" y1="-0.25" x2="1.35" y2="0.25" layer="31"/>
+<rectangle x1="-1.35" y1="-0.25" x2="-0.85" y2="0.25" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -1782,55 +1779,44 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0.8X1.2">
+<deviceset name="1.25X1.4">
 <gates>
-<gate name="G$1" symbol="LED" x="2.54" y="0"/>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0.8X1.2" package="0.8X1.2">
-<connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="C" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="GREEN-3.3V-20M" package="0.8X1.2">
+<device name="Y-2V_20MA" package="1.25X1.4">
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Green" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
-<attribute name="FORWARD_VOLTAGE" value="3.3" constant="no"/>
-<attribute name="LUMINOUS_INTENSITY" value="420mcd" constant="no"/>
-<attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="KPG-1608ZGC" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="56P5117" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="120" constant="no"/>
-<attribute name="WAVELENGTH" value="525nm" constant="no"/>
+<attribute name="COLOR" value="Yellow" constant="no"/>
+<attribute name="CURRENT" value="20mA" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="130 mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="DIALIGHT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5988150107F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0585" constant="no"/>
+<attribute name="VOLTAGE" value="2" constant="no"/>
+<attribute name="WAVELENGTH" value="590nm" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="BLUE-3.3V-20M" package="0.8X1.2">
+<device name="R-2.2V-20MA" package="1.25X1.4">
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COLOR" value="Blue" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="20mA" constant="no"/>
-<attribute name="FORWARD_VOLTAGE" value="3.3" constant="no"/>
-<attribute name="LUMINOUS_INTENSITY" value="95cmd" constant="no"/>
-<attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="KPG-1608QBC-E" constant="no"/>
-<attribute name="NEWARK_PART_NUMBER" value="56P5113" constant="no"/>
-<attribute name="VIEWING_ANGLE" value="120" constant="no"/>
-<attribute name="WAVELENGTH" value="470nm" constant="no"/>
+<attribute name="COLOR" value="Red" constant="no"/>
+<attribute name="CURRENT" value="20mA" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="40mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="Dialight" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5988110107F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0581" constant="no"/>
+<attribute name="VOLTAGE" value="2.2" constant="no"/>
+<attribute name="WAVELENGTH" value="642nm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3054,7 +3040,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="D2" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="GREEN-3.3V-20M" value="Yellow-LED"/>
+<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="R-2.2V-20MA" value="Yellow-LED"/>
 <part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
@@ -3068,7 +3054,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
-<part name="D1" library="Kas-Diodes-LEDs" deviceset="0.8X1.2" device="BLUE-3.3V-20M" value="Red-LED"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="R-2.2V-20MA" value="Red-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
