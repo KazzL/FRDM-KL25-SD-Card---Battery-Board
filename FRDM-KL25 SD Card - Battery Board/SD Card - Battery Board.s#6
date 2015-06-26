@@ -1898,7 +1898,7 @@
 <wire x1="-3.8" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
 <wire x1="-4.3" y1="3.9" x2="-4.3" y2="-3.9" width="0.2032" layer="21"/>
 <wire x1="-4.3" y1="-3.9" x2="-3.8" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="-4.11" y1="4.2" x2="-4.11" y2="-4.2" width="0.127" layer="23"/>
+<wire x1="-4.11" y1="4.2" x2="-4.11" y2="-4.2" width="0" layer="23"/>
 </package>
 <package name="SSW-108-02-S-D">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;

@@ -1702,19 +1702,18 @@
 <library name="Kas-Diodes-LEDs">
 <packages>
 <package name="1.25X1.4">
-<smd name="P$1" x="-0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$2" x="0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$1" x="-0.875" y="0" dx="1.45" dy="0.55" layer="1" rot="R90"/>
+<smd name="P$2" x="0.875" y="0" dx="1.45" dy="0.55" layer="1" rot="R90"/>
 <text x="2" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="51"/>
-<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="51"/>
-<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="51"/>
-<text x="8.73" y="4.62" size="1.27" layer="25" rot="R180">!!! FIX FOOT PRINT !!!!</text>
+<wire x1="-1.25" y1="0.835" x2="-1.25" y2="-0.835" width="0.2023" layer="21"/>
+<wire x1="-1.25" y1="-0.835" x2="1.25" y2="-0.835" width="0.2023" layer="21"/>
+<wire x1="1.25" y1="-0.835" x2="1.25" y2="0.835" width="0.2023" layer="21"/>
+<wire x1="1.25" y1="0.835" x2="-1.25" y2="0.835" width="0.2023" layer="21"/>
+<wire x1="-1.25" y1="0.825" x2="-1.25" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-0.825" x2="1.25" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-0.825" x2="1.25" y2="0.825" width="0.127" layer="51"/>
+<wire x1="1.25" y1="0.825" x2="-1.25" y2="0.825" width="0.127" layer="51"/>
 </package>
 <package name="SC-90">
 <smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
@@ -2390,8 +2389,8 @@ Source: Samtec SSW.pdf</description>
 <package name="50156-0207">
 <smd name="P$1" x="-0.5" y="4.8" dx="1.5" dy="0.6" layer="1" rot="R90"/>
 <smd name="P$2" x="0.5" y="4.8" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.2" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$4" x="1.2" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.45" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$4" x="1.45" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-2" y1="4.35" x2="-2" y2="-0.95" width="0.127" layer="51"/>
 <wire x1="-2" y1="-0.95" x2="2" y2="-0.95" width="0.127" layer="51"/>
 <wire x1="2" y1="-0.95" x2="2" y2="4.35" width="0.127" layer="51"/>

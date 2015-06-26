@@ -1714,11 +1714,11 @@
 <wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="51"/>
 <wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="51"/>
 <wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="51"/>
-<text x="10" y="-3" size="1.27" layer="25" rot="R180">!!! FIX FOOT PRINT !!!!</text>
+<text x="8.73" y="4.62" size="1.27" layer="25" rot="R180">!!! FIX FOOT PRINT !!!!</text>
 </package>
 <package name="SC-90">
-<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
 <wire x1="-1.525" y1="0.825" x2="-1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="-1.525" y1="-0.825" x2="1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="1.525" y1="-0.825" x2="1.525" y2="0.825" width="0.127" layer="51"/>
@@ -1730,6 +1730,8 @@
 <wire x1="-1.1" y1="-0.5" x2="-1.11" y2="-0.5" width="0.254" layer="21"/>
 <text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.85" y1="-0.25" x2="1.35" y2="0.25" layer="31"/>
+<rectangle x1="-1.35" y1="-0.25" x2="-0.85" y2="0.25" layer="31"/>
 </package>
 </packages>
 <symbols>
