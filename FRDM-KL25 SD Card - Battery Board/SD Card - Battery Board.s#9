@@ -133,10 +133,10 @@
 <smd name="P$8" x="0" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90" stop="no"/>
 <smd name="P$9" x="-0.5" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90" stop="no"/>
 <smd name="P$10" x="-1" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R90" stop="no"/>
-<rectangle x1="1.15" y1="0.06" x2="1.95" y2="0.44" layer="29"/>
-<rectangle x1="1.15" y1="-0.44" x2="1.95" y2="-0.06" layer="29"/>
-<rectangle x1="-1.95" y1="0.06" x2="-1.15" y2="0.44" layer="29"/>
-<rectangle x1="-1.95" y1="-0.44" x2="-1.15" y2="-0.06" layer="29"/>
+<rectangle x1="1.25" y1="0.06" x2="1.95" y2="0.44" layer="29"/>
+<rectangle x1="1.25" y1="-0.44" x2="1.95" y2="-0.06" layer="29"/>
+<rectangle x1="-1.95" y1="0.06" x2="-1.25" y2="0.44" layer="29"/>
+<rectangle x1="-1.95" y1="-0.44" x2="-1.25" y2="-0.06" layer="29"/>
 <smd name="P$11" x="0" y="0" dx="2.4" dy="1.65" layer="1" stop="no"/>
 <rectangle x1="-1.9" y1="0.11" x2="-1.2" y2="0.39" layer="1"/>
 <rectangle x1="-1.9" y1="-0.39" x2="-1.2" y2="-0.11" layer="1"/>
@@ -145,7 +145,7 @@
 <rectangle x1="-1.9" y1="0.11" x2="-1.2" y2="0.39" layer="31"/>
 <rectangle x1="-1.9" y1="-0.39" x2="-1.2" y2="-0.11" layer="31"/>
 <rectangle x1="1.2" y1="0.11" x2="1.9" y2="0.39" layer="31"/>
-<rectangle x1="1" y1="-0.39" x2="1.9" y2="-0.11" layer="1"/>
+<rectangle x1="1.2" y1="-0.39" x2="1.9" y2="-0.11" layer="1"/>
 <text x="0" y="-4" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-6" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.42" y1="-1.1" x2="-1.41" y2="-1.1" width="0.3048" layer="21"/>
@@ -161,10 +161,6 @@
 <wire x1="1.6" y1="-2" x2="1.3" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-0.6" x2="-1.6" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-2" x2="-1.3" y2="-2" width="0.2032" layer="21"/>
-<hole x="0" y="0" drill="0.3302"/>
-<hole x="-0.75" y="-0.5" drill="0.3302"/>
-<hole x="0.75" y="0.5" drill="0.3302"/>
-<hole x="0.75" y="-0.5" drill="0.3302"/>
 <rectangle x1="-1.19" y1="1" x2="-0.81" y2="1.95" layer="29"/>
 <rectangle x1="-0.69" y1="1" x2="-0.31" y2="1.95" layer="29"/>
 <rectangle x1="-0.19" y1="1" x2="0.19" y2="1.95" layer="29"/>
@@ -176,7 +172,6 @@
 <rectangle x1="0.31" y1="-1.95" x2="0.69" y2="-1" layer="29"/>
 <rectangle x1="0.81" y1="-1.95" x2="1.19" y2="-1" layer="29"/>
 <rectangle x1="-1.25" y1="-0.875" x2="1.25" y2="0.875" layer="29"/>
-<hole x="-0.762" y="0.508" drill="0.3302"/>
 </package>
 <package name="VFDFN-12">
 <smd name="P$1" x="-1" y="-1.975" dx="0.2" dy="0.85" layer="1" stop="no"/>
@@ -193,24 +188,18 @@
 <smd name="P$12" x="-1" y="1.975" dx="0.2" dy="0.85" layer="1" stop="no"/>
 <smd name="P$13" x="0" y="0" dx="1.95" dy="2.45" layer="1" stop="no"/>
 <rectangle x1="-1.65" y1="-1.225" x2="-0.975" y2="-0.975" layer="31"/>
-<rectangle x1="0.975" y1="-1.275" x2="1.7" y2="-0.925" layer="29"/>
-<rectangle x1="-1.7" y1="0.925" x2="-0.975" y2="1.275" layer="29"/>
+<rectangle x1="1.025" y1="-1.275" x2="1.7" y2="-0.925" layer="29"/>
+<rectangle x1="-1.7" y1="0.925" x2="-1.025" y2="1.275" layer="29"/>
 <rectangle x1="0.975" y1="0.975" x2="1.65" y2="1.225" layer="31"/>
 <rectangle x1="-1.65" y1="0.975" x2="-0.975" y2="1.225" layer="1"/>
 <rectangle x1="-1.65" y1="-1.225" x2="-0.975" y2="-0.975" layer="1"/>
 <rectangle x1="0.975" y1="-1.225" x2="1.65" y2="-0.975" layer="1"/>
 <rectangle x1="0.975" y1="0.975" x2="1.65" y2="1.225" layer="1"/>
 <rectangle x1="-1.65" y1="0.975" x2="-0.975" y2="1.225" layer="31"/>
-<rectangle x1="-1.7" y1="-1.275" x2="-0.975" y2="-0.925" layer="29"/>
+<rectangle x1="-1.7" y1="-1.275" x2="-1.025" y2="-0.925" layer="29"/>
 <rectangle x1="0.975" y1="-1.225" x2="1.65" y2="-0.975" layer="31"/>
-<rectangle x1="0.975" y1="0.925" x2="1.7" y2="1.275" layer="29"/>
+<rectangle x1="1.025" y1="0.925" x2="1.7" y2="1.275" layer="29"/>
 <rectangle x1="-1.025" y1="-1.275" x2="1.025" y2="1.275" layer="29"/>
-<hole x="0.5" y="0" drill="0.3302"/>
-<hole x="-0.5" y="0" drill="0.3302"/>
-<hole x="0.5" y="0.9" drill="0.3302"/>
-<hole x="-0.5" y="0.9" drill="0.3302"/>
-<hole x="0.5" y="-0.9" drill="0.3302"/>
-<hole x="-0.5" y="-0.9" drill="0.3302"/>
 <text x="0" y="5" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="3" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.7" y1="-1.6" x2="-1.71" y2="-1.6" width="0.3048" layer="21"/>
