@@ -1668,7 +1668,7 @@
 <technology name="">
 <attribute name="DIELECTRIC" value="X5R" constant="no"/>
 <attribute name="MANUFACTURER" value="Multicomp" constant="no"/>
-<attribute name="MANUFACTURER_PARTR_NUMBER" value="MC0402X474K6R3CT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC0402X474K6R3CT" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="06R4896" constant="no"/>
 <attribute name="TEMPERATURE" value="-55 ~ 85" constant="no"/>
 <attribute name="TOLARANCE" value="10%" constant="no"/>
@@ -1714,6 +1714,7 @@
 <wire x1="-1.25" y1="-0.825" x2="1.25" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="1.25" y1="-0.825" x2="1.25" y2="0.825" width="0.127" layer="51"/>
 <wire x1="1.25" y1="0.825" x2="-1.25" y2="0.825" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="1.01" width="0.127" layer="21"/>
 </package>
 <package name="SC-90">
 <smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
@@ -1793,7 +1794,7 @@
 <attribute name="COLOR" value="Yellow" constant="no"/>
 <attribute name="CURRENT" value="20mA" constant="no"/>
 <attribute name="LUMINOUS_INTENSITY" value="130 mcd" constant="no"/>
-<attribute name="MANUFACTURER" value="DIALIGHT" constant="no"/>
+<attribute name="MANUFACTURER" value="Dialight" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="5988150107F" constant="no"/>
 <attribute name="NEWARK_PART_NUMBER" value="75R0585" constant="no"/>
 <attribute name="VOLTAGE" value="2" constant="no"/>
@@ -1990,6 +1991,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-9.398" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-10.795" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-10.289" y1="2.425" x2="10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-10.289" y1="-2.425" x2="-10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="-2.425" x2="-10.289" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="2.425" x2="10.289" y2="-2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-108-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2146,6 +2151,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-11.938" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-13.335" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="14.605" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-12.829" y1="2.425" x2="12.829" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="-2.425" x2="-12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="2.425" x2="12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="-12.829" y1="-2.425" x2="-12.829" y2="2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-110-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2270,6 +2279,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-6.858" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.525" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-7.749" y1="2.425" x2="7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-7.749" y1="-2.425" x2="-7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="-2.425" x2="-7.749" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="2.425" x2="7.749" y2="-2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-106-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2307,7 +2320,7 @@ Source: Samtec TSW.pdf</description>
 <rectangle x1="3.556" y1="-7.89" x2="4.064" y2="-2.04" layer="21"/>
 <rectangle x1="6.096" y1="-7.89" x2="6.604" y2="-2.04" layer="21"/>
 </package>
-<package name="SSW-102-02-S-S">
+<package name="XXX-102-0X-S-X">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2032" layer="21"/>
@@ -2327,6 +2340,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-4.318" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2.669" y1="-1.155" x2="-2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="1.155" x2="2.669" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="-1.155" x2="-2.669" y2="-1.155" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-102-02-S-S-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -2343,7 +2360,7 @@ Source: Samtec SSW.pdf</description>
 <rectangle x1="-1.524" y1="0" x2="-1.016" y2="1.778" layer="51"/>
 <rectangle x1="1.016" y1="0" x2="1.524" y2="1.778" layer="51"/>
 </package>
-<package name="SSW-103-02-S-S">
+<package name="XXX-103-0X-S-X">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <wire x1="-3.939" y1="1.155" x2="3.939" y2="1.155" width="0.2032" layer="21"/>
@@ -2368,6 +2385,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-5.588" y="-3.048" size="1.6764" layer="51" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-3.939" y1="1.155" x2="3.939" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="1.155" x2="3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="-1.155" x2="-3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="-3.939" y1="-1.155" x2="-3.939" y2="1.155" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-103-02-S-S-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -2571,10 +2592,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-108-02-S-D" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="85K7646" constant="no"/>
+<attribute name="#_PINS" value="8" constant="no"/>
+<attribute name="#_ROWS" value="2" constant="no"/>
+<attribute name="MANUFACTURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-108-02-S-D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="85K7646" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2659,10 +2681,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-110-02-S-D" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9480" constant="no"/>
+<attribute name="#_PINS" value="10" constant="no"/>
+<attribute name="#_ROWS" value="2" constant="no"/>
+<attribute name="MANUFACRURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-110-02-S-D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2735,10 +2758,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-106-02-S-D" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9414" constant="no"/>
+<attribute name="#_PINS" value="6" constant="no"/>
+<attribute name="#_ROWS" value="2" constant="no"/>
+<attribute name="MANUFACTURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-106-02-S-D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="11P9414" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2768,25 +2792,26 @@ Source: Samtec SSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSW-102-02-S-S" prefix="J">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+<deviceset name="XXX-102-0X-S-X" prefix="J">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET/HEADER &lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <gates>
 <gate name="-1" symbol="FPINV" x="0" y="0" addlevel="always"/>
 <gate name="-2" symbol="FPIN" x="0" y="-2.54" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="SSW-102-02-S-S">
+<device name="TSW-102-06-F-S" package="XXX-102-0X-S-X">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-102-02-S-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9351" constant="no"/>
+<attribute name="#_PINS" value="2" constant="no"/>
+<attribute name="#_ROWS" value="1" constant="no"/>
+<attribute name="MANUFACTURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2806,8 +2831,8 @@ Source: Samtec SSW.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SSW-103-02-S-S" prefix="J">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+<deviceset name="XXX-103-0X-S-X" prefix="J">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET/HEADER &lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <gates>
 <gate name="-1" symbol="FPINV" x="0" y="2.54" addlevel="always"/>
@@ -2815,7 +2840,7 @@ Source: Samtec SSW.pdf</description>
 <gate name="-3" symbol="FPIN" x="0" y="-2.54" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="SSW-103-02-S-S">
+<device name="TSW-103-06-F-S" package="XXX-103-0X-S-X">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
@@ -2823,10 +2848,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-103-02-S-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9367" constant="no"/>
+<attribute name="#_PINS" value="3" constant="no"/>
+<attribute name="#_ROWS" value="1" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" constant="no"/>
+<attribute name="MANUFCATURER" value="Samtec" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2864,7 +2890,8 @@ Source: Samtec SSW.pdf</description>
 <attribute name="#_PINS" value="2" constant="no"/>
 <attribute name="#_ROWS" value="1" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
-<attribute name="MANUFACTURER_PAR_NUMBER" value="501568-0207" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="501568-0207" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3039,7 +3066,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="R-2.2V-20MA" value="Yellow-LED"/>
+<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="Y-2V_20MA" value="Yellow-LED"/>
 <part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
@@ -3100,20 +3127,20 @@ Source: Samtec SSW.pdf</description>
 <part name="J6" library="Kas-Connectors" deviceset="SSW-106-02-S-D" device=""/>
 <part name="R34" library="Kas-Resistors" deviceset="RESISTOR" device="0402" value="DNP"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="J7" library="Kas-Connectors" deviceset="SSW-102-02-S-S" device=""/>
-<part name="J8" library="Kas-Connectors" deviceset="SSW-102-02-S-S" device=""/>
-<part name="J9" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J10" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J11" library="Kas-Connectors" deviceset="SSW-102-02-S-S" device=""/>
-<part name="J12" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J13" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J14" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J15" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J16" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J17" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
-<part name="J18" library="Kas-Connectors" deviceset="SSW-103-02-S-S" device=""/>
+<part name="J7" library="Kas-Connectors" deviceset="XXX-102-0X-S-X" device="TSW-102-06-F-S"/>
+<part name="J8" library="Kas-Connectors" deviceset="XXX-102-0X-S-X" device="TSW-102-06-F-S"/>
+<part name="J9" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J10" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J11" library="Kas-Connectors" deviceset="XXX-102-0X-S-X" device="TSW-102-06-F-S"/>
+<part name="J12" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J13" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J14" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J15" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J16" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J17" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
+<part name="J18" library="Kas-Connectors" deviceset="XXX-103-0X-S-X" device="TSW-103-06-F-S"/>
 <part name="J19" library="Kas-Connectors" deviceset="501568-0207-V2" device=""/>
-<part name="J20" library="Kas-Connectors" deviceset="SSW-102-02-S-S" device=""/>
+<part name="J20" library="Kas-Connectors" deviceset="XXX-102-0X-S-X" device="TSW-102-06-F-S"/>
 </parts>
 <sheets>
 <sheet>
@@ -3416,7 +3443,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND6" gate="1" x="15.24" y="88.9"/>
 <instance part="GND7" gate="1" x="48.26" y="66.04"/>
 <instance part="GND8" gate="1" x="-43.18" y="53.34"/>
-<instance part="GND9" gate="1" x="-12.7" y="63.5"/>
+<instance part="GND9" gate="1" x="-12.7" y="58.42"/>
 <instance part="GND10" gate="1" x="-45.72" y="109.22"/>
 <instance part="GND11" gate="1" x="48.26" y="-5.08"/>
 <instance part="GND12" gate="1" x="15.24" y="17.78"/>
@@ -3553,7 +3580,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="POWER_PAD"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-12.7" y1="66.04" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="60.96" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>

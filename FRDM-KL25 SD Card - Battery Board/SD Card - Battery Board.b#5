@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -520,6 +520,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-9.398" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-10.795" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-10.289" y1="2.425" x2="10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-10.289" y1="-2.425" x2="-10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="-2.425" x2="-10.289" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="2.425" x2="10.289" y2="-2.425" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-110-02-S-D">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -632,6 +636,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-11.938" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-13.335" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="14.605" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-12.829" y1="2.425" x2="12.829" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="-2.425" x2="-12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="2.425" x2="12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="-12.829" y1="-2.425" x2="-12.829" y2="2.425" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-106-02-S-D">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -704,8 +712,12 @@ Source: Samtec SSW.pdf</description>
 <text x="-6.858" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.525" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-7.749" y1="2.425" x2="7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-7.749" y1="-2.425" x2="-7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="-2.425" x2="-7.749" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="2.425" x2="7.749" y2="-2.425" width="0.2032" layer="22"/>
 </package>
-<package name="SSW-102-02-S-S">
+<package name="XXX-102-0X-S-X">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2032" layer="21"/>
@@ -725,8 +737,12 @@ Source: Samtec SSW.pdf</description>
 <text x="-4.318" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2.669" y1="-1.155" x2="-2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="1.155" x2="2.669" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="-1.155" x2="-2.669" y2="-1.155" width="0.2032" layer="22"/>
 </package>
-<package name="SSW-103-02-S-S">
+<package name="XXX-103-0X-S-X">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
 Source: Samtec SSW.pdf</description>
 <wire x1="-3.939" y1="1.155" x2="3.939" y2="1.155" width="0.2032" layer="21"/>
@@ -751,6 +767,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-5.588" y="-3.048" size="1.6764" layer="51" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-3.939" y1="1.155" x2="3.939" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="1.155" x2="3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="-1.155" x2="-3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="-3.939" y1="-1.155" x2="-3.939" y2="1.155" width="0.2032" layer="22"/>
 </package>
 <package name="50156-0207">
 <smd name="P$1" x="-0.5" y="4.8" dx="1.5" dy="0.6" layer="1" rot="R90"/>
@@ -817,7 +837,7 @@ Source: Samtec SSW.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221">
+<designrules name="LaenPCBOrder">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -825,35 +845,29 @@ die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
 einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
-<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
-</description>
+Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
 <param name="mdPadPad" value="6mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="15mil"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="12mil"/>
-<param name="msMicroVia" value="12mil"/>
+<param name="msDrill" value="13mil"/>
+<param name="msMicroVia" value="13mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -862,15 +876,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="7mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="7mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMinViaOuter" value="7mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMinViaInner" value="7mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -878,16 +892,16 @@ design rules under a new name.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -898,7 +912,7 @@ design rules under a new name.</description>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="0"/>
+<param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1478,14 +1492,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.6484" y="30.790090625" size="0.6096" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="13.1846" y="34.574690625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J2" library="Kas-Connectors" package="SD47346-001-USB-MICRO-MOLEX" value="" x="-10.922" y="34.5948" smashed="yes">
-<attribute name="#_ROWS" value="1" x="34.798" y="26.9748" size="1.778" layer="27" display="off"/>
-<attribute name="#_PINS" value="5" x="34.798" y="26.9748" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="34.798" y="26.9748" size="1.778" layer="27" display="off"/>
-<attribute name="NEWARK_PART_NUMBER" value="47M0505" x="34.798" y="26.9748" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SD-47346-001" x="34.798" y="26.9748" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-9.5227" y="38.0431" size="0.6096" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="-12.922" y="25.5948" size="1.27" layer="27"/>
+<element name="J2" library="Kas-Connectors" package="SD47346-001-USB-MICRO-MOLEX" value="" x="-10.795" y="34.5948" smashed="yes">
+<attribute name="#_ROWS" value="1" x="34.925" y="26.9748" size="1.778" layer="27" display="off"/>
+<attribute name="#_PINS" value="5" x="34.925" y="26.9748" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Molex" x="34.925" y="26.9748" size="1.778" layer="27" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="47M0505" x="34.925" y="26.9748" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SD-47346-001" x="34.925" y="26.9748" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-9.3957" y="38.0431" size="0.6096" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="-12.795" y="25.5948" size="1.27" layer="27"/>
 </element>
 <element name="R29" library="Kas-Resistors" package="R0402" value="0" x="-13.582" y="27.9812" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="PANASONIC ELECTRONIC COMPONENTS" x="62.618" y="49.5712" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1530,136 +1544,152 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="2.3782" y="23.0686" size="1.27" layer="27"/>
 </element>
 <element name="J3" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="39.676325" y="1.016" smashed="yes" rot="MR0">
-<attribute name="OC_NEWARK" value="85K7646" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SSW-108-02-S-D" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="50.315875" y="1.016" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="27.611325" y="-1.524" size="1.27" layer="28" rot="MR90"/>
+<attribute name="#_ROWS" value="2" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="#_PINS" value="8" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="85K7646" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-108-02-S-D" x="39.676325" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="Kas-Connectors" package="SSW-110-02-S-D" value="SSW-110-02-S-D" x="15.3543" y="1.016" smashed="yes" rot="MR0">
-<attribute name="OC_NEWARK" value="11P9480" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SSW-110-02-S-D" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="1.7907" y="-1.2192" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="0.7493" y="-1.524" size="1.27" layer="28" rot="MR90"/>
+<attribute name="#_ROWS" value="2" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="#_PINS" value="10" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACRURER" value="Samtec" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-110-02-S-D" x="15.3543" y="1.016" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J5" library="Kas-Connectors" package="SSW-108-02-S-D" value="SSW-108-02-S-D" x="21.85543125" y="46.801278125" smashed="yes" rot="MR180">
-<attribute name="OC_NEWARK" value="85K7646" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="SSW-108-02-S-D" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="10.29843125" y="46.801278125" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="33.92043125" y="49.341278125" size="1.27" layer="28" rot="MR270"/>
+<attribute name="#_ROWS" value="2" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="#_PINS" value="8" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="85K7646" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-108-02-S-D" x="21.85543125" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J6" library="Kas-Connectors" package="SSW-106-02-S-D" value="SSW-106-02-S-D" x="42.251375" y="46.801278125" smashed="yes" rot="MR180">
-<attribute name="OC_NEWARK" value="11P9414" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="SSW-106-02-S-D" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="49.947575" y="46.801278125" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="51.776375" y="49.341278125" size="1.27" layer="28" rot="MR270"/>
+<attribute name="#_ROWS" value="2" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="#_PINS" value="6" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="11P9414" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-106-02-S-D" x="42.251375" y="46.801278125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="R34" library="Kas-Resistors" package="R0402" value="DNP" x="-5.2404" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-4.445" y="25.4" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="-6.3834" y="26.4795" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="J7" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="18.044159375" y="40.97781875" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9351" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J7" library="Kas-Connectors" package="XXX-102-0X-S-X" value="XXX-102-0X-S-XTSW-102-06-F-S" x="18.044159375" y="40.97781875" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.914359375" y="40.97781875" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="13.599159375" y="42.24781875" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="2" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" x="18.044159375" y="40.97781875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J8" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="20.6248" y="30.7594" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9351" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J8" library="Kas-Connectors" package="XXX-102-0X-S-X" value="XXX-102-0X-S-XTSW-102-06-F-S" x="20.6248" y="30.7594" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.5458" y="30.7594" size="0.6096" layer="25" rot="R90" align="top-right"/>
 <attribute name="VALUE" x="16.1798" y="32.0294" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="2" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" x="20.6248" y="30.7594" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="-10.8966" y="25.273" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="11P9367" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J9" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="-10.8966" y="25.273" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.8712" y="21.1582" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-12.1666" y="19.558" size="1.27" layer="27"/>
+<attribute name="#_ROWS" value="1" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="#_PINS" value="3" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="-10.8966" y="25.273" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J10" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="35.08501875" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J10" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="13.462" y="35.08501875" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.3134" y="35.09518125" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.747" y="36.35501875" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="13.462" y="35.08501875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J11" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="3.1242" y="7.3152" smashed="yes" rot="R270">
-<attribute name="OC_NEWARK" value="11P9351" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J11" library="Kas-Connectors" package="XXX-102-0X-S-X" value="XXX-102-0X-S-XTSW-102-06-F-S" x="3.1242" y="7.3152" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.1242" y="4.445" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="1.8542" y="2.8702" size="1.27" layer="27"/>
+<attribute name="#_ROWS" value="1" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="#_PINS" value="2" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" x="3.1242" y="7.3152" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J12" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="10.668" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J12" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="10.287" y="10.668" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.732" y="11.938" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="4.572" y="11.938" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="10.287" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J13" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="10.287" y="6.35" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J13" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="10.287" y="6.35" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.732" y="7.62" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="4.572" y="7.62" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="10.287" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J14" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="13.462" y="24.7904" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J14" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="13.462" y="24.7904" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.2372" y="24.7904" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.747" y="26.0604" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="13.462" y="24.7904" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J15" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="28.20543125" y="40.5638" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J15" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="28.20543125" y="40.5638" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.37103125" y="40.5638" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="22.49043125" y="41.8338" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="28.20543125" y="40.5638" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J16" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="21.6916" y="22.86" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J16" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="21.6916" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.1366" y="24.13" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.9766" y="24.13" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="21.6916" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J17" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="21.6916" y="17.78" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J17" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="21.6916" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.1366" y="19.05" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.9766" y="19.05" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="21.6916" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J18" library="Kas-Connectors" package="SSW-103-02-S-S" value="SSW-103-02-S-S" x="21.6916" y="12.7" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9367" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-103-02-S-S" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J18" library="Kas-Connectors" package="XXX-103-0X-S-X" value="XXX-103-0X-S-XTSW-103-06-F-S" x="21.6916" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.1366" y="13.97" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="15.9766" y="13.97" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="3" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFCATURER" value="Samtec" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-103-06-F-S" x="21.6916" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J19" library="Kas-Connectors" package="50156-0207" value="501568-0207-V2" x="-12.7" y="7.239" smashed="yes" rot="R270">
 <attribute name="#_ROWS" value="1" x="-12.7" y="7.239" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1669,13 +1699,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-7.7978" y="5.588" size="0.6096" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="-13.97" y="4.699" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J20" library="Kas-Connectors" package="SSW-102-02-S-S" value="SSW-102-02-S-S" x="28.194" y="37.592" smashed="yes" rot="R180">
-<attribute name="OC_NEWARK" value="11P9351" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="SSW-102-02-S-S" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J20" library="Kas-Connectors" package="XXX-102-0X-S-X" value="XXX-102-0X-S-XTSW-102-06-F-S" x="28.194" y="37.592" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.0388" y="37.592" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="23.749" y="38.862" size="1.27" layer="27" rot="R270"/>
+<attribute name="#_ROWS" value="1" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="#_PINS" value="2" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" x="28.194" y="37.592" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1726,7 +1757,7 @@ design rules under a new name.</description>
 <wire x1="-0.35268125" y1="8.3058" x2="-0.35268125" y2="9.9568" width="0.4064" layer="1"/>
 <wire x1="-0.35268125" y1="9.9568" x2="-0.40268125" y2="9.9568" width="0.4064" layer="1"/>
 <wire x1="-2.992" y1="21.3028" x2="-2.992" y2="20.4216" width="0.2286" layer="1"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.254" layer="1" isolate="0.254">
 <vertex x="-2.286" y="49.8856"/>
 <vertex x="53.6702" y="49.8856" curve="-90"/>
 <vertex x="65.6971" y="37.8206"/>
@@ -1738,7 +1769,7 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="7.7802" y1="28.7186" x2="8.509" y2="28.7186" width="0.254" layer="1"/>
 <wire x1="8.509" y1="28.7186" x2="8.509" y2="29.0322" width="0.254" layer="1"/>
-<polygon width="0.254" layer="16">
+<polygon width="0.254" layer="16" isolate="0.254">
 <vertex x="-2.286" y="49.8856" curve="90"/>
 <vertex x="-14.3129" y="37.8968"/>
 <vertex x="-14.3129" y="9.7282" curve="90"/>
@@ -1764,8 +1795,9 @@ design rules under a new name.</description>
 <via x="60.96" y="41.275" extent="1-16" drill="0.5"/>
 <via x="-1.5494" y="12.7" extent="1-16" drill="0.5"/>
 <wire x1="-2.192" y1="17.3528" x2="-2.19201875" y2="17.3528" width="0.254" layer="1"/>
-<wire x1="-2.19201875" y1="17.3528" x2="-2.19201875" y2="13.45438125" width="0.254" layer="1"/>
+<wire x1="-2.19201875" y1="17.3528" x2="-2.19201875" y2="13.6652" width="0.254" layer="1"/>
 <via x="6.3246" y="28.2194" extent="1-16" drill="0.5"/>
+<wire x1="-2.19201875" y1="13.6652" x2="-2.19201875" y2="13.45438125" width="0.254" layer="1"/>
 <wire x1="-2.992" y1="20.4216" x2="-1.992" y2="20.4216" width="0.254" layer="1"/>
 <wire x1="6.315359375" y1="38.43901875" x2="6.315359375" y2="38.93901875" width="0.254" layer="1"/>
 <wire x1="6.315359375" y1="38.93901875" x2="7.790359375" y2="38.93901875" width="0.254" layer="1"/>
@@ -1784,6 +1816,12 @@ design rules under a new name.</description>
 <via x="9.8298" y="43.4086" extent="1-16" drill="0.5"/>
 <via x="31.9278" y="18.161" extent="1-16" drill="0.5"/>
 <via x="24.8666" y="30.3022" extent="1-16" drill="0.5"/>
+<wire x1="4.840359375" y1="38.43901875" x2="6.315359375" y2="38.43901875" width="0.254" layer="1"/>
+<wire x1="4.8302" y1="28.2186" x2="6.3246" y2="28.2186" width="0.254" layer="1"/>
+<wire x1="6.3246" y1="28.2186" x2="6.3246" y2="28.2194" width="0.254" layer="1"/>
+<wire x1="-1.5494" y1="12.7" x2="-1.5494" y2="13.02258125" width="0.254" layer="1"/>
+<wire x1="-1.5494" y1="13.02258125" x2="-2.19201875" y2="13.6652" width="0.254" layer="1"/>
+<wire x1="-5.7404" y1="29.591" x2="-5.7404" y2="30.491" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U3" pad="P$2"/>
@@ -2098,19 +2136,18 @@ design rules under a new name.</description>
 <wire x1="-2.3368" y1="32.2922" x2="-3.5814" y2="32.2922" width="0.4064" layer="1"/>
 <wire x1="-4.3574" y1="30.466" x2="-4.7404" y2="30.491" width="0.254" layer="1"/>
 <via x="-3.5814" y="31.242" extent="1-16" drill="0.6"/>
-<wire x1="-10.922" y1="35.8948" x2="-8.5998" y2="35.8948" width="0.4064" layer="1"/>
+<wire x1="-10.795" y1="35.8948" x2="-8.5998" y2="35.8948" width="0.4064" layer="1"/>
 <via x="-8.5998" y="35.8948" extent="1-16" drill="0.6"/>
-<wire x1="-3.8354" y1="35.052" x2="-4.0132" y2="35.2298" width="0.4064" layer="16"/>
-<wire x1="-4.0132" y1="35.2298" x2="-4.6782" y2="35.8948" width="0.4064" layer="16"/>
+<wire x1="-3.5814" y1="34.798" x2="-4.6782" y2="35.8948" width="0.4064" layer="16"/>
 <wire x1="-4.6782" y1="35.8948" x2="-8.5998" y2="35.8948" width="0.4064" layer="16"/>
 <wire x1="-3.5814" y1="31.242" x2="-3.5814" y2="34.798" width="0.4064" layer="16"/>
-<wire x1="-3.5814" y1="34.798" x2="-3.8354" y2="35.052" width="0.4064" layer="16"/>
 <wire x1="-4.3574" y1="30.466" x2="-3.5814" y2="31.242" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="J2" pad="P$11"/>
 <contactref element="R29" pad="2"/>
 <wire x1="-13.582" y1="28.4812" x2="-13.582" y2="31.6823" width="0.254" layer="1"/>
+<wire x1="-13.582" y1="31.6823" x2="-13.455" y2="31.6823" width="0.254" layer="1"/>
 </signal>
 <signal name="!CHARGE">
 <contactref element="U4" pad="P$8"/>

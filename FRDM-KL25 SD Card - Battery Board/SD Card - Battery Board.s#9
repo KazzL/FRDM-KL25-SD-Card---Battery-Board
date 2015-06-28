@@ -229,40 +229,40 @@
 <rectangle x1="0.85" y1="1.5" x2="1.15" y2="2.45" layer="29"/>
 </package>
 <package name="WFDFN-10">
-<smd name="P$10" x="-1" y="0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$9" x="-0.5" y="0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$8" x="0" y="0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$7" x="0.5" y="0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$6" x="1" y="0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$5" x="1" y="-0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$4" x="0.5" y="-0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$3" x="0" y="-0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$2" x="-0.5" y="-0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
-<smd name="P$1" x="-1" y="-0.875" dx="0.3" dy="0.35" layer="1" stop="no"/>
+<smd name="P$10" x="-1" y="0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$9" x="-0.5" y="0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$8" x="0" y="0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$7" x="0.5" y="0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$6" x="1" y="0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$5" x="1" y="-0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$4" x="0.5" y="-0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$3" x="0" y="-0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$2" x="-0.5" y="-0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
+<smd name="P$1" x="-1" y="-0.9" dx="0.3" dy="0.45" layer="1" stop="no"/>
 <smd name="P$11" x="0" y="0" dx="2.4" dy="0.84" layer="1"/>
 <text x="0" y="-3" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-1.41" y1="-0.8" x2="-1.42" y2="-0.8" width="0.3048" layer="21"/>
-<wire x1="-1.6" y1="1.1" x2="-1.6" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.1" x2="1.6" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.1" x2="1.6" y2="1.1" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.1" x2="-1.6" y2="1.1" width="0.127" layer="51"/>
-<wire x1="-1.3" y1="1.1" x2="-1.6" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="1.1" x2="-1.6" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.1" x2="-1.3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.3" y1="1.1" x2="1.6" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.1" x2="1.6" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-1.1" x2="1.3" y2="-1.1" width="0.2032" layer="21"/>
-<rectangle x1="-1.2" y1="0.65" x2="-0.8" y2="1.1" layer="29"/>
-<rectangle x1="-0.7" y1="0.65" x2="-0.3" y2="1.1" layer="29"/>
-<rectangle x1="-0.2" y1="0.65" x2="0.2" y2="1.1" layer="29"/>
-<rectangle x1="0.3" y1="0.65" x2="0.7" y2="1.1" layer="29"/>
-<rectangle x1="0.8" y1="0.65" x2="1.2" y2="1.1" layer="29"/>
-<rectangle x1="-1.2" y1="-1.1" x2="-0.8" y2="-0.65" layer="29"/>
-<rectangle x1="-0.7" y1="-1.1" x2="-0.3" y2="-0.65" layer="29"/>
-<rectangle x1="-0.2" y1="-1.1" x2="0.2" y2="-0.65" layer="29"/>
-<rectangle x1="0.3" y1="-1.1" x2="0.7" y2="-0.65" layer="29"/>
-<rectangle x1="0.8" y1="-1.1" x2="1.2" y2="-0.65" layer="29"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="1.6" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="1.6" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="-1.6" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="1.2" x2="-1.6" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.2" x2="-1.6" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.3" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="1.2" x2="1.6" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.2" x2="1.3" y2="-1.2" width="0.2032" layer="21"/>
+<rectangle x1="-1.2" y1="0.625" x2="-0.8" y2="1.175" layer="29"/>
+<rectangle x1="-0.7" y1="0.625" x2="-0.3" y2="1.175" layer="29"/>
+<rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.175" layer="29"/>
+<rectangle x1="0.3" y1="0.625" x2="0.7" y2="1.175" layer="29"/>
+<rectangle x1="0.8" y1="0.625" x2="1.2" y2="1.175" layer="29"/>
+<rectangle x1="-1.2" y1="-1.175" x2="-0.8" y2="-0.625" layer="29"/>
+<rectangle x1="-0.7" y1="-1.175" x2="-0.3" y2="-0.625" layer="29"/>
+<rectangle x1="-0.2" y1="-1.175" x2="0.2" y2="-0.625" layer="29"/>
+<rectangle x1="0.3" y1="-1.175" x2="0.7" y2="-0.625" layer="29"/>
+<rectangle x1="0.8" y1="-1.175" x2="1.2" y2="-0.625" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -935,8 +935,8 @@
 <wire x1="0.95" y1="-0.45" x2="-0.95" y2="-0.45" width="0.0508" layer="39"/>
 <wire x1="-0.95" y1="-0.45" x2="-0.95" y2="0.45" width="0.0508" layer="39"/>
 <wire x1="0.125" y1="0" x2="-0.125" y2="0" width="0.6096" layer="21" style="dashdot" curve="-0.05" cap="flat"/>
-<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.5" layer="1" stop="no"/>
-<smd name="2" x="0.5" y="0" dx="0.5" dy="0.5" layer="1" stop="no"/>
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.7" layer="1" stop="no"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.7" layer="1" stop="no"/>
 <text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1701,24 +1701,23 @@
 </library>
 <library name="Kas-Diodes-LEDs">
 <packages>
-<package name="1.25X1.4">
-<smd name="P$1" x="-0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$2" x="0.82" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
+<package name="1.25X2">
+<smd name="P$1" x="-0.875" y="0" dx="1.45" dy="0.55" layer="1" rot="R90"/>
+<smd name="P$2" x="0.875" y="0" dx="1.45" dy="0.55" layer="1" rot="R90"/>
 <text x="2" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="2" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="1.2" x2="-1.4" y2="-1.2" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="51"/>
-<wire x1="1.4" y1="-1.2" x2="1.4" y2="1.2" width="0.127" layer="51"/>
-<wire x1="1.4" y1="1.2" x2="-1.4" y2="1.2" width="0.127" layer="51"/>
-<text x="10" y="-3" size="1.27" layer="25" rot="R180">!!! FIX FOOT PRINT !!!!</text>
+<wire x1="-1.25" y1="0.835" x2="-1.25" y2="-0.835" width="0.2023" layer="21"/>
+<wire x1="-1.25" y1="-0.835" x2="1.25" y2="-0.835" width="0.2023" layer="21"/>
+<wire x1="1.25" y1="-0.835" x2="1.25" y2="0.835" width="0.2023" layer="21"/>
+<wire x1="1.25" y1="0.835" x2="-1.25" y2="0.835" width="0.2023" layer="21"/>
+<wire x1="-1.25" y1="0.825" x2="-1.25" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-0.825" x2="1.25" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-0.825" x2="1.25" y2="0.825" width="0.127" layer="51"/>
+<wire x1="1.25" y1="0.825" x2="-1.25" y2="0.825" width="0.127" layer="51"/>
 </package>
 <package name="SC-90">
-<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="P$1" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<smd name="P$2" x="1.1" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
 <wire x1="-1.525" y1="0.825" x2="-1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="-1.525" y1="-0.825" x2="1.525" y2="-0.825" width="0.127" layer="51"/>
 <wire x1="1.525" y1="-0.825" x2="1.525" y2="0.825" width="0.127" layer="51"/>
@@ -1730,6 +1729,8 @@
 <wire x1="-1.1" y1="-0.5" x2="-1.11" y2="-0.5" width="0.254" layer="21"/>
 <text x="0" y="-2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.85" y1="-0.25" x2="1.35" y2="0.25" layer="31"/>
+<rectangle x1="-1.35" y1="-0.25" x2="-0.85" y2="0.25" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -1782,13 +1783,40 @@
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1.25X1.4">
+<device name="Y-2V_20MA" package="1.25X2">
 <connects>
 <connect gate="G$1" pin="A" pad="P$1"/>
 <connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COLOR" value="Yellow" constant="no"/>
+<attribute name="CURRENT" value="20mA" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="130 mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="DIALIGHT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5988150107F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0585" constant="no"/>
+<attribute name="VOLTAGE" value="2" constant="no"/>
+<attribute name="WAVELENGTH" value="590nm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R-2.2V-20MA" package="1.25X2">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Red" constant="no"/>
+<attribute name="CURRENT" value="20mA" constant="no"/>
+<attribute name="LUMINOUS_INTENSITY" value="40mcd" constant="no"/>
+<attribute name="MANUFACTURER" value="Dialight" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="5988110107F" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="75R0581" constant="no"/>
+<attribute name="VOLTAGE" value="2.2" constant="no"/>
+<attribute name="WAVELENGTH" value="642nm" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1869,7 +1897,7 @@
 <wire x1="-3.8" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
 <wire x1="-4.3" y1="3.9" x2="-4.3" y2="-3.9" width="0.2032" layer="21"/>
 <wire x1="-4.3" y1="-3.9" x2="-3.8" y2="-3.9" width="0.2032" layer="21"/>
-<wire x1="-4.11" y1="4.2" x2="-4.11" y2="-4.2" width="0.127" layer="23"/>
+<wire x1="-4.11" y1="4.2" x2="-4.11" y2="-4.2" width="0" layer="23"/>
 </package>
 <package name="SSW-108-02-S-D">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -1962,6 +1990,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-9.398" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-10.795" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.065" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-10.289" y1="2.425" x2="10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-10.289" y1="-2.425" x2="-10.289" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="-2.425" x2="-10.289" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="10.289" y1="2.425" x2="10.289" y2="-2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-108-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2118,6 +2150,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-11.938" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-13.335" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="14.605" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-12.829" y1="2.425" x2="12.829" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="-2.425" x2="-12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="12.829" y1="2.425" x2="12.829" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="-12.829" y1="-2.425" x2="-12.829" y2="2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-110-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2242,6 +2278,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-6.858" y="-4.826" size="1.6764" layer="51" font="vector">2</text>
 <text x="-8.255" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="9.525" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-7.749" y1="2.425" x2="7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="-7.749" y1="-2.425" x2="-7.749" y2="2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="-2.425" x2="-7.749" y2="-2.425" width="0.2032" layer="22"/>
+<wire x1="7.749" y1="2.425" x2="7.749" y2="-2.425" width="0.2032" layer="22"/>
 </package>
 <package name="TSW-106-02-S-D-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
@@ -2299,6 +2339,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-4.318" y="-3.048" size="1.6764" layer="25" font="vector">1</text>
 <text x="-3.175" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.445" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-2.669" y1="-1.155" x2="-2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="-2.669" y1="1.155" x2="2.669" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="1.155" x2="2.669" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="2.669" y1="-1.155" x2="-2.669" y2="-1.155" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-102-02-S-S-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -2340,6 +2384,10 @@ Source: Samtec SSW.pdf</description>
 <text x="-5.588" y="-3.048" size="1.6764" layer="51" font="vector">1</text>
 <text x="-4.445" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.715" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-3.939" y1="1.155" x2="3.939" y2="1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="1.155" x2="3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="3.939" y1="-1.155" x2="-3.939" y2="-1.155" width="0.2032" layer="22"/>
+<wire x1="-3.939" y1="-1.155" x2="-3.939" y2="1.155" width="0.2032" layer="22"/>
 </package>
 <package name="SSW-103-02-S-S-RA">
 <description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
@@ -2361,8 +2409,8 @@ Source: Samtec SSW.pdf</description>
 <package name="50156-0207">
 <smd name="P$1" x="-0.5" y="4.8" dx="1.5" dy="0.6" layer="1" rot="R90"/>
 <smd name="P$2" x="0.5" y="4.8" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.2" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<smd name="P$4" x="1.2" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.45" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="P$4" x="1.45" y="0.9" dx="1.8" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-2" y1="4.35" x2="-2" y2="-0.95" width="0.127" layer="51"/>
 <wire x1="-2" y1="-0.95" x2="2" y2="-0.95" width="0.127" layer="51"/>
 <wire x1="2" y1="-0.95" x2="2" y2="4.35" width="0.127" layer="51"/>
@@ -2631,10 +2679,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-110-02-S-D" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9480" constant="no"/>
+<attribute name="#_PINS" value="2" constant="no"/>
+<attribute name="#_ROWS" value="1" constant="no"/>
+<attribute name="MANUFACRURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSW-110-02-S-D" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="--" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2755,10 +2804,11 @@ Source: Samtec SSW.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-102-02-S-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9351" constant="no"/>
+<attribute name="#_PINS" value="2" constant="no"/>
+<attribute name="#_ROWS" value="1" constant="no"/>
+<attribute name="MANUFACTURER" value="Samtec" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSW-102-06-F-S" constant="no"/>
+<attribute name="NEWARK_PART_NUMBER" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3011,7 +3061,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R11" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R12" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R13" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
-<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="" value="Yellow-LED"/>
+<part name="D2" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="R-2.2V-20MA" value="Yellow-LED"/>
 <part name="R14" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="100"/>
@@ -3025,7 +3075,7 @@ Source: Samtec SSW.pdf</description>
 <part name="R24" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R25" library="Kas-Resistors" deviceset="RESISTOR" device="10K-62.5M-1%-50V" value="10k"/>
 <part name="R26" library="Kas-Resistors" deviceset="RESISTOR" device="1K-63M-1%-50V-0402" value="1k"/>
-<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="" value="Red-LED"/>
+<part name="D1" library="Kas-Diodes-LEDs" deviceset="1.25X1.4" device="R-2.2V-20MA" value="Red-LED"/>
 <part name="J1" library="Kas-Connectors" deviceset="SD_CARD_SLOT" device=""/>
 <part name="C2" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
 <part name="C3" library="Kas-Capacitors" deviceset="CAPACITOR" device="10U-X5R-20%-6.3V-0402" value="10uF"/>
@@ -3388,7 +3438,7 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND6" gate="1" x="15.24" y="88.9"/>
 <instance part="GND7" gate="1" x="48.26" y="66.04"/>
 <instance part="GND8" gate="1" x="-43.18" y="53.34"/>
-<instance part="GND9" gate="1" x="-12.7" y="66.04"/>
+<instance part="GND9" gate="1" x="-12.7" y="58.42"/>
 <instance part="GND10" gate="1" x="-45.72" y="109.22"/>
 <instance part="GND11" gate="1" x="48.26" y="-5.08"/>
 <instance part="GND12" gate="1" x="15.24" y="17.78"/>
@@ -3397,10 +3447,10 @@ Source: Samtec SSW.pdf</description>
 <instance part="GND15" gate="1" x="-43.18" y="40.64"/>
 <instance part="P+3" gate="G$1" x="259.08" y="86.36"/>
 <instance part="P+4" gate="G$1" x="193.04" y="-7.62"/>
-<instance part="GND17" gate="1" x="144.78" y="-43.18"/>
+<instance part="GND17" gate="1" x="144.78" y="-48.26"/>
 <instance part="GND18" gate="1" x="88.9" y="-43.18"/>
 <instance part="P+5" gate="G$1" x="-12.7" y="111.76"/>
-<instance part="GND19" gate="1" x="-12.7" y="-5.08"/>
+<instance part="GND19" gate="1" x="-12.7" y="-7.62"/>
 <instance part="R34" gate="G$1" x="172.72" y="-15.24"/>
 <instance part="GND20" gate="1" x="182.88" y="-17.78"/>
 <instance part="J7" gate="-1" x="-81.28" y="93.98" smashed="yes" rot="R90">
@@ -3525,6 +3575,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="POWER_PAD"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="-12.7" y1="60.96" x2="-12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -3558,6 +3609,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U4" gate="G$1" pin="THERMAL_PAD"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="144.78" y1="-45.72" x2="144.78" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VSS"/>
@@ -3582,6 +3634,7 @@ Source: Samtec SSW.pdf</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="POWER_PAD"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
